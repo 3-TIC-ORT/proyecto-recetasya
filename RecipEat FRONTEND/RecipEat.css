@@ -1,7 +1,7 @@
 .qtgch{
     text-align: center;
     font-size: 32px;
-    margin-top: 82px;
+    margin-top: 60px;
     color: #000;
     font-family: "calistoga", regular;
 }
@@ -17,13 +17,14 @@ body{
 
 .bre{
     margin-top: -500px;
-    border-radius: 9px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
 }
 
 .b1{
     background-color: #C8D7B8;
     font-size: 20px;
     border-radius: 8px;
+}
+
+.salados{
+    margin-top: 70px;
 }
