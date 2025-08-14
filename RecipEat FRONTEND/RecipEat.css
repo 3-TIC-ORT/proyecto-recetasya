@@ -12,11 +12,11 @@ body{
 }
 .OP{
     text-align: center;
-    margin-top: 370px;
+    margin-top:650px;
 }
 
 .bre{
-    margin-top: -500px;
+    margin-top: -850px;
 }
 
 .b1{
@@ -27,4 +27,10 @@ body{
 
 .salados{
     margin-top: 70px;
+}
+
+.sintacc{
+    position: absolute;
+    left: 400px;
+    top: 800px;
 }
