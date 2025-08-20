@@ -1,21 +1,28 @@
-var Usuarios =[
-{
-    Nombre_de_la_Cuenta : "Alejo",
-    Contraseña : "BOWY123"
-}, 
-{
-    Nombre_de_la_Cuenta : "Lucho",
-    Contraseña : "MAYA123"
-}
-]
+var Usuarios = [
+    {
+        "Nombre_de_la_Cuenta": "Alejo",
+        "Contraseña" : "1234"
+    },
+    {
+        "Nombre_de_la_Cuenta": "Lucho",
+        "Contraseña": "4321"
+    }
+];
+
 function getInfo() {
+ 
+    var correcto = false; 
     var Nombre_de_la_Cuenta = document.getElementById('Nombre de la cuenta').value
     var Contraseña = document.getElementById('Contraseña').value
-    for (var i = 0; i< Usuarios.Lenght; i++) {
+    for (var i = 0; i< Usuarios.length; i++) {
         if (Nombre_de_la_Cuenta == Usuarios[i].Nombre_de_la_Cuenta && Contraseña == Usuarios[i].Contraseña) {
-            alert (Nombre_de_la_Cuenta + " se logeo correctamente")
-            return
+            correcto = true;
         }
     }
-    alert ('Contraseña y/onombre de la cuenta incorrectos')
+    if (correcto == true){
+        alert("Se ingreso correctamente");
+    }
+    else if (correcto == false){
+        alert("El usuario y la contraseña no coinciden");
+    }
 }
