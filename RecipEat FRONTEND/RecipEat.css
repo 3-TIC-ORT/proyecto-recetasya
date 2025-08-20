@@ -7,8 +7,7 @@
 }
 
 body{
-    background-image: url(IMAGENES\ FRONT/fondo.PNG);
-    background-size: 100%;
+    background-color: #f3edee;
 }
 .op{
     text-align: center;
@@ -26,27 +25,58 @@ body{
 }
 
 .salados{
-    margin-top: 100px;
+    margin-top: 140px;
+    border-radius: 3rem;
+    position: relative;
+    display: flex;
+    left: 5rem;
+}
+
+.dulces{
+    border-radius: 3rem;
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    left: 5rem;
+}
+
+.bebidas{
+    border-radius: 3rem;
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    left: 5rem;
 }
 
 .sintacc{
     position: absolute;
     left: 25rem;
-    bottom: -16rem;
-    width: 6rem;
-    height: 6rem;
+    bottom: -18.5rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .vegano{
     position: absolute;
     left: 35rem;
-    bottom: -16rem;
+    bottom: -19rem;
     width: 6rem;
     height: 6rem;
 }
 
-hr {
-    border: 1px solid black; 
-    margin: 20px 0; 
-    width: 30px;
+.linea1 {
+    border: .1rem solid black;
+    position: absolute;
+    object-position: left; 
+    top: 51rem;
+    width: 30rem;
+}
+
+.linea2 {
+    border: .1rem solid black;
+    position: absolute;
+    right: 0rem;
+    object-position: right; 
+    top: 51rem;
+    width: 30rem;   
 }
