@@ -10,9 +10,9 @@ body{
     background-image: url(IMAGENES\ FRONT/fondo.PNG);
     background-size: 100%;
 }
-.OP{
+.op{
     text-align: center;
-    margin-top:650px;
+    margin-top: 700px;
 }
 
 .bre{
@@ -26,11 +26,27 @@ body{
 }
 
 .salados{
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .sintacc{
     position: absolute;
-    left: 400px;
-    top: 800px;
+    left: 25rem;
+    bottom: -16rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.vegano{
+    position: absolute;
+    left: 35rem;
+    bottom: -16rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+hr {
+    border: 1px solid black; 
+    margin: 20px 0; 
+    width: 30px;
 }
