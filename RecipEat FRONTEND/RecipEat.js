@@ -1,15 +1,21 @@
-let pantalla1 = document.getElementById("pantalla1");
-let pantalla2 = document.getElementById("pantalla2");
 let boton1 = document.getElementById("boton1");
 let boton2 = document.getElementById("boton2");
 
-function cambiarPantalla (pantallaocultar, pantallamostrar){
-    pantallaocultar.style.display = "none";
-    pantallamostrar.style.display  = "block;"
+function cambiarpantalla(){
+    window.location.href = "pantallasalados.html";
 }
 
-boton1.addEventListener("click",function()
-{cambiarPantalla(pantalla1, pantalla2)});
+function cambiarpantalla1(){
+    window.location.href = "RecipEat";
+}
 
-boton2.addEventListener("click" ,function()
-{cambiarPantalla(pantalla2, pantalla1)});
+if(boton1){
+    boton1.addEventListener("click", cambiarpantalla);
+}
+
+if(boton2){
+    boton1.addEventListener("click", cambiarpantalla1);
+}
+
+boton1.addEventListener("click", cambiarpantalla);
+boton2.addEventListener("click", cambiarpantalla1);
