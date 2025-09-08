@@ -1,8 +1,7 @@
-const eventEmitter = require ('events');
-const emitter = new eventEmitter
+import fs from "fs";
 
-emitter.on ('saludo', () => {
-    console.log('Hola Otero'); 
-});
-
-emitter.emit('saludo');
+const data = fs.readFileSync("Usurios.json", "utf-8");
+let Usurios = JSON.parse(data);
+for(let i = 0; i<Usurios.length; i++) {
+    console.log(Usurios[i]);
+}
