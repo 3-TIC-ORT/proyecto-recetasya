@@ -87,7 +87,6 @@ body{
 }
 
 #boton1{
-    background-color: green;
     margin-top: 8rem;
     border-radius: 3rem;
     position: relative;
@@ -96,4 +95,9 @@ body{
     height: 11.5rem;
     width: 68rem;
     background-image: url("IMAGENES FRONT/Botonsalados.png");
+}
+
+#boton1:hover{
+    transform: scale(1.05);
+    
 }
