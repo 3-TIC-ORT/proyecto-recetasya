@@ -39,6 +39,8 @@ body{
     position: relative;
     display: flex;
     left: 7rem;
+    height: 11.5rem;
+    width: 68rem;
 }
 
 .bebidas{
@@ -47,6 +49,8 @@ body{
     position: relative;
     display: flex;
     left: 7rem;
+    height: 11.5rem;
+    width: 68rem;
 }
 
 .sintacc{
@@ -83,6 +87,13 @@ body{
 }
 
 #boton1{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.playstation.com%2Fes-ar%2Fgames%2Fmarvels-spider-man-remastered%2F&psig=AOvVaw0s5P5VQu2Zi-uChQv8m6rd&ust=1756992436040000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPizuYLZvI8DFQAAAAAdAAAAABAE);
-    font-size: 100px;
+    background-color: green;
+    margin-top: 8rem;
+    border-radius: 3rem;
+    position: relative;
+    display: flex;
+    left: 7rem;
+    height: 11.5rem;
+    width: 68rem;
+    background-image: url("IMAGENES FRONT/Botonsalados.png");
 }
