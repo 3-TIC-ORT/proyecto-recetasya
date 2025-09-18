@@ -113,7 +113,6 @@ body{
 
 #bdulces:hover{
     transform: scale(1.05);
-    
 }
 
 .botones{
@@ -123,4 +122,18 @@ body{
     flex-direction: column;
     margin-top: 8rem;
     gap: 2rem;
+}
+
+#bbebidas{
+    border-radius: 3rem;
+    position: relative;
+    display: flex;
+    left: 7rem;
+    height: 11.5rem;
+    width: 68rem;
+    background-image: url("IMAGENES FRONT/Botón\ Bebidas.png");
+}
+
+#bbebidas:hover{
+    transform: scale(1.05);
 }
