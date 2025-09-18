@@ -115,7 +115,7 @@ body{
     transform: scale(1.05);
 }
 
-.botones{
+.botones-comida{
     width: 100%;
     height: 95vh;
     display: flex;
@@ -136,4 +136,21 @@ body{
 
 #bbebidas:hover{
     transform: scale(1.05);
+}
+
+.botones-abajo{
+    width: 100%;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+#stacc{
+    position: relative;
+    display: flex;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-image: url("IMAGENES\ FRONT/botn comida sin tacc.png");
 }
