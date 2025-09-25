@@ -9,6 +9,7 @@
 body{
     background-color: #f3edee;
 }
+
 .op{
     text-align: center;
     font-size: 2rem;
@@ -19,10 +20,12 @@ body{
     margin-top: -850px;
 }
 
-.b1{
-    background-color: #C8D7B8;
-    font-size: 20px;
+#b1{
+    border-color: #f3edee;
+    height: 5rem;
+    width: 8rem;
     border-radius: 8px;
+    background-image: url("IMAGENES\ FRONT/Logo.png");
 }
 
 .salados{
@@ -59,6 +62,7 @@ body{
     bottom: -18.5rem;
     width: 5rem;
     height: 5rem;
+    border-color: transparent;
 }
 
 .vegano{
@@ -166,7 +170,7 @@ body{
     width: 6rem;
     height: 6rem;
 }
-footer{
+header{
     height: 5vh;
     width: 100%;
 }
