@@ -143,14 +143,37 @@ body{
     min-height: 5vh;
     display: flex;
     flex-direction: row;
-    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 10rem;
 }
 
-#stacc{
+#bst{
     position: relative;
     display: flex;
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
     background-image: url("IMAGENES\ FRONT/botn comida sin tacc.png");
+}
+    
+#vegano{
+    position: relative;
+    display: flex;
+    border-radius: 50%;
+    background-image: url("IMAGENES\ FRONT/boton comida vegana.png");
+    width: 6rem;
+    height: 6rem;
+}
+footer{
+    height: 5vh;
+    width: 100%;
+}
+
+#iniciarsesion{
+    border-radius: 30px;
+    width: 210px;
+    height: 58px;
+
 }
