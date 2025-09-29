@@ -2,6 +2,7 @@ let boton1 = document.getElementById("boton1");
 let bdulces = document.getElementById("bdulces");
 let bbebidas = document.getElementById("bbebidas")
 let bst = document.getElementById("bst")
+let login = document.getElementById("login")
 
 function cambiarpantalla(){
     window.location.href = "pantallasalados.html";
@@ -23,8 +24,13 @@ function cambiarst(){
     window.location.href = "recetas-st.html"
 }
 
+function login1(){
+    window.location.href = "pantallalog-in.html"
+}
+
 
 boton1.addEventListener("click", cambiarpantalla);
 bdulces.addEventListener("click", cambiardulces);
 bbebidas.addEventListener("click",cambiarbebidas);
 bst.addEventListener("click", cambiarst);
+login.addEventListener("click", login1);
