@@ -27,4 +27,13 @@ body{
 
 h1{
     font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.contraseña{
+    border-color: darkgreen;
+    color: darkgreen;
+    border-radius: 0.7rem;
+    height: 2.5rem;
+    width: 18rem;
 }
