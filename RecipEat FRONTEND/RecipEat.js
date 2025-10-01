@@ -3,6 +3,13 @@ let bdulces = document.getElementById("bdulces");
 let bbebidas = document.getElementById("bbebidas")
 let bst = document.getElementById("bst")
 let login = document.getElementById("login")
+const bmenu = document.getElementById('bmenu');
+const menudesplegable = document.getElementById('menudesplegable');
+
+bmenu.addEventListener('click', () => {
+    // Agrega o quita la clase 'open'
+    menudesplegable.classList.toggle('open');
+});
 
 function cambiarpantalla(){
     window.location.href = "pantallasalados.html";

@@ -195,3 +195,55 @@ header{
     background-color: #B1CA88;
     margin-top: 0%;
 }
+
+#menudesplegable {
+    position: fixed;
+    top: 0;
+    right: 0; /* Lo mantiene anclado a la derecha */
+    width: 250px; /* Ancho deseado del menú */
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding-top: 60px; /* Espacio para el contenido */
+    /* OCULTAR: Lo mueve 100% de su propio ancho hacia la derecha */
+    transform: translateX(100%);
+    /* O puedes usar: right: -250px; (si el ancho es 250px) */
+
+    transition: transform 0.4s ease-in-out; /* Transición para el deslizamiento */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+/* Clase para MOSTRAR el menú */
+#menudesplegable.open {
+    transform: translateX(0); /* Lo devuelve a su posición visible */
+    /* O puedes usar: right: 0; */
+}
+
+/* Estilos básicos para el contenido (opcional) */
+#menudesplegable ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menudesplegable li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#menudesplegable li a:hover {
+    background-color: #555;
+}
+
+#home{
+    height: 5rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+}
+.casita{
+    height: 5rem;
+    width: 5rem;
+    left: 0;
+}
