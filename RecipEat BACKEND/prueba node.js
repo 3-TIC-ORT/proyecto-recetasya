@@ -52,4 +52,5 @@ function LogueIn () {
             break
         }
     }
+    return logeado
 }
