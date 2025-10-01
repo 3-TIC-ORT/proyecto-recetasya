@@ -27,7 +27,19 @@ body{
 
 h1{
     font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.cabeza{
+    display: flex;
+    flex-direction: row;
     margin-top: 3rem;
+}
+
+.logo{
+    height: 4rem;
+    width: 7rem;
+    margin-left: .7rem;
 }
 
 .contraseña{
