@@ -31,7 +31,6 @@ body{
 }
 
 .salados{
-    margin-top: 140px;
     border-radius: 3rem;
     position: relative;
     display: flex;
@@ -81,7 +80,7 @@ body{
     object-position: left; 
     top: 51.5rem;
     width: 30rem;
-    margin-top: 3rem;
+    margin-top: 6.5rem;
 }
 
 .linea2 {
@@ -91,7 +90,7 @@ body{
     object-position: right; 
     top: 51.5rem;
     width: 30rem;   
-    margin-top: 3rem;
+    margin-top: 6.5rem;
 }
 
 #boton1{
@@ -128,7 +127,6 @@ body{
     height: 95vh;
     display: flex;
     flex-direction: column;
-    margin-top: 8rem;
     gap: 2rem;
 }
 
@@ -153,7 +151,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 0.5rem;
     gap: 10rem;
 }
 
@@ -177,7 +175,7 @@ body{
 header{
     height: 5vh;
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 
 #login{
@@ -246,4 +244,9 @@ header{
     height: 5rem;
     width: 5rem;
     left: 0;
+}
+
+.opc{
+    text-align: center;
+    font-size: 2rem;
 }
