@@ -10,7 +10,7 @@ var Usuarios = [
 ];
 
 function Logearse() {
- 
+
     var correcto = false; 
     var Nombre_de_la_Cuenta = document.getElementById('Nombre de la cuenta').value;
     var Contraseña = document.getElementById('Contraseña').value;
@@ -28,19 +28,25 @@ function Logearse() {
 }
 
 function registrarse() {
-    var correcto = false; 
+    var correcto = false;
     var Nombre_de_la_Cuenta = document.getElementById('Nombre de la cuenta').value;
     var Contraseña = document.getElementById('Contraseña').value;
-    Usuarios.push (Nombre_de_la_Cuenta && Contraseña);
-    for ( var i = 0; i< Usuarios.lenght; i++) {
-        if (Nombre_de_la_Cuenta == Usuarios[i].Nombre_de_la_Cuenta && Contraseña == Usuarios[i].Contraseña) {
+
+    for (var i = 0; i < Usuarios.length; i++) {
+        if (Nombre_de_la_Cuenta === Usuarios[i].Nombre_de_la_Cuenta && Contraseña === Usuarios[i].Contraseña) {
             correcto = true;
+            break;
         }
     }
-    if (correcto == true){
-        alert("Se guardo correctamente");
-    }
-    else if (correcto == false){
-        alert("No se guardo correctamente");
+
+    if (!correcto) {
+        Usuarios.push({
+            "Nombre_de_la_Cuenta": Nombre_de_la_Cuenta,
+            "Contraseña": Contraseña
+        });
+        alert("Usuario guardado correctamente");
+        console.log(Usuarios);
+    } else {
+        alert("El usuario ya existe");
     }
 }
