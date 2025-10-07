@@ -21,11 +21,10 @@ body{
 }
 
 #b1{
-    border-color: #f3edee;
+    border-color: transparent;
     height: 84px;
     width: 132px;
     border-radius: 8px;
-    background-image: url("IMAGENES\ FRONT/Logo.png");
     margin-left: 35rem;
     margin-top: 3rem;
 }
@@ -178,14 +177,6 @@ header{
     margin-top: 6rem;
 }
 
-#login{
-    border-radius: 30px;
-    width: 210px;
-    height: 58px;
-    font-size: 2rem;
-    margin-left: 25rem;
-
-}
 
 .lineaverde1{
     width: 100%;
@@ -194,13 +185,30 @@ header{
     margin-top: 0%;
 }
 
+.opc{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#bmenu{
+    height: 3rem;
+    width: 4rem;
+    border-color: transparent;
+}
+
+.boton-menu{
+    height: 2rem;
+    width: 3rem;
+    margin-left: 80rem;
+}
+
 #menudesplegable {
     position: fixed;
     top: 0;
     right: 0; /* Lo mantiene anclado a la derecha */
     width: 250px; /* Ancho deseado del menú */
     height: 100vh;
-    background-color: #333;
+    background-color: whitesmoke;
     color: white;
     padding-top: 60px; /* Espacio para el contenido */
     /* OCULTAR: Lo mueve 100% de su propio ancho hacia la derecha */
@@ -213,11 +221,9 @@ header{
 
 /* Clase para MOSTRAR el menú */
 #menudesplegable.open {
-    transform: translateX(0); /* Lo devuelve a su posición visible */
-    /* O puedes usar: right: 0; */
+    transform: translateX(0); 
 }
 
-/* Estilos básicos para el contenido (opcional) */
 #menudesplegable ul {
     list-style: none;
     padding: 0;
@@ -231,22 +237,120 @@ header{
 }
 
 #menudesplegable li a:hover {
-    background-color: #555;
+    background-color: whitesmoke;
 }
 
 #home{
-    height: 5rem;
+    height: 3.5rem;
     width: 15rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 30px;
+    margin-left: .5rem;
+    
 }
 .casita{
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     left: 0;
 }
 
-.opc{
-    text-align: center;
-    font-size: 2rem;
+.vi{
+    font-size: 1rem;
+}
+
+#log{
+    height: 3.5rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+.usuario{
+    height: 3rem;
+    width: 3rem;
+    left: 0;
+}
+
+.IS{
+    font-size: 1rem;
+}
+
+
+#recetario{
+    height: 3.5rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+.libro{
+    height: 3.5rem;
+    width: 3rem;
+    left: 0;
+    margin-bottom: .5rem;
+}
+
+.mr{
+    font-size: 1rem;
+}
+
+#destacados{
+    height: 3.5rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .6rem;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+.estrella{
+    height: 2.5rem;
+    width: 2.7rem;
+    left: 0;
+    margin-bottom: .3rem;
+    margin-left: .2rem;
+}
+
+.rd{
+    font-size: 1rem;
+}
+
+#cerrar{
+    height: 2rem;
+    width: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .6rem;
+    border-color: transparent;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: whitesmoke;
+}
+
+.cruz{
+    height: 1rem;
+    width: 1rem;
+    left: 0;
+}
+
+.cm{
+    font-size: 1rem;
 }

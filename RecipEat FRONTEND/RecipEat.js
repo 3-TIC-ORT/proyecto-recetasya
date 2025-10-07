@@ -2,14 +2,19 @@ let boton1 = document.getElementById("boton1");
 let bdulces = document.getElementById("bdulces");
 let bbebidas = document.getElementById("bbebidas")
 let bst = document.getElementById("bst")
-let login = document.getElementById("login")
+let log = document.getElementById("log")
 const bmenu = document.getElementById('bmenu');
 const menudesplegable = document.getElementById('menudesplegable');
+const cerrar = document.getElementById("cerrar");
 
 bmenu.addEventListener('click', () => {
-    // Agrega o quita la clase 'open'
     menudesplegable.classList.toggle('open');
 });
+
+cerrar.addEventListener('click', () => {
+    menudesplegable.classList.remove('open');
+});
+
 
 function cambiarpantalla(){
     window.location.href = "pantallasalados.html";
@@ -36,8 +41,10 @@ function login1(){
 }
 
 
+
+
 boton1.addEventListener("click", cambiarpantalla);
 bdulces.addEventListener("click", cambiardulces);
 bbebidas.addEventListener("click",cambiarbebidas);
 bst.addEventListener("click", cambiarst);
-login.addEventListener("click", login1);
+log.addEventListener("click", login1);
