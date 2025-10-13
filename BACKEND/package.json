@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-recetasya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "LogInRegistro.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zito3009/Wally.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zito3009/Wally/issues"
+  },
+  "homepage": "https://github.com/Zito3009/Wally#readme",
+  "dependencies": {
+    "soquetic": "^1.4.2"
+  }
+}

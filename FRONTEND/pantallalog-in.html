@@ -12,11 +12,14 @@
         <img class="logo" src="IMAGENES FRONT/Logo.png" alt="Logo RecipEat">
     </div>
     
-    <input type="text" placeholder="Ingrese usuario" id="usuario"  class="usuario">
+    <input type="text" placeholder="Ingrese usuario" id="Nombre"  class="usuario">
     <br><br>
-    <input type="password" placeholder="Ingrese la contraseña" id="contraseña" class="contraseña">
+    <input type="password" placeholder="Ingrese la contraseña" id="Contraseña" class="contraseña">
     <br><br>
-    <button id="ingresar" class="ingresar">Iniciar sesión</button>
+    <button id="Logearse" onclick="Logearse()" class="ingresar">Iniciar sesión</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
     <script src="pantallalog-in.js"></script>
 </body>
 </html>
