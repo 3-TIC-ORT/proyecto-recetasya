@@ -1,10 +1,9 @@
 let boton1 = document.getElementById("ingresar");
 let usuario = document.getElementById("usuario");
 let contraseña = document.getElementById("contraseña");
+let inisec = document.getElementById("inisec") 
 
-function log2(){
-    window.location.href = "RecipEat.html";
-}
+
 
 connect2Server();
 
@@ -33,6 +32,8 @@ function Logearse() {
 function login(data) {
   if (data.success) {
     alert("Login Exitoso. Bienvenido a RecepEat!!");
+    window.location.href = "RecipEat.html";
+
   } else {
     alert("El usuario o la contraseña son incorrectos.");
   }
