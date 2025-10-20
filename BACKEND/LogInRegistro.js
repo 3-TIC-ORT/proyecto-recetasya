@@ -28,28 +28,26 @@ const loginEvent = (data) => {
       }
   }
 
-const registroEvent = (data) => {
-    const usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
-  
-    usuarios.forEach(usuario => {
-      if (usuario.Nombre_de_la_Cuenta == data.nombre) {
-       return { success: false, message: " El usuario ya existe."}
+  const registroEvent = (data) => {
+    let usuarios = [];
+    usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
+
+    let UsuarioYaExistente = false;
+    for (let i = 0; i < usuarios.length; i++) {
+      if (usuarios[i].Nombre_de_la_cuenta === data.nombre) {
+        UsuarioYaExistente = true;
+        break;
       }
-    })
-    // let UsuarioYaExistente = false;
-    // for (let i = 0; i < usuarios.length; i++) {
-    //   if (usuarios[i].Nombre_de_la_cuenta === data.Nombre) {
-    //     UsuarioYaExistente = true;
-    //     break;
-    //   }
-    // }
-    // if (UsuarioYaExistente === true) {
-    //    return { success: false, message: " El usuario ya existe."}
-    // }
-    usuarios.push({ "Nombre_de_la_cuenta": data.nombre, "Contraseña": data.contraseña });
+    }
+    if (UsuarioYaExistente === true) {
+       return { success: false, message: " El usuario ya existe."}
+    }
+    else if (UsuarioYaExistente === false)  {
+      usuarios.push({ "Nombre_de_la_Cuenta": data.nombre, "Contraseña": data.contraseña });
     fs.writeFileSync("Usuarios.json", JSON.stringify(usuarios, null, 2));
-    return { success: true };
-  }
+    return { success: true, message: " Bienvenido a RecipEat." };
+    }
+};
   
 subscribePOSTEvent("login", loginEvent);
 subscribePOSTEvent("Registro", registroEvent);
