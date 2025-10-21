@@ -49,3 +49,16 @@ h1{
     height: 2.5rem;
     width: 18rem;
 }
+
+.ccuenta{
+    font-size: 1.3rem;
+    color: darkgreen;
+}
+
+h2{
+    margin-bottom: 0.5rem;
+}
+
+p{
+    margin-top: 0.5rem;
+}
