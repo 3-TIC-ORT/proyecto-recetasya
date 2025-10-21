@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.ingresar{
+    background-color: darkgreen;
+    color: whitesmoke;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.usuario{
+    margin-top: 2.5rem;
+    border-color: darkgreen;
+    color: darkgreen;
+    border-radius: 0.7rem;
+    height: 2.5rem;
+    width: 18rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.cabeza{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.logo{
+    height: 4rem;
+    width: 7rem;
+    margin-left: .7rem;
+}
+
+.contraseña{
+    border-color: darkgreen;
+    color: darkgreen;
+    border-radius: 0.7rem;
+    height: 2.5rem;
+    width: 18rem;
+}
