@@ -5,7 +5,7 @@ import {
     startServer,
   } from "soquetic";
   import fs from "fs";
-  import "./Recetas.js";
+  import {recetas} from "./Recetas";
   
 const loginEvent = (data) => {
     const usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
