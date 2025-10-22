@@ -65,7 +65,7 @@ body{
     border-color: transparent;
 }
 
-.vegano{
+.bvegano{
     position: absolute;
     left: 35rem;
     bottom: -19rem;
@@ -163,7 +163,7 @@ body{
     background-image: url("IMAGENES\ FRONT/botn comida sin tacc.png");
 }
     
-#vegano{
+#bvegano{
     position: relative;
     display: flex;
     border-radius: 50%;
@@ -178,13 +178,6 @@ header{
 }
 
 
-.lineaverde1{
-    width: 100%;
-    height: 5vh;
-    background-color: #B1CA88;
-    margin-top: 0%;
-}
-
 .opc{
     text-align: center;
     font-size: 2rem;
@@ -194,12 +187,14 @@ header{
     height: 3rem;
     width: 4rem;
     border-color: transparent;
+    margin-top: 3rem;
+
 }
 
 .boton-menu{
     height: 2rem;
     width: 3rem;
-    margin-left: 80rem;
+    margin-left: 75rem;
 }
 
 #menudesplegable {
