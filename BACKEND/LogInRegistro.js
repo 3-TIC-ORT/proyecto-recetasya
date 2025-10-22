@@ -1,19 +1,15 @@
-import {
-    subscribeGETEvent,
-    subscribePOSTEvent,
-    realTimeEvent,
-    startServer,
-  } from "soquetic";
-  import fs from "fs";
-  import {recetas} from "./Recetas";
+import fs from "fs";
+
   
-const loginEvent = (data) => {
+export const loginEvent = (data) => {
+
     const usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
     
     let Encontrado = false;
   
     for (let i = 0; i < usuarios.length; i++) {
-      const u = usuarios[i];
+  
+      let u = usuarios[i];
       if (u.Nombre_de_la_Cuenta === data.nombre && u.Contraseña === data.contraseña) {
         Encontrado = true;
         break;
@@ -26,9 +22,9 @@ const loginEvent = (data) => {
     else  if (Encontrado === false) {
       return { success: false, msg: "Usuario o contraseña incorrectos" };
       }
-  }
+}
 
-  const registroEvent = (data) => {
+export const registroEvent = (data) => {
     let usuarios = [];
     usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
 
@@ -48,8 +44,3 @@ const loginEvent = (data) => {
     return { success: true, message: " Bienvenido a RecipEat." };
     }
 };
-  
-subscribePOSTEvent("login", loginEvent);
-subscribePOSTEvent("Registro", registroEvent);
-  
-startServer();
