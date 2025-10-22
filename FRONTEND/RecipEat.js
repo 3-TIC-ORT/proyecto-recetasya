@@ -2,6 +2,7 @@ let boton1 = document.getElementById("boton1");
 let bdulces = document.getElementById("bdulces");
 let bbebidas = document.getElementById("bbebidas")
 let bst = document.getElementById("bst")
+let bvegano = document.getElementById("bvegano")
 let log = document.getElementById("log")
 const bmenu = document.getElementById('bmenu');
 const menudesplegable = document.getElementById('menudesplegable');
@@ -40,6 +41,11 @@ function login1(){
     window.location.href = "pantallalog-in.html"
 }
 
+function cambiarvegano(){
+    window.location.href = "pdulces.html";
+}
+
+
 
 
 
@@ -48,3 +54,4 @@ bdulces.addEventListener("click", cambiardulces);
 bbebidas.addEventListener("click",cambiarbebidas);
 bst.addEventListener("click", cambiarst);
 log.addEventListener("click", login1);
+bvegano.addEventListener("click", cambiarvegano)
