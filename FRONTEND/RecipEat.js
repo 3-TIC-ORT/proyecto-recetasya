@@ -42,7 +42,7 @@ function login1(){
 }
 
 function cambiarvegano(){
-    window.location.href = "pdulces.html";
+    window.location.href = "pvegano.html";
 }
 
 
