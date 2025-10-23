@@ -62,3 +62,15 @@ h2{
 p{
     margin-top: 0.5rem;
 }
+
+#registro1{
+    border-color: transparent;
+    background-color: whitesmoke;
+    height: 4rem;
+    width: 10rem;
+}
+
+.cu{
+    color: darkgreen;
+    font-size: 1rem;
+}
