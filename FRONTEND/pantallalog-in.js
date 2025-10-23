@@ -1,14 +1,16 @@
-let boton1 = document.getElementById("ingresar");
-let usuario = document.getElementById("usuario");
-let contraseña = document.getElementById("contraseña");
-let inisec = document.getElementById("inisec") 
-let r1 = document.getElementById("r1");
 import {
   getEvent,
   postEvent,
   subscriberealTimeEvent,
   connect2Server,
 } from "soquetic";
+
+let boton1 = document.getElementById("ingresar");
+let usuario = document.getElementById("usuario");
+let contraseña = document.getElementById("contraseña");
+let inisec = document.getElementById("inisec") 
+let registro1 = document.getElementById("registro1");
+let r1 = document.getElementById("r1");
 
 
 connect2Server();
