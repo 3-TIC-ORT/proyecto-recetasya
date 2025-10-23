@@ -1,3 +1,4 @@
+let r1 = document.getElementById("r1");
 connect2Server();
 
 function Registrarse() {
@@ -29,3 +30,11 @@ function Registro(data) {
     alert("No se ha podido guardar el usuario correctamente." + data.message);
   }
 }
+
+
+
+function registrar1(){
+  window.location.href = "pregistro.html";
+}
+
+r1.addEventListener("click", registrar1);
