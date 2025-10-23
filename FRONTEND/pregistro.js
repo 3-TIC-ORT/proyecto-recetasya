@@ -1,7 +1,7 @@
 connect2Server();
 
 function Registrarse() {
-  var Nombre = document.getElementById('Usuario').value;
+  var Nombre = document.getElementById('Nombre').value;
   var Contraseña = document.getElementById('Contraseña').value;
   if (!Nombre || !Contraseña) {
         alert('Por favor, complete todos los campos.');
@@ -19,7 +19,7 @@ function Registrarse() {
         alert('La contraseña no puede ser igual al nombre de usuario.');
         return;
     }
-    postEvent("Registro", { "nombre": Nombre, "contraseña": Contraseña }, Registro);
+    postEvent("registro", { "nombre": Nombre, "contraseña": Contraseña }, Registro);
 }
 
 function Registro(data) {
