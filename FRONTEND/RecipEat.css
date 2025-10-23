@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #f3edee;
+    background-color: #b1ca88;
 }
 
 .op{
@@ -21,13 +21,14 @@ body{
     margin-top: -850px;
 }
 
-#b1{
+.logodef{
     border-color: transparent;
     height: 84px;
     width: 132px;
     border-radius: 8px;
     margin-left: 35rem;
     margin-top: 3rem;
+    object-position: center;
 }
 
 .salados{
@@ -178,17 +179,12 @@ header{
     margin-top: 6rem;
 }
 
-
-.opc{
-    text-align: center;
-    font-size: 2rem;
-}
-
 #bmenu{
     height: 3rem;
     width: 4rem;
     border-color: transparent;
     margin-top: 3rem;
+    background-color: transparent;
 
 }
 

@@ -1,5 +1,4 @@
-import { loginEvent, registroEvent } from "./LogInRegistro";
-import { Recetas } from "./Recetas";
+import { loginEvent, registroEvent } from "./LogInRegistro.js";
 import {
     subscribeGETEvent,
     subscribePOSTEvent,
@@ -8,6 +7,6 @@ import {
   } from "soquetic";
 
 subscribePOSTEvent("login", loginEvent);
-subscribePOSTEvent("Registro", registroEvent);
-    
+subscribePOSTEvent("registro", registroEvent);
+
 startServer();
