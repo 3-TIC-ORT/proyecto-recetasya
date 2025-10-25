@@ -30,7 +30,7 @@ export const registroEvent = (data) => {
 
     let UsuarioYaExistente = false;
     for (let i = 0; i < usuarios.length; i++) {
-      if (usuarios[i].Nombre_de_la_cuenta === data.nombre) {
+      if (usuarios[i].Nombre_de_la_Cuenta === data.nombre) {
         UsuarioYaExistente = true;
         break;
       }

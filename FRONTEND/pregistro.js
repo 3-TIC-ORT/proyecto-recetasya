@@ -1,4 +1,4 @@
-let r1 = document.getElementById("r1");
+let cuenta = document.getElementById("cuenta");
 
 connect2Server();
 
@@ -35,7 +35,7 @@ function Registro(data) {
 
 
 function registrar1(){
-  window.location.href = "pregistro.html";
+  window.location.href = "RecipEat.html";
 }
 
-r1.addEventListener("click", registrar1);
+cuenta.addEventListener("click", registrar1);
