@@ -1,4 +1,10 @@
 [
-    { "Nombre_de_la_Cuenta": "Alejo", "Contraseña": "123456" },
-    { "Nombre_de_la_Cuenta": "Lucho", "Contraseña": "654321" }
+    { 
+    "Nombre_de_la_Cuenta": "Alejo", 
+    "Contraseña": "123456"
+   },
+    { 
+    "Nombre_de_la_Cuenta": "Lucho", 
+    "Contraseña": "654321" 
+    }
   ]
