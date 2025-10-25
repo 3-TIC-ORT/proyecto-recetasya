@@ -1,4 +1,5 @@
 let r1 = document.getElementById("r1");
+
 connect2Server();
 
 function Registrarse() {

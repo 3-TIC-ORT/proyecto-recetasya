@@ -1,19 +1,19 @@
-import {
-  getEvent,
-  postEvent,
-  subscriberealTimeEvent,
-  connect2Server,
-} from "soquetic";
+// Import SoqueTIC client functions as an ES module from the CDN so they're available here.
+import { getEvent, postEvent, subscriberealTimeEvent, connect2Server } from 'https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js';
 
 let boton1 = document.getElementById("ingresar");
 let usuario = document.getElementById("usuario");
 let contraseña = document.getElementById("contraseña");
-let inisec = document.getElementById("inisec") 
+let inisec = document.getElementById("inisec");
 let registro1 = document.getElementById("registro1");
 let r1 = document.getElementById("r1");
 
-
-connect2Server();
+// Inicializar conexión (si la función está disponible desde el import)
+if (typeof connect2Server === 'function') {
+  connect2Server();
+} else {
+  console.warn('connect2Server no está disponible. Revisa la importación del cliente SoqueTIC.');
+}
 
 function Logearse() {
     var Nombre = document.getElementById('Nombre').value;
@@ -34,7 +34,12 @@ function Logearse() {
         alert('La contraseña no puede ser igual al nombre de usuario.');
         return;
     }
-    postEvent("login", { "nombre": Nombre, "contraseña": Contraseña }, login);
+    if (typeof postEvent === 'function') {
+      postEvent("login", { "nombre": Nombre, "contraseña": Contraseña }, login);
+    } else {
+      console.error('postEvent no está definido.');
+      alert('Error interno: no se pudo iniciar sesión (función postEvent no disponible).');
+    }
 }
 
 function login(data) {
@@ -48,9 +53,16 @@ function login(data) {
 }
 
 
-
 function registrar1(){
   window.location.href = "pregistro.html";
 }
 
-r1.addEventListener("click", registrar1);
+// Conectar botones solo si existen en esta página
+if (r1) {
+  r1.addEventListener("click", registrar1);
+}
+
+if (inisec) {
+  // Si el botón existe, conectar el handler del módulo (evita onclick inline que falla en módulos)
+  inisec.addEventListener('click', Logearse);
+}
