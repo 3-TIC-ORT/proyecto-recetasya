@@ -5,7 +5,7 @@ export const Recetas = (data) => {
     console.log(RecetasArray)
 }
 
-const GuardarRecetas = (data) => {
+export const GuardarRecetas = (data) => {
     let recetas = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
     
 }

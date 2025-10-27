@@ -1,5 +1,5 @@
 import { loginEvent, registroEvent } from "./LogInRegistro.js";
-import { Recetas } from "./Recetas.js";
+import { Recetas, GuardarRecetas } from "./Recetas.js";
 import {
     subscribeGETEvent,
     subscribePOSTEvent,
@@ -9,5 +9,7 @@ import {
 
 subscribePOSTEvent("login", loginEvent);
 subscribePOSTEvent("registro", registroEvent);
+subscribePOSTEvent("recetas", Recetas);
+subscribePOSTEvent("guardarRecetas", GuardarRecetas);
 
 startServer();
