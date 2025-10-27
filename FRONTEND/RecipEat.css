@@ -19,11 +19,40 @@
     margin-bottom: 1.5rem;
 }
 
-.rectángulo1{
-    width: 5rem;
-    height: 2rem;
+.rectangulo1{
+    width: 90%;
+    max-width: 40rem;
+    height: 4rem;
+    margin: 1rem auto;
     background-color: whitesmoke;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    padding: .5rem 1rem;
+    justify-content: space-between;
 }
+
+.buscador{
+    order: 1;
+    flex: 0 1 auto;
+}
+
+.tbuscador{
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+    order: 1;
+}
+
+.lupa{
+    height: auto;
+    width: 2rem;
+    border-color: transparent;
+    cursor: pointer;
+}
+
 
 body{
     background-color: #c8d9ab;
@@ -390,3 +419,5 @@ header{
 .textotlr{
     font-size: 1rem;
 }
+
+
