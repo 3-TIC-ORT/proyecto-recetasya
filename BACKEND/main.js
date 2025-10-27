@@ -1,4 +1,5 @@
 import { loginEvent, registroEvent } from "./LogInRegistro.js";
+import { Recetas } from "./Recetas.js";
 import {
     subscribeGETEvent,
     subscribePOSTEvent,
