@@ -1,4 +1,4 @@
-let bbebidas2 = document.getElementById("bbebidas2");
+let home = document.getElementById("home");
 
 
 function cambiarbebidas(){
@@ -9,4 +9,4 @@ function cambiarbebidas2(){
     window.location.href = "RecipEat.html";
 }
 
-bbebidas2.addEventListener("click", cambiarbebidas2);
+home.addEventListener("click", cambiarbebidas2);
