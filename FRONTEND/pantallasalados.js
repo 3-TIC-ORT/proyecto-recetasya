@@ -1,4 +1,4 @@
-let boton2 = document.getElementById("boton2");
+let home = document.getElementById("home");
 
 function cambiarpantalla(){
     window.location.href = "pantallasalados.html";
@@ -9,4 +9,4 @@ function cambiarpantalla1(){
 }
 
 
-boton2.addEventListener("click", cambiarpantalla1);
+home.addEventListener("click", cambiarpantalla1);
