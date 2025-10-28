@@ -1,26 +1,5 @@
 [
   {
-    "nombre": "Milanesa a la napolitana (4 porciones)",
-    "ingredientes": {
-      "Milanesas de carne": "4 unidades",
-      "Jamón cocido": "4 fetas",
-      "Queso mozzarella": "4 fetas",
-      "Salsa de tomate": "200 ml",
-      "Aceite para freír": "500 ml"
-    },
-    "pasos": [
-      "Paso 1: Salpimentar las milanesas.",
-      "Paso 2: Freír las milanesas en aceite caliente hasta dorar.",
-      "Paso 3: Colocar las milanesas en una bandeja para horno.",
-      "Paso 4: Cubrir con salsa de tomate, jamón y queso mozzarella.",
-      "Paso 5: Gratinar en horno precalentado a 180°C por 10 minutos.",
-      "Paso 6: Servir caliente acompañado de puré o ensalada."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/milanesa-napolitana-comida-1546543/"
-  },
-  {
     "nombre": "Empanadas de carne (6 porciones)",
     "ingredientes": {
       "Tapas para empanadas": "12 unidades",
@@ -1571,23 +1550,6 @@
     "imagen": "https://cdn.pixabay.com/photo/2017/03/11/10/39/risotto-2131410_1280.jpg"
   },
   {
-    "nombre": "Limonada casera",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Limones": "4 unidades",
-      "Agua": "1 litro",
-      "Azúcar": "100 g",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Exprimir los limones y colar el jugo.",
-      "Paso 2: Mezclar con agua y azúcar hasta disolver.",
-      "Paso 3: Servir con hielo y rodajas de limón."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/04/21/15/09/lemonade-1344737_1280.jpg"
-  },
-  {
     "nombre": "Smoothie de frutilla y banana",
     "categoria": "bebida",
     "apto": "SiTACC",
@@ -1864,25 +1826,6 @@
       "Paso 5: Dejar enfriar y desmoldar."
     ],
     "imagen": "https://cdn.pixabay.com/photo/2015/05/09/09/42/flan-760876_1280.jpg"
-  },
-  {
-    "nombre": "Milanesas de soja",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Soja texturizada": "200 g",
-      "Huevos": "2 unidades",
-      "Pan rallado": "100 g",
-      "Sal y pimienta": "a gusto",
-      "Aceite": "para freír"
-    },
-    "pasos": [
-      "Paso 1: Hidratar soja en agua caliente por 10 minutos y escurrir.",
-      "Paso 2: Mezclar con huevo, sal y pimienta.",
-      "Paso 3: Formar milanesas y pasar por pan rallado.",
-      "Paso 4: Freír en aceite caliente hasta dorar y escurrir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/02/21/12/21/vegan-3165557_1280.jpg"
   },
   {
     "nombre": "Tarta de verdura",
