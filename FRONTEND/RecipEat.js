@@ -6,6 +6,7 @@ let destacados = document.getElementById("destacados")
 const bmenu = document.getElementById('bmenu');
 const menudesplegable = document.getElementById('menudesplegable');
 const cerrar = document.getElementById("cerrar");
+let btlr = document.getElementById("tlr");
 
 bmenu.addEventListener('click', () => {
     menudesplegable.classList.toggle('open');
@@ -42,9 +43,13 @@ function destacar(){
     window.location.href = "precetasdestacadas.html"
 }
 
+function recetas(){
+    window.location.href = "ptodaslasrecetas.html"
+}
 
 
 
+btlr.addEventListener("click", recetas);
 boton1.addEventListener("click", cambiarpantalla);
 bdulces.addEventListener("click", cambiardulces);
 bbebidas.addEventListener("click",cambiarbebidas);
