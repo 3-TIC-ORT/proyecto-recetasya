@@ -1,1942 +1,279 @@
 [
-  {
-    "nombre": "Empanadas de carne (6 porciones)",
-    "ingredientes": {
-      "Tapas para empanadas": "12 unidades",
-      "Carne picada": "400 g",
-      "Cebolla": "1 unidad",
-      "Aceitunas verdes": "50 g",
-      "Huevo duro": "2 unidades",
-      "Aceite": "2 cucharadas",
-      "Sal y pimienta": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Picar la cebolla y dorarla en aceite.",
-      "Paso 2: Agregar la carne picada y cocinar hasta que cambie de color.",
-      "Paso 3: Añadir aceitunas picadas, huevo duro picado, sal y pimienta.",
-      "Paso 4: Rellenar las tapas de empanada con la mezcla y cerrar presionando los bordes.",
-      "Paso 5: Hornear a 180°C durante 20 minutos o hasta dorar.",
-      "Paso 6: Servir calientes."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/empanadas-argentina-comida-1166796/"
-  },
-  {
-    "nombre": "Tiramisú clásico (6 porciones)",
-    "ingredientes": {
-      "Queso mascarpone": "250 g",
-      "Huevos": "3 unidades",
-      "Azúcar": "100 g",
-      "Café fuerte": "200 ml",
-      "Bizcochos de soletilla": "150 g",
-      "Cacao en polvo": "para espolvorear"
-    },
-    "pasos": [
-      "Paso 1: Separar claras y yemas de los huevos.",
-      "Paso 2: Batir las yemas con el azúcar hasta blanquear.",
-      "Paso 3: Mezclar el mascarpone con la mezcla de yemas.",
-      "Paso 4: Batir las claras a punto de nieve e incorporarlas suavemente.",
-      "Paso 5: Remojar los bizcochos en café y colocarlos en el fondo de un molde.",
-      "Paso 6: Cubrir con la crema de mascarpone y repetir capas.",
-      "Paso 7: Refrigerar mínimo 4 horas y espolvorear cacao antes de servir."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/tiramisu-postre-dulce-3044455/"
-  },
-  {
-    "nombre": "Limonada casera (4 porciones)",
-    "ingredientes": {
-      "Limones": "4 unidades",
-      "Agua": "1 litro",
-      "Azúcar": "100 g",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Exprimir los limones y colar el jugo.",
-      "Paso 2: Mezclar el jugo con el agua y el azúcar hasta disolver.",
-      "Paso 3: Añadir hielo al gusto.",
-      "Paso 4: Servir fría en vasos altos."
-    ],
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/limonada-bebida-refrescante-1422132/"
-  },
-  {
-    "nombre": "Pizza margarita (4 porciones)",
-    "ingredientes": {
-      "Masa para pizza": "1 base de 30 cm",
-      "Salsa de tomate": "150 ml",
-      "Queso mozzarella": "150 g",
-      "Hojas de albahaca": "6 unidades",
-      "Aceite de oliva": "1 cucharada"
-    },
-    "pasos": [
-      "Paso 1: Precalentar el horno a 220°C.",
-      "Paso 2: Extender la salsa de tomate sobre la masa.",
-      "Paso 3: Colocar el queso mozzarella y las hojas de albahaca.",
-      "Paso 4: Rociar un poco de aceite de oliva.",
-      "Paso 5: Hornear durante 12-15 minutos hasta que el queso se derrita.",
-      "Paso 6: Servir caliente."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/pizza-margarita-comida-italiana-1545472/"
-  },
-  {
-    "nombre": "Budín de vainilla (6 porciones)",
-    "ingredientes": {
-      "Harina": "200 g",
-      "Azúcar": "150 g",
-      "Huevos": "3 unidades",
-      "Leche": "100 ml",
-      "Manteca": "100 g",
-      "Esencia de vainilla": "1 cucharadita",
-      "Polvo de hornear": "10 g"
-    },
-    "pasos": [
-      "Paso 1: Precalentar el horno a 180°C y enmantecar un molde.",
-      "Paso 2: Batir la manteca con el azúcar hasta que quede cremosa.",
-      "Paso 3: Incorporar los huevos uno a uno y la esencia de vainilla.",
-      "Paso 4: Agregar la harina tamizada con el polvo de hornear alternando con la leche.",
-      "Paso 5: Verter la mezcla en el molde y hornear 35-40 minutos.",
-      "Paso 6: Dejar enfriar antes de desmoldar y servir."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/budin-dulce-postre-horno-4178897/"
-  },
-  {
-    "nombre": "Mate cocido con leche (2 porciones)",
-    "ingredientes": {
-      "Agua": "250 ml",
-      "Yerba mate": "2 cucharadas",
-      "Leche": "250 ml",
-      "Azúcar": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Hervir el agua y agregar la yerba mate.",
-      "Paso 2: Dejar infusionar 3-5 minutos y colar.",
-      "Paso 3: Calentar la leche y mezclar con el mate colado.",
-      "Paso 4: Endulzar al gusto y servir caliente."
-    ],
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/mate-cocido-t%C3%A9-leche-1020733/"
-  },
-  {
-    "nombre": "Ravioles de ricota con salsa de tomate (4 porciones)",
-    "ingredientes": {
-      "Ravioles de ricota": "400 g",
-      "Salsa de tomate": "250 ml",
-      "Queso parmesano rallado": "50 g",
-      "Aceite de oliva": "1 cucharada",
-      "Albahaca": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Cocinar los ravioles en abundante agua con sal según indicaciones del paquete.",
-      "Paso 2: Calentar la salsa de tomate y añadir una cucharada de aceite de oliva.",
-      "Paso 3: Escurrir los ravioles y mezclarlos con la salsa.",
-      "Paso 4: Servir con queso parmesano rallado y hojas de albahaca."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/ravioles-pasta-comida-italiana-2958601/"
-  },
-  {
-    "nombre": "Galletas de chocolate (20 unidades)",
-    "ingredientes": {
-      "Harina": "200 g",
-      "Azúcar": "100 g",
-      "Manteca": "100 g",
-      "Huevos": "1 unidad",
-      "Cacao en polvo": "30 g",
-      "Chispas de chocolate": "50 g",
-      "Polvo de hornear": "5 g"
-    },
-    "pasos": [
-      "Paso 1: Precalentar el horno a 180°C y preparar una bandeja con papel manteca.",
-      "Paso 2: Batir la manteca con el azúcar hasta cremar.",
-      "Paso 3: Agregar el huevo y mezclar bien.",
-      "Paso 4: Incorporar la harina, cacao y polvo de hornear, mezclar hasta formar masa.",
-      "Paso 5: Añadir las chispas de chocolate.",
-      "Paso 6: Formar bolitas, colocar en la bandeja y hornear 12-15 minutos.",
-      "Paso 7: Dejar enfriar antes de servir."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/galletas-chocolate-dulce-3051457/"
-  },
-  {
-    "nombre": "Smoothie de banana y frutilla (2 porciones)",
-    "ingredientes": {
-      "Banana": "1 unidad",
-      "Frutillas": "100 g",
-      "Yogur natural": "150 ml",
-      "Miel": "1 cucharadita",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Lavar y cortar las frutillas y la banana.",
-      "Paso 2: Colocar las frutas, el yogur, la miel y el hielo en la licuadora.",
-      "Paso 3: Licuar hasta obtener una mezcla homogénea.",
-      "Paso 4: Servir inmediatamente en vasos."
-    ],
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/smoothie-fruta-batido-bebida-1882059/"
-  },
-  {
-    "nombre": "Fideos con salsa bolognesa (4 porciones)",
-    "ingredientes": {
-      "Fideos secos": "400 g",
-      "Carne picada": "300 g",
-      "Cebolla": "1 unidad",
-      "Zanahoria": "1 unidad",
-      "Salsa de tomate": "400 ml",
-      "Aceite de oliva": "2 cucharadas",
-      "Sal y pimienta": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Picar la cebolla y la zanahoria, sofreír en aceite de oliva hasta dorar.",
-      "Paso 2: Agregar la carne picada y cocinar hasta que cambie de color.",
-      "Paso 3: Incorporar la salsa de tomate, sal y pimienta y cocinar 15 minutos.",
-      "Paso 4: Cocinar los fideos según indicaciones del paquete.",
-      "Paso 5: Servir los fideos con la salsa por encima."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/spaghetti-salsa-comida-pasta-1090960/"
-  },
-  {
-    "nombre": "Omelette de queso y jamón (2 porciones)",
-    "ingredientes": {
-      "Huevos": "4 unidades",
-      "Jamón cocido": "50 g",
-      "Queso rallado": "50 g",
-      "Aceite": "1 cucharada",
-      "Sal y pimienta": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Batir los huevos con sal y pimienta.",
-      "Paso 2: Calentar el aceite en una sartén y verter los huevos batidos.",
-      "Paso 3: Agregar el jamón picado y el queso rallado sobre la mezcla.",
-      "Paso 4: Cocinar a fuego medio hasta que cuaje y dorar ligeramente por ambos lados.",
-      "Paso 5: Servir caliente."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/omelette-huevo-comida-desayuno-2550730/"
-  },
-  {
-    "nombre": "Chocotorta (6 porciones)",
-    "ingredientes": {
-      "Galletitas de chocolate": "200 g",
-      "Dulce de leche": "200 g",
-      "Queso crema": "200 g",
-      "Café o leche": "100 ml",
-      "Cacao en polvo": "para espolvorear"
-    },
-    "pasos": [
-      "Paso 1: Mezclar el queso crema con el dulce de leche hasta lograr crema homogénea.",
-      "Paso 2: Remojar las galletitas en café o leche brevemente.",
-      "Paso 3: Colocar una capa de galletitas en el fondo de un molde.",
-      "Paso 4: Cubrir con una capa de crema, repetir capas hasta terminar los ingredientes.",
-      "Paso 5: Refrigerar mínimo 4 horas.",
-      "Paso 6: Espolvorear cacao antes de servir."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/chocotorta-postre-helado-4101970/"
-  },
-  {
-    "nombre": "Jugo de naranja natural (4 porciones)",
-    "ingredientes": {
-      "Naranjas": "6 unidades",
-      "Agua": "100 ml",
-      "Azúcar": "al gusto",
-      "Hielo": "opcional"
-    },
-    "pasos": [
-      "Paso 1: Exprimir las naranjas y colar el jugo.",
-      "Paso 2: Mezclar con agua y azúcar al gusto.",
-      "Paso 3: Servir con hielo si se desea."
-    ],
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/jugo-naranja-fruta-bebida-841902/"
-  },
-  {
-    "nombre": "Canelones de espinaca y ricota (4 porciones)",
-    "ingredientes": {
-      "Canelones": "12 unidades",
-      "Ricota": "250 g",
-      "Espinaca cocida": "200 g",
-      "Salsa blanca": "300 ml",
-      "Queso rallado": "100 g",
-      "Aceite": "1 cucharada"
-    },
-    "pasos": [
-      "Paso 1: Mezclar la ricota con la espinaca y un poco de sal.",
-      "Paso 2: Rellenar los canelones con la mezcla.",
-      "Paso 3: Colocar los canelones en una bandeja para horno.",
-      "Paso 4: Cubrir con salsa blanca y queso rallado.",
-      "Paso 5: Hornear a 180°C durante 20 minutos.",
-      "Paso 6: Servir caliente."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/canelones-espinaca-ricotta-1585171/"
-  },
-  {
-    "nombre": "Alfajores de maicena (12 unidades)",
-    "ingredientes": {
-      "Harina de maicena": "200 g",
-      "Harina común": "100 g",
-      "Manteca": "100 g",
-      "Azúcar": "100 g",
-      "Huevos": "2 unidades",
-      "Dulce de leche": "200 g",
-      "Coco rallado": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Mezclar las harinas con la manteca y el azúcar hasta formar masa.",
-      "Paso 2: Agregar los huevos y amasar hasta que quede uniforme.",
-      "Paso 3: Estirar la masa y cortar círculos.",
-      "Paso 4: Hornear a 180°C durante 12-15 minutos.",
-      "Paso 5: Rellenar con dulce de leche y unir los alfajores.",
-      "Paso 6: Pasar los bordes por coco rallado."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/alfajor-dulce-postre-1633131/"
-  },
-  {
-    "nombre": "Mate frío con hierbas (2 porciones)",
-    "ingredientes": {
-      "Agua": "250 ml",
-      "Yerba mate": "2 cucharadas",
-      "Hojas de menta": "5 unidades",
-      "Hielo": "al gusto",
-      "Azúcar": "opcional"
-    },
-    "pasos": [
-      "Paso 1: Hervir el agua y preparar el mate infusionando 3-5 minutos.",
-      "Paso 2: Colar el mate y dejar enfriar.",
-      "Paso 3: Agregar las hojas de menta y hielo.",
-      "Paso 4: Endulzar al gusto y servir frío."
-    ],
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/mate-fr%C3%ADo-yerba-hierbas-3540123/"
-  },
-  {
-    "nombre": "Pollo al horno con verduras (4 porciones)",
-    "ingredientes": {
-      "Pollo entero": "1 unidad (1.2 kg)",
-      "Papas": "300 g",
-      "Zanahorias": "200 g",
-      "Aceite de oliva": "2 cucharadas",
-      "Sal y pimienta": "al gusto",
-      "Hierbas aromáticas": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Precalentar el horno a 200°C.",
-      "Paso 2: Salpimentar el pollo y untarlo con aceite de oliva y hierbas.",
-      "Paso 3: Colocar el pollo en una bandeja y rodear con papas y zanahorias cortadas.",
-      "Paso 4: Hornear 1 hora o hasta que el pollo esté dorado y cocido por dentro.",
-      "Paso 5: Servir caliente acompañado de las verduras."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/pollo-verduras-horno-comida-2800931/"
-  },
-  {
-    "nombre": "Brownies de chocolate (16 porciones)",
-    "ingredientes": {
-      "Chocolate amargo": "200 g",
-      "Manteca": "150 g",
-      "Azúcar": "200 g",
-      "Huevos": "3 unidades",
-      "Harina": "100 g",
-      "Nueces": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Precalentar el horno a 180°C y enmantecar un molde.",
-      "Paso 2: Derretir el chocolate con la manteca a baño María.",
-      "Paso 3: Batir los huevos con el azúcar e incorporar la mezcla de chocolate.",
-      "Paso 4: Agregar la harina tamizada y las nueces picadas.",
-      "Paso 5: Verter en el molde y hornear 25-30 minutos.",
-      "Paso 6: Dejar enfriar antes de cortar en porciones."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/brownie-chocolate-postre-3157594/"
-  },
-  {
-    "nombre": "Licuado de durazno y yogur (2 porciones)",
-    "ingredientes": {
-      "Duraznos": "2 unidades",
-      "Yogur natural": "200 ml",
-      "Leche": "100 ml",
-      "Miel": "1 cucharadita",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Pelar y cortar los duraznos.",
-      "Paso 2: Colocar los duraznos, yogur, leche, miel y hielo en la licuadora.",
-      "Paso 3: Licuar hasta obtener mezcla homogénea.",
-      "Paso 4: Servir inmediatamente."
-    ],
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/licuado-durazno-fruta-batido-1987076/"
-  },
-  {
-    "nombre": "Empanadas de carne (12 unidades)",
-    "ingredientes": {
-      "Tapas para empanadas": "12 unidades",
-      "Carne picada": "300 g",
-      "Cebolla": "2 unidades",
-      "Morrón rojo": "1 unidad",
-      "Huevo duro": "2 unidades",
-      "Aceitunas": "50 g",
-      "Comino y pimentón": "a gusto",
-      "Aceite": "2 cucharadas",
-      "Sal y pimienta": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Picar la cebolla y el morrón, rehogar en aceite hasta transparentar.",
-      "Paso 2: Agregar la carne picada y cocinar hasta dorar.",
-      "Paso 3: Sumar condimentos, aceitunas picadas y huevo duro troceado.",
-      "Paso 4: Dejar enfriar el relleno.",
-      "Paso 5: Rellenar las tapas, cerrar con repulgue y hornear 20 minutos a 200°C."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/empanadas-comida-argentina-1618979/"
-  },
-  {
-    "nombre": "Tarta de jamón y queso (6 porciones)",
-    "ingredientes": {
-      "Masa para tarta": "1 unidad",
-      "Jamón cocido": "150 g",
-      "Queso mozzarella": "150 g",
-      "Huevos": "2 unidades",
-      "Crema de leche": "100 ml",
-      "Sal y pimienta": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Precalentar el horno a 180°C.",
-      "Paso 2: Colocar la masa en un molde y pinchar con tenedor.",
-      "Paso 3: Distribuir jamón y queso sobre la base.",
-      "Paso 4: Batir los huevos con la crema, salpimentar y verter sobre el relleno.",
-      "Paso 5: Hornear 30 minutos o hasta dorar."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/tarta-quiche-jam%C3%B3n-queso-2990476/"
-  },
-  {
-    "nombre": "Budín de limón (8 porciones)",
-    "ingredientes": {
-      "Harina": "250 g",
-      "Azúcar": "180 g",
-      "Huevos": "3 unidades",
-      "Aceite": "100 ml",
-      "Jugo de limón": "50 ml",
-      "Ralladura de limón": "1 unidad",
-      "Polvo de hornear": "10 g"
-    },
-    "pasos": [
-      "Paso 1: Batir los huevos con el azúcar hasta espumar.",
-      "Paso 2: Agregar el aceite, jugo y ralladura de limón.",
-      "Paso 3: Incorporar la harina y el polvo de hornear tamizados.",
-      "Paso 4: Verter en un molde enmantecado y hornear 40 minutos a 180°C.",
-      "Paso 5: Dejar enfriar y desmoldar."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/bud%C3%ADn-lim%C3%B3n-postre-dulce-2469134/"
-  },
-  {
-    "nombre": "Pizza casera (4 porciones)",
-    "ingredientes": {
-      "Harina": "500 g",
-      "Levadura seca": "10 g",
-      "Agua tibia": "300 ml",
-      "Sal": "1 cucharadita",
-      "Aceite de oliva": "2 cucharadas",
-      "Salsa de tomate": "150 ml",
-      "Mozzarella": "200 g"
-    },
-    "pasos": [
-      "Paso 1: Mezclar harina, levadura y sal, agregar agua y aceite.",
-      "Paso 2: Amasar 10 minutos y dejar levar 1 hora.",
-      "Paso 3: Estirar la masa y colocar en fuente aceitada.",
-      "Paso 4: Cubrir con salsa y mozzarella.",
-      "Paso 5: Hornear 15-20 minutos a 220°C."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/pizza-comida-mozzarella-italiano-3007395/"
-  },
-  {
-    "nombre": "Tiramisú clásico (6 porciones)",
-    "ingredientes": {
-      "Vainillas": "200 g",
-      "Café fuerte": "200 ml",
-      "Queso mascarpone": "250 g",
-      "Huevos": "3 unidades",
-      "Azúcar": "100 g",
-      "Cacao en polvo": "para espolvorear"
-    },
-    "pasos": [
-      "Paso 1: Separar claras y yemas, batir las yemas con azúcar hasta blanquear.",
-      "Paso 2: Agregar el mascarpone y mezclar bien.",
-      "Paso 3: Batir las claras a punto nieve e incorporar suavemente.",
-      "Paso 4: Mojar las vainillas en café y colocar una capa en un molde.",
-      "Paso 5: Alternar capas de crema y vainillas, terminar con crema.",
-      "Paso 6: Refrigerar 4 horas y espolvorear cacao antes de servir."
-    ],
-    "categoria": "dulce",
-    "apto": "NoTACC",
-    "imagen": "https://pixabay.com/es/photos/tiramisu-postre-dulce-italiano-3023146/"
-  },
-  {
-    "nombre": "Limonada con menta (4 porciones)",
-    "ingredientes": {
-      "Limones": "3 unidades",
-      "Azúcar": "3 cucharadas",
-      "Agua fría": "1 litro",
-      "Hojas de menta": "6 unidades",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Exprimir los limones y colocar el jugo en una jarra.",
-      "Paso 2: Agregar azúcar, agua fría y hojas de menta.",
-      "Paso 3: Revolver bien y añadir hielo antes de servir."
-    ],
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/limonada-bebida-lim%C3%B3n-menta-2377211/"
-  },
-  {
-    "nombre": "Galletitas de avena (20 unidades)",
-    "ingredientes": {
-      "Avena": "200 g",
-      "Harina": "100 g",
-      "Azúcar mascabo": "100 g",
-      "Huevos": "2 unidades",
-      "Aceite": "50 ml",
-      "Esencia de vainilla": "1 cucharadita"
-    },
-    "pasos": [
-      "Paso 1: Mezclar avena, harina y azúcar.",
-      "Paso 2: Agregar huevos, aceite y vainilla.",
-      "Paso 3: Formar bolitas y colocarlas en placa con papel manteca.",
-      "Paso 4: Hornear 15 minutos a 180°C.",
-      "Paso 5: Dejar enfriar antes de servir."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/galletas-avena-dulce-postre-1233789/"
-  },
-  {
-    "nombre": "Milanesas de soja (4 porciones)",
-    "ingredientes": {
-      "Soja texturizada": "200 g",
-      "Pan rallado": "150 g",
-      "Ajo": "1 diente",
-      "Perejil": "1 cucharada",
-      "Huevos": "2 unidades",
-      "Sal y pimienta": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Hidratar la soja texturizada en agua caliente 20 minutos y escurrir.",
-      "Paso 2: Mezclar con ajo, perejil, sal, pimienta y huevo.",
-      "Paso 3: Formar milanesas y rebozar en pan rallado.",
-      "Paso 4: Cocinar al horno o sartén hasta dorar ambos lados."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/milanesas-soja-vegetariano-comida-2534201/"
-  },
-  {
-    "nombre": "Flan casero (6 porciones)",
-    "ingredientes": {
-      "Leche": "500 ml",
-      "Huevos": "4 unidades",
-      "Azúcar": "100 g",
-      "Esencia de vainilla": "1 cucharadita",
-      "Azúcar extra (para caramelo)": "80 g"
-    },
-    "pasos": [
-      "Paso 1: Preparar caramelo con el azúcar extra y cubrir el fondo del molde.",
-      "Paso 2: Batir los huevos con el azúcar, añadir la leche y la vainilla.",
-      "Paso 3: Verter en el molde acaramelado.",
-      "Paso 4: Cocinar a baño María 50 minutos a 180°C.",
-      "Paso 5: Dejar enfriar y desmoldar."
-    ],
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/flan-postre-caramelo-1392705/"
-  },
-  {
-    "nombre": "Guiso de lentejas (6 porciones)",
-    "ingredientes": {
-      "Lentejas": "300 g",
-      "Chorizo colorado": "1 unidad",
-      "Carne": "200 g",
-      "Cebolla": "1 unidad",
-      "Zanahoria": "1 unidad",
-      "Puré de tomate": "200 ml",
-      "Pimentón": "1 cucharadita",
-      "Sal y pimienta": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Remojar las lentejas 4 horas.",
-      "Paso 2: Rehogar cebolla y zanahoria picadas, agregar la carne y el chorizo.",
-      "Paso 3: Añadir el puré de tomate y condimentos.",
-      "Paso 4: Incorporar las lentejas y cocinar a fuego bajo 40 minutos.",
-      "Paso 5: Servir caliente."
-    ],
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "imagen": "https://pixabay.com/es/photos/guiso-lentejas-plato-casero-2395142/"
-  },
-  {
-    "nombre": "Ravioles de ricota y espinaca (4 porciones)",
-    "ingredientes": [
-      "400 g de harina 0000",
-      "4 huevos",
-      "250 g de ricota",
-      "150 g de espinaca cocida y picada",
-      "50 g de queso rallado",
-      "Sal, pimienta y nuez moscada a gusto"
-    ],
-    "pasos": [
-      "Paso 1: Mezclá la harina con los huevos y una pizca de sal hasta formar una masa firme.",
-      "Paso 2: Amasá 10 minutos, tapá y dejá descansar 30 minutos.",
-      "Paso 3: Mezclá la ricota con la espinaca, queso, sal y nuez moscada.",
-      "Paso 4: Estirá la masa bien fina y colocá cucharaditas del relleno.",
-      "Paso 5: Cubrí con otra lámina, presioná los bordes y cortá los ravioles.",
-      "Paso 6: Herví en agua con sal hasta que floten y serví con salsa de tomate o manteca."
-    ],
-    "categoria": "Salado",
-    "apto": "NoTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2016/03/05/22/49/pasta-1239241_1280.jpg"
-  },
-  {
-    "nombre": "Hamburguesa casera con papas (2 porciones)",
-    "ingredientes": [
-      "300 g de carne picada",
-      "1 cebolla picada",
-      "1 huevo",
-      "2 panes de hamburguesa",
-      "2 fetas de queso cheddar",
-      "1 tomate en rodajas",
-      "Lechuga a gusto",
-      "Sal, pimienta y condimentos a gusto",
-      "2 papas grandes"
-    ],
-    "pasos": [
-      "Paso 1: Mezclá la carne con cebolla, huevo, sal y condimentos.",
-      "Paso 2: Formá las hamburguesas y cocinalas en sartén o parrilla.",
-      "Paso 3: Pelá y cortá las papas, freílas hasta que estén doradas.",
-      "Paso 4: Armá las hamburguesas con pan, queso, lechuga y tomate.",
-      "Paso 5: Serví con las papas al costado."
-    ],
-    "categoria": "Salado",
-    "apto": "NoTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2016/03/05/22/49/burger-1238246_1280.jpg"
-  },
-  {
-    "nombre": "Tarta de verduras (4 porciones)",
-    "ingredientes": [
-      "1 tapa de tarta",
-      "1 cebolla",
-      "1 zucchini",
-      "1 zanahoria",
-      "3 huevos",
-      "100 ml de crema de leche",
-      "50 g de queso rallado",
-      "Sal, pimienta y nuez moscada a gusto"
-    ],
-    "pasos": [
-      "Paso 1: Rehogá las verduras picadas en una sartén con un poco de aceite.",
-      "Paso 2: En un bol, mezclá los huevos, la crema y el queso.",
-      "Paso 3: Agregá las verduras cocidas y condimentá.",
-      "Paso 4: Verté sobre la masa en una tartera.",
-      "Paso 5: Horneá 30 minutos a 180°C hasta que esté dorada."
-    ],
-    "categoria": "Salado",
-    "apto": "NoTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2017/04/23/08/21/quiche-2252345_1280.jpg"
-  },
-  {
-    "nombre": "Pastel de papa (4 porciones)",
-    "ingredientes": [
-      "500 g de carne picada",
-      "2 cebollas",
-      "1 morrón",
-      "1 kg de papas",
-      "100 ml de leche",
-      "30 g de manteca",
-      "Sal, pimienta y nuez moscada"
-    ],
-    "pasos": [
-      "Paso 1: Herví las papas, hacé un puré con manteca, leche, sal y nuez moscada.",
-      "Paso 2: Rehogá cebolla y morrón, agregá la carne y cociná hasta dorar.",
-      "Paso 3: En una fuente, poné una capa de puré, la carne y otra capa de puré.",
-      "Paso 4: Horneá 20 minutos hasta que esté dorado por encima."
-    ],
-    "categoria": "Salado",
-    "apto": "NoTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2021/09/18/19/25/shepherds-pie-6635819_1280.jpg"
-  },
-  {
-    "nombre": "Tiramisú clásico (6 porciones)",
-    "ingredientes": [
-      "250 g de mascarpone",
-      "3 huevos",
-      "100 g de azúcar",
-      "200 g de vainillas",
-      "200 ml de café fuerte",
-      "Cacao amargo para espolvorear"
-    ],
-    "pasos": [
-      "Paso 1: Separá las claras y las yemas.",
-      "Paso 2: Batí las yemas con azúcar hasta que espesen.",
-      "Paso 3: Agregá el mascarpone y mezclá bien.",
-      "Paso 4: Batí las claras a nieve e incorporalas con movimientos suaves.",
-      "Paso 5: Mojá las vainillas en café y armá capas alternadas con la crema.",
-      "Paso 6: Terminá con cacao espolvoreado y refrigerá 3 horas."
-    ],
-    "categoria": "Dulce",
-    "apto": "SiTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2018/03/13/17/44/tiramisu-3225581_1280.jpg"
-  },
-  {
-    "nombre": "Budín de limón (8 porciones)",
-    "ingredientes": [
-      "200 g de harina leudante",
-      "150 g de azúcar",
-      "2 huevos",
-      "100 ml de aceite",
-      "100 ml de leche",
-      "Ralladura y jugo de 1 limón"
-    ],
-    "pasos": [
-      "Paso 1: Batí los huevos con el azúcar hasta que espumen.",
-      "Paso 2: Agregá el aceite, la leche y el jugo de limón.",
-      "Paso 3: Incorporá la harina y la ralladura mezclando suavemente.",
-      "Paso 4: Verté en un molde enmantecado.",
-      "Paso 5: Horneá 35 minutos a 180°C.",
-      "Paso 6: Dejá enfriar antes de desmoldar."
-    ],
-    "categoria": "Dulce",
-    "apto": "NoTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2021/04/30/11/57/lemon-cake-6220513_1280.jpg"
-  },
-  {
-    "nombre": "Mousse de chocolate (4 porciones)",
-    "ingredientes": [
-      "200 g de chocolate amargo",
-      "3 huevos",
-      "50 g de azúcar",
-      "150 ml de crema de leche"
-    ],
-    "pasos": [
-      "Paso 1: Derretí el chocolate a baño maría y dejá entibiar.",
-      "Paso 2: Separá las claras de las yemas.",
-      "Paso 3: Batí las yemas con el chocolate.",
-      "Paso 4: Batí las claras con el azúcar a punto nieve.",
-      "Paso 5: Incorporá la crema batida y las claras al chocolate.",
-      "Paso 6: Llevá a la heladera por al menos 2 horas."
-    ],
-    "categoria": "Dulce",
-    "apto": "SiTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2016/02/25/11/41/chocolate-mousse-1224082_1280.jpg"
-  },
-  {
-    "nombre": "Panqueques con dulce de leche (6 porciones)",
-    "ingredientes": [
-      "2 huevos",
-      "250 ml de leche",
-      "100 g de harina",
-      "1 cucharada de manteca derretida",
-      "1 pizca de sal",
-      "Dulce de leche a gusto"
-    ],
-    "pasos": [
-      "Paso 1: Batí los huevos con leche y manteca.",
-      "Paso 2: Agregá la harina y la sal.",
-      "Paso 3: Calentá una sartén y cociná los panqueques finitos.",
-      "Paso 4: Untá con dulce de leche y enrollá."
-    ],
-    "categoria": "Dulce",
-    "apto": "NoTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2020/05/12/08/48/crepes-5162690_1280.jpg"
-  },
-  {
-    "nombre": "Smoothie tropical (2 porciones)",
-    "ingredientes": [
-      "1 banana",
-      "1 rodaja de ananá",
-      "100 ml de jugo de naranja",
-      "50 ml de leche de coco",
-      "Hielo a gusto"
-    ],
-    "pasos": [
-      "Paso 1: Pelá y cortá las frutas.",
-      "Paso 2: Colocalas en la licuadora con los líquidos y el hielo.",
-      "Paso 3: Licuá hasta que quede cremoso.",
-      "Paso 4: Serví frío."
-    ],
-    "categoria": "Bebida",
-    "apto": "SiTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2017/06/07/15/53/smoothie-2387710_1280.jpg"
-  },
-  {
-    "nombre": "Café frío con leche (1 porción)",
-    "ingredientes": [
-      "1 taza de café fuerte",
-      "100 ml de leche",
-      "2 cucharaditas de azúcar",
-      "Hielo"
-    ],
-    "pasos": [
-      "Paso 1: Prepará el café y dejá enfriar.",
-      "Paso 2: Agregá el azúcar y mezclá.",
-      "Paso 3: Añadí leche y hielo.",
-      "Paso 4: Serví inmediatamente."
-    ],
-    "categoria": "Bebida",
-    "apto": "SiTACC",
-    "imagen": "https://cdn.pixabay.com/photo/2018/05/21/17/26/coffee-3410399_1280.jpg"
-  },
-  {
-    "nombre": "Ñoquis de papa caseros",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Papas": "1 kg",
-      "Harina": "300 g",
-      "Huevo": "1 unidad",
-      "Sal": "a gusto"
-    },
-    "pasos": [
-      "Hervir las papas con cáscara hasta que estén tiernas.",
-      "Pelar y hacer un puré mientras aún estén calientes.",
-      "Agregar el huevo, la sal y de a poco la harina.",
-      "Formar una masa suave, hacer rollitos y cortar los ñoquis.",
-      "Hervir en abundante agua con sal hasta que suban a la superficie."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2019/03/04/20/24/gnocchi-4032323_1280.jpg"
-  },
-  {
-    "nombre": "Tarta de jamón y queso",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Tapas para tarta": "2 unidades",
-      "Jamón cocido": "200 g",
-      "Queso mozzarella": "200 g",
-      "Huevos": "2 unidades",
-      "Crema de leche": "100 ml"
-    },
-    "pasos": [
-      "Colocar una tapa en una tartera y pincharla con tenedor.",
-      "Cubrir con jamón y queso.",
-      "Batir los huevos con la crema y volcar encima.",
-      "Cubrir con la otra tapa, cerrar los bordes y pinchar.",
-      "Hornear a 180°C por 30 minutos hasta dorar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2021/01/26/15/38/quiche-5952121_1280.jpg"
-  },
-  {
-    "nombre": "Empanadas de carne",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Tapas para empanadas": "12 unidades",
-      "Carne picada": "500 g",
-      "Cebolla": "1 unidad",
-      "Pimiento": "1/2 unidad",
-      "Comino": "1 cucharadita",
-      "Pimentón": "1 cucharadita"
-    },
-    "pasos": [
-      "Rehogar la cebolla y el pimiento en aceite.",
-      "Agregar la carne, condimentos y cocinar hasta dorar.",
-      "Dejar enfriar el relleno.",
-      "Rellenar las tapas, cerrar con repulgue y hornear a 200°C por 20 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2020/06/06/06/29/empanadas-5264939_1280.jpg"
-  },
-  {
-    "nombre": "Tostadas francesas con miel",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Pan lactal": "4 rebanadas",
-      "Huevo": "1 unidad",
-      "Leche": "100 ml",
-      "Canela": "1/2 cucharadita",
-      "Miel": "a gusto"
-    },
-    "pasos": [
-      "Batir el huevo con la leche y la canela.",
-      "Remojar las rebanadas de pan en la mezcla.",
-      "Cocinar en sartén con manteca hasta dorar ambos lados.",
-      "Servir con miel por encima."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/11/29/04/17/french-toast-1869687_1280.jpg"
-  },
-  {
-    "nombre": "Pizza fugazzeta",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Harina": "500 g",
-      "Levadura seca": "10 g",
-      "Agua tibia": "250 ml",
-      "Queso mozzarella": "300 g",
-      "Cebolla": "2 unidades"
-    },
-    "pasos": [
-      "Formar la masa con harina, agua, levadura y sal.",
-      "Dejar levar 1 hora.",
-      "Estirar, cubrir con mozzarella y cebolla en pluma.",
-      "Hornear a 220°C por 20 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2021/03/01/14/43/pizza-6061471_1280.jpg"
-  },
-  {
-    "nombre": "Tiramisú clásico",
-    "categoria": "dulce",
-    "apto": "NoTACC",
-    "ingredientes": {
-      "Vainillas": "200 g",
-      "Queso mascarpone": "250 g",
-      "Huevos": "2 unidades",
-      "Azúcar": "3 cucharadas",
-      "Café fuerte": "1 taza",
-      "Cacao amargo": "a gusto"
-    },
-    "pasos": [
-      "Separar claras y yemas. Batir las yemas con azúcar.",
-      "Agregar el mascarpone y mezclar.",
-      "Mojar las vainillas en café y formar una capa.",
-      "Agregar crema, repetir capas y terminar con cacao.",
-      "Refrigerar al menos 4 horas antes de servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/05/07/08/56/tiramisu-2294393_1280.jpg"
-  },
-  {
-    "nombre": "Budín de limón",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Harina leudante": "250 g",
-      "Azúcar": "200 g",
-      "Huevos": "3 unidades",
-      "Aceite": "100 ml",
-      "Ralladura de limón": "1 unidad"
-    },
-    "pasos": [
-      "Batir huevos con azúcar hasta espumar.",
-      "Agregar aceite y ralladura de limón.",
-      "Incorporar la harina en tres partes.",
-      "Hornear en budinera enmantecada a 180°C por 35 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/06/05/20/23/lemon-cake-2372741_1280.jpg"
-  },
-  {
-    "nombre": "Batido de banana y avena",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Bananas": "2 unidades",
-      "Leche": "300 ml",
-      "Avena": "2 cucharadas",
-      "Miel": "1 cucharada"
-    },
-    "pasos": [
-      "Colocar todos los ingredientes en la licuadora.",
-      "Licuar hasta obtener una textura cremosa.",
-      "Servir frío con hielo si se desea."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/05/11/22/19/smoothie-2305182_1280.jpg"
-  },
-  {
-    "nombre": "Scones de queso",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Harina leudante": "250 g",
-      "Manteca": "80 g",
-      "Queso rallado": "100 g",
-      "Leche": "100 ml"
-    },
-    "pasos": [
-      "Mezclar la harina con la manteca hasta formar arenado.",
-      "Agregar el queso y la leche hasta formar masa.",
-      "Estirar, cortar y hornear a 200°C por 15 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/06/06/12/49/cheese-2377747_1280.jpg"
-  },
-  {
-    "nombre": "Milanesas napolitanas",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Carne para milanesa": "4 unidades",
-      "Pan rallado": "200 g",
-      "Huevos": "2 unidades",
-      "Jamón cocido": "4 fetas",
-      "Queso mozzarella": "150 g",
-      "Salsa de tomate": "1 taza"
-    },
-    "pasos": [
-      "Pasar las milanesas por huevo batido y pan rallado.",
-      "Freír o cocinar al horno hasta dorar.",
-      "Cubrir con salsa, jamón y queso.",
-      "Gratinar en el horno y servir calientes."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2020/08/30/12/53/milanesa-5530205_1280.jpg"
-  },
-  {
-    "nombre": "Panqueques con dulce de leche",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Huevos": "2 unidades",
-      "Leche": "250 ml",
-      "Harina": "150 g",
-      "Manteca derretida": "1 cucharada",
-      "Dulce de leche": "a gusto"
-    },
-    "pasos": [
-      "Mezclar huevos, leche y harina hasta lograr una masa líquida sin grumos.",
-      "Cocinar porciones finas en una sartén enmantecada.",
-      "Dar vuelta cuando los bordes se despeguen.",
-      "Rellenar con dulce de leche y enrollar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2020/01/13/19/33/pancakes-4763398_1280.jpg"
-  },
-  {
-    "nombre": "Locro argentino",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Maíz blanco partido": "500 g",
-      "Porotos blancos": "200 g",
-      "Zapallo": "500 g",
-      "Chorizo colorado": "1 unidad",
-      "Panceta": "100 g",
-      "Cebolla": "1 unidad"
-    },
-    "pasos": [
-      "Dejar en remojo el maíz y los porotos la noche anterior.",
-      "Hervir con abundante agua durante una hora.",
-      "Agregar el zapallo en cubos, cebolla, panceta y chorizo.",
-      "Cocinar lentamente hasta espesar y servir caliente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2020/07/16/16/37/lentil-soup-5411972_1280.jpg"
-  },
-  {
-    "nombre": "Pasta carbonara",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Spaghetti": "400 g",
-      "Panceta": "150 g",
-      "Huevos": "3 unidades",
-      "Queso parmesano rallado": "50 g",
-      "Pimienta negra": "a gusto"
-    },
-    "pasos": [
-      "Cocinar la pasta al dente.",
-      "Saltear la panceta hasta que esté crujiente.",
-      "Batir los huevos con parmesano y pimienta.",
-      "Mezclar todo fuera del fuego para que el huevo no coagule.",
-      "Servir inmediatamente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2020/03/23/09/14/pasta-4955881_1280.jpg"
-  },
-  {
-    "nombre": "Flan casero con caramelo",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Huevos": "6 unidades",
-      "Leche": "1 litro",
-      "Azúcar": "200 g",
-      "Esencia de vainilla": "1 cucharadita"
-    },
-    "pasos": [
-      "Hacer caramelo con 100 g de azúcar y cubrir la base del molde.",
-      "Batir los huevos con el resto del azúcar y la leche.",
-      "Agregar la vainilla y mezclar.",
-      "Verter sobre el caramelo y cocinar a baño maría por 45 minutos.",
-      "Enfriar y desmoldar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/08/10/14/18/flan-3595535_1280.jpg"
-  },
-  {
-    "nombre": "Arepas venezolanas",
-    "categoria": "salado",
-    "apto": "NoTACC",
-    "ingredientes": {
-      "Harina de maíz precocida": "2 tazas",
-      "Agua": "2 tazas",
-      "Sal": "1 cucharadita",
-      "Aceite": "para cocinar"
-    },
-    "pasos": [
-      "Mezclar la harina con agua y sal hasta obtener una masa suave.",
-      "Formar discos de 1 cm de grosor.",
-      "Cocinar en plancha o sartén hasta dorar ambos lados.",
-      "Rellenar con queso, palta o carne mechada."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/06/30/13/44/arepas-1487614_1280.jpg"
-  },
-  {
-    "nombre": "Brownie de chocolate",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Chocolate amargo": "200 g",
-      "Manteca": "150 g",
-      "Azúcar": "200 g",
-      "Huevos": "3 unidades",
-      "Harina": "100 g"
-    },
-    "pasos": [
-      "Derretir el chocolate con la manteca a baño maría.",
-      "Agregar azúcar y huevos uno por uno.",
-      "Incorporar la harina y mezclar bien.",
-      "Verter en molde enmantecado y hornear a 180°C por 25 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/11/29/12/54/brownies-1867450_1280.jpg"
-  },
-  {
-    "nombre": "Paella valenciana",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Arroz": "400 g",
-      "Pollo trozado": "300 g",
-      "Mariscos": "200 g",
-      "Pimiento rojo": "1 unidad",
-      "Azafrán": "1 pizca",
-      "Caldo de ave": "1 litro"
-    },
-    "pasos": [
-      "Sofreír el pollo y los mariscos en una paellera con aceite.",
-      "Agregar el pimiento en tiras y el arroz.",
-      "Incorporar el caldo caliente con el azafrán.",
-      "Cocinar sin remover hasta que el arroz absorba el líquido.",
-      "Dejar reposar 5 minutos antes de servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/02/19/11/19/paella-1209006_1280.jpg"
-  },
-  {
-    "nombre": "Budín de pan",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Pan duro": "200 g",
-      "Leche": "500 ml",
-      "Azúcar": "150 g",
-      "Huevos": "3 unidades",
-      "Pasas de uva": "a gusto"
-    },
-    "pasos": [
-      "Remojar el pan en la leche tibia.",
-      "Agregar azúcar, huevos y pasas.",
-      "Verter en molde acaramelado.",
-      "Cocinar a baño maría a 180°C por 40 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2020/04/12/16/36/bread-pudding-5032108_1280.jpg"
-  },
-  {
-    "nombre": "Ceviche peruano",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Pescado blanco": "400 g",
-      "Limones": "8 unidades",
-      "Cebolla morada": "1 unidad",
-      "Ají limo": "1 unidad",
-      "Cilantro": "a gusto"
-    },
-    "pasos": [
-      "Cortar el pescado en cubos y colocarlo en un bol.",
-      "Agregar jugo de limón, cebolla en pluma, ají y cilantro.",
-      "Dejar marinar 10 minutos en heladera y servir frío."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/08/03/06/19/ceviche-1560437_1280.jpg"
-  },
-  {
-    "nombre": "Smoothie de frutos rojos",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Frutos rojos congelados": "1 taza",
-      "Yogur natural": "1 taza",
-      "Miel": "1 cucharada",
-      "Leche": "100 ml"
-    },
-    "pasos": [
-      "Colocar todos los ingredientes en la licuadora.",
-      "Licuar hasta obtener una mezcla homogénea.",
-      "Servir inmediatamente decorado con frutas frescas."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/01/31/20/57/smoothie-3125307_1280.jpg"
-  },
-  {
-    "nombre": "Alfajores de maicena",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Harina de maicena": "200 g",
-      "Harina 0000": "100 g",
-      "Manteca": "150 g",
-      "Azúcar": "100 g",
-      "Yemas": "2 unidades",
-      "Dulce de leche": "200 g",
-      "Coco rallado": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Batir la manteca con el azúcar hasta cremar.",
-      "Paso 2: Agregar las yemas y mezclar bien.",
-      "Paso 3: Incorporar las harinas y formar una masa suave.",
-      "Paso 4: Estirar la masa y cortar círculos.",
-      "Paso 5: Hornear a 180°C por 10-12 minutos hasta que estén apenas dorados.",
-      "Paso 6: Rellenar con dulce de leche y pasar los bordes por coco rallado."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/06/18/16/05/alfajores-3487698_1280.jpg"
-  },
-  {
-    "nombre": "Chocotorta",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Galletitas de chocolate": "300 g",
-      "Dulce de leche": "400 g",
-      "Queso crema": "400 g",
-      "Café o leche": "100 ml"
-    },
-    "pasos": [
-      "Paso 1: Mezclar el queso crema con el dulce de leche hasta obtener una crema homogénea.",
-      "Paso 2: Mojar las galletitas rápidamente en café o leche.",
-      "Paso 3: Hacer capas alternadas de galletitas y crema en un molde.",
-      "Paso 4: Repetir hasta terminar los ingredientes.",
-      "Paso 5: Refrigerar al menos 4 horas antes de servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/01/12/17/36/chocolate-cake-1978893_1280.jpg"
-  },
-  {
-    "nombre": "Brownie de nueces",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Chocolate amargo": "200 g",
-      "Manteca": "150 g",
-      "Azúcar": "200 g",
-      "Huevos": "3 unidades",
-      "Harina": "100 g",
-      "Nueces picadas": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Derretir el chocolate con manteca a baño maría.",
-      "Paso 2: Mezclar con el azúcar y las yemas de huevo.",
-      "Paso 3: Incorporar la harina y las nueces, mezclar suavemente.",
-      "Paso 4: Batir las claras a punto nieve e incorporar con movimientos envolventes.",
-      "Paso 5: Hornear a 180°C por 25 minutos, dejar enfriar antes de cortar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/11/29/12/54/brownies-1867450_1280.jpg"
-  },
-  {
-    "nombre": "Lemon pie argentino",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Base de masa quebrada": "1 unidad",
-      "Leche condensada": "400 g",
-      "Yemas": "4 unidades",
-      "Jugo de limón": "120 ml",
-      "Claras": "3 unidades",
-      "Azúcar": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Hornear la base de masa quebrada a 180°C por 15 minutos y dejar enfriar.",
-      "Paso 2: Mezclar leche condensada, yemas y jugo de limón hasta obtener crema homogénea.",
-      "Paso 3: Verter la mezcla sobre la base horneada.",
-      "Paso 4: Batir las claras a punto nieve con el azúcar y cubrir la tarta.",
-      "Paso 5: Gratinar brevemente en horno o con soplete hasta dorar el merengue."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/01/27/18/30/lemon-pie-3109276_1280.jpg"
-  },
-  {
-    "nombre": "Milanesas de pollo",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Pechuga de pollo": "4 unidades",
-      "Huevos": "2 unidades",
-      "Pan rallado": "200 g",
-      "Sal y pimienta": "a gusto",
-      "Aceite": "para freír"
-    },
-    "pasos": [
-      "Paso 1: Batir los huevos con sal y pimienta.",
-      "Paso 2: Pasar las pechugas por huevo y luego por pan rallado.",
-      "Paso 3: Freír en aceite caliente hasta dorar por ambos lados.",
-      "Paso 4: Escurrir sobre papel absorbente y servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2020/08/30/12/53/milanesa-5530205_1280.jpg"
-  },
-  {
-    "nombre": "Guiso de lentejas",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Lentejas": "300 g",
-      "Zanahoria": "2 unidades",
-      "Cebolla": "1 unidad",
-      "Pimiento": "1 unidad",
-      "Caldo de verduras": "1 litro",
-      "Aceite": "2 cucharadas"
-    },
-    "pasos": [
-      "Paso 1: Rehogar la cebolla, zanahoria y pimiento picados en aceite.",
-      "Paso 2: Agregar las lentejas y cubrir con caldo de verduras.",
-      "Paso 3: Cocinar a fuego medio hasta que las lentejas estén tiernas.",
-      "Paso 4: Ajustar sal y pimienta y servir caliente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/01/19/17/47/lentil-soup-1142497_1280.jpg"
-  },
-  {
-    "nombre": "Fideos con pesto italiano",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Fideos tipo tagliatelle": "400 g",
-      "Albahaca fresca": "50 g",
-      "Aceite de oliva": "50 ml",
-      "Piñones": "30 g",
-      "Queso parmesano": "50 g",
-      "Ajo": "1 diente"
-    },
-    "pasos": [
-      "Paso 1: Cocinar los fideos al dente en agua con sal.",
-      "Paso 2: Licuar albahaca, piñones, ajo, aceite y parmesano hasta formar pesto.",
-      "Paso 3: Mezclar la pasta con la salsa y servir inmediatamente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/03/05/22/49/pasta-1239241_1280.jpg"
-  },
-  {
-    "nombre": "Hamburguesa casera",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Carne picada": "400 g",
-      "Pan de hamburguesa": "2 unidades",
-      "Lechuga": "2 hojas",
-      "Tomate": "1 unidad",
-      "Queso cheddar": "2 fetas",
-      "Sal y pimienta": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Formar hamburguesas con la carne, sal y pimienta.",
-      "Paso 2: Cocinar a la plancha o sartén hasta el punto deseado.",
-      "Paso 3: Colocar en pan con lechuga, tomate y queso.",
-      "Paso 4: Servir caliente acompañado de papas fritas."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/03/05/22/49/burger-1238246_1280.jpg"
-  },
-  {
-    "nombre": "Licuado de mango y banana",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Mango": "1 unidad",
-      "Banana": "1 unidad",
-      "Leche": "200 ml",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Pelar y cortar la fruta.",
-      "Paso 2: Colocar en la licuadora con leche y hielo.",
-      "Paso 3: Licuar hasta obtener consistencia cremosa.",
-      "Paso 4: Servir inmediatamente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/06/07/15/53/smoothie-2387710_1280.jpg"
-  },
-  {
-    "nombre": "Café frappé",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Café instantáneo": "1 cucharada",
-      "Leche": "150 ml",
-      "Azúcar": "2 cucharaditas",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Disolver el café y azúcar en un poco de agua.",
-      "Paso 2: Colocar en licuadora con hielo y leche.",
-      "Paso 3: Licuar hasta obtener espuma.",
-      "Paso 4: Servir frío en vaso alto."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/05/21/17/26/coffee-3410399_1280.jpg"
-  },
-  {
-    "nombre": "Dulce de membrillo casero",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Membrillos": "1 kg",
-      "Azúcar": "800 g",
-      "Agua": "250 ml"
-    },
-    "pasos": [
-      "Paso 1: Pelar y cortar los membrillos en trozos.",
-      "Paso 2: Hervir en agua hasta que estén tiernos.",
-      "Paso 3: Procesar los membrillos hasta obtener puré.",
-      "Paso 4: Mezclar el puré con azúcar y cocinar a fuego medio hasta que espese.",
-      "Paso 5: Volcar en molde enmantecado, dejar enfriar y desmoldar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/04/20/10/53/quince-2241493_1280.jpg"
-  },
-  {
-    "nombre": "Chocotorta light",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Galletitas de chocolate": "250 g",
-      "Queso crema bajo en grasa": "400 g",
-      "Dulce de leche": "200 g",
-      "Café o leche": "100 ml"
-    },
-    "pasos": [
-      "Paso 1: Mezclar el queso crema con el dulce de leche.",
-      "Paso 2: Mojar las galletitas en café o leche.",
-      "Paso 3: Hacer capas alternadas de galletitas y crema.",
-      "Paso 4: Refrigerar al menos 3 horas antes de servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/01/12/17/36/chocolate-cake-1978893_1280.jpg"
-  },
-  {
-    "nombre": "Cookies de avena y pasas",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Avena": "150 g",
-      "Harina": "100 g",
-      "Manteca": "100 g",
-      "Azúcar morena": "100 g",
-      "Huevo": "1 unidad",
-      "Pasas de uva": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Mezclar manteca y azúcar hasta cremar.",
-      "Paso 2: Agregar huevo y mezclar.",
-      "Paso 3: Incorporar avena, harina y pasas.",
-      "Paso 4: Formar bolitas y colocar en placa con papel manteca.",
-      "Paso 5: Hornear a 180°C por 12-15 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/03/12/20/49/cookies-2139020_1280.jpg"
-  },
-  {
-    "nombre": "Pionono dulce",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Huevos": "4 unidades",
-      "Azúcar": "120 g",
-      "Harina": "120 g",
-      "Dulce de leche": "200 g",
-      "Coco rallado": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Batir huevos con azúcar hasta espumar.",
-      "Paso 2: Incorporar harina suavemente.",
-      "Paso 3: Verter la mezcla en placa enmantecada y hornear a 180°C por 10 minutos.",
-      "Paso 4: Desmoldar sobre papel con azúcar y enrollar con dulce de leche.",
-      "Paso 5: Espolvorear con coco rallado."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/05/06/14/36/swirl-cake-3382157_1280.jpg"
-  },
-  {
-    "nombre": "Choripán con chimichurri",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Chorizos": "4 unidades",
-      "Pan tipo baguette": "4 unidades",
-      "Chimichurri": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Asar los chorizos hasta que estén dorados y jugosos.",
-      "Paso 2: Abrir el pan y colocar el chorizo caliente.",
-      "Paso 3: Cubrir con chimichurri al gusto y servir inmediatamente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/11/21/15/51/chorizo-1846011_1280.jpg"
-  },
-  {
-    "nombre": "Tortilla española",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Papas": "500 g",
-      "Huevos": "4 unidades",
-      "Cebolla": "1 unidad",
-      "Aceite de oliva": "50 ml",
-      "Sal": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Pelar y cortar las papas en rodajas finas.",
-      "Paso 2: Rehogar papas y cebolla en aceite hasta tiernas.",
-      "Paso 3: Batir los huevos y mezclar con las papas.",
-      "Paso 4: Cocinar en sartén hasta que cuaje y dorar por ambos lados."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/06/12/15/51/tortilla-3470702_1280.jpg"
-  },
-  {
-    "nombre": "Empanadas de humita",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Tapas para empanadas": "12 unidades",
-      "Choclo desgranado": "400 g",
-      "Cebolla": "1 unidad",
-      "Queso crema": "100 g",
-      "Manteca": "2 cucharadas"
-    },
-    "pasos": [
-      "Paso 1: Rehogar la cebolla en manteca.",
-      "Paso 2: Agregar choclo y cocinar unos minutos.",
-      "Paso 3: Mezclar con queso crema y dejar enfriar.",
-      "Paso 4: Rellenar las tapas y cerrar bien.",
-      "Paso 5: Hornear a 200°C por 20 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/05/07/08/39/empanadas-2294386_1280.jpg"
-  },
-  {
-    "nombre": "Risotto de champiñones",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Arroz para risotto": "300 g",
-      "Champiñones": "200 g",
-      "Cebolla": "1 unidad",
-      "Caldo de verduras": "1 litro",
-      "Manteca": "50 g",
-      "Queso parmesano": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Rehogar cebolla y champiñones en manteca.",
-      "Paso 2: Agregar arroz y saltear 2 minutos.",
-      "Paso 3: Incorporar caldo caliente de a poco, removiendo constantemente.",
-      "Paso 4: Cocinar hasta que el arroz esté cremoso.",
-      "Paso 5: Agregar parmesano, mezclar y servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/03/11/10/39/risotto-2131410_1280.jpg"
-  },
-  {
-    "nombre": "Smoothie de frutilla y banana",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Frutillas": "150 g",
-      "Banana": "1 unidad",
-      "Leche": "200 ml",
-      "Miel": "1 cucharadita"
-    },
-    "pasos": [
-      "Paso 1: Lavar y cortar las frutillas.",
-      "Paso 2: Colocar frutillas, banana, leche y miel en licuadora.",
-      "Paso 3: Licuar hasta obtener textura cremosa.",
-      "Paso 4: Servir inmediatamente frío."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/02/06/21/50/strawberries-3137064_1280.jpg"
-  },
-  {
-    "nombre": "Medialunas de manteca",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Harina": "500 g",
-      "Manteca": "250 g",
-      "Azúcar": "50 g",
-      "Levadura seca": "10 g",
-      "Leche": "200 ml",
-      "Huevos": "2 unidades",
-      "Sal": "1 cucharadita"
-    },
-    "pasos": [
-      "Paso 1: Activar la levadura con leche tibia y una cucharadita de azúcar.",
-      "Paso 2: Mezclar harina, azúcar y sal en un bol.",
-      "Paso 3: Incorporar levadura y huevos, amasar hasta obtener masa suave.",
-      "Paso 4: Dejar descansar 1 hora hasta que duplique tamaño.",
-      "Paso 5: Estirar la masa, cortar triángulos, rellenar con manteca y enrollar.",
-      "Paso 6: Hornear a 180°C por 15-20 minutos hasta dorar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2015/11/19/21/02/croissant-1050702_1280.jpg"
-  },
-  {
-    "nombre": "Torta de ricota argentina",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Ricota": "500 g",
-      "Azúcar": "200 g",
-      "Huevos": "3 unidades",
-      "Harina": "200 g",
-      "Esencia de vainilla": "1 cucharadita",
-      "Ralladura de limón": "1 unidad"
-    },
-    "pasos": [
-      "Paso 1: Batir huevos con azúcar hasta espumar.",
-      "Paso 2: Incorporar ricota, esencia de vainilla y ralladura de limón.",
-      "Paso 3: Agregar harina y mezclar suavemente.",
-      "Paso 4: Verter en molde enmantecado y hornear a 180°C por 40-45 minutos.",
-      "Paso 5: Dejar enfriar antes de desmoldar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/11/23/14/45/cake-1850821_1280.jpg"
-  },
-  {
-    "nombre": "Cupcakes de vainilla",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Harina": "200 g",
-      "Azúcar": "150 g",
-      "Huevos": "2 unidades",
-      "Manteca": "100 g",
-      "Leche": "100 ml",
-      "Esencia de vainilla": "1 cucharadita",
-      "Polvo de hornear": "1 cucharadita"
-    },
-    "pasos": [
-      "Paso 1: Batir manteca con azúcar hasta cremar.",
-      "Paso 2: Agregar huevos y esencia de vainilla, mezclar bien.",
-      "Paso 3: Incorporar harina y polvo de hornear alternando con leche.",
-      "Paso 4: Verter en moldes para cupcakes.",
-      "Paso 5: Hornear a 180°C por 18-20 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/11/19/17/32/cupcakes-1838889_1280.jpg"
-  },
-  {
-    "nombre": "Tarta de manzana",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Masa de tarta": "1 unidad",
-      "Manzanas": "4 unidades",
-      "Azúcar": "100 g",
-      "Canela": "1 cucharadita",
-      "Manteca": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Pelar y cortar las manzanas en láminas.",
-      "Paso 2: Colocar la masa en molde y cubrir con manzanas.",
-      "Paso 3: Espolvorear azúcar y canela, distribuir manteca en trocitos.",
-      "Paso 4: Hornear a 180°C por 35-40 minutos hasta dorar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2015/03/26/09/50/apple-pie-690126_1280.jpg"
-  },
-  {
-    "nombre": "Milanesas de carne vacuna",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Bifes de carne": "4 unidades",
-      "Huevos": "2 unidades",
-      "Pan rallado": "200 g",
-      "Sal y pimienta": "a gusto",
-      "Aceite": "para freír"
-    },
-    "pasos": [
-      "Paso 1: Batir huevos con sal y pimienta.",
-      "Paso 2: Pasar los bifes por huevo y luego por pan rallado.",
-      "Paso 3: Freír en aceite caliente hasta dorar.",
-      "Paso 4: Escurrir sobre papel absorbente y servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/03/07/12/10/milanesa-3209086_1280.jpg"
-  },
-  {
-    "nombre": "Empanadas salteñas",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Tapas para empanadas": "12 unidades",
-      "Carne picada": "300 g",
-      "Cebolla": "1 unidad",
-      "Papa": "1 unidad",
-      "Aceite": "2 cucharadas",
-      "Huevo duro": "1 unidad"
-    },
-    "pasos": [
-      "Paso 1: Rehogar cebolla y agregar carne picada, cocinar hasta dorar.",
-      "Paso 2: Incorporar papa cortada en cubitos y cocinar unos minutos.",
-      "Paso 3: Dejar enfriar y añadir huevo duro picado.",
-      "Paso 4: Rellenar tapas de empanadas y cerrar con repulgue.",
-      "Paso 5: Hornear a 200°C por 20-25 minutos."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/07/26/21/28/empanadas-1548530_1280.jpg"
-  },
-  {
-    "nombre": "Pizza casera",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Masa para pizza": "1 unidad",
-      "Salsa de tomate": "150 g",
-      "Queso mozzarella": "200 g",
-      "Jamón cocido": "100 g",
-      "Orégano": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Estirar la masa en placa y cubrir con salsa de tomate.",
-      "Paso 2: Distribuir el queso, jamón y espolvorear orégano.",
-      "Paso 3: Hornear a 220°C por 15-20 minutos hasta dorar.",
-      "Paso 4: Servir caliente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/02/05/15/09/pizza-2046584_1280.jpg"
-  },
-  {
-    "nombre": "Fajitas mexicanas",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Tortillas de harina": "6 unidades",
-      "Pechuga de pollo": "300 g",
-      "Pimiento": "1 unidad",
-      "Cebolla": "1 unidad",
-      "Aceite": "2 cucharadas",
-      "Salsa de tomate": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Cortar pollo y verduras en tiras y saltear en aceite.",
-      "Paso 2: Calentar tortillas en sartén o microondas.",
-      "Paso 3: Rellenar tortillas con pollo y verduras salteadas.",
-      "Paso 4: Añadir salsa de tomate al gusto y servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/05/24/11/21/fajitas-2331983_1280.jpg"
-  },
-  {
-    "nombre": "Jugo detox verde",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Pepino": "1/2 unidad",
-      "Apio": "2 tallos",
-      "Manzana verde": "1 unidad",
-      "Limón": "1 unidad",
-      "Agua": "200 ml"
-    },
-    "pasos": [
-      "Paso 1: Lavar y cortar todos los ingredientes.",
-      "Paso 2: Colocar en licuadora con agua.",
-      "Paso 3: Licuar hasta obtener mezcla homogénea.",
-      "Paso 4: Servir frío, opcional con hielo."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/04/09/19/35/green-3290781_1280.jpg"
-  },
-  {
-    "nombre": "Batido de frutilla y naranja",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Frutillas": "150 g",
-      "Jugo de naranja": "200 ml",
-      "Yogur natural": "100 g",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Lavar y cortar frutillas.",
-      "Paso 2: Colocar frutillas, jugo de naranja, yogur y hielo en licuadora.",
-      "Paso 3: Licuar hasta lograr consistencia cremosa.",
-      "Paso 4: Servir inmediatamente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/07/16/10/43/smoothie-2502783_1280.jpg"
-  },
-  {
-    "nombre": "Cheesecake de frutillas",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Galletitas dulces": "200 g",
-      "Manteca derretida": "100 g",
-      "Queso crema": "400 g",
-      "Azúcar": "150 g",
-      "Crema de leche": "200 ml",
-      "Frutillas": "200 g"
-    },
-    "pasos": [
-      "Paso 1: Triturar galletitas y mezclar con manteca derretida.",
-      "Paso 2: Presionar mezcla en base de molde y refrigerar 30 minutos.",
-      "Paso 3: Batir queso crema con azúcar y crema de leche hasta obtener mezcla homogénea.",
-      "Paso 4: Verter sobre la base de galletitas y refrigerar 3 horas.",
-      "Paso 5: Decorar con frutillas antes de servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/06/21/20/51/cheesecake-1479260_1280.jpg"
-  },
-  {
-    "nombre": "Crêpes rellenos de Nutella",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Harina": "200 g",
-      "Huevos": "2 unidades",
-      "Leche": "300 ml",
-      "Manteca derretida": "50 g",
-      "Nutella": "150 g"
-    },
-    "pasos": [
-      "Paso 1: Mezclar harina, huevos, leche y manteca hasta obtener masa líquida sin grumos.",
-      "Paso 2: Calentar sartén antiadherente y cocinar crêpes finos por ambos lados.",
-      "Paso 3: Rellenar con Nutella y doblar o enrollar.",
-      "Paso 4: Servir tibio o a temperatura ambiente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2018/03/13/11/51/crepe-3223462_1280.jpg"
-  },
-  {
-    "nombre": "Flan casero con caramelo",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Huevos": "4 unidades",
-      "Leche": "500 ml",
-      "Azúcar": "100 g",
-      "Esencia de vainilla": "1 cucharadita"
-    },
-    "pasos": [
-      "Paso 1: Preparar caramelo con 50 g de azúcar en un molde apto para horno.",
-      "Paso 2: Mezclar huevos, leche, azúcar restante y esencia de vainilla.",
-      "Paso 3: Verter la mezcla sobre el caramelo.",
-      "Paso 4: Cocinar a baño maría en horno a 180°C por 40-45 minutos.",
-      "Paso 5: Dejar enfriar y desmoldar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2015/05/09/09/42/flan-760876_1280.jpg"
-  },
-  {
-    "nombre": "Tarta de verdura",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Masa de tarta": "1 unidad",
-      "Zapallitos": "2 unidades",
-      "Cebolla": "1 unidad",
-      "Huevos": "3 unidades",
-      "Crema": "200 ml",
-      "Queso rallado": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Rehogar cebolla y zapallitos picados.",
-      "Paso 2: Mezclar con huevos, crema y queso rallado.",
-      "Paso 3: Colocar la masa en molde y verter la mezcla de verduras.",
-      "Paso 4: Hornear a 180°C por 35-40 minutos hasta dorar."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/06/02/18/24/quiche-2360971_1280.jpg"
-  },
-  {
-    "nombre": "Fideos a la carbonara",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Fideos tipo spaghetti": "400 g",
-      "Huevos": "2 unidades",
-      "Panceta": "150 g",
-      "Queso parmesano": "50 g",
-      "Pimienta": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Cocinar fideos al dente en agua con sal.",
-      "Paso 2: Saltear panceta hasta dorar.",
-      "Paso 3: Batir huevos con queso y pimienta.",
-      "Paso 4: Mezclar fideos con panceta y luego incorporar la mezcla de huevos fuera del fuego.",
-      "Paso 5: Servir inmediatamente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/02/12/17/01/spaghetti-2065660_1280.jpg"
-  },
-  {
-    "nombre": "Omelette de jamón y queso",
-    "categoria": "salado",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Huevos": "3 unidades",
-      "Jamón cocido": "50 g",
-      "Queso": "50 g",
-      "Aceite": "1 cucharada",
-      "Sal y pimienta": "a gusto"
-    },
-    "pasos": [
-      "Paso 1: Batir huevos con sal y pimienta.",
-      "Paso 2: Calentar aceite en sartén y verter los huevos.",
-      "Paso 3: Cuando comience a cuajar, agregar jamón y queso.",
-      "Paso 4: Doblar y cocinar 1-2 minutos más.",
-      "Paso 5: Servir caliente."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/01/22/19/20/omelet-2008827_1280.jpg"
-  },
-  {
-    "nombre": "Smoothie tropical",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Mango": "1 unidad",
-      "Piña": "100 g",
-      "Leche de coco": "200 ml",
-      "Hielo": "al gusto"
-    },
-    "pasos": [
-      "Paso 1: Pelar y cortar mango y piña.",
-      "Paso 2: Colocar fruta, leche de coco e hielo en licuadora.",
-      "Paso 3: Licuar hasta textura cremosa.",
-      "Paso 4: Servir inmediatamente frío."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/06/15/12/47/smoothie-2406980_1280.jpg"
-  },
-  {
-    "nombre": "Jugo de naranja y zanahoria",
-    "categoria": "bebida",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Naranjas": "3 unidades",
-      "Zanahoria": "2 unidades",
-      "Agua": "200 ml"
-    },
-    "pasos": [
-      "Paso 1: Exprimir naranjas y pelar zanahorias.",
-      "Paso 2: Licuar zanahorias con jugo de naranja y agua.",
-      "Paso 3: Colar si se desea y servir frío."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2017/02/23/15/28/orange-2099470_1280.jpg"
-  },
-  {
-    "nombre": "Torta Selva Negra",
-    "categoria": "dulce",
-    "apto": "SiTACC",
-    "ingredientes": {
-      "Bizcochuelo de chocolate": "1 unidad",
-      "Crema chantilly": "400 ml",
-      "Cerezas en almíbar": "200 g",
-      "Chocolate rallado": "50 g"
-    },
-    "pasos": [
-      "Paso 1: Cortar el bizcochuelo en capas.",
-      "Paso 2: Untar crema chantilly entre capas y colocar cerezas.",
-      "Paso 3: Cubrir toda la torta con crema y decorar con chocolate rallado y cerezas.",
-      "Paso 4: Refrigerar antes de servir."
-    ],
-    "imagen": "https://cdn.pixabay.com/photo/2016/11/21/17/15/cake-1845907_1280.jpg"
-  }
+    {
+        "nombre": "Chocolate con leche",
+        "ingredientes": ["leche", "cacao en polvo", "azúcar", "manteca", "vainilla"],
+        "pasos": [
+            "Paso 1: Derretí 100 g de manteca en baño maría.",
+            "Paso 2: Mezclá 50 g de cacao en polvo con 100 g de azúcar y 200 ml de leche.",
+            "Paso 3: Incorporá la manteca derretida y 1 cucharadita de esencia de vainilla.",
+            "Paso 4: Verté la mezcla en moldes y dejá enfriar 2 horas en heladera.",
+            "Paso 5: Desmoldá y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/05/07/08/56/chocolate-2296243_1280.jpg"
+    },
+    {
+        "nombre": "Alfajores de maicena",
+        "ingredientes": ["harina de maicena", "harina común", "manteca", "azúcar", "yemas de huevo", "dulce de leche", "coco rallado"],
+        "pasos": [
+            "Paso 1: Batí 200 g de manteca con 150 g de azúcar hasta que esté cremosa.",
+            "Paso 2: Incorporá 2 yemas y 150 g de harina común más 200 g de harina de maicena hasta formar una masa suave.",
+            "Paso 3: Estirá la masa y cortá círculos de 5 cm.",
+            "Paso 4: Horneá a 180°C por 10-12 minutos hasta que estén ligeramente dorados.",
+            "Paso 5: Rellená con dulce de leche y pasá los bordes por coco rallado."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/18/12/12/alfajores-1835000_1280.jpg"
+    },
+    {
+        "nombre": "Caramelos de fruta",
+        "ingredientes": ["azúcar", "agua", "jugos de fruta", "gelatina sin sabor"],
+        "pasos": [
+            "Paso 1: Mezclá 200 g de azúcar con 100 ml de agua en cacerola y llevá a hervor hasta punto de caramelo ligero.",
+            "Paso 2: Incorporá 100 ml de jugo de fruta y 10 g de gelatina hidratada.",
+            "Paso 3: Mezclá bien y verté en moldes de silicona.",
+            "Paso 4: Dejá enfriar 1 hora y desmoldá."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/06/09/22/39/candies-3467157_1280.jpg"
+    },
+    {
+        "nombre": "Galletitas rellenas de chocolate",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "chocolate", "esencia de vainilla"],
+        "pasos": [
+            "Paso 1: Batí 150 g de manteca con 100 g de azúcar.",
+            "Paso 2: Agregá 1 huevo y 1 cucharadita de esencia de vainilla, mezclá bien.",
+            "Paso 3: Incorporá 250 g de harina hasta formar una masa homogénea.",
+            "Paso 4: Estirá la masa, cortá círculos, horneá a 180°C por 10 minutos.",
+            "Paso 5: Rellená con chocolate derretido y uní dos galletitas."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/09/18/14/27/cookies-2757014_1280.jpg"
+    },
+    {
+        "nombre": "Helado de vainilla",
+        "ingredientes": ["leche", "crema de leche", "azúcar", "yemas de huevo", "vainilla"],
+        "pasos": [
+            "Paso 1: Calentá 500 ml de leche con 200 ml de crema de leche y 150 g de azúcar.",
+            "Paso 2: Batí 4 yemas y agregá lentamente la leche caliente mezclando constantemente.",
+            "Paso 3: Cociná a fuego lento hasta espesar ligeramente.",
+            "Paso 4: Añadí 1 cucharadita de esencia de vainilla y dejá enfriar.",
+            "Paso 5: Procesá en heladera o máquina para helado hasta lograr consistencia cremosa."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/06/06/18/09/ice-cream-2383177_1280.jpg"
+    },
+    {
+        "nombre": "Dulce de leche casero",
+        "ingredientes": ["leche", "azúcar", "bicarbonato de sodio", "esencia de vainilla"],
+        "pasos": [
+            "Paso 1: En una cacerola grande, mezclá 1 litro de leche con 300 g de azúcar y 1 pizca de bicarbonato.",
+            "Paso 2: Cociná a fuego medio-bajo revolviendo constantemente para que no se pegue.",
+            "Paso 3: Cociná durante 1-1,5 horas hasta que tome color dorado y consistencia cremosa.",
+            "Paso 4: Retirá del fuego, agregá 1 cucharadita de esencia de vainilla, mezclá y enfriá."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/06/20/22/44/dulce-de-leche-2420310_1280.jpg"
+    },
+    {
+        "nombre": "Mermelada de frutilla",
+        "ingredientes": ["frutillas", "azúcar", "jugo de limón"],
+        "pasos": [
+            "Paso 1: Lavar y cortar 500 g de frutillas.",
+            "Paso 2: Mezclar con 300 g de azúcar y 1 cucharada de jugo de limón.",
+            "Paso 3: Cocinar a fuego medio durante 30 minutos revolviendo ocasionalmente hasta espesar.",
+            "Paso 4: Envasar en frascos esterilizados y dejar enfriar."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/18/18/40/strawberry-jam-1835411_1280.jpg"
+    },
+    {
+        "nombre": "Torta de chocolate",
+        "ingredientes": ["harina", "azúcar", "huevo", "manteca", "cacao en polvo", "leche", "polvo de hornear"],
+        "pasos": [
+            "Paso 1: Batí 200 g de manteca con 200 g de azúcar hasta cremar.",
+            "Paso 2: Agregá 4 huevos uno a uno, mezclando bien.",
+            "Paso 3: Incorporá 200 g de harina, 50 g de cacao y 1 cucharadita de polvo de hornear alternando con 100 ml de leche.",
+            "Paso 4: Verté en molde enmantecado y horneá a 180°C por 35 minutos.",
+            "Paso 5: Dejá enfriar y decorá con ganache de chocolate."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/01/17/20/02/chocolate-cake-1985080_1280.jpg"
+    },
+    {
+        "nombre": "Flan con crema",
+        "ingredientes": ["leche", "huevo", "azúcar", "esencia de vainilla", "azúcar para caramelo"],
+        "pasos": [
+            "Paso 1: Preparar caramelo con 100 g de azúcar en un molde apto para horno.",
+            "Paso 2: Mezclar 500 ml de leche con 4 huevos, 100 g de azúcar y 1 cucharadita de esencia de vainilla.",
+            "Paso 3: Verter la mezcla sobre el caramelo.",
+            "Paso 4: Hornear a baño maría a 180°C por 40 minutos.",
+            "Paso 5: Dejar enfriar y desmoldar. Servir con crema batida."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/05/09/09/42/flan-760876_1280.jpg"
+    },
+    {
+        "nombre": "Turrón de maní",
+        "ingredientes": ["maní", "azúcar", "miel", "clara de huevo", "vainilla"],
+        "pasos": [
+            "Paso 1: Tostar 200 g de maní y reservar.",
+            "Paso 2: Preparar un almíbar con 200 g de azúcar y 100 g de miel hasta 120°C.",
+            "Paso 3: Batir 1 clara de huevo y mezclar lentamente con el almíbar caliente.",
+            "Paso 4: Agregar maní y esencia de vainilla, mezclar bien.",
+            "Paso 5: Verter en molde enmantecado, dejar enfriar y cortar en barras."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/01/17/09/34/nougat-3083136_1280.jpg"
+    },
+    {
+        "nombre": "Brownie blanco con nueces",
+        "ingredientes": ["manteca", "azúcar", "huevos", "harina", "chocolate blanco", "nueces"],
+        "pasos": [
+            "Paso 1: Derretí 150 g de manteca con 150 g de chocolate blanco.",
+            "Paso 2: Batí 3 huevos con 200 g de azúcar y agregá la mezcla de chocolate.",
+            "Paso 3: Incorporá 150 g de harina y 50 g de nueces picadas.",
+            "Paso 4: Verté en molde y horneá a 180°C por 25 minutos.",
+            "Paso 5: Dejá enfriar, cortá y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/29/12/54/brownies-1867450_1280.jpg"
+    },
+    {
+        "nombre": "Lemon pie",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "limón", "crema de leche"],
+        "pasos": [
+            "Paso 1: Prepará una masa con 200 g de harina, 100 g de manteca y 50 g de azúcar. Refrigerar 30 minutos.",
+            "Paso 2: Hornear la base a 180°C por 15 minutos.",
+            "Paso 3: Mezclar 3 huevos con 200 g de azúcar y 100 ml de jugo de limón, cocinar a baño maría hasta espesar.",
+            "Paso 4: Verté la crema de limón sobre la base y enfriar.",
+            "Paso 5: Batí 200 ml de crema y colocá merengue encima, dorar 5 minutos en horno."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/07/24/15/59/lemon-pie-2534086_1280.jpg"
+    },
+    {
+        "nombre": "Churros rellenos de dulce de leche",
+        "ingredientes": ["harina", "agua", "manteca", "huevo", "sal", "azúcar", "dulce de leche"],
+        "pasos": [
+            "Paso 1: Hervir 250 ml de agua con 50 g de manteca y 1 pizca de sal.",
+            "Paso 2: Agregar 150 g de harina de golpe y mezclar hasta formar masa.",
+            "Paso 3: Incorporar 2 huevos uno a uno.",
+            "Paso 4: Colocar la masa en manga y freír porciones en aceite caliente hasta dorar.",
+            "Paso 5: Rellenar con dulce de leche y espolvorear con azúcar."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/07/10/21/05/churros-2499010_1280.jpg"
+    },
+    {
+        "nombre": "Budín de naranja",
+        "ingredientes": ["harina", "azúcar", "huevo", "manteca", "jugo de naranja", "ralladura de naranja", "polvo de hornear"],
+        "pasos": [
+            "Paso 1: Batí 150 g de manteca con 150 g de azúcar.",
+            "Paso 2: Agregá 3 huevos y 100 ml de jugo de naranja, junto con la ralladura.",
+            "Paso 3: Incorporá 200 g de harina y 1 cdita de polvo de hornear.",
+            "Paso 4: Verté en molde y horneá a 180°C por 35-40 minutos.",
+            "Paso 5: Dejar enfriar antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/06/20/18/19/cake-2420338_1280.jpg"
+    },
+    {
+        "nombre": "Tiramisú",
+        "ingredientes": ["bizcochos de soletilla", "café", "mascarpone", "huevo", "azúcar", "cacao en polvo"],
+        "pasos": [
+            "Paso 1: Prepará café fuerte y dejá enfriar.",
+            "Paso 2: Batí 3 yemas con 100 g de azúcar, agregá 250 g de mascarpone hasta integrar.",
+            "Paso 3: Montá 3 claras a punto de nieve y mezclá suavemente.",
+            "Paso 4: Mojá los bizcochos en café y armá capas alternando con crema.",
+            "Paso 5: Refrigerar 4 horas y espolvorear cacao antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/01/14/12/59/tiramisu-1979937_1280.jpg"
+    },
+    {
+        "nombre": "Medialunas caseras",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "leche", "levadura"],
+        "pasos": [
+            "Paso 1: Disolver 20 g de levadura en 100 ml de leche tibia.",
+            "Paso 2: Mezclar con 500 g de harina, 50 g de azúcar, 2 huevos y 100 g de manteca derretida.",
+            "Paso 3: Amasar hasta obtener masa lisa y dejar leudar 1 hora.",
+            "Paso 4: Formar medialunas y hornear a 180°C por 20-25 minutos.",
+            "Paso 5: Pintar con huevo batido y espolvorear azúcar."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/30/20/43/croissant-2699783_1280.jpg"
+    },
+    {
+        "nombre": "Mousse de chocolate",
+        "ingredientes": ["chocolate negro", "huevos", "azúcar", "crema de leche"],
+        "pasos": [
+            "Paso 1: Derretir 200 g de chocolate negro a baño maría.",
+            "Paso 2: Separar 4 huevos y batir las claras a punto de nieve con 50 g de azúcar.",
+            "Paso 3: Mezclar las yemas con el chocolate derretido y luego incorporar las claras suavemente.",
+            "Paso 4: Batir 200 ml de crema de leche e integrar con movimientos envolventes.",
+            "Paso 5: Refrigerar 3 horas antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/06/24/15/45/mousse-820304_1280.jpg"
+    },
+    {
+        "nombre": "Alfajores de chocolate rellenos",
+        "ingredientes": ["harina", "cacao", "manteca", "azúcar", "huevo", "dulce de leche", "chocolate para cobertura"],
+        "pasos": [
+            "Paso 1: Batí 200 g de manteca con 150 g de azúcar.",
+            "Paso 2: Incorporá 3 huevos y 200 g de harina con 50 g de cacao.",
+            "Paso 3: Formá bollitos, aplastá ligeramente y horneá a 180°C por 10-12 minutos.",
+            "Paso 4: Rellená con dulce de leche y bañá con chocolate derretido.",
+            "Paso 5: Dejar enfriar antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/05/05/02/37/alfajores-1375565_1280.jpg"
+    },
+    {
+        "nombre": "Muffins de arándanos",
+        "ingredientes": ["harina", "azúcar", "huevo", "manteca", "leche", "arándanos", "polvo de hornear"],
+        "pasos": [
+            "Paso 1: Mezclar 200 g de harina con 100 g de azúcar y 1 cucharadita de polvo de hornear.",
+            "Paso 2: Batir 2 huevos con 100 g de manteca derretida y 100 ml de leche.",
+            "Paso 3: Incorporar los ingredientes secos y 100 g de arándanos frescos.",
+            "Paso 4: Colocar la mezcla en moldes para muffins y hornear a 180°C por 20 minutos.",
+            "Paso 5: Dejar enfriar y servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/muffin-1239407_1280.jpg"
+    },
+    {
+        "nombre": "Crumble de manzana",
+        "ingredientes": ["manzanas", "azúcar", "harina", "manteca", "canela"],
+        "pasos": [
+            "Paso 1: Pelar y cortar 4 manzanas en cubos y mezclar con 50 g de azúcar y 1 cucharadita de canela.",
+            "Paso 2: Colocar en molde para horno.",
+            "Paso 3: Mezclar 100 g de harina con 80 g de manteca fría y 50 g de azúcar hasta formar migas.",
+            "Paso 4: Cubrir las manzanas con las migas y hornear a 180°C por 30 minutos.",
+            "Paso 5: Servir tibio, opcional con helado de vainilla."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/10/21/19/57/apple-crumble-1754214_1280.jpg"
+    }
 ]
