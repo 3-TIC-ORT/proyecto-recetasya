@@ -13,8 +13,8 @@ function Registrarse() {
     alert('La contraseña debe tener al menos 6 caracteres.');
     return;
   }
-  if (Nombre.length < 4) {
-    alert('El nombre de usuario debe tener al menos 4 caracteres.');
+  if (Nombre.length < 6) {
+    alert('El nombre de usuario debe tener al menos 6 caracteres.');
     return;
   }
   if (Contraseña === Nombre) {
