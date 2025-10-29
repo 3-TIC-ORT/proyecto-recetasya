@@ -1,8 +1,8 @@
-let destacados2 = document.getElementById("destacados2");
+let home = document.getElementById("home");
 
 
 function destacar(){
-    window.location.href = "pdulces.html";
+    window.location.href = "precetasdestacadas.html";
 }
 
 function destacar2(){
@@ -10,4 +10,4 @@ function destacar2(){
 }
 
 
-destacados2.addEventListener("click", destacar2);
+home.addEventListener("click", destacar2);
