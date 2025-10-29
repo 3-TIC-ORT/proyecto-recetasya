@@ -1,7 +1,7 @@
 .lista1{
     background-color: wheat;
     height: 50rem;
-    width: 70%;
+    width: 126vh;
     gap: 2rem;
     display: flex;
     flex-direction: column;
@@ -60,14 +60,14 @@
 
 
 .texto{
-    width: 95%;
+    width: 190vh;
     height: 6rem;
     border: solid #a3b87f;
     background-color: #c8d9ab;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
     border-radius: 1rem;
     border-width: .5rem;
     
@@ -77,6 +77,8 @@
 
 body{
     background-color: #c8d9ab;
+    width: 100vh;
+
 }
 
 .titulo{
@@ -88,11 +90,12 @@ body{
 .cabeza{
     border-radius: 1rem;
     height: 5rem;
-    width: 100%;
+    width: 190vh;
     margin-top: 0rem;
+    margin-left: 1rem;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 45%;
 }
 
 .logodef{
@@ -125,7 +128,7 @@ body{
 
 .populares{
     height: 12rem;
-    width: 70%;
+    width: 126vh;
     background-color: #c8d9ab;
     display: flex;
     flex-direction: row;
