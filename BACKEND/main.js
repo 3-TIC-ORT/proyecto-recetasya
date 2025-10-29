@@ -11,5 +11,8 @@ subscribePOSTEvent("login", loginEvent);
 subscribePOSTEvent("registro", registroEvent);
 subscribePOSTEvent("recetas", MostrarRecetas);
 subscribePOSTEvent("guardarRecetas", GuardarRecetas);
+subscribeGETEvent("recetasdulces", MostrarRecetasDulces);
+subscribeGETEvent("recetassalados", MostrarRecetasSalados);
+subscribeGETEvent("recetasbebidas", MostrarRecetasBebidas);
 
 startServer();

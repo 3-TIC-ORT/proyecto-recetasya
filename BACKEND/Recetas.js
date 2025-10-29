@@ -13,7 +13,29 @@ export const MostrarRecetasDulces = (data) => {
             recetasDulces.push(RecetasArray[i])
         }
     }
-    return { succes: true, data: RecetasArray };
+    return { succes: true, data: recetasDulces };
+}
+
+export const MostrarRecetasSalados = (data) => {
+    let RecetasArray = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let recetasSalados = [];
+    for (let i = 0; i < RecetasArray.length; i++) {
+        if (RecetasArray[i].categoria === "dulces"){
+            recetasSalados.push(RecetasArray[i])
+        }
+    }
+    return { succes: true, data: recetasSalados };
+}
+
+export const MostrarRecetasBebidas = (data) => {
+    let RecetasArray = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let recetasBebidas = [];
+    for (let i = 0; i < RecetasArray.length; i++) {
+        if (RecetasArray[i].categoria === "dulces"){
+            recetasBebidas.push(RecetasArray[i])
+        }
+    }
+    return { succes: true, data: recetasBebidas };
 }
 
 export const GuardarRecetas = (data) => {
