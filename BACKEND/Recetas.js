@@ -9,8 +9,8 @@ export const MostrarRecetasDulces = (data) => {
     let RecetasArray = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
     let recetasDulces = [];
     for (let i = 0; i < RecetasArray.length; i++) {
-        if ("categoria" === "dulces"){
-            recetasDulces.push(RecetasArray[i].categoria)
+        if (RecetasArray[i].categoria === "dulces"){
+            recetasDulces.push(RecetasArray[i])
         }
     }
     return { succes: true, data: RecetasArray };
