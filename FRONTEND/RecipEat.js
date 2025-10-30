@@ -7,6 +7,7 @@ const bmenu = document.getElementById('bmenu');
 const menudesplegable = document.getElementById('menudesplegable');
 const cerrar = document.getElementById("cerrar");
 let btlr = document.getElementById("tlr");
+let recetario = document.getElementById("recetario");
 
 bmenu.addEventListener('click', () => {
     menudesplegable.classList.toggle('open');
@@ -47,6 +48,9 @@ function recetas(){
     window.location.href = "ptodaslasrecetas.html"
 }
 
+function mrecetas(){
+    window.location.href = "pmisrecetas.html"
+}
 
 
 btlr.addEventListener("click", recetas);
@@ -55,3 +59,4 @@ bdulces.addEventListener("click", cambiardulces);
 bbebidas.addEventListener("click",cambiarbebidas);
 log.addEventListener("click", login1);
 destacados.addEventListener("click", destacar);
+recetario.addEventListener("click", mrecetas);

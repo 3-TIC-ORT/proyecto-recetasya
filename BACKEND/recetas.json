@@ -542,6 +542,295 @@
         "imagen": "https://cdn.pixabay.com/photo/2015/05/15/14/38/strawberry-mousse-768654_1280.jpg"
     },
     {
+        "nombre": "Tarta de peras y almendras",
+        "ingredientes": ["peras", "harina", "manteca", "azúcar", "huevo", "almendras", "vainilla"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C.",
+            "Paso 2: Mezclá 250 g de harina con 125 g de manteca y 1 huevo hasta formar masa, estirá y colocá en molde.",
+            "Paso 3: Pelá y cortá 3 peras en láminas, mezclá con 50 g de azúcar y 1 cucharadita de vainilla.",
+            "Paso 4: Distribuí las peras sobre la masa y espolvoreá 50 g de almendras picadas.",
+            "Paso 5: Horneá 35-40 minutos hasta dorar.",
+            "Paso 6: Dejá enfriar antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/apple-pie-1238596_1280.jpg"
+    },
+    {
+        "nombre": "Trufas de café y chocolate",
+        "ingredientes": ["chocolate negro", "crema de leche", "café instantáneo", "vainilla", "cacao en polvo"],
+        "pasos": [
+            "Paso 1: Calentá 200 ml de crema de leche y agregá 200 g de chocolate negro troceado, mezclá hasta integrar.",
+            "Paso 2: Disolvé 1 cucharadita de café instantáneo en la mezcla y añadí 1 cucharadita de vainilla.",
+            "Paso 3: Refrigerá 2 horas hasta que tome consistencia.",
+            "Paso 4: Formá bolitas y pasalas por cacao en polvo.",
+            "Paso 5: Guardá en heladera hasta servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/29/03/53/truffles-1869996_1280.jpg"
+    },
+    {
+        "nombre": "Budín de zanahoria",
+        "ingredientes": ["zanahoria", "harina", "azúcar", "huevo", "aceite", "polvo de hornear", "canela", "nuez moscada"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde para budín.",
+            "Paso 2: Pelá y rallá 3 zanahorias grandes.",
+            "Paso 3: Mezclá 2 huevos con 150 g de azúcar y 100 ml de aceite, incorporá 200 g de harina, 1 cucharadita de polvo de hornear, 1 cucharadita de canela y pizca de nuez moscada.",
+            "Paso 4: Agregá las zanahorias ralladas y mezclá bien.",
+            "Paso 5: Vertí la mezcla en el molde y horneá 40-45 minutos hasta dorar.",
+            "Paso 6: Dejá enfriar antes de desmoldar."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/21/19/32/carrot-cake-2087746_1280.jpg"
+    },
+    {
+        "nombre": "Cookies de avena y pasas",
+        "ingredientes": ["harina", "avena", "azúcar", "manteca", "huevo", "pasas", "vainilla"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá papel manteca en una bandeja.",
+            "Paso 2: Batí 100 g de manteca con 100 g de azúcar hasta cremosa, añadí 1 huevo y 1 cucharadita de vainilla.",
+            "Paso 3: Incorporá 100 g de harina y 100 g de avena, mezclá hasta integrar, agregá 50 g de pasas.",
+            "Paso 4: Formá bolitas y aplastá ligeramente sobre la bandeja.",
+            "Paso 5: Horneá 12-15 minutos hasta dorar ligeramente.",
+            "Paso 6: Dejá enfriar antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/23/14/07/cookies-2095006_1280.jpg"
+    },
+    {
+        "nombre": "Pan de melaza y especias",
+        "ingredientes": ["harina", "azúcar morena", "melaza", "huevo", "aceite", "canela", "jengibre", "clavo de olor", "polvo de hornear"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde rectangular.",
+            "Paso 2: Batí 2 huevos con 150 g de azúcar morena y 100 ml de aceite, agregá 120 g de melaza.",
+            "Paso 3: Tamizá 250 g de harina con 1 cucharadita de polvo de hornear, 1 cucharadita de canela, 1/2 cucharadita de jengibre y pizca de clavo de olor.",
+            "Paso 4: Incorporá la mezcla de harina a los líquidos y mezclá bien.",
+            "Paso 5: Vertí en molde y horneá 35-40 minutos hasta que al insertar un palillo salga limpio.",
+            "Paso 6: Dejá enfriar antes de cortar."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/11/16/14/08/gingerbread-3811347_1280.jpg"
+    },
+    {
+        "nombre": "Panna cotta de frutilla",
+        "ingredientes": ["crema de leche", "azúcar", "gelatina", "vainilla", "frutillas"],
+        "pasos": [
+            "Paso 1: Hidratá 5 g de gelatina en agua fría por 5 minutos.",
+            "Paso 2: Calentá 500 ml de crema con 80 g de azúcar y 1 cucharadita de vainilla, sin hervir.",
+            "Paso 3: Incorporá la gelatina y mezclá hasta disolver.",
+            "Paso 4: Vertí en vasitos y refrigerá 4 horas.",
+            "Paso 5: Decorá con puré de frutillas o frutillas enteras antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/05/18/39/panna-cotta-2045040_1280.jpg"
+    },
+    {
+        "nombre": "Brownie de chocolate y nueces",
+        "ingredientes": ["chocolate negro", "manteca", "azúcar", "huevo", "harina", "nueces", "vainilla"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde cuadrado.",
+            "Paso 2: Derretí 200 g de chocolate con 100 g de manteca a baño maría.",
+            "Paso 3: Batí 3 huevos con 150 g de azúcar y 1 cucharadita de vainilla, incorporá el chocolate derretido.",
+            "Paso 4: Añadí 100 g de harina tamizada y 50 g de nueces picadas, mezclá suavemente.",
+            "Paso 5: Vertí en el molde y horneá 25-30 minutos.",
+            "Paso 6: Dejá enfriar antes de cortar en cuadrados."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/09/10/17/44/brownie-931874_1280.jpg"
+    },
+    {
+        "nombre": "Alfajores de maicena rellenos de dulce de leche",
+        "ingredientes": ["harina de maicena", "harina", "manteca", "azúcar", "huevo", "dulce de leche", "coco rallado"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá papel manteca en bandeja.",
+            "Paso 2: Mezclá 125 g de manteca con 100 g de azúcar hasta cremosa, añadí 2 yemas y 1 cucharadita de esencia de vainilla.",
+            "Paso 3: Incorporá 150 g de harina y 50 g de harina de maicena, amasá hasta integrar.",
+            "Paso 4: Formá bolitas y aplastá ligeramente sobre la bandeja.",
+            "Paso 5: Horneá 12-15 minutos hasta dorar.",
+            "Paso 6: Rellená con dulce de leche y pasá los bordes por coco rallado."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/01/31/19/12/alfajores-2021015_1280.jpg"
+    },
+    {
+        "nombre": "Crumble de frutos rojos",
+        "ingredientes": ["frutos rojos", "harina", "manteca", "azúcar", "avena"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde.",
+            "Paso 2: Colocá 300 g de frutos rojos en el molde, espolvoreá 50 g de azúcar.",
+            "Paso 3: Mezclá 100 g de harina, 50 g de manteca y 50 g de avena hasta formar migas.",
+            "Paso 4: Cubrí los frutos rojos con la mezcla de crumble.",
+            "Paso 5: Horneá 25-30 minutos hasta dorar.",
+            "Paso 6: Serví tibio, opcional con helado."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/23/13/00/crumble-2094884_1280.jpg"
+    },
+    {
+        "nombre": "Barritas de granola caseras",
+        "ingredientes": ["avena", "miel", "frutos secos", "semillas", "chocolate negro"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 160°C y forrá un molde rectangular con papel manteca.",
+            "Paso 2: Mezclá 200 g de avena con 100 g de frutos secos picados y 50 g de semillas.",
+            "Paso 3: Calentá 100 g de miel con 50 g de chocolate negro troceado y mezclá con la avena.",
+            "Paso 4: Vertí la mezcla en el molde y presioná bien.",
+            "Paso 5: Horneá 15-20 minutos hasta dorar ligeramente.",
+            "Paso 6: Dejá enfriar y cortá en barras."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/12/06/18/27/granola-1889496_1280.jpg"
+    },
+    {
+        "nombre": "Torta de limón y merengue",
+        "ingredientes": ["harina", "huevo", "azúcar", "manteca", "limón", "merengue"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde para torta.",
+            "Paso 2: Batí 200 g de manteca con 150 g de azúcar hasta cremar.",
+            "Paso 3: Añadí 3 huevos uno a uno y la ralladura de un limón.",
+            "Paso 4: Incorporá 200 g de harina tamizada y 1 cucharadita de polvo de hornear, mezclá suavemente.",
+            "Paso 5: Vertí la mezcla en el molde y horneá 35-40 minutos.",
+            "Paso 6: Mientras tanto, prepará merengue con 3 claras y 100 g de azúcar, batiendo a punto nieve.",
+            "Paso 7: Colocá el merengue sobre la torta tibia y gratiná 5 minutos.",
+            "Paso 8: Dejá enfriar antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/05/19/36/lemon-meringue-2045416_1280.jpg"
+    },
+    {
+        "nombre": "Flan de coco",
+        "ingredientes": ["leche", "huevo", "azúcar", "coco rallado", "vainilla"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C.",
+            "Paso 2: Mezclá 500 ml de leche con 4 huevos, 100 g de azúcar y 50 g de coco rallado.",
+            "Paso 3: Vertí la mezcla en moldes individuales previamente caramelizados.",
+            "Paso 4: Horneá al baño maría 35-40 minutos.",
+            "Paso 5: Dejá enfriar y desmoldá.",
+            "Paso 6: Serví frío."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/flan-1238601_1280.jpg"
+    },
+    {
+        "nombre": "Crema catalana",
+        "ingredientes": ["leche", "yemas", "azúcar", "maicena", "vainilla", "canela"],
+        "pasos": [
+            "Paso 1: Calentá 500 ml de leche con 1 rama de canela y 1 cucharadita de esencia de vainilla.",
+            "Paso 2: Mezclá 4 yemas con 100 g de azúcar y 25 g de maicena.",
+            "Paso 3: Incorporá la leche caliente poco a poco batiendo constantemente.",
+            "Paso 4: Volvé a la olla y cociná a fuego medio hasta espesar.",
+            "Paso 5: Vertí en recipientes individuales y dejá enfriar.",
+            "Paso 6: Antes de servir, espolvoreá azúcar y caramelizá con soplete."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/15/12/12/crema-catalana-2068014_1280.jpg"
+    },
+    {
+        "nombre": "Cheesecake de frutilla",
+        "ingredientes": ["galletas", "manteca", "queso crema", "azúcar", "crema", "frutillas"],
+        "pasos": [
+            "Paso 1: Triturá 200 g de galletas y mezclá con 100 g de manteca derretida, colocá en base de molde desmontable.",
+            "Paso 2: Batí 400 g de queso crema con 100 g de azúcar y 200 ml de crema, hasta integrar.",
+            "Paso 3: Vertí sobre la base de galleta y refrigerá 4 horas.",
+            "Paso 4: Decorá con puré de frutilla y frutillas enteras antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/04/22/12/46/cheesecake-1342203_1280.jpg"
+    },
+    {
+        "nombre": "Brownie de caramelo y nueces",
+        "ingredientes": ["chocolate negro", "manteca", "azúcar", "huevo", "harina", "nueces", "caramelo"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde cuadrado.",
+            "Paso 2: Derretí 200 g de chocolate con 100 g de manteca a baño maría.",
+            "Paso 3: Batí 3 huevos con 150 g de azúcar, incorporá el chocolate derretido.",
+            "Paso 4: Añadí 100 g de harina tamizada, 50 g de nueces picadas y 50 g de caramelo en trozos, mezclá suavemente.",
+            "Paso 5: Vertí en el molde y horneá 25-30 minutos.",
+            "Paso 6: Dejá enfriar antes de cortar en cuadrados."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/09/10/17/44/brownie-931874_1280.jpg"
+    },
+    {
+        "nombre": "Tarta tatin de manzana",
+        "ingredientes": ["manzanas", "azúcar", "manteca", "masa de hojaldre"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C.",
+            "Paso 2: Caramelizá 100 g de azúcar con 50 g de manteca en sartén apta para horno.",
+            "Paso 3: Agregá 4 manzanas peladas y cortadas en cuartos, cociná 5 minutos.",
+            "Paso 4: Cubrí con masa de hojaldre y horneá 25-30 minutos hasta dorar.",
+            "Paso 5: Desmoldá volteando la tarta sobre plato y serví tibia."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/09/05/21/51/tarte-tatin-925391_1280.jpg"
+    },
+    {
+        "nombre": "Trufas de almendra y chocolate",
+        "ingredientes": ["chocolate negro", "crema de leche", "almendras", "vainilla"],
+        "pasos": [
+            "Paso 1: Calentá 200 ml de crema y volcá sobre 200 g de chocolate troceado, mezclá hasta integrar.",
+            "Paso 2: Añadí 50 g de almendras picadas y 1 cucharadita de vainilla.",
+            "Paso 3: Refrigerá 2 horas, formá bolitas y rebozá en cacao en polvo.",
+            "Paso 4: Guardá en heladera hasta servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/29/03/53/truffles-1869996_1280.jpg"
+    },
+    {
+        "nombre": "Gelatina de frutilla con crema",
+        "ingredientes": ["frutillas", "azúcar", "gelatina", "crema de leche"],
+        "pasos": [
+            "Paso 1: Hidratá 10 g de gelatina en 50 ml de agua fría.",
+            "Paso 2: Licuá 300 g de frutillas con 50 g de azúcar y mezclá con gelatina disuelta.",
+            "Paso 3: Vertí en moldes individuales y refrigerá 2 horas.",
+            "Paso 4: Batí 100 ml de crema hasta semi-montada y colocá sobre la gelatina antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/05/18/39/panna-cotta-2045040_1280.jpg"
+    },
+    {
+        "nombre": "Cookies de chocolate y avena",
+        "ingredientes": ["harina", "avena", "manteca", "azúcar", "huevo", "chocolate negro", "vainilla"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá papel manteca en bandeja.",
+            "Paso 2: Batí 100 g de manteca con 100 g de azúcar hasta cremosa, agregá 1 huevo y 1 cucharadita de vainilla.",
+            "Paso 3: Incorporá 100 g de harina y 100 g de avena, mezclá suavemente, añadí 50 g de chocolate picado.",
+            "Paso 4: Formá bolitas y aplastá ligeramente sobre la bandeja.",
+            "Paso 5: Horneá 12-15 minutos y dejá enfriar antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/23/14/07/cookies-2095006_1280.jpg"
+    },
+    {
+        "nombre": "Pudding de chia con frutas",
+        "ingredientes": ["chia", "leche", "miel", "frutas"],
+        "pasos": [
+            "Paso 1: Mezclá 50 g de semillas de chia con 300 ml de leche y 2 cucharadas de miel.",
+            "Paso 2: Refrigerá mínimo 4 horas o toda la noche hasta espesar.",
+            "Paso 3: Serví con frutas frescas por encima."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/21/16/19/chia-pudding-2162651_1280.jpg"
+    },
+    {
         "nombre": "Papas fritas",
         "ingredientes": ["papas", "aceite", "sal"],
         "pasos": [
