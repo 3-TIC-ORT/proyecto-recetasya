@@ -157,3 +157,26 @@ body{
     background-color: whitesmoke;
     border: .2rem solid black;
 }
+
+.comida-container {
+    /* Estilos para el contenedor de la lista */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .tarjeta{
+    width: 18rem;
+    height: 10rem;
+    border-radius: 2rem;
+    box-shadow: black;
+    overflow: auto;
+    transition: transsform o.3s ease;
+    margin: 2rem;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
