@@ -1,12 +1,12 @@
 import fs from "fs";
 
 export const MostrarRecetas = (data) => {
-    let RecetasArray = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let RecetasArray = JSON.parse(fs.readFileSync("Recetas.json", "utf-8"));
     return { succes: true, data: RecetasArray };
 }
 
 export const MostrarRecetasDulces = (data) => {
-    let RecetasArray = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let RecetasArray = JSON.parse(fs.readFileSync("Recetas.json", "utf-8"));
     let recetasDulces = [];
     for (let i = 0; i < RecetasArray.length; i++) {
         if (RecetasArray[i].categoria === "dulces"){
@@ -17,7 +17,7 @@ export const MostrarRecetasDulces = (data) => {
 }
 
 export const MostrarRecetasSalados = (data) => {
-    let RecetasArray = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let RecetasArray = JSON.parse(fs.readFileSync("Recetas.json", "utf-8"));
     let recetasSalados = [];
     for (let i = 0; i < RecetasArray.length; i++) {
         if (RecetasArray[i].categoria === "dulces"){
@@ -28,7 +28,7 @@ export const MostrarRecetasSalados = (data) => {
 }
 
 export const MostrarRecetasBebidas = (data) => {
-    let RecetasArray = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let RecetasArray = JSON.parse(fs.readFileSync("Recetas.json", "utf-8"));
     let recetasBebidas = [];
     for (let i = 0; i < RecetasArray.length; i++) {
         if (RecetasArray[i].categoria === "dulces"){
@@ -39,6 +39,17 @@ export const MostrarRecetasBebidas = (data) => {
 }
 
 export const GuardarRecetas = (data) => {
-    let recetas = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
-    recetas.push(data);
+    let Usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
+    for (let i = 0; i < Usuarios.length; i++) {
+        if (Usuarios[i].Nombre_de_la_Cuenta === data.Nombre){
+            if (data.Creadas === "creada") {
+                Usuarios[i].Creadas.push(data.receta);
+              }
+        
+              if (data.tipo === "favorito") {
+                Usuarios[i].Favoritos.push(data.receta);
+              }
+        }
+    }
+    fs.writeFileSync("Usuarios.json", JSON.stringify(Usuarios));
 }

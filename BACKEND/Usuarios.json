@@ -2,27 +2,14 @@
   {
     "Nombre_de_la_Cuenta": "Alejo",
     "Contraseña": "123456",
-    "Favoritos": [],
+    "Favoritos": [
+      "Tiramisu",
+      ""
+    ],
     "Creadas": []
   },
   {
-    "Nombre_de_la_Cuenta": "Lucho",
-    "Contraseña": "654321"
-  },
-  {
-    "Nombre_de_la_Cuenta": "Lucia",
-    "Contraseña": "030210"
-  },
-  {
-    "Nombre_de_la_Cuenta": "lucho",
-    "Contraseña": "luciano"
-  },
-  {
-    "Nombre_de_la_Cuenta": "Zitoteesstoyrobandolanovia",
-    "Contraseña": "jatomatelas"
-  },
-  {
-    "Nombre_de_la_Cuenta": "messis",
-    "Contraseña": "messies"
+    "Nombre_de_la_Cuenta": "lucia2",
+    "Contraseña": "noviadezito"
   }
 ]
