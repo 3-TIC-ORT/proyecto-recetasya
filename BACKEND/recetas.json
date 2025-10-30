@@ -275,5 +275,1477 @@
         "categoria": "Dulce",
         "apto": "ConTACC",
         "imagen": "https://cdn.pixabay.com/photo/2016/10/21/19/57/apple-crumble-1754214_1280.jpg"
+    },
+    {
+        "nombre": "Brownie de chocolate blanco",
+        "ingredientes": ["harina", "manteca", "huevo", "azúcar", "chocolate blanco", "esencia de vainilla"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde rectangular.",
+            "Paso 2: Derretí 150 g de manteca con 200 g de chocolate blanco y dejá enfriar un poco.",
+            "Paso 3: Batí 3 huevos con 150 g de azúcar hasta que la mezcla esté cremosa.",
+            "Paso 4: Mezclá los huevos con el chocolate derretido y añadí 120 g de harina tamizada y 1 cucharadita de esencia de vainilla.",
+            "Paso 5: Vertí la mezcla en el molde y horneá 25-30 minutos.",
+            "Paso 6: Dejá enfriar, cortá en cuadrados y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/05/07/08/56/brownie-2297491_1280.jpg"
+    },
+    {
+        "nombre": "Cheesecake de frutos rojos",
+        "ingredientes": ["galletas", "manteca", "queso crema", "azúcar", "crema de leche", "frutos rojos", "gelatina"],
+        "pasos": [
+            "Paso 1: Triturá 200 g de galletas y mezclalas con 100 g de manteca derretida, presioná la mezcla en la base de un molde desmontable.",
+            "Paso 2: Batí 400 g de queso crema con 100 g de azúcar hasta que esté suave.",
+            "Paso 3: Añadí 200 ml de crema de leche y mezclá bien.",
+            "Paso 4: Vertí la mezcla sobre la base de galletas y llevá al refrigerador 2 horas.",
+            "Paso 5: Cubrí con 150 g de frutos rojos cocidos con 1 cucharada de gelatina y serví frío."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/cheesecake-1232941_1280.jpg"
+    },
+    {
+        "nombre": "Panqueque de manzana y canela",
+        "ingredientes": ["harina", "leche", "huevo", "azúcar", "manzana", "canela", "manteca"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 2 manzanas en cubitos y cocinalas con 1 cucharada de manteca y 1 cucharadita de canela hasta que estén tiernas.",
+            "Paso 2: Mezclá 120 g de harina con 2 huevos, 200 ml de leche y 1 cucharada de azúcar hasta formar una masa homogénea.",
+            "Paso 3: Cociná los panqueques en una sartén con un poquito de manteca.",
+            "Paso 4: Rellená con las manzanas cocidas y doblá los panqueques, serví caliente."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/04/12/18/05/pancake-1322828_1280.jpg"
+    },
+    {
+        "nombre": "Trufas de chocolate y coco",
+        "ingredientes": ["chocolate negro", "crema de leche", "coco rallado", "manteca"],
+        "pasos": [
+            "Paso 1: Derretí 200 g de chocolate negro con 50 g de manteca a baño maría.",
+            "Paso 2: Añadí 100 ml de crema de leche y mezclá hasta obtener una pasta homogénea.",
+            "Paso 3: Dejá enfriar 1 hora en la heladera.",
+            "Paso 4: Formá bolitas con las manos y rebozá en coco rallado.",
+            "Paso 5: Serví frío."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/02/26/14/31/chocolate-truffles-3187436_1280.jpg"
+    },
+    {
+        "nombre": "Tarta de limón y merengue",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "limón", "crema de leche"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde para tarta.",
+            "Paso 2: Prepará la masa mezclando 200 g de harina con 100 g de manteca y 50 g de azúcar, amasá y estirá en el molde.",
+            "Paso 3: Horneá 15 minutos y dejá enfriar.",
+            "Paso 4: Prepará el relleno batiendo 3 huevos con 150 g de azúcar y el jugo de 2 limones.",
+            "Paso 5: Vertí el relleno sobre la base y cociná 20 minutos.",
+            "Paso 6: Prepará un merengue con 3 claras y 100 g de azúcar, cubrí la tarta y dorá 5 minutos más en el horno.",
+            "Paso 7: Serví frío."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/06/20/28/lemon-meringue-pie-2599833_1280.jpg"
+    },
+    {
+        "nombre": "Mousse de chocolate",
+        "ingredientes": ["chocolate negro", "huevo", "crema de leche", "azúcar", "vainilla"],
+        "pasos": [
+            "Paso 1: Derretí 200 g de chocolate negro a baño maría y dejá entibiar.",
+            "Paso 2: Batí 3 claras a punto de nieve con 50 g de azúcar.",
+            "Paso 3: Batí 200 ml de crema de leche con 1 cucharadita de esencia de vainilla.",
+            "Paso 4: Mezclá suavemente el chocolate con la crema y luego incorporá las claras montadas.",
+            "Paso 5: Serví en copas y refrigerá 2 horas antes de comer."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/06/02/15/13/chocolate-mousse-796908_1280.jpg"
+    },
+    {
+        "nombre": "Cupcakes de vainilla con glaseado",
+        "ingredientes": ["harina", "huevo", "azúcar", "manteca", "leche", "vainilla", "azúcar glas", "crema de leche"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá cápsulas en un molde para cupcakes.",
+            "Paso 2: Mezclá 150 g de manteca con 150 g de azúcar hasta formar crema, añadí 3 huevos y 150 ml de leche y 1 cucharadita de esencia de vainilla.",
+            "Paso 3: Incorporá 200 g de harina tamizada y mezclá suavemente.",
+            "Paso 4: Vertí la masa en los moldes y horneá 20 minutos.",
+            "Paso 5: Para el glaseado, batí 100 g de azúcar glas con 50 ml de crema de leche hasta obtener consistencia cremosa y cubrí los cupcakes.",
+            "Paso 6: Decorá a gusto y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/07/18/48/cupcakes-2049048_1280.jpg"
+    },
+    {
+        "nombre": "Galletas de avena y pasas",
+        "ingredientes": ["avena", "harina", "manteca", "azúcar", "huevo", "pasas", "canela"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá papel manteca en una bandeja.",
+            "Paso 2: Mezclá 100 g de manteca con 100 g de azúcar, añadí 1 huevo y mezclá.",
+            "Paso 3: Incorporá 100 g de harina, 150 g de avena, 50 g de pasas y 1 cucharadita de canela.",
+            "Paso 4: Formá bolitas con la masa y aplastalas un poco en la bandeja.",
+            "Paso 5: Horneá 12-15 minutos y dejá enfriar antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/01/25/07/52/oatmeal-cookies-3109763_1280.jpg"
+    },
+    {
+        "nombre": "Crepes de dulce de leche",
+        "ingredientes": ["harina", "huevo", "leche", "manteca", "dulce de leche"],
+        "pasos": [
+            "Paso 1: Mezclá 100 g de harina con 2 huevos y 200 ml de leche hasta formar masa líquida.",
+            "Paso 2: Cociná crepes finos en sartén con manteca.",
+            "Paso 3: Rellená cada crepe con 2 cucharadas de dulce de leche, doblá y serví caliente."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/06/16/17/42/crepe-1460914_1280.jpg"
+    },
+    {
+        "nombre": "Tarta de ricota y chocolate",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "ricota", "chocolate"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde para tarta.",
+            "Paso 2: Prepará la masa mezclando 200 g de harina con 100 g de manteca y 50 g de azúcar, amasá y estirá en el molde.",
+            "Paso 3: Batí 250 g de ricota con 2 huevos, 50 g de azúcar y 50 g de chocolate rallado.",
+            "Paso 4: Vertí la mezcla sobre la base de masa y horneá 30 minutos.",
+            "Paso 5: Dejá enfriar y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/cheesecake-1232941_1280.jpg"
+    },
+    {
+        "nombre": "Trufas de chocolate y avellanas",
+        "ingredientes": ["chocolate negro", "crema de leche", "avellanas", "manteca"],
+        "pasos": [
+            "Paso 1: Derretí 200 g de chocolate negro con 50 g de manteca a baño maría.",
+            "Paso 2: Añadí 100 ml de crema de leche y mezclá bien.",
+            "Paso 3: Dejá enfriar 1 hora en la heladera.",
+            "Paso 4: Formá bolitas y rebozá en avellanas picadas.",
+            "Paso 5: Serví frío."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/02/26/14/31/chocolate-truffles-3187436_1280.jpg"
+    },
+    {
+        "nombre": "Panna cotta de vainilla",
+        "ingredientes": ["crema de leche", "azúcar", "gelatina", "vainilla"],
+        "pasos": [
+            "Paso 1: Hidratá 3 hojas de gelatina en agua fría.",
+            "Paso 2: Calentá 400 ml de crema de leche con 50 g de azúcar y 1 cucharadita de esencia de vainilla.",
+            "Paso 3: Retirá del fuego y añadí la gelatina escurrida, mezclá hasta disolver.",
+            "Paso 4: Vertí en moldes y refrigerá 4 horas.",
+            "Paso 5: Serví con frutas frescas o coulis."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/06/20/28/panna-cotta-2599834_1280.jpg"
+    },
+    {
+        "nombre": "Cupcakes de chocolate y crema",
+        "ingredientes": ["harina", "huevo", "azúcar", "manteca", "cacao", "leche", "crema de leche"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá cápsulas en un molde para cupcakes.",
+            "Paso 2: Mezclá 150 g de manteca con 150 g de azúcar, añadí 3 huevos, 150 g de harina y 2 cucharadas de cacao, mezclá bien.",
+            "Paso 3: Incorporá 100 ml de leche hasta obtener masa homogénea.",
+            "Paso 4: Vertí la masa en los moldes y horneá 20 minutos.",
+            "Paso 5: Batí 100 ml de crema de leche con 50 g de azúcar para el glaseado, cubrí los cupcakes y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/07/18/48/cupcakes-2049048_1280.jpg"
+    },
+    {
+        "nombre": "Galletas de manteca con chocolate",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "chocolate"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá papel manteca en la bandeja.",
+            "Paso 2: Mezclá 150 g de manteca con 150 g de azúcar y 1 huevo.",
+            "Paso 3: Incorporá 200 g de harina y 100 g de chocolate en trozos.",
+            "Paso 4: Formá bolitas, aplastalas ligeramente y horneá 12-15 minutos.",
+            "Paso 5: Dejá enfriar y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/01/19/17/50/cookies-1149426_1280.jpg"
+    },
+    {
+        "nombre": "Tarta de durazno y crema",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "durazno", "crema de leche"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde para tarta.",
+            "Paso 2: Prepará la masa mezclando 200 g de harina con 100 g de manteca y 50 g de azúcar, amasá y estirá en el molde.",
+            "Paso 3: Pelá y cortá 4 duraznos en láminas.",
+            "Paso 4: Batí 200 ml de crema con 2 cucharadas de azúcar, vertí sobre la masa y acomodá los duraznos encima.",
+            "Paso 5: Horneá 30 minutos, dejá enfriar y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/01/21/22/13/peach-tart-3091141_1280.jpg"
+    },
+    {
+        "nombre": "Barritas de avena y chocolate",
+        "ingredientes": ["avena", "manteca", "azúcar", "huevo", "chocolate"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá papel manteca en un molde rectangular.",
+            "Paso 2: Mezclá 100 g de manteca derretida con 100 g de azúcar y 1 huevo.",
+            "Paso 3: Añadí 150 g de avena y mezclá bien.",
+            "Paso 4: Vertí la mezcla en el molde y horneá 20 minutos.",
+            "Paso 5: Dejá enfriar y cortá en barritas, derretí 50 g de chocolate y bañá la superficie antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/05/03/20/24/oat-bars-2281731_1280.jpg"
+    },
+    {
+        "nombre": "Flan de chocolate",
+        "ingredientes": ["leche", "huevo", "azúcar", "chocolate"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y colocá los moldes de flan en una bandeja con agua (baño maría).",
+            "Paso 2: Batí 500 ml de leche con 4 huevos, 100 g de azúcar y 100 g de chocolate derretido.",
+            "Paso 3: Vertí en los moldes y horneá 35-40 minutos.",
+            "Paso 4: Dejá enfriar y desmoldá antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/04/08/13/12/chocolate-flan-712927_1280.jpg"
+    },
+    {
+        "nombre": "Tarta de coco y dulce de leche",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "coco rallado", "dulce de leche"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y enmantecá un molde.",
+            "Paso 2: Prepará la masa mezclando 200 g de harina, 100 g de manteca y 50 g de azúcar, amasá y estirá en el molde.",
+            "Paso 3: Mezclá 200 g de dulce de leche con 100 g de coco rallado y vertí sobre la base.",
+            "Paso 4: Horneá 25 minutos, dejá enfriar y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/01/19/33/coconut-cake-2030610_1280.jpg"
+    },
+    {
+        "nombre": "Mousse de frutilla",
+        "ingredientes": ["frutillas", "azúcar", "crema de leche", "gelatina", "limón"],
+        "pasos": [
+            "Paso 1: Hidratá 3 hojas de gelatina en agua fría.",
+            "Paso 2: Batí 200 ml de crema de leche con 50 g de azúcar hasta punto chantilly.",
+            "Paso 3: Licuá 300 g de frutillas con 1 cucharadita de jugo de limón.",
+            "Paso 4: Mezclá suavemente la crema con las frutillas y la gelatina escurrida.",
+            "Paso 5: Vertí en copas y refrigerá 2 horas antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/05/15/14/38/strawberry-mousse-768654_1280.jpg"
+    },
+    {
+        "nombre": "Papas fritas",
+        "ingredientes": ["papas", "aceite", "sal"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 500 g de papas en bastones.",
+            "Paso 2: Calentá aceite en sartén o freidora a 180°C.",
+            "Paso 3: Freí las papas en tandas hasta dorar, unos 5-7 minutos por tanda.",
+            "Paso 4: Escurrilas sobre papel absorbente y salá al gusto.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/10/10/07/42/french-fries-2834916_1280.jpg"
+    },
+    {
+        "nombre": "Empanadas de carne",
+        "ingredientes": ["masa para empanadas", "carne picada", "cebolla", "pimiento", "aceite", "huevo", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Sofrí 1 cebolla y 1 pimiento picados en 2 cucharadas de aceite hasta transparentar.",
+            "Paso 2: Agregá 500 g de carne picada, sal, pimienta y cociná hasta dorar.",
+            "Paso 3: Retirá del fuego y dejá enfriar.",
+            "Paso 4: Rellená discos de masa para empanadas con 2 cucharadas de la mezcla y cerrá formando media luna.",
+            "Paso 5: Pintá con huevo batido y horneá a 180°C por 20-25 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/empanadas-1239404_1280.jpg"
+    },
+    {
+        "nombre": "Pizza Margherita",
+        "ingredientes": ["masa para pizza", "tomate", "mozzarella", "albahaca", "aceite de oliva", "sal"],
+        "pasos": [
+            "Paso 1: Estirá 250 g de masa para pizza sobre placa enmantecada.",
+            "Paso 2: Cubrí con 150 g de puré de tomate, sal y un chorrito de aceite de oliva.",
+            "Paso 3: Agregá 150 g de mozzarella en trozos y hojas de albahaca.",
+            "Paso 4: Horneá a 220°C por 12-15 minutos hasta dorar el queso.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg"
+    },
+    {
+        "nombre": "Nachos con queso",
+        "ingredientes": ["totopos de maíz", "queso cheddar", "jalapeños", "crema", "salsa"],
+        "pasos": [
+            "Paso 1: Colocá 200 g de totopos en una fuente apta para horno.",
+            "Paso 2: Espolvoreá 150 g de queso cheddar rallado y rodajas de jalapeño.",
+            "Paso 3: Horneá a 180°C por 8-10 minutos hasta que el queso se derrita.",
+            "Paso 4: Serví con crema y salsa al gusto."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/01/12/17/24/nachos-1971402_1280.jpg"
+    },
+    {
+        "nombre": "Pan de ajo",
+        "ingredientes": ["pan francés", "manteca", "ajo", "perejil", "sal"],
+        "pasos": [
+            "Paso 1: Mezclá 50 g de manteca con 2 dientes de ajo picados y perejil.",
+            "Paso 2: Cortá el pan en rebanadas sin separar completamente.",
+            "Paso 3: Untá la mezcla de manteca entre las rebanadas.",
+            "Paso 4: Horneá a 180°C por 10 minutos hasta dorar.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/garlic-bread-3007401_1280.jpg"
+    },
+    {
+        "nombre": "Queso Provolone al horno",
+        "ingredientes": ["queso provolone", "orégano", "aceite de oliva"],
+        "pasos": [
+            "Paso 1: Colocá 250 g de queso provolone en fuente apta para horno.",
+            "Paso 2: Espolvoreá con orégano y un chorrito de aceite de oliva.",
+            "Paso 3: Horneá a 200°C por 8-10 minutos hasta que se funda y dore.",
+            "Paso 4: Serví caliente acompañado de pan."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/provolone-1239405_1280.jpg"
+    },
+    {
+        "nombre": "Tarta de jamón y queso",
+        "ingredientes": ["masa para tarta", "jamón", "queso", "huevo", "crema", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Cubrí un molde con masa para tarta.",
+            "Paso 2: Colocá 150 g de jamón y 150 g de queso cortado en cubos.",
+            "Paso 3: Mezclá 3 huevos con 200 ml de crema, sal y pimienta, y volcá sobre el relleno.",
+            "Paso 4: Horneá a 180°C por 30-35 minutos hasta dorar.",
+            "Paso 5: Dejá enfriar un poco antes de servir."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/quiche-1239407_1280.jpg"
+    },
+    {
+        "nombre": "Milanesas de pollo",
+        "ingredientes": ["pechuga de pollo", "huevo", "pan rallado", "harina", "sal", "aceite"],
+        "pasos": [
+            "Paso 1: Pasá las pechugas de pollo por harina, luego huevo batido y finalmente pan rallado.",
+            "Paso 2: Calentá aceite en sartén y freí hasta dorar ambos lados, 4-5 minutos por lado.",
+            "Paso 3: Escurrí sobre papel absorbente.",
+            "Paso 4: Serví acompañadas de ensalada o puré."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/chicken-1239408_1280.jpg"
+    },
+    {
+        "nombre": "Chorizo a la parrilla",
+        "ingredientes": ["chorizos", "aceite", "sal"],
+        "pasos": [
+            "Paso 1: Precalentá la parrilla a fuego medio.",
+            "Paso 2: Pintá los chorizos con un poco de aceite y salá al gusto.",
+            "Paso 3: Cociná los chorizos 10-12 minutos, girando de vez en cuando.",
+            "Paso 4: Serví calientes, acompañados de chimichurri o pan."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2014/11/28/16/10/sausage-547626_1280.jpg"
+    },
+    {
+        "nombre": "Cazuela de mariscos",
+        "ingredientes": ["pescado", "calamares", "mejillones", "cebolla", "pimiento", "tomate", "caldo", "aceite", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Sofrí cebolla y pimiento picados en 2 cucharadas de aceite.",
+            "Paso 2: Agregá tomate picado y cociná 5 minutos.",
+            "Paso 3: Incorporá 500 g de pescado, 200 g de calamares y 200 g de mejillones, sal y pimienta.",
+            "Paso 4: Cubrí con 500 ml de caldo y cociná 15-20 minutos a fuego medio.",
+            "Paso 5: Serví caliente acompañado de pan."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/seafood-1239409_1280.jpg"
+    },
+    {
+        "nombre": "Lasaña boloñesa",
+        "ingredientes": ["láminas de lasaña", "carne picada", "tomate", "cebolla", "ajo", "queso mozzarella", "bechamel", "aceite", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Sofrí 1 cebolla y 2 dientes de ajo picados en aceite.",
+            "Paso 2: Agregá 500 g de carne picada, sal, pimienta y cociná hasta dorar.",
+            "Paso 3: Incorporá 400 g de tomate triturado y cociná 10 minutos.",
+            "Paso 4: Armá capas alternando láminas de lasaña, carne, bechamel y mozzarella.",
+            "Paso 5: Horneá a 180°C por 25-30 minutos y serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/lasagna-1239410_1280.jpg"
+    },
+    {
+        "nombre": "Tacos mexicanos",
+        "ingredientes": ["tortillas de maíz", "carne de res", "lechuga", "tomate", "queso", "salsa", "aceite", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Cociná 400 g de carne de res picada en sartén con aceite, sal y pimienta.",
+            "Paso 2: Calentá tortillas de maíz en sartén.",
+            "Paso 3: Armá los tacos colocando carne, lechuga, tomate, queso rallado y salsa al gusto.",
+            "Paso 4: Serví inmediatamente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/15/12/12/taco-2068522_1280.jpg"
+    },
+    {
+        "nombre": "Ratatouille",
+        "ingredientes": ["berenjena", "calabacín", "pimiento", "tomate", "cebolla", "ajo", "aceite", "sal", "pimienta", "tomillo"],
+        "pasos": [
+            "Paso 1: Cortá todas las verduras en rodajas finas.",
+            "Paso 2: Sofrí cebolla y ajo picados en aceite hasta transparentar.",
+            "Paso 3: Armá capas alternando verduras en fuente apta para horno, espolvoreando sal, pimienta y tomillo.",
+            "Paso 4: Horneá a 180°C por 35-40 minutos hasta que estén tiernas.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/ratatouille-1239411_1280.jpg"
+    },
+    {
+        "nombre": "Sushi roll básico",
+        "ingredientes": ["arroz para sushi", "alga nori", "salmón", "pepino", "aguacate", "vinagre", "sal", "azúcar"],
+        "pasos": [
+            "Paso 1: Cociná 200 g de arroz y mezclá con vinagre, azúcar y sal al gusto.",
+            "Paso 2: Colocá alga nori sobre esterilla y extendé arroz de manera uniforme.",
+            "Paso 3: Agregá tiras de salmón, pepino y aguacate.",
+            "Paso 4: Enrollá con ayuda de la esterilla y cortá en 6-8 piezas.",
+            "Paso 5: Serví acompañado de salsa de soja."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/sushi-1239412_1280.jpg"
+    },
+    {
+        "nombre": "Curry de vegetales",
+        "ingredientes": ["zanahoria", "papas", "guisantes", "cebolla", "leche de coco", "curry en polvo", "aceite", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Sofrí cebolla picada en aceite hasta dorar.",
+            "Paso 2: Agregá zanahoria y papas cortadas en cubos, cocinar 5 minutos.",
+            "Paso 3: Incorporá guisantes, 400 ml de leche de coco y 2 cucharaditas de curry en polvo.",
+            "Paso 4: Cociná a fuego medio 15-20 minutos hasta que las verduras estén tiernas.",
+            "Paso 5: Serví caliente con arroz."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/vegetable-curry-1239413_1280.jpg"
+    },
+    {
+        "nombre": "Ramen japonés",
+        "ingredientes": ["fideos ramen", "caldo de pollo", "huevo", "cebolla verde", "cerdo", "salsa de soja", "aceite", "sal"],
+        "pasos": [
+            "Paso 1: Cociná los fideos ramen según instrucciones del paquete.",
+            "Paso 2: Herví 500 ml de caldo de pollo y agregá salsa de soja al gusto.",
+            "Paso 3: Cociná rebanadas de cerdo en sartén hasta dorar.",
+            "Paso 4: Serví fideos en el caldo, agregá huevo cocido y cerdo, decorá con cebolla verde.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/ramen-1239414_1280.jpg"
+    },
+    {
+        "nombre": "Falafel",
+        "ingredientes": ["garbanzos", "cebolla", "ajo", "perejil", "comino", "harina de garbanzo", "aceite", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Remojá 250 g de garbanzos toda la noche y escurrí.",
+            "Paso 2: Procesá garbanzos, cebolla, ajo, perejil y especias hasta formar pasta.",
+            "Paso 3: Formá bolitas y pasalas por harina de garbanzo.",
+            "Paso 4: Freí en aceite caliente 3-4 minutos por lado hasta dorar.",
+            "Paso 5: Serví con pan pita y salsa de yogur."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/falafel-1239415_1280.jpg"
+    },
+    {
+        "nombre": "Bruschetta italiana",
+        "ingredientes": ["pan", "tomate", "ajo", "albahaca", "aceite de oliva", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Cortá pan en rebanadas y tostá ligeramente.",
+            "Paso 2: Frotá con ajo y agregá tomate picado, albahaca, sal y pimienta.",
+            "Paso 3: Rocíá con aceite de oliva y serví inmediatamente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/bruschetta-3007405_1280.jpg"
+    },
+    {
+        "nombre": "Focaccia italiana",
+        "ingredientes": ["harina", "levadura", "agua", "sal", "aceite de oliva", "romero"],
+        "pasos": [
+            "Paso 1: Mezclá 500 g de harina con 10 g de sal y 7 g de levadura seca.",
+            "Paso 2: Añadí 300 ml de agua tibia y 50 ml de aceite de oliva, amasá hasta obtener masa suave.",
+            "Paso 3: Dejá reposar 1 hora tapada hasta que duplique su tamaño.",
+            "Paso 4: Colocá la masa en una bandeja aceitada, presioná con los dedos y espolvoreá romero.",
+            "Paso 5: Horneá a 200°C durante 25-30 minutos hasta dorar.",
+            "Paso 6: Serví tibia."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/06/28/17/14/focaccia-2451008_1280.jpg"
+    },
+    {
+        "nombre": "Quiche de espinaca y queso",
+        "ingredientes": ["harina", "manteca", "huevo", "crema de leche", "espinaca", "queso"],
+        "pasos": [
+            "Paso 1: Precalentá el horno a 180°C y prepará la masa mezclando 200 g de harina con 100 g de manteca y 1 huevo, amasá y estirá en un molde para quiche.",
+            "Paso 2: Salteá 200 g de espinaca en sartén con un poco de aceite y dejá enfriar.",
+            "Paso 3: Batí 3 huevos con 200 ml de crema de leche, salpimentá y mezclá con la espinaca y 150 g de queso rallado.",
+            "Paso 4: Vertí la mezcla sobre la base de masa y horneá 35 minutos.",
+            "Paso 5: Dejá enfriar 10 minutos antes de servir."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/17/15/45/quiche-2159004_1280.jpg"
+    },
+    {
+        "nombre": "Risotto de champiñones",
+        "ingredientes": ["arroz arborio", "cebolla", "aceite de oliva", "vino blanco", "caldo de verduras", "champiñones", "parmesano"],
+        "pasos": [
+            "Paso 1: Salteá 1 cebolla picada en 2 cucharadas de aceite hasta transparentar.",
+            "Paso 2: Añadí 300 g de champiñones en láminas y cociná 5 minutos.",
+            "Paso 3: Incorporá 250 g de arroz arborio y mezclá 2 minutos.",
+            "Paso 4: Agregá 100 ml de vino blanco y dejá evaporar.",
+            "Paso 5: Añadí 700 ml de caldo caliente poco a poco hasta que el arroz esté cremoso y cocido.",
+            "Paso 6: Retirá del fuego, agregá 50 g de parmesano rallado y mezclá bien.",
+            "Paso 7: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/11/21/15/41/mushroom-risotto-1845303_1280.jpg"
+    },
+    {
+        "nombre": "Tacos de pollo",
+        "ingredientes": ["tortillas de maíz", "pollo", "cebolla", "pimiento", "aguacate", "salsa"],
+        "pasos": [
+            "Paso 1: Salteá 400 g de pollo cortado en tiras con 1 cebolla y 1 pimiento picados hasta dorar.",
+            "Paso 2: Calentá las tortillas de maíz en sartén.",
+            "Paso 3: Rellená las tortillas con el pollo salteado, agregá rodajas de aguacate y salsa al gusto.",
+            "Paso 4: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/10/25/12/28/taco-1769421_1280.jpg"
+    },
+    {
+        "nombre": "Canelones de ricota y espinaca",
+        "ingredientes": ["pasta para canelones", "ricota", "espinaca", "salsa de tomate", "queso rallado"],
+        "pasos": [
+            "Paso 1: Cociná las láminas de canelón según las instrucciones del paquete.",
+            "Paso 2: Mezclá 250 g de ricota con 200 g de espinaca cocida y picada, salpimentá.",
+            "Paso 3: Rellená los canelones con la mezcla y colocalos en una fuente para horno con salsa de tomate.",
+            "Paso 4: Espolvoreá 100 g de queso rallado encima y horneá 25 minutos a 180°C.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/14/02/47/cannelloni-2139451_1280.jpg"
+    },
+    {
+        "nombre": "Hamburguesas caseras",
+        "ingredientes": ["carne picada", "huevo", "pan rallado", "cebolla", "pan de hamburguesa", "lechuga", "tomate"],
+        "pasos": [
+            "Paso 1: Mezclá 500 g de carne picada con 1 huevo, 50 g de pan rallado y 1 cebolla picada, salpimentá.",
+            "Paso 2: Formá hamburguesas y cociná en sartén o parrilla hasta el punto deseado.",
+            "Paso 3: Armá los panes con lechuga, tomate y la hamburguesa.",
+            "Paso 4: Serví con papas fritas o ensalada."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg"
+    },
+    {
+        "nombre": "Pollo al curry",
+        "ingredientes": ["pollo", "cebolla", "ajo", "jengibre", "leche de coco", "curry", "aceite"],
+        "pasos": [
+            "Paso 1: Salteá 500 g de pollo cortado en cubos con 1 cebolla picada, 2 dientes de ajo y 1 cucharadita de jengibre rallado.",
+            "Paso 2: Añadí 200 ml de leche de coco y 2 cucharaditas de curry en polvo, mezclá bien.",
+            "Paso 3: Cociná a fuego medio 20 minutos hasta que el pollo esté tierno y la salsa espese.",
+            "Paso 4: Serví con arroz blanco."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/27/14/56/curry-2178538_1280.jpg"
+    },
+    {
+        "nombre": "Frittata de verduras",
+        "ingredientes": ["huevo", "papas", "cebolla", "pimiento", "calabaza", "queso", "aceite"],
+        "pasos": [
+            "Paso 1: Cortá 2 papas y 1 calabaza en cubos y salteá en sartén con aceite hasta que estén tiernas.",
+            "Paso 2: Añadí 1 cebolla y 1 pimiento picados y cociná 5 minutos más.",
+            "Paso 3: Batí 6 huevos con sal y pimienta, mezclá con las verduras y 50 g de queso rallado.",
+            "Paso 4: Cociná a fuego medio-bajo tapado hasta que cuaje.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/05/07/08/56/frittata-2297494_1280.jpg"
+    },
+    {
+        "nombre": "Sopa de calabaza",
+        "ingredientes": ["calabaza", "cebolla", "ajo", "caldo de verduras", "crema", "aceite", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Salteá 1 cebolla y 2 dientes de ajo picados en aceite.",
+            "Paso 2: Añadí 500 g de calabaza pelada y cortada en cubos, cociná 5 minutos.",
+            "Paso 3: Vertí 1 litro de caldo de verduras y cociná 20 minutos.",
+            "Paso 4: Licuá hasta obtener crema homogénea, agregá sal y pimienta.",
+            "Paso 5: Serví con un chorrito de crema."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/02/01/18/23/pumpkin-soup-2030615_1280.jpg"
+    },
+    {
+        "nombre": "Empanadas árabes",
+        "ingredientes": ["masa para empanadas", "carne picada", "tomate", "cebolla", "limón", "pimentón", "comino"],
+        "pasos": [
+            "Paso 1: Mezclá 500 g de carne picada con 1 tomate picado, 1 cebolla, jugo de 1 limón, pimentón y comino.",
+            "Paso 2: Rellená discos de masa con la mezcla.",
+            "Paso 3: Doblá los bordes en triángulo y colocá en bandeja.",
+            "Paso 4: Horneá a 200°C por 20-25 minutos hasta dorar."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2021/04/10/16/43/fatayer-6167147_1280.jpg"
+    },
+    {
+        "nombre": "Pizza de rúcula y jamón crudo",
+        "ingredientes": ["masa de pizza", "salsa de tomate", "mozzarella", "rúcula", "jamón crudo", "aceite de oliva"],
+        "pasos": [
+            "Paso 1: Extendé la masa y cubrí con salsa de tomate.",
+            "Paso 2: Añadí mozzarella y horneá a 220°C por 15 minutos.",
+            "Paso 3: Retirá del horno y agregá rúcula fresca y jamón crudo.",
+            "Paso 4: Rociá con aceite de oliva y serví."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/10/27/22/03/pizza-1779408_1280.jpg"
+    },
+    {
+        "nombre": "Ensalada de couscous",
+        "ingredientes": ["couscous", "pepino", "tomate", "pimiento", "aceite de oliva", "limón", "menta"],
+        "pasos": [
+            "Paso 1: Hidratá 200 g de couscous con 200 ml de agua caliente y dejá reposar 10 minutos.",
+            "Paso 2: Picá pepino, tomate y pimiento en cubos pequeños.",
+            "Paso 3: Mezclá todo con jugo de limón, aceite y menta fresca picada.",
+            "Paso 4: Serví fría."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/07/couscous-1238268_1280.jpg"
+    },
+    {
+        "nombre": "Tarta de jamón y queso",
+        "ingredientes": ["masa de tarta", "jamón", "queso", "huevo", "crema de leche"],
+        "pasos": [
+            "Paso 1: Colocá la masa en una tartera.",
+            "Paso 2: Rellená con capas de jamón y queso.",
+            "Paso 3: Batí 2 huevos con 200 ml de crema y volcá encima.",
+            "Paso 4: Horneá 30 minutos a 180°C hasta dorar."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/04/13/19/35/quiche-1328716_1280.jpg"
+    },
+    {
+        "nombre": "Paella de mariscos",
+        "ingredientes": ["arroz", "calamar", "mejillones", "gambas", "pimiento", "azafrán", "caldo de pescado"],
+        "pasos": [
+            "Paso 1: Salteá los mariscos en una paellera con aceite.",
+            "Paso 2: Añadí pimiento picado y 300 g de arroz.",
+            "Paso 3: Incorporá azafrán y 750 ml de caldo caliente.",
+            "Paso 4: Cociná 20 minutos sin mover.",
+            "Paso 5: Dejá reposar 5 minutos antes de servir."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/03/26/09/54/paella-690041_1280.jpg"
+    },
+    {
+        "nombre": "Wraps de vegetales",
+        "ingredientes": ["tortillas", "zanahoria", "pepino", "lechuga", "queso crema"],
+        "pasos": [
+            "Paso 1: Untá queso crema en las tortillas.",
+            "Paso 2: Agregá tiras de zanahoria, pepino y hojas de lechuga.",
+            "Paso 3: Enrollá bien ajustado.",
+            "Paso 4: Cortá por la mitad y serví."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/09/09/09/31/wrap-2738909_1280.jpg"
+    },
+    {
+        "nombre": "Milanesas de berenjena",
+        "ingredientes": ["berenjenas", "huevo", "pan rallado", "aceite", "sal"],
+        "pasos": [
+            "Paso 1: Cortá las berenjenas en rodajas y salalas.",
+            "Paso 2: Pasalas por huevo batido y pan rallado.",
+            "Paso 3: Freí en aceite caliente hasta dorar.",
+            "Paso 4: Escurrí en papel y serví con limón."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2021/09/04/14/50/eggplant-6597812_1280.jpg"
+    },
+    {
+        "nombre": "Guiso de lentejas",
+        "ingredientes": ["lentejas", "zanahoria", "papa", "chorizo", "cebolla", "tomate", "caldo"],
+        "pasos": [
+            "Paso 1: Rehogá cebolla, zanahoria y tomate en olla.",
+            "Paso 2: Añadí 200 g de lentejas y 1 litro de caldo.",
+            "Paso 3: Agregá papa en cubos y chorizo.",
+            "Paso 4: Cociná 40 minutos a fuego medio.",
+            "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/14/03/44/stew-2139611_1280.jpg"
+    },
+    {
+        "nombre": "Croquetas de papa",
+        "ingredientes": ["papa", "queso", "huevo", "pan rallado", "aceite"],
+        "pasos": [
+            "Paso 1: Herví 500 g de papas y hacé puré.",
+            "Paso 2: Mezclá con 50 g de queso rallado y un huevo.",
+            "Paso 3: Formá bolitas, pasalas por pan rallado y freí.",
+            "Paso 4: Serví doradas y crujientes."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/10/06/10/57/potato-croquettes-974750_1280.jpg"
+    },
+    {
+        "nombre": "Bastones de mozzarella",
+        "ingredientes": ["mozzarella", "huevo", "pan rallado", "harina", "aceite"],
+        "pasos": [
+            "Paso 1: Cortá la mozzarella en bastones.",
+            "Paso 2: Pasalos por harina, huevo y pan rallado.",
+            "Paso 3: Freí en aceite caliente hasta dorar.",
+            "Paso 4: Serví con salsa de tomate o barbacoa."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2020/01/30/19/06/mozzarella-sticks-4807097_1280.jpg"
+    },
+    {
+        "nombre": "Sándwich de atún",
+        "ingredientes": ["pan", "atún", "mayonesa", "lechuga", "tomate"],
+        "pasos": [
+            "Paso 1: Mezclá atún con mayonesa.",
+            "Paso 2: Colocá la mezcla sobre pan y agregá lechuga y tomate.",
+            "Paso 3: Tapá con otra rebanada y cortá a la mitad.",
+            "Paso 4: Serví frío."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/07/20/59/tuna-sandwich-2125072_1280.jpg"
+    },
+    {
+        "nombre": "Arrollado de jamón y queso",
+        "ingredientes": ["pan lactal", "jamón", "queso", "mayonesa"],
+        "pasos": [
+            "Paso 1: Aplaná las rebanadas de pan sin corteza.",
+            "Paso 2: Untá mayonesa, colocá jamón y queso.",
+            "Paso 3: Enrollá y envolvé en film.",
+            "Paso 4: Llevá a la heladera 30 minutos y cortá en rodajas."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2020/06/23/13/28/snack-5333875_1280.jpg"
+    },
+    {
+        "nombre": "Polenta con tuco",
+        "ingredientes": ["polenta", "agua", "salsa de tomate", "carne picada", "queso rallado"],
+        "pasos": [
+            "Paso 1: Herví 1 litro de agua con sal y agregá 200 g de polenta en forma de lluvia.",
+            "Paso 2: Revolvé hasta espesar.",
+            "Paso 3: Prepará tuco con carne picada y tomate.",
+            "Paso 4: Serví la polenta con tuco encima y queso rallado."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/25/22/36/polenta-2680268_1280.jpg"
+    },
+    {
+        "nombre": "Arepas venezolanas",
+        "ingredientes": ["harina de maíz precocida", "agua", "sal", "queso", "manteca"],
+        "pasos": [
+            "Paso 1: Mezclá 2 tazas de harina con 2 tazas de agua y sal.",
+            "Paso 2: Formá discos y cociná en plancha hasta dorar.",
+            "Paso 3: Abrí por la mitad y rellená con queso y manteca."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2021/08/03/13/52/arepas-6520131_1280.jpg"
+    },
+    {
+        "nombre": "Tortilla de espinaca",
+        "ingredientes": ["huevo", "espinaca", "cebolla", "aceite", "sal"],
+        "pasos": [
+            "Paso 1: Rehogá cebolla picada y espinaca.",
+            "Paso 2: Batí 4 huevos con sal y mezclá con las verduras.",
+            "Paso 3: Cociná en sartén hasta que cuaje de ambos lados.",
+            "Paso 4: Serví tibia o fría."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2019/02/25/13/37/spinach-4019245_1280.jpg"
+    },
+    {
+        "nombre": "Chips de batata",
+        "ingredientes": ["batatas", "aceite", "sal"],
+        "pasos": [
+            "Paso 1: Cortá las batatas en rodajas finas.",
+            "Paso 2: Freí en aceite caliente hasta dorar.",
+            "Paso 3: Escurrí en papel y salá al gusto."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/02/05/13/05/sweet-potato-3133913_1280.jpg"
+    },
+    {
+        "nombre": "Falafel",
+        "ingredientes": ["garbanzos", "cebolla", "ajo", "perejil", "comino", "harina", "aceite"],
+        "pasos": [
+            "Paso 1: Procesá garbanzos remojados con ajo, cebolla, perejil y comino.",
+            "Paso 2: Formá bolitas y pasalas por un poco de harina.",
+            "Paso 3: Freí hasta dorar y serví con salsa de yogur."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2022/03/23/18/54/falafel-7088538_1280.jpg"
+    },
+    {
+        "nombre": "Tostadas con palta",
+        "ingredientes": ["pan", "palta", "limón", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Tostá las rebanadas de pan.",
+            "Paso 2: Pisá palta con jugo de limón, sal y pimienta.",
+            "Paso 3: Untá sobre el pan y serví inmediatamente."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2018/05/14/21/23/avocado-toast-3408138_1280.jpg"
+    },
+    {
+        "nombre": "Sopa de tomate",
+        "ingredientes": ["tomate", "cebolla", "ajo", "caldo", "aceite", "sal", "pimienta"],
+        "pasos": [
+            "Paso 1: Rehogá cebolla y ajo picados en aceite.",
+            "Paso 2: Añadí tomates pelados y picados.",
+            "Paso 3: Vertí caldo y cociná 20 minutos.",
+            "Paso 4: Licuá y serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/12/09/16/07/tomato-soup-1081862_1280.jpg"
+    },
+    {
+        "nombre": "Tarta de calabaza",
+        "ingredientes": ["masa de tarta", "calabaza", "cebolla", "queso", "huevo"],
+        "pasos": [
+            "Paso 1: Cociná 400 g de calabaza y hacé puré.",
+            "Paso 2: Rehogá cebolla y mezclá con el puré.",
+            "Paso 3: Añadí 2 huevos y 100 g de queso.",
+            "Paso 4: Volcá sobre la masa y horneá 35 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2020/04/27/15/40/pumpkin-5100385_1280.jpg"
+    },
+    {
+        "nombre": "Jugo de naranja",
+        "ingredientes": ["naranjas"],
+        "pasos": [
+            "Paso 1: Exprimí 4 naranjas grandes para obtener aproximadamente 250 ml de jugo.",
+            "Paso 2: Colá el jugo para eliminar semillas y pulpa gruesa.",
+            "Paso 3: Serví frío con hielo opcional."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/07/16/10/43/oranges-2501186_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de banana",
+        "ingredientes": ["banana", "leche", "miel"],
+        "pasos": [
+            "Paso 1: Pelá 2 bananas maduras y colocalas en la licuadora.",
+            "Paso 2: Agregá 250 ml de leche y 1 cucharadita de miel.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea.",
+            "Paso 4: Serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/smoothie-2158815_1280.jpg"
+    },
+    {
+        "nombre": "Café con leche",
+        "ingredientes": ["café", "leche", "azúcar"],
+        "pasos": [
+            "Paso 1: Prepará 200 ml de café filtrado o espresso.",
+            "Paso 2: Calentá 200 ml de leche y batila ligeramente para espumar.",
+            "Paso 3: Mezclá el café con la leche y endulzá a gusto.",
+            "Paso 4: Serví caliente."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/11/09/21/41/coffee-2934842_1280.jpg"
+    },
+    {
+        "nombre": "Mate tradicional",
+        "ingredientes": ["yerba mate", "agua caliente", "bombilla", "mate"],
+        "pasos": [
+            "Paso 1: Llená un mate con yerba hasta 2/3 de su capacidad.",
+            "Paso 2: Tapá con la mano y agitá suavemente para mezclar las hojas.",
+            "Paso 3: Colocá la bombilla en un costado y agregá agua caliente (70-80°C) sin hervir.",
+            "Paso 4: Serví y cebá repitiendo hasta terminar la yerba."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/01/16/19/14/mate-1983570_1280.jpg"
+    },
+    {
+        "nombre": "Agua mineral",
+        "ingredientes": ["agua mineral"],
+        "pasos": [
+            "Paso 1: Serví 250 ml de agua mineral en un vaso.",
+            "Paso 2: Añadí hielo o rodajas de limón opcional.",
+            "Paso 3: Serví fría."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/water-1239400_1280.jpg"
+    },
+    {
+        "nombre": "Té verde",
+        "ingredientes": ["té verde", "agua", "miel"],
+        "pasos": [
+            "Paso 1: Herví 250 ml de agua y dejá enfriar 1 minuto (no debe hervir completamente).",
+            "Paso 2: Colocá una bolsita de té verde o 1 cucharadita de hojas sueltas en una taza.",
+            "Paso 3: Verté el agua caliente y dejá reposar 3-5 minutos.",
+            "Paso 4: Endulzá con miel a gusto y serví."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/tea-3007399_1280.jpg"
+    },
+    {
+        "nombre": "Cerveza artesanal",
+        "ingredientes": ["cerveza"],
+        "pasos": [
+            "Paso 1: Serví 330 ml de cerveza en un vaso limpio y frío.",
+            "Paso 2: Serví lentamente para formar espuma si se desea.",
+            "Paso 3: Serví inmediatamente."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2015/11/19/20/08/beer-1052401_1280.jpg"
+    },
+    {
+        "nombre": "Vino tinto",
+        "ingredientes": ["vino tinto"],
+        "pasos": [
+            "Paso 1: Abrí la botella de vino tinto y decantá 10-15 minutos.",
+            "Paso 2: Serví en copas de vino hasta 2/3 de su capacidad.",
+            "Paso 3: Serví a temperatura ambiente."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/wine-1239402_1280.jpg"
+    },
+    {
+        "nombre": "Gaseosa cola",
+        "ingredientes": ["gaseosa cola", "hielo"],
+        "pasos": [
+            "Paso 1: Serví 250 ml de gaseosa en un vaso con hielo.",
+            "Paso 2: Mezclá suavemente y serví fría."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/coke-1239403_1280.jpg"
+    },
+    {
+        "nombre": "Batido de chocolate",
+        "ingredientes": ["leche", "helado de chocolate", "cacao en polvo", "azúcar"],
+        "pasos": [
+            "Paso 1: Colocá 200 ml de leche, 2 bolas de helado de chocolate y 1 cucharadita de cacao en polvo en la licuadora.",
+            "Paso 2: Licuá hasta obtener mezcla homogénea.",
+            "Paso 3: Endulzá a gusto y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chocolate-milkshake-2158816_1280.jpg"
+    },
+    {
+        "nombre": "Limonada casera",
+        "ingredientes": ["limón", "agua", "azúcar", "hielo"],
+        "pasos": [
+            "Paso 1: Exprimí 4 limones para obtener 250 ml de jugo.",
+            "Paso 2: Mezclá con 500 ml de agua y 2-3 cucharadas de azúcar.",
+            "Paso 3: Serví con hielo y rodajas de limón."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/lemonade-2158817_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie de frutilla",
+        "ingredientes": ["frutillas", "yogur natural", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Colocá 200 g de frutillas, 150 g de yogur natural y 1 cucharadita de miel en la licuadora.",
+            "Paso 2: Licuá hasta obtener mezcla homogénea.",
+            "Paso 3: Serví frío con hielo."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/strawberry-smoothie-2158818_1280.jpg"
+    },
+    {
+        "nombre": "Chocolate caliente",
+        "ingredientes": ["leche", "chocolate negro", "azúcar", "crema"],
+        "pasos": [
+            "Paso 1: Calentá 250 ml de leche en sartén a fuego medio.",
+            "Paso 2: Agregá 50 g de chocolate negro troceado y 1 cucharadita de azúcar.",
+            "Paso 3: Revolvé hasta que se derrita y la mezcla sea homogénea.",
+            "Paso 4: Serví caliente con crema batida encima."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/hot-chocolate-2158819_1280.jpg"
+    },
+    {
+        "nombre": "Té chai",
+        "ingredientes": ["té negro", "leche", "canela", "cardamomo", "clavo", "azúcar"],
+        "pasos": [
+            "Paso 1: Herví 250 ml de agua con 1 rama de canela, 2 vainas de cardamomo y 2 clavos.",
+            "Paso 2: Añadí 1 cucharadita de té negro y cociná 3-5 minutos.",
+            "Paso 3: Colá y agregá 150 ml de leche caliente y azúcar al gusto.",
+            "Paso 4: Serví caliente."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chai-tea-2158820_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie tropical",
+        "ingredientes": ["mango", "piña", "banana", "agua de coco", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 1 mango, 150 g de piña y 1 banana.",
+            "Paso 2: Colocá la fruta en la licuadora con 200 ml de agua de coco y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/tropical-smoothie-2158821_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de avena y banana",
+        "ingredientes": ["avena", "banana", "leche", "miel"],
+        "pasos": [
+            "Paso 1: Colocá 40 g de avena, 1 banana madura y 200 ml de leche en la licuadora.",
+            "Paso 2: Licuá hasta obtener mezcla homogénea.",
+            "Paso 3: Endulzá con miel al gusto y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/oat-banana-smoothie-2158822_1280.jpg"
+    },
+    {
+        "nombre": "Agua de pepino y menta",
+        "ingredientes": ["pepino", "menta", "agua", "hielo", "limón"],
+        "pasos": [
+            "Paso 1: Cortá 1 pepino en rodajas finas y agregalo a 500 ml de agua.",
+            "Paso 2: Añadí hojas de menta y rodajas de limón.",
+            "Paso 3: Serví frío con hielo."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/cucumber-water-2158823_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie de mango y frutilla",
+        "ingredientes": ["mango", "frutillas", "yogur natural", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 1 mango y 150 g de frutillas.",
+            "Paso 2: Colocá la fruta en la licuadora junto con 150 g de yogur natural, 1 cucharadita de miel y hielo al gusto.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/mango-strawberry-smoothie-2158824_1280.jpg"
+    },
+    {
+        "nombre": "Limonada con jengibre",
+        "ingredientes": ["limón", "agua", "jengibre", "azúcar", "hielo"],
+        "pasos": [
+            "Paso 1: Exprimí 4 limones para obtener 250 ml de jugo.",
+            "Paso 2: Rallá 1 cucharadita de jengibre fresco y agregalo al jugo.",
+            "Paso 3: Mezclá con 500 ml de agua y 2 cucharadas de azúcar.",
+            "Paso 4: Serví con hielo y rodajas de limón."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/ginger-lemonade-2158825_1280.jpg"
+    },
+    {
+        "nombre": "Batido de frutos rojos",
+        "ingredientes": ["frambuesas", "arándanos", "moras", "leche", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Colocá 100 g de frambuesas, 50 g de arándanos y 50 g de moras en la licuadora.",
+            "Paso 2: Añadí 200 ml de leche, 1 cucharadita de miel y hielo al gusto.",
+            "Paso 3: Licuá hasta que quede homogéneo y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/berry-smoothie-2158826_1280.jpg"
+    },
+    {
+        "nombre": "Café frappé",
+        "ingredientes": ["café instantáneo", "leche", "hielo", "azúcar", "crema batida"],
+        "pasos": [
+            "Paso 1: Disolvé 2 cucharaditas de café instantáneo en 50 ml de agua caliente.",
+            "Paso 2: Colocá en la licuadora con 150 ml de leche, hielo y 1 cucharadita de azúcar.",
+            "Paso 3: Licuá hasta que quede espumoso.",
+            "Paso 4: Serví con crema batida encima."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/frappe-coffee-2158827_1280.jpg"
+    },
+    {
+        "nombre": "Agua detox de pepino y limón",
+        "ingredientes": ["pepino", "limón", "agua", "menta", "hielo"],
+        "pasos": [
+            "Paso 1: Cortá 1 pepino en rodajas y 1 limón en medias lunas.",
+            "Paso 2: Colocalos en 500 ml de agua con hojas de menta.",
+            "Paso 3: Serví frío con hielo."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/detox-water-2158828_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie de piña y coco",
+        "ingredientes": ["piña", "leche de coco", "banana", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 150 g de piña y 1 banana.",
+            "Paso 2: Colocá en la licuadora con 200 ml de leche de coco y hielo.",
+            "Paso 3: Licuá hasta que quede homogéneo y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/pineapple-coconut-smoothie-2158829_1280.jpg"
+    },
+    {
+        "nombre": "Té helado de durazno",
+        "ingredientes": ["té negro", "duraznos", "azúcar", "agua", "hielo"],
+        "pasos": [
+            "Paso 1: Prepará 500 ml de té negro y dejá enfriar.",
+            "Paso 2: Cortá 2 duraznos en rodajas y agregalos al té.",
+            "Paso 3: Endulzá a gusto y serví con hielo."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/peach-iced-tea-2158830_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de manzana y canela",
+        "ingredientes": ["manzanas", "leche", "canela", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 2 manzanas.",
+            "Paso 2: Colocalas en la licuadora con 200 ml de leche, 1/2 cucharadita de canela, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/apple-smoothie-2158831_1280.jpg"
+    },
+    {
+        "nombre": "Batido de avena y chocolate",
+        "ingredientes": ["leche", "avena", "cacao en polvo", "azúcar", "hielo"],
+        "pasos": [
+            "Paso 1: Colocá 40 g de avena, 1 cucharada de cacao en polvo, 200 ml de leche y 1 cucharadita de azúcar en la licuadora.",
+            "Paso 2: Añadí hielo al gusto y licuá hasta obtener mezcla homogénea.",
+            "Paso 3: Serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chocolate-oat-smoothie-2158832_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie de kiwi y espinaca",
+        "ingredientes": ["kiwi", "espinaca", "banana", "agua", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá 2 kiwis y 1 banana, lavá 50 g de espinaca.",
+            "Paso 2: Colocalos en la licuadora con 200 ml de agua, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/kiwi-spinach-smoothie-2158833_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de pera y jengibre",
+        "ingredientes": ["pera", "jengibre", "agua", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 2 peras.",
+            "Paso 2: Rallá 1 cucharadita de jengibre fresco.",
+            "Paso 3: Colocalo todo en la licuadora con 200 ml de agua, miel al gusto y hielo.",
+            "Paso 4: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/pear-juice-2158834_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie tropical de mango y piña",
+        "ingredientes": ["mango", "piña", "leche de coco", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 1 mango y 150 g de piña.",
+            "Paso 2: Colocalo en la licuadora con 200 ml de leche de coco y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/tropical-mango-pineapple-2158835_1280.jpg"
+    },
+    {
+        "nombre": "Batido de cacao y plátano",
+        "ingredientes": ["plátano", "leche", "cacao en polvo", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá 1 plátano maduro.",
+            "Paso 2: Colocalo en la licuadora con 200 ml de leche, 1 cucharada de cacao y miel al gusto.",
+            "Paso 3: Añadí hielo y licuá hasta obtener mezcla homogénea.",
+            "Paso 4: Serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/banana-cocoa-smoothie-2158836_1280.jpg"
+    },
+    {
+        "nombre": "Té helado de hibisco",
+        "ingredientes": ["flores de hibisco", "agua", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Herví 500 ml de agua y agregá 2 cucharadas de flores de hibisco.",
+            "Paso 2: Dejá reposar 5-7 minutos.",
+            "Paso 3: Colá y endulzá con miel.",
+            "Paso 4: Serví con hielo."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/hibiscus-iced-tea-2158837_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie de frutilla y plátano",
+        "ingredientes": ["frutillas", "plátano", "yogur natural", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá 1 plátano y lavá 150 g de frutillas.",
+            "Paso 2: Colocalos en la licuadora con 150 g de yogur, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/strawberry-banana-smoothie-2158838_1280.jpg"
+    },
+    {
+        "nombre": "Batido de avena y frutilla",
+        "ingredientes": ["avena", "frutillas", "leche", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Colocá 40 g de avena y 150 g de frutillas en la licuadora.",
+            "Paso 2: Añadí 200 ml de leche, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/oat-strawberry-smoothie-2158839_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de durazno y naranja",
+        "ingredientes": ["duraznos", "naranjas", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 2 duraznos.",
+            "Paso 2: Exprimí 2 naranjas.",
+            "Paso 3: Colocalo todo en la licuadora con hielo y licuá hasta obtener mezcla homogénea.",
+            "Paso 4: Serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/peach-orange-smoothie-2158840_1280.jpg"
+    },
+    {
+        "nombre": "Té de manzanilla con miel",
+        "ingredientes": ["flores de manzanilla", "agua", "miel"],
+        "pasos": [
+            "Paso 1: Herví 250 ml de agua.",
+            "Paso 2: Añadí 2 cucharaditas de flores de manzanilla y dejá reposar 5 minutos.",
+            "Paso 3: Colá y endulzá con miel.",
+            "Paso 4: Serví caliente."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chamomile-tea-2158841_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de arándanos y banana",
+        "ingredientes": ["arándanos", "banana", "yogur natural", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá 1 banana y lavá 100 g de arándanos.",
+            "Paso 2: Colocalos en la licuadora con 150 g de yogur natural, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/blueberry-banana-smoothie-2158842_1280.jpg"
+    },
+    {
+        "nombre": "Batido de manzana y kiwi",
+        "ingredientes": ["manzana", "kiwi", "leche", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá 1 manzana y 1 kiwi, cortá en trozos.",
+            "Paso 2: Colocalos en la licuadora con 200 ml de leche, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/apple-kiwi-smoothie-2158843_1280.jpg"
+    },
+    {
+        "nombre": "Té de hierbas con limón",
+        "ingredientes": ["menta", "manzanilla", "agua", "limón", "miel"],
+        "pasos": [
+            "Paso 1: Herví 250 ml de agua.",
+            "Paso 2: Añadí hojas de menta y manzanilla, dejá reposar 5 minutos.",
+            "Paso 3: Colá, agregá rodajas de limón y miel al gusto.",
+            "Paso 4: Serví caliente o frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/herbal-tea-2158844_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie de pera y espinaca",
+        "ingredientes": ["pera", "espinaca", "banana", "agua", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá 1 pera y 1 banana, lavá 50 g de espinaca.",
+            "Paso 2: Colocalos en la licuadora con 200 ml de agua y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/pear-spinach-smoothie-2158845_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de naranja y zanahoria",
+        "ingredientes": ["naranja", "zanahoria", "jengibre", "hielo"],
+        "pasos": [
+            "Paso 1: Exprimí 3 naranjas y pelá 1 zanahoria.",
+            "Paso 2: Colocalo en la licuadora con 1/2 cucharadita de jengibre rallado y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/orange-carrot-smoothie-2158846_1280.jpg"
+    },
+    {
+        "nombre": "Batido de frutos del bosque y avena",
+        "ingredientes": ["arándanos", "frambuesas", "avena", "leche", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Colocá 50 g de arándanos, 50 g de frambuesas y 40 g de avena en la licuadora.",
+            "Paso 2: Añadí 200 ml de leche, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/berry-oat-smoothie-2158847_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie tropical de papaya y mango",
+        "ingredientes": ["papaya", "mango", "leche de coco", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 150 g de papaya y 1 mango.",
+            "Paso 2: Colocalo en la licuadora con 200 ml de leche de coco y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/papaya-mango-smoothie-2158848_1280.jpg"
+    },
+    {
+        "nombre": "Batido de plátano y mantequilla de maní",
+        "ingredientes": ["plátano", "leche", "mantequilla de maní", "miel", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá 1 plátano.",
+            "Paso 2: Colocalo en la licuadora con 200 ml de leche, 1 cucharada de mantequilla de maní, miel al gusto y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/banana-peanut-butter-smoothie-2158849_1280.jpg"
+    },
+    {
+        "nombre": "Té de jazmín",
+        "ingredientes": ["flores de jazmín", "agua", "miel"],
+        "pasos": [
+            "Paso 1: Herví 250 ml de agua.",
+            "Paso 2: Añadí 2 cucharaditas de flores de jazmín y dejá reposar 5 minutos.",
+            "Paso 3: Colá y endulzá con miel.",
+            "Paso 4: Serví caliente."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/jasmine-tea-2158850_1280.jpg"
+    },
+    {
+        "nombre": "Smoothie de arándanos y espinaca",
+        "ingredientes": ["arándanos", "espinaca", "banana", "agua", "hielo"],
+        "pasos": [
+            "Paso 1: Lavá 50 g de espinaca, pelá 1 banana y 100 g de arándanos.",
+            "Paso 2: Colocalos en la licuadora con 200 ml de agua y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/blueberry-spinach-smoothie-2158851_1280.jpg"
+    },
+    {
+        "nombre": "Licuado de sandía y menta",
+        "ingredientes": ["sandía", "menta", "hielo"],
+        "pasos": [
+            "Paso 1: Cortá 300 g de sandía en cubos y lavá unas hojas de menta.",
+            "Paso 2: Colocalo en la licuadora con hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/watermelon-mint-smoothie-2158852_1280.jpg"
+    },
+    {
+        "nombre": "Batido de mango y maracuyá",
+        "ingredientes": ["mango", "maracuyá", "yogur natural", "hielo"],
+        "pasos": [
+            "Paso 1: Pelá y cortá 1 mango y extrae la pulpa de 2 maracuyás.",
+            "Paso 2: Colocalo en la licuadora con 150 g de yogur natural y hielo.",
+            "Paso 3: Licuá hasta obtener mezcla homogénea y serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/mango-passionfruit-smoothie-2158853_1280.jpg"
     }
 ]
