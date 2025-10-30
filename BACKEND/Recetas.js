@@ -42,3 +42,5 @@ export const GuardarRecetas = (data) => {
     let recetas = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
     recetas.push(data);
 }
+
+
