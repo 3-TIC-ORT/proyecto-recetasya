@@ -829,6 +829,154 @@
         "categoria": "Dulce",
         "apto": "SinTACC",
         "imagen": "https://cdn.pixabay.com/photo/2017/03/21/16/19/chia-pudding-2162651_1280.jpg"
+        },
+        {
+        "nombre": "Crème Brûlée",
+        "ingredientes": ["crema de leche", "azúcar", "yemas de huevo", "extracto de vainilla", "azúcar para caramelizar"],
+        "pasos": [
+          "Precalentar el horno a 160°C.",
+          "Calentar 500 ml de crema con 1 cucharadita de vainilla hasta que casi hierva.",
+          "Batir 5 yemas con 100 g de azúcar hasta que blanquee.",
+          "Verter la crema caliente lentamente sobre las yemas mientras se bate.",
+          "Colar la mezcla y distribuir en ramequines.",
+          "Hornear a baño maría durante 35-40 minutos.",
+          "Dejar enfriar, luego refrigerar 2 horas.",
+          "Antes de servir, espolvorear azúcar y caramelizar con soplete."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1590080875831-45a8ae9d7f79"
+    },
+    {
+        "nombre": "Cheesecake de limón",
+        "ingredientes": ["galletitas dulces", "manteca", "queso crema", "azúcar", "jugo de limón", "gelatina sin sabor", "crema de leche"],
+        "pasos": [
+          "Triturar 200 g de galletitas y mezclar con 80 g de manteca derretida.",
+          "Presionar la mezcla en la base de un molde desmontable y refrigerar 20 minutos.",
+          "Batir 400 g de queso crema con 100 g de azúcar y 100 ml de jugo de limón.",
+          "Disolver 1 sobre de gelatina sin sabor y añadir.",
+          "Incorporar 200 ml de crema batida.",
+          "Verter sobre la base y refrigerar al menos 4 horas.",
+          "Decorar con ralladura de limón o rodajas finas."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb"
+    },
+    {
+        "nombre": "Donas glaseadas",
+        "ingredientes": ["harina", "levadura", "leche", "azúcar", "huevo", "manteca", "aceite", "azúcar impalpable", "agua"],
+        "pasos": [
+          "Disolver 25 g de levadura en 100 ml de leche tibia con 1 cucharada de azúcar.",
+          "Agregar 1 huevo, 50 g de manteca derretida y 300 g de harina.",
+          "Amasar y dejar levar 1 hora.",
+          "Estirar y cortar círculos con hueco central.",
+          "Freír en aceite caliente hasta dorar.",
+          "Mezclar 200 g de azúcar impalpable con un poco de agua para formar glaseado.",
+          "Sumergir las donas y dejar secar sobre rejilla."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1600891963933-960d1d1b0650"
+    },
+    {
+        "nombre": "Compota de manzana",
+        "ingredientes": ["manzanas", "azúcar", "canela", "agua", "limón"],
+        "pasos": [
+          "Pelar y cortar 4 manzanas en trozos.",
+          "Colocar en una olla con 100 ml de agua, 2 cucharadas de azúcar y un toque de canela.",
+          "Cocinar a fuego lento 20 minutos hasta que se ablanden.",
+          "Agregar jugo de medio limón y pisar con tenedor.",
+          "Servir tibia o fría."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1572448862528-411b9b3dc4b5"
+    },
+    {
+        "nombre": "Trufas de coco",
+        "ingredientes": ["leche condensada", "coco rallado", "azúcar impalpable"],
+        "pasos": [
+          "Mezclar 1 lata de leche condensada con 200 g de coco rallado.",
+          "Formar bolitas pequeñas y pasar por azúcar impalpable.",
+          "Llevar a la heladera por 1 hora antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+    },
+    {
+        "nombre": "Cupcakes de frutilla",
+        "ingredientes": ["harina", "azúcar", "huevo", "manteca", "polvo de hornear", "leche", "frutillas"],
+        "pasos": [
+          "Precalentar el horno a 180°C.",
+          "Batir 100 g de manteca con 100 g de azúcar hasta cremoso.",
+          "Agregar 2 huevos, 150 g de harina y 1 cucharadita de polvo de hornear.",
+          "Incorporar 100 ml de leche y frutillas picadas.",
+          "Verter en moldes y hornear 20 minutos.",
+          "Dejar enfriar y decorar con crema chantilly y rodajas de frutilla."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1565958011705-44e211b20a5a"
+    },
+    {
+        "nombre": "Banana Split",
+        "ingredientes": ["banana", "helado de vainilla", "helado de chocolate", "helado de frutilla", "salsa de chocolate", "crema batida", "cerezas"],
+        "pasos": [
+          "Cortar una banana al medio a lo largo.",
+          "Colocar en un plato y agregar tres bochas de helado (vainilla, chocolate y frutilla).",
+          "Cubrir con crema batida y salsa de chocolate.",
+          "Coronar con una cereza en cada bocha.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1606787366850-de6330128bfc"
+    },
+    {
+        "nombre": "Crêpes Suzette",
+        "ingredientes": ["harina", "leche", "huevo", "manteca", "azúcar", "naranja", "licor de naranja"],
+        "pasos": [
+          "Mezclar 100 g de harina, 2 huevos y 250 ml de leche hasta obtener una masa líquida.",
+          "Cocinar los crêpes finos en sartén con manteca.",
+          "En otra sartén, derretir 50 g de manteca con 50 g de azúcar y jugo de 1 naranja.",
+          "Añadir licor de naranja (opcional) y calentar.",
+          "Sumergir los crêpes en la salsa y doblar en cuartos.",
+          "Servir calientes con ralladura de naranja."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1617196035154-5d8c5bde8cf5"
+    },
+    {
+        "nombre": "Tarta de duraznos",
+        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "duraznos", "mermelada de durazno"],
+        "pasos": [
+          "Hacer una masa con 250 g de harina, 125 g de manteca, 100 g de azúcar y 1 huevo.",
+          "Dejar reposar 30 minutos.",
+          "Forrar una tartera y colocar duraznos en láminas encima.",
+          "Pincelar con mermelada de durazno.",
+          "Hornear a 180°C por 35 minutos.",
+          "Dejar enfriar y servir con crema o helado."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1609781162746-3d3a4b25b6b0"
+    },
+    {
+        "nombre": "Bizcochitos de anís",
+        "ingredientes": ["harina", "manteca", "azúcar", "anís en grano", "huevo"],
+        "pasos": [
+          "Precalentar el horno a 180°C.",
+          "Batir 100 g de manteca con 100 g de azúcar y 1 huevo.",
+          "Agregar 250 g de harina y 1 cucharadita de anís en grano.",
+          "Formar bizcochitos pequeños y colocarlos en placa.",
+          "Hornear 15-20 minutos hasta dorar levemente."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1612197527762-5e06bc8a3128"
     },
     {
         "nombre": "Papas fritas",

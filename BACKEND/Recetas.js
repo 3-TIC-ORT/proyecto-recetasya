@@ -42,14 +42,14 @@ export const GuardarRecetas = (data) => {
     let Usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
     for (let i = 0; i < Usuarios.length; i++) {
         if (Usuarios[i].Nombre_de_la_Cuenta === data.Nombre){
-            if (data.Creadas === "creada") {
-                Usuarios[i].Creadas.push(data.receta);
+            if (data.Tipo === "Creada") {
+                Usuarios[i].Creadas.push(data.Receta);
               }
         
-              if (data.tipo === "favorito") {
-                Usuarios[i].Favoritos.push(data.receta);
+              if (data.Tipo === "Favorito") {
+                Usuarios[i].Favoritos.push(data.Receta);
               }
         }
     }
-    fs.writeFileSync("Usuarios.json", JSON.stringify(Usuarios));
+    fs.writeFileSync("Usuarios.json", JSON.stringify(Usuarios, null, 2), "utf-8");
 }
