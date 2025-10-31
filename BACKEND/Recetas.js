@@ -9,7 +9,7 @@ export const MostrarRecetasDulces = (data) => {
     let RecetasArray = JSON.parse(fs.readFileSync("Recetas.json", "utf-8"));
     let recetasDulces = [];
     for (let i = 0; i < RecetasArray.length; i++) {
-        if (RecetasArray[i].categoria === "dulces"){
+        if (RecetasArray[i].categoria === "Dulce"){
             recetasDulces.push(RecetasArray[i])
         }
     }
@@ -20,7 +20,7 @@ export const MostrarRecetasSalados = (data) => {
     let RecetasArray = JSON.parse(fs.readFileSync("Recetas.json", "utf-8"));
     let recetasSalados = [];
     for (let i = 0; i < RecetasArray.length; i++) {
-        if (RecetasArray[i].categoria === "dulces"){
+        if (RecetasArray[i].categoria === "Salado"){
             recetasSalados.push(RecetasArray[i])
         }
     }
@@ -31,7 +31,7 @@ export const MostrarRecetasBebidas = (data) => {
     let RecetasArray = JSON.parse(fs.readFileSync("Recetas.json", "utf-8"));
     let recetasBebidas = [];
     for (let i = 0; i < RecetasArray.length; i++) {
-        if (RecetasArray[i].categoria === "dulces"){
+        if (RecetasArray[i].categoria === "Bebida"){
             recetasBebidas.push(RecetasArray[i])
         }
     }
