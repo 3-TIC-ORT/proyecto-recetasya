@@ -3,7 +3,6 @@ let home = document.getElementById("home");
 connect2Server();
 
 window.onload = () => {
-    getEvent("recetassalados", mostrarRecetas);
   };
   
   function mostrarRecetas(data) {
@@ -38,15 +37,10 @@ window.onload = () => {
 
 let comidas = [];
 
-fetch('../BACKEND/recetas.json')          // Ruta al archivo JSON
-  .then(response => response.json())  // Convertir la respuesta en JSON
-  .then(data => {
+getEvent("recetassalados", data => {
     console.log('Comidas cargadas desde JSON:', data);
-    comidas = data;
+    comidas = data.data;
     mostrarComidas(comidas);
-  })
-  .catch(error => {
-    console.error('Error al leer el archivo JSON:', error);
   });
 
 const container = document.getElementById('recetas');
@@ -59,7 +53,8 @@ function mostrarComidas(lista) {
       <div class="tarjeta">
         <h3>${receta.nombre}</h3>
         <h4>${receta.categoria}</h4>
-        <h4>${receta.provincia}</h4>
+        <h4>${receta.apto}</h4>
+        <h4>${receta.pasos}</h4>
         <p>${receta.ingredientes || ''}</p>
       </div>
     `;
