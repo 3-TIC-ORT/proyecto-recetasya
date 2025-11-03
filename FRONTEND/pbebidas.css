@@ -48,6 +48,9 @@
     width: 30rem;
     background-color: whitesmoke;
     border: .2rem solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .textoabajo{
@@ -156,4 +159,16 @@ body{
     width: 30%;
     background-color: whitesmoke;
     border: .2rem solid black;
+}
+
+.estrella{
+    background-image: url("WIMAGENES FRONT/botonfavoritos.png");
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
