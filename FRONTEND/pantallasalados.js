@@ -10,7 +10,7 @@ window.onload = () => {
     console.log("Datos recibidos del backend:", data);
   
     if (data && data.success && Array.isArray(data.data)) {
-      const recetas = data.data;
+      const recetas = data;
   
       container.innerHTML = "";
   

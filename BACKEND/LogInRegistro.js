@@ -39,7 +39,11 @@ export const registroEvent = (data) => {
        return { success: false, message: " El usuario ya existe."}
     }
     else if (UsuarioYaExistente === false)  {
-      usuarios.push({ "Nombre_de_la_Cuenta": data.nombre, "Contraseña": data.contraseña, "Favoritos":[], "Creadas":[] });
+      usuarios.push({ "Nombre_de_la_Cuenta": data.nombre, "Contraseña": data.contraseña, "Favoritos":[
+        ""
+      ], "Creadas":[
+        ""
+      ] });
     fs.writeFileSync("Usuarios.json", JSON.stringify(usuarios, null, 2));
     return { success: true, message: " Bienvenido a RecipEat." };
     }
