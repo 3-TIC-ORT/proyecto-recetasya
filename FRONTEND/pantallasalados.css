@@ -192,3 +192,54 @@ body{
     vertical-align: top;
     transition: transform 0.2s ease-in-out;
   }
+
+  .r5{
+    height: 15rem;
+    width: 50rem;
+    background-color: whitesmoke;
+    border: .2rem solid black;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin-left: 1rem;
+
+  }
+
+  .texto3{
+    height: 13rem;
+    width: 30rem;
+    background-color: whitesmoke;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .tarr{
+    height: 3rem;
+    width: 30rem;
+    background-color: whitesmoke;
+    border: .2rem solid black;
+  }
+
+  .tabj{
+    height: 10rem;
+    width: 30rem;
+    background-color: whitesmoke;
+    border: .2rem solid black;
+  }
+
+  .img3{
+    height: 12.7rem;
+    width: 16rem;
+    background-color: whitesmoke;
+    border: .2rem solid black;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+ 

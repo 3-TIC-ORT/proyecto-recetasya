@@ -50,13 +50,29 @@ function mostrarComidas(lista) {
 
   lista.forEach(receta => {
     container.innerHTML += `
-      <div class="tarjeta">
-        <h3>${receta.nombre}</h3>
-        <h4>${receta.categoria}</h4>
-        <h4>${receta.apto}</h4>
-        <h4>${receta.pasos}</h4>
-        <p>${receta.ingredientes || ''}</p>
-      </div>
+    <div class="lista5"> 
+      <div class="r5"> 
+        <div class="tarjeta">
+        </div>
+        <div class="texto3"> 
+          <div class= "img3"> 
+          </div>
+          
+          <div class="tarr"> 
+            <h3>${receta.nombre}</h3>
+          </div>
+          <div class="tabj"> 
+            <p>${receta.ingredientes || ''}</p>
+            <h4>${receta.pasos}</h4>
+            <h4>${receta.categoria}</h4>
+            <h4>${receta.apto}</h4>
+          </div>
+        </div>
+
+
+        </div>
+    
+    </div>
     `;
   });
 }
