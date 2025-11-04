@@ -1,4 +1,5 @@
 let home = document.getElementById("home");
+let favoritos = document.getElementById("favoritos");
 
 
 function cambiarbebidas(){
