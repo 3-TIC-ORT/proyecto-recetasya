@@ -77,6 +77,37 @@ function mostrarComidas(lista) {
 
 mostrarComidas
 
+const filtroingredientes = document.getElementById('filtroingredientes');
+const filtroapto = document.getElementById('filtroapto');
+
+// ==== REFERENCIAS A LOS FILTROS ====
+// (usamos nombres estándar, aunque los id del HTML son diferentes)
+const filtroCategoria = document.getElementById('filtroingredientes'); // tu HTML usa este id
+const filtroProvincia = document.getElementById('filtroapto'); // tu HTML usa este id
+
+// ==== EVENTOS DE LOS FILTROS ====
+filtroCategoria.addEventListener('change', aplicarFiltros);
+filtroProvincia.addEventListener('change', aplicarFiltros);
+
+// ==== FUNCION DE FILTRADO ====
+function aplicarFiltros() {
+  const categoriaSeleccionada = filtroCategoria.value.toLowerCase();
+  const provinciaSeleccionada = filtroProvincia.value.toLowerCase();
+
+  const comidasFiltradas = comidas.filter(receta => {
+    const coincideCategoria =
+      categoriaSeleccionada === '' || receta.ingredientes === categoriaSeleccionada;
+    const coincideProvincia =
+      provinciaSeleccionada === '' || receta.apto === provinciaSeleccionada;
+    
+    return coincideCategoria && coincideProvincia;
+  });
+
+  mostrarComidas(comidasFiltradas);
+}
+
+
+
 
 function cambiarpantalla(){
     window.location.href = "pantallasalados.html";

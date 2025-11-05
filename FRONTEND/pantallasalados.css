@@ -280,3 +280,64 @@ main{
     gap: 2rem;
 }
 
+.filtrocategoria {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+.filtrocategoria select {
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    min-width: 180px;
+}
+
+.filtrado {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Etiquetas */
+  .filtrado label {
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  /* Selectores */
+  .filtrado select {
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .filtrado select:hover {
+    border-color: #999;
+    background-color: #f0f0f0;
+  }
+  
+  .filtrado select:focus {
+    outline: none;
+    border-color: #ff7b00;
+    box-shadow: 0 0 5px rgba(255, 123, 0, 0.4);
+  }
+  
+  
