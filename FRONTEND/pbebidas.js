@@ -1,5 +1,6 @@
 let home = document.getElementById("home");
-let favoritos = document.getElementById("favoritos");
+const imagenestrella = document.getElementById("favoritos");
+let esfavorita = false;
 
 
 function cambiarbebidas(){
@@ -11,3 +12,17 @@ function cambiarbebidas2(){
 }
 
 home.addEventListener("click", cambiarbebidas2);
+
+
+function cambiarimagen(){
+    if (esfavorita){
+        imagenestrella.src = "IMAGENES FRONT/botonfavoritos.png";
+        esfavorita = false
+    }
+    else{
+        imagenestrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+        esfavorita = true
+    }
+}
+
+addEventListener("click", cambiarimagen);
