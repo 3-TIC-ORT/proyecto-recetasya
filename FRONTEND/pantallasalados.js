@@ -52,20 +52,18 @@ function mostrarComidas(lista) {
     container.innerHTML += `
     <div class="lista5"> 
       <div class="r5"> 
-        <div class="tarjeta">
+        <div class= "img3"> 
+          <img>{receta.imagen} </img>
         </div>
         <div class="texto3"> 
-          <div class= "img3"> 
-          </div>
           
           <div class="tarr"> 
             <h3>${receta.nombre}</h3>
           </div>
           <div class="tabj"> 
             <p>${receta.ingredientes || ''}</p>
-            <h4>${receta.pasos}</h4>
-            <h4>${receta.categoria}</h4>
-            <h4>${receta.apto}</h4>
+            <h4>- ${receta.categoria}</h4>
+            <h4>- ${receta.apto}</h4>
           </div>
         </div>
 
