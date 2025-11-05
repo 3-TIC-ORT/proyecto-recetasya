@@ -53,7 +53,7 @@ function mostrarComidas(lista) {
     <div class="lista5"> 
       <div class="r5"> 
         <div class= "img3"> 
-          <img>{receta.imagen} </img>
+          <img class="imgrecetas" src="${receta.imagen}">
         </div>
         <div class="texto3"> 
           

@@ -250,17 +250,33 @@ h3{
 
 .filtros{
     height: 30rem;
-    width: 30rem;
+    width: 25rem;
     background-color: #a3b87f;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+
 }
 
 .title{
-    background-color: red;
     height: 7rem;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 2rem;
+}
+
+.imgrecetas{
+    height: 12.7rem;
+    width: 16rem;
+}
+
+main{
+    width: 100vw;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
     gap: 2rem;
 }
 
