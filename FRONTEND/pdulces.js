@@ -1,4 +1,3 @@
-let home = document.getElementById("home");
 
 connect2Server();
 
@@ -75,36 +74,49 @@ function mostrarComidas(lista) {
   });
 }
 
-mostrarComidas
+// Nota: 'mostrarComidas' es la función que debe llamarse. 
+// La línea 'mostrarComidas' sin paréntesis solo referencia la función, no la ejecuta.
+// Pero la eliminaremos, ya que la ejecución inicial se hará desde 'aplicarFiltros'.
+
 
 const filtroingredientes = document.getElementById('filtroingredientes');
 const filtroapto = document.getElementById('filtroapto');
-
-// ==== REFERENCIAS A LOS FILTROS ====
-// (usamos nombres estándar, aunque los id del HTML son diferentes)
 
 // ==== EVENTOS DE LOS FILTROS ====
 filtroingredientes.addEventListener('change', aplicarFiltros);
 filtroapto.addEventListener('change', aplicarFiltros);
 
-// ==== FUNCION DE FILTRADO ====
+// ==== FUNCION DE FILTRADO CORREGIDA ====
+// ==== FUNCION DE FILTRADO CORREGIDA para ingredientes (asumiendo ARRAY) ====
 function aplicarFiltros() {
-  const ingredienteSeleccionado = filtroingredientes.value.toLowerCase();
-  const aptoSeleccionado = filtroapto.value.toLowerCase();
+    const ingredienteSeleccionado = filtroingredientes.value.toLowerCase();
+    const aptoSeleccionado = filtroapto.value.toLowerCase(); 
 
-  const comidasFiltradas = comidas.filter(receta => {
-    const coincideIngredientes =
-      ingredienteSeleccionado === '' || receta.ingredientes === ingredienteSeleccionado;
-    const coincideApto =
-      aptoSeleccionado === '' || receta.apto === aptoSeleccionado;
-    
-    return coincideIngredientes && coincideApto;
-  });
+    const comidasFiltradas = comidas.filter(receta => {
+        
+        // 1. FILTRO DE INGREDIENTES CORREGIDO (Asumiendo que receta.ingredientes es un ARRAY)
+        const coincideIngredientes =
+            ingredienteSeleccionado === '' || 
+            (Array.isArray(receta.ingredientes) && // Verifica que sea un array
+             receta.ingredientes.some(ingredienteReceta => 
+                 // Convierte cada ingrediente a minúsculas y verifica si incluye el filtro.
+                 ingredienteReceta.toLowerCase().includes(ingredienteSeleccionado)
+             ));
 
-  mostrarComidas(comidasFiltradas);
+
+        // 2. FILTRO APTO PARA CELÍACOS (TACC) - Lógica anterior mantenida
+        const coincideApto =
+            aptoSeleccionado === '' || 
+            (receta.apto && receta.apto.toLowerCase() === aptoSeleccionado);
+        
+        return coincideIngredientes && coincideApto;
+    });
+
+    mostrarComidas(comidasFiltradas);
 }
 
 
+let home = document.getElementById("home");
 
 function cambiardulces(){
     window.location.href = "pdulces.html";

@@ -5,3 +5,5 @@ Participantes:
 - Luciano Bonilauri (FRONTEND)
 - Joaquin Otero (TIMI)
 link al figma: https://www.figma.com/design/oUYTKFpNMmODUxpZikRlZZ/RecipEAT?node-id=0-1&t=sGAw3XaM3R9WEk0m-1
+
+
