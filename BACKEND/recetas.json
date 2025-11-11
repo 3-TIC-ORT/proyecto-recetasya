@@ -2766,6 +2766,41 @@
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1YIgBqTXqpeQT56HAJCZb2tfSXizj8nqDA&s"
     },
     {
+        "nombre": "Locro tradicional argentino",
+        "ingredientes": "maíz blanco partido, porotos pallares, panceta, chorizo colorado, cuerito de cerdo, zapallo, cebolla, ajo, pimentón, ají molido, aceite, sal, pimienta",
+        "pasos": [
+            "paso 1: Lavar 300 g de maíz blanco partido y 200 g de porotos pallares; dejarlos en remojo toda la noche.",
+            "paso 2: Colocar el maíz y los porotos en una olla grande con abundante agua y cocinar a fuego medio durante 1 hora.",
+            "paso 3: Agregar 300 g de zapallo en cubos y cocinar hasta que se deshaga, revolviendo para espesar.",
+            "paso 4: Aparte, saltear 150 g de panceta en cubitos hasta dorar.",
+            "paso 5: Cortar 1 chorizo colorado y 1 cuerito de cerdo en trozos y agregar a la sartén con la panceta.",
+            "paso 6: Incorporar esta mezcla a la olla principal y cocinar 40 minutos más a fuego bajo.",
+            "paso 7: Preparar una fritura: calentar aceite y agregar 2 cucharadas de pimentón, 1 cucharada de ají molido, 1 cebolla picada y 2 dientes de ajo picados; cocinar apenas sin quemar.",
+            "paso 8: Agregar la fritura al locro, mezclar bien y ajustar sal y pimienta.",
+            "paso 9: Cocinar 15 minutos más y servir caliente con un toque extra de fritura si se desea."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKEUOoXOXhpmMCGwzWv0via83cjOuFN0Kf2Q&s"
+    },
+    {
+        "nombre": "Albóndigas con arroz",
+        "ingredientes": "carne picada, arroz, cebolla, ajo, huevo, pan rallado, puré de tomate, aceite, perejil, sal, pimienta",
+        "pasos": [
+            "paso 1: Colocar 500 g de carne picada en un bowl y agregar 1 huevo, sal, pimienta, 1 diente de ajo picado y 2 cucharadas de perejil picado.",
+            "paso 2: Incorporar 3 cucharadas de pan rallado y mezclar hasta obtener una masa firme.",
+            "paso 3: Formar las albóndigas del tamaño deseado y reservar.",
+            "paso 4: En una olla, dorar 1 cebolla picada en un chorrito de aceite.",
+            "paso 5: Agregar 500 g de puré de tomate, sal, pimienta y un chorrito de agua; cocinar 5 minutos.",
+            "paso 6: Sumar las albóndigas a la salsa y cocinar tapado a fuego bajo durante 30 minutos.",
+            "paso 7: Mientras tanto, hervir 1 taza de arroz en abundante agua con sal hasta que esté tierno, colar y reservar.",
+            "paso 8: Servir las albóndigas con una porción de arroz blanco caliente y un poco de perejil picado por encima."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAkrnN_YeN8TiYCRhpl-8mruiSurPQdEvxg&s"
+    },
+    {
         "nombre": "Jugo de naranja",
         "ingredientes": ["naranjas"],
         "pasos": [
