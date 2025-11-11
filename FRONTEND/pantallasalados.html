@@ -22,7 +22,9 @@
 
     
     <div class="texto"><h2 class="titulo">RECETAS SALADAS</h2></div>
-    
+    <br>
+
+    <input type="text" id="buscador" placeholder="Buscar receta por nombre...">
     <main>
         <div class="recetas" id="recetas"> 
         </div>
@@ -34,26 +36,129 @@
             </div>
             <section class="filtrado">
                 <label for="filtroingredientes">Ingredientes</label>
-                <select id="filtroingredientes">
+                <select id="filtroingredientes"  >
                     <option value="">Todas</option>
-                    <option value="carne picada">carne picada</option>
-                    <option value="cebolla">cebolla</option>
-                    <option value="pimiento">pimiento</option>
-                    <option value="aceite">aceite</option>
-                    <option value="papa">papa</option>
-                    <option value="tomate">tomate</option>
-                    <option value="mozzarella">mozzarella</option>
-                    <option value="manteca">manteca</option>
-                    <option value="crema">crema</option>
+                    <option value="aceite">Aceite</option>
+                    <option value="aceite de oliva">Aceite de oliva</option>
+                    <option value="agua">Agua</option>
+                    <option value="aguacate">Aguacate</option>
+                    <option value="ajo">Ajo</option>
+                    <option value="albahaca">Albahaca</option>
+                    <option value="alga nori">Alga nori</option>
+                    <option value="arroz">Arroz</option>
+                    <option value="arroz arborio">Arroz arborio</option>
+                    <option value="arroz para sushi">Arroz para sushi</option>
+                    <option value="atun">Atún</option>
+                    <option value="azafran">Azafrán</option>
+                    <option value="batatas">Batatas</option>
+                    <option value="berenjena">Berenjena</option>
+                    <option value="calabacin">Calabacín</option>
+                    <option value="calabaza">Calabaza</option>
+                    <option value="calamares">Calamares</option>
+                    <option value="caldo">Caldo</option>
+                    <option value="caldo de pescado">Caldo de pescado</option>
+                    <option value="caldo de pollo">Caldo de pollo</option>
+                    <option value="caldo de verduras">Caldo de verduras</option>
+                    <option value="carne de res">Carne de res</option>
+                    <option value="carne picada">Carne picada</option>
+                    <option value="cebolla">Cebolla</option>
+                    <option value="cebolla verde">Cebolla verde</option>
+                    <option value="cerdo">Cerdo</option>
+                    <option value="champinones">Champiñones</option>
+                    <option value="chorizo">Chorizo</option>
+                    <option value="chorizos">Chorizos</option>
+                    <option value="comino">Comino</option>
+                    <option value="crema">Crema</option>
+                    <option value="crema de leche">Crema de leche</option>
+                    <option value="croquetas de papa">Croquetas de papa</option>
+                    <option value="curry">Curry</option>
+                    <option value="curry en polvo">Curry en polvo</option>
+                    <option value="espinaca">Espinaca</option>
+                    <option value="fideos ramen">Fideos ramen</option>
+                    <option value="gambas">Gambas</option>
+                    <option value="garbanzos">Garbanzos</option>
+                    <option value="guisantes">Guisantes</option>
+                    <option value="harina">Harina</option>
+                    <option value="harina de garbanzo">Harina de garbanzo</option>
+                    <option value="harina de maiz precocida">Harina de maíz precocida</option>
+                    <option value="huevo">Huevo</option>
+                    <option value="jalapenos">Jalapeños</option>
+                    <option value="jamon">Jamón</option>
+                    <option value="jamon crudo">Jamón crudo</option>
+                    <option value="jengibre">Jengibre</option>
+                    <option value="laminas de lasana">Láminas de lasaña</option>
+                    <option value="leche">Leche</option>
+                    <option value="leche de coco">Leche de coco</option>
+                    <option value="lechuga">Lechuga</option>
+                    <option value="lentejas">Lentejas</option>
+                    <option value="levadura">Levadura</option>
+                    <option value="limon">Limón</option>
+                    <option value="manteca">Manteca</option>
+                    <option value="masa de pizza">Masa de pizza</option>
+                    <option value="masa de tarta">Masa de tarta</option>
+                    <option value="masa para empanadas">Masa para empanadas</option>
+                    <option value="masa para pizza">Masa para pizza</option>
+                    <option value="mayonesa">Mayonesa</option>
+                    <option value="mejillones">Mejillones</option>
+                    <option value="menta">Menta</option>
+                    <option value="milanesas de berenjena">Milanesas de berenjena</option>
+                    <option value="milanesas de pollo">Milanesas de pollo</option>
+                    <option value="mozzarella">Mozzarella</option>
+                    <option value="palta">Palta</option>
+                    <option value="pan">Pan</option>
+                    <option value="pan de ajo">Pan de ajo</option>
+                    <option value="pan frances">Pan francés</option>
+                    <option value="pan lactal">Pan lactal</option>
+                    <option value="pan rallado">Pan rallado</option>
+                    <option value="papas">Papas</option>
+                    <option value="pasta para canelones">Pasta para canelones</option>
+                    <option value="pepino">Pepino</option>
+                    <option value="perejil">Perejil</option>
+                    <option value="pescado">Pescado</option>
+                    <option value="pimienta">Pimienta</option>
+                    <option value="pimenton">Pimentón</option>
+                    <option value="pimiento">Pimiento</option>
+                    <option value="polenta">Polenta</option>
+                    <option value="pollo">Pollo</option>
+                    <option value="queso">Queso</option>
+                    <option value="queso cheddar">Queso cheddar</option>
+                    <option value="queso crema">Queso crema</option>
+                    <option value="queso mozzarella">Queso mozzarella</option>
+                    <option value="queso parmesano">Queso parmesano</option>
+                    <option value="queso provolone">Queso provolone</option>
+                    <option value="queso rallado">Queso rallado</option>
+                    <option value="ricota">Ricota</option>
+                    <option value="romero">Romero</option>
+                    <option value="rucula">Rúcula</option>
+                    <option value="sal">Sal</option>
+                    <option value="salmon">Salmón</option>
+                    <option value="salsa">Salsa</option>
+                    <option value="salsa de soja">Salsa de soja</option>
+                    <option value="salsa de tomate">Salsa de tomate</option>
+                    <option value="salsa de yogur">Salsa de yogur</option>
+                    <option value="sopa de tomate">Sopa de tomate</option>
+                    <option value="tomate">Tomate</option>
+                    <option value="tomillo">Tomillo</option>
+                    <option value="tortillas">Tortillas</option>
+                    <option value="tortillas de maiz">Tortillas de maíz</option>
+                    <option value="totopos de maiz">Totopos de maíz</option>
+                    <option value="vinagre">Vinagre</option>
+                    <option value="vino blanco">Vino blanco</option>
+                    <option value="zanahoria">Zanahoria</option>
                 </select>
 
-                <label for="filtroapto">Apto:</label>
+
+                <label for="filtroapto">Restricciones:</label>
                 <select id="filtroapto">
                     <option value="">Cualquiera</option> 
                     <option value="SinTACC">Sin TACC</option>
                     <option value="ConTACC">Con TACC</option>
                 </select>
             </section>
+            <button id="recetario">
+                    <img class="libro" src="IMAGENES FRONT/recetario.png" alt="Imagen recetario">
+                    <h5 class="mr">IR A MI RECETARIO</h5>
+            </button>
         </div>
 </main>
 
