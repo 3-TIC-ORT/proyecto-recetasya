@@ -25,4 +25,7 @@ function cambiarimagen(){
     }
 }
 
-addEventListener("click", cambiarimagen);
+if (imagenestrella){
+    imagenestrella.addEventListener("click", cambiarimagen);
+}
+
