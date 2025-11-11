@@ -758,7 +758,7 @@
         ],
         "categoria": "Dulce",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/02/23/14/07/cookies-2095006_1280.jpg"
+        "imagen": "https://d36fw6y2wq3bat.cloudfront.net/recipes/cookies-de-chocolate-y-avena/900/cookies-de-chocolate-y-avena_version_1681358432.jpg"
     },
     {
         "nombre": "Pudding de chia con frutas",
@@ -770,24 +770,7 @@
         ],
         "categoria": "Dulce",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/21/16/19/chia-pudding-2162651_1280.jpg"
-        },
-        {
-        "nombre": "Crème Brûlée",
-        "ingredientes": ["crema de leche", "azúcar", "yemas de huevo", "extracto de vainilla", "azúcar para caramelizar"],
-        "pasos": [
-          "Precalentar el horno a 160°C.",
-          "Calentar 500 ml de crema con 1 cucharadita de vainilla hasta que casi hierva.",
-          "Batir 5 yemas con 100 g de azúcar hasta que blanquee.",
-          "Verter la crema caliente lentamente sobre las yemas mientras se bate.",
-          "Colar la mezcla y distribuir en ramequines.",
-          "Hornear a baño maría durante 35-40 minutos.",
-          "Dejar enfriar, luego refrigerar 2 horas.",
-          "Antes de servir, espolvorear azúcar y caramelizar con soplete."
-        ],
-        "categoria": "Dulce",
-        "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1590080875831-45a8ae9d7f79"
+        "imagen": "https://osojimix.com/wp-content/uploads/2021/07/PUDING-DE-CHIA-CON-FRUTA.jpg"
     },
     {
         "nombre": "Cheesecake de limón",
@@ -803,7 +786,7 @@
         ],
         "categoria": "Dulce",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb"
+        "imagen": "https://www.infobae.com/resizer/v2/FCQSG2G6IRAHJMY3KCDL6V2RZU.jpg?auth=b50fa7f07d921682f04447f556b522ba5ba00f96785dd9ea6a3161c29a0ba7a5&smart=true&width=1200&height=900&quality=85"
     },
     {
         "nombre": "Donas glaseadas",
@@ -819,7 +802,7 @@
         ],
         "categoria": "Dulce",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1600891963933-960d1d1b0650"
+        "imagen": "https://laopinionaustral.com.ar/media/uploads/2024/02/receta-donas.jpg"
     },
     {
         "nombre": "Compota de manzana",
@@ -833,19 +816,7 @@
         ],
         "categoria": "Dulce",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1572448862528-411b9b3dc4b5"
-    },
-    {
-        "nombre": "Trufas de coco",
-        "ingredientes": ["leche condensada", "coco rallado", "azúcar impalpable"],
-        "pasos": [
-          "Mezclar 1 lata de leche condensada con 200 g de coco rallado.",
-          "Formar bolitas pequeñas y pasar por azúcar impalpable.",
-          "Llevar a la heladera por 1 hora antes de servir."
-        ],
-        "categoria": "Dulce",
-        "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+        "imagen": "https://cocinalh.es/wp-content/uploads/2021/05/Compota-de-manzana-Mastermix-E-Touch.jpg"
     },
     {
         "nombre": "Cupcakes de frutilla",
@@ -860,7 +831,7 @@
         ],
         "categoria": "Dulce",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1565958011705-44e211b20a5a"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnoIN6RfmTAK6Zb3EcBnEq-KvrcFF_lFEiaw&s"
     },
     {
         "nombre": "Banana Split",
@@ -874,7 +845,7 @@
         ],
         "categoria": "Dulce",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1606787366850-de6330128bfc"
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Banana_split_1.jpg/1200px-Banana_split_1.jpg"
     },
     {
         "nombre": "Crêpes Suzette",
@@ -889,22 +860,24 @@
         ],
         "categoria": "Dulce",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1617196035154-5d8c5bde8cf5"
+        "imagen": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/2/24/FN_Bobby-Flay_Crepes-Suzette_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1677268341428.webp"
     },
     {
-        "nombre": "Tarta de duraznos",
-        "ingredientes": ["harina", "manteca", "azúcar", "huevo", "duraznos", "mermelada de durazno"],
+        "nombre": "Volcán de Chocolate",
+        "ingredientes": "manteca, chocolate semi amargo, azúcar, huevo, harina 0000, esencia de vainilla",
         "pasos": [
-          "Hacer una masa con 250 g de harina, 125 g de manteca, 100 g de azúcar y 1 huevo.",
-          "Dejar reposar 30 minutos.",
-          "Forrar una tartera y colocar duraznos en láminas encima.",
-          "Pincelar con mermelada de durazno.",
-          "Hornear a 180°C por 35 minutos.",
-          "Dejar enfriar y servir con crema o helado."
+            "Derretir 100 g de manteca junto con 120 g de chocolate semi amargo a baño maría o en microondas.",
+            "En otro bowl, batir 2 huevos con 80 g de azúcar hasta integrar.",
+            "Agregar la mezcla de chocolate derretido y 1 cucharadita de esencia de vainilla.",
+            "Sumar 40 g de harina 0000 tamizada y mezclar apenas hasta unir.",
+            "Enmantecar y enharinar 4 moldes individuales.",
+            "Llenar los moldes hasta 3/4 de su capacidad.",
+            "Llevar al horno fuerte (220°C) durante 8-10 minutos: el borde debe estar firme y el centro aún blando.",
+            "Desmoldar en caliente y servir inmediatamente."
         ],
         "categoria": "Dulce",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1609781162746-3d3a4b25b6b0"
+        "imagen": "https://www.gastronomiaycia.com/wp-content/uploads/2013/06/volcan_chocolate_coulant.jpg"
     },
     {
         "nombre": "Bizcochitos de anís",
@@ -918,7 +891,92 @@
         ],
         "categoria": "Dulce",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1612197527762-5e06bc8a3128"
+        "imagen": "https://www.calsa.com.ar/consumers/images/recetasConsumidores/OTI2NTE0MDItMTIxMjcyNjI0LTcyOTAxMzA2MC0yOTg3MTQ4MTM=.jpg"
+    },
+    {
+        "nombre": "Cookies de chocolate blanco",
+        "ingredientes": [ "Harina", "Manteca", "Azúcar común", "Azúcar mascabo", "Huevos", "Esencia de vainilla",  "Chocolate blanco", "Polvo de hornear", "Sal"
+        ],
+        "pasos": [
+          "Paso 1: Batir 120 g de manteca pomada con 100 g de azúcar común y 80 g de azúcar mascabo hasta que la mezcla quede cremosa.",
+          "Paso 2: Agregar 1 huevo y 1 cucharadita de esencia de vainilla. Integrar bien.",
+          "Paso 3: Incorporar 260 g de harina, 1 cucharadita de polvo de hornear y una pizca de sal. Mezclar hasta formar una masa.",
+          "Paso 4: Picar 120 g de chocolate blanco e incorporarlo a la masa.",
+          "Paso 5: Formar bolitas y colocarlas sobre una bandeja con papel manteca.",
+          "Paso 6: Hornear a 180°C por 12-14 minutos hasta dorar los bordes.",
+          "Paso 7: Enfriar sobre rejilla antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf4gJHMxfFEbiM0HtBNCSfMEAaW9OECxs4_w&s"
+    },
+    {
+        "nombre": "Cookies de pistacho",
+        "ingredientes": [ "Harina", "Manteca", "Azúcar", "Azúcar mascabo", "Huevos", "Pistachos pelados", "Esencia de vainilla", "Polvo de hornear", "Sal"
+        ],
+        "pasos": [
+          "Paso 1: Mezclar 120 g de manteca con 180 g de azúcar hasta obtener una crema suave.",
+          "Paso 2: Agregar 1 huevo y 1 cucharadita de vainilla.",
+          "Paso 3: Incorporar 250 g de harina, 1 cucharadita de polvo de hornear y una pizca de sal.",
+          "Paso 4: Picar 100 g de pistachos e integrarlos a la masa.",
+          "Paso 5: Formar bolitas y acomodar en una placa enmantecada o con papel manteca.",
+          "Paso 6: Hornear a 180°C de 12 a 15 minutos.",
+          "Paso 7: Dejar enfriar antes de mover para que no se rompan."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFH7kHodCs6A2P5bQ3sXq91kPzGdn1MJ8UHQ&s"
+        },
+        {
+        "nombre": "Cookies de nuez",
+        "ingredientes": [ "Harina", "Manteca", "Azúcar", "Huevos", "Nueces", "Esencia de vainilla", "Polvo de hornear", "Sal"
+        ],
+        "pasos": [
+          "Paso 1: Batir 130 g de manteca con 150 g de azúcar hasta esponjar.",
+          "Paso 2: Incorporar 1 huevo y 1 cucharadita de vainilla.",
+          "Paso 3: Añadir 260 g de harina, 1 cucharadita de polvo de hornear y una pizca de sal.",
+          "Paso 4: Picar 100 g de nueces e integrarlas con movimientos suaves.",
+          "Paso 5: Formar bolitas y colocarlas en una placa.",
+          "Paso 6: Hornear a 180°C por 12-15 minutos.",
+        "Paso 7: Dejar enfriar sobre rejilla."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://nuecesdecalifornia.com/wp-content/uploads/2018/10/galletas-de-mantequilla-con-nueces.jpg"
+    },
+    {
+        "nombre": "Cookies de vainilla",
+        "ingredientes": [ "Harina", "Manteca", "Azúcar", "Huevo", "Esencia de vainilla", "Polvo de hornear", "Sal"
+        ],
+        "pasos": [
+        "Paso 1: Batir 150 g de manteca con 150 g de azúcar hasta obtener una crema pálida.",
+         "Paso 2: Incorporar 1 huevo y 2 cucharaditas de esencia de vainilla.",
+        "Paso 3: Agregar 300 g de harina, 1 cucharadita de polvo de hornear y una pizca de sal.",
+        "Paso 4: Mezclar hasta lograr una masa consistente.",
+        "Paso 5: Formar bolitas o cilindros y aplastar ligeramente.",
+        "Paso 6: Hornear a 180°C de 10 a 12 minutos hasta dorar levemente.",
+        "Paso 7: Enfriar y servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://i.ytimg.com/vi/luCc32NZI2g/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCZmotOg19Tklj-jERYMNuXWFWQ9g"
+    },
+    {
+        "nombre": "Cookies de frambuesa",
+        "ingredientes": [ "Harina", "Manteca", "Azúcar", "Huevo", "Frambuesas frescas o congeladas", "Esencia de vainilla", "Polvo de hornear", "Sal"
+        ],
+        "pasos": [
+          "Paso 1: Batir 120 g de manteca con 150 g de azúcar hasta cremar.",
+          "Paso 2: Agregar 1 huevo y 1 cucharadita de vainilla.",
+          "Paso 3: Incorporar 250 g de harina, 1 cucharadita de polvo de hornear y una pizca de sal.",
+          "Paso 4: Añadir ¾ taza de frambuesas, mezclando con movimientos suaves para no romperlas demasiado.",
+          "Paso 5: Formar porciones y colocar en una placa con papel manteca.",
+          "Paso 6: Hornear a 180°C durante 12-14 minutos.",
+          "Paso 7: Enfriar por completo para que tomen firmeza."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://img-global.cpcdn.com/recipes/f61ddda6a783ad15/680x781f0.5_0.471113_1.0q80/galletas-de-frambuesa-y-chocolate-blanco-en-airfryer-foto-principal.jpg"
     },
     {
         "nombre": "Papas fritas",
