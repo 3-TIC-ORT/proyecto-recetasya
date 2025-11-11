@@ -1297,6 +1297,168 @@
         "imagen": "https://imag.bonviveur.com/crema-inglesa.jpg"
     },
     {
+        "nombre": "Torta invertida de ananá",
+        "ingredientes": "ananá en rodajas, azúcar, manteca, harina 0000, huevos, esencia de vainilla, polvo de hornear",
+        "pasos": [
+          "paso 1: Derretir 80 g de manteca con 100 g de azúcar en el molde.",
+          "paso 2: Acomodar las rodajas de ananá sobre el caramelo.",
+          "paso 3: Batir 2 huevos con 150 g de azúcar.",
+          "paso 4: Añadir 80 g de manteca derretida y esencia de vainilla.",
+          "paso 5: Sumar 250 g de harina y 1 cucharada de polvo de hornear.",
+          "paso 6: Verter la mezcla sobre el ananá.",
+          "paso 7: Hornear a 180°C por 35-40 minutos.",
+          "paso 8: Desmoldar tibio."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://www.exquisita.com.ar/wp-content/uploads/2014/11/Invertida-de-Anana.jpg.webp"
+    },
+    {
+        "nombre": "Pan dulce con frutas abrillantadas",
+        "ingredientes": "harina 0000, azúcar, manteca, huevos, leche, levadura, esencia de vainilla, frutas abrillantadas",
+        "pasos": [
+          "paso 1: Activar 25 g de levadura en 100 ml de leche tibia con 1 cucharada de azúcar.",
+          "paso 2: Mezclar 500 g de harina, 100 g de azúcar y 100 g de manteca.",
+          "paso 3: Agregar 2 huevos y la levadura activada.",
+          "paso 4: Amasar hasta obtener una masa lisa.",
+          "paso 5: Dejar leudar 1 hora.",
+          "paso 6: Agregar 150 g de frutas abrillantadas.",
+          "paso 7: Formar el pan y dejar levar 40 minutos.",
+          "paso 8: Hornear a 180°C por 40-45 minutos."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn0.uncomo.com/es/posts/2/0/6/como_hacer_pan_dulce_35602_orig.jpg"
+    },
+    {
+        "nombre": "Crepes de vainilla con salsa de frutos rojos",
+        "ingredientes": "harina 0000, huevos, leche, manteca, esencia de vainilla, azúcar, frutos rojos",
+        "pasos": [
+          "paso 1: Mezclar 2 huevos con 250 ml de leche, 1 cucharadita de esencia de vainilla y 1 cucharada de azúcar.",
+          "paso 2: Agregar 120 g de harina tamizada y batir hasta obtener una mezcla lisa.",
+          "paso 3: Calentar una sartén con un poco de manteca y cocinar los crepes finos de ambos lados.",
+          "paso 4: Para la salsa, cocinar 200 g de frutos rojos con 2 cucharadas de azúcar por 5 minutos.",
+          "paso 5: Servir los crepes calientes con la salsa por encima."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://i0.wp.com/culturacolectiva.com/wp-content/uploads/2023/02/X3YCJD265JDYXJGYHRHG7RIEPM.jpeg"
+    },
+    {
+        "nombre": "Torta chifón de vainilla",
+        "ingredientes": "harina 0000, azúcar, huevos, esencia de vainilla, aceite, polvo de hornear, leche",
+        "pasos": [
+          "paso 1: Batir 5 yemas con 150 g de azúcar, 80 ml de aceite y 1 cucharadita de esencia de vainilla.",
+          "paso 2: Agregar 200 g de harina y 1 cucharada de polvo de hornear alternando con 120 ml de leche.",
+          "paso 3: Batir 5 claras a punto nieve y sumar con movimientos envolventes.",
+          "paso 4: Volcar en un molde alto sin enmantecar.",
+          "paso 5: Hornear a 160°C por 55 minutos.",
+          "paso 6: Enfriar boca abajo y desmoldar."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cookingwithdog.com/wp-content/uploads/2017/02/chiffon-cake-00.jpg"
+    },
+    {
+        "nombre": "Budín de coco",
+        "ingredientes": "harina 0000, azúcar, huevos, coco rallado, manteca, leche, polvo de hornear",
+        "pasos": [
+          "paso 1: Batir 150 g de manteca con 180 g de azúcar.",
+          "paso 2: Agregar 3 huevos de a uno.",
+          "paso 3: Añadir 200 g de harina, 1 cucharada de polvo de hornear y 120 g de coco rallado.",
+          "paso 4: Incorporar 100 ml de leche.",
+          "paso 5: Volcar en un molde enmantecado.",
+          "paso 6: Hornear a 170°C durante 45 minutos.",
+          "paso 7: Enfriar y servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQO008NC6aerWYiIwph5Jip-z3NNg21U7_N-dFu6RBriQf0XFtCIV-DQe0FpirYyhUN9pgwSURUlUJvl_WUXbstIBkqXptx1u6aWwsNQAxsopLIQHTjaXKMn4cI0jcJcibaDoT4RstWX5P/s1600/DSCN8788.jpg"
+    },
+    {
+        "nombre": "Galletas de limón glaseadas",
+        "ingredientes": "harina 0000, manteca, azúcar, limón, huevo, azúcar impalpable",
+        "pasos": [
+          "paso 1: Mezclar 150 g de manteca con 150 g de azúcar.",
+          "paso 2: Agregar 1 huevo, ralladura y jugo de medio limón.",
+          "paso 3: Incorporar 280 g de harina.",
+          "paso 4: Formar bolitas y colocar en una placa.",
+          "paso 5: Hornear a 180°C por 12 minutos.",
+          "paso 6: Mezclar azúcar impalpable con jugo de limón para glasear.",
+          "paso 7: Cubrir las galletas cuando estén frías."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://www.cocinavital.mx/wp-content/uploads/2020/08/receta-galletas-limon-634x420.jpg"
+    },
+    {
+        "nombre": "Torta cappuccino",
+        "ingredientes": "harina 0000, cacao amargo, café instantáneo, manteca, azúcar, huevos, leche, polvo de hornear",
+        "pasos": [
+          "paso 1: Mezclar 150 g de manteca con 200 g de azúcar.",
+          "paso 2: Agregar 3 huevos de a uno.",
+          "paso 3: Incorporar 250 g de harina, 2 cucharadas de cacao y 1 cucharada de polvo de hornear.",
+          "paso 4: Disolver 1 cucharada de café instantáneo en 120 ml de leche caliente y sumar.",
+          "paso 5: Volcar en un molde enmantecado.",
+          "paso 6: Hornear a 175°C por 40 minutos.",
+          "paso 7: Decorar con cacao por encima."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1C6qEIFCBG3CCAOAAR3sUJF5KVyUegdNDmA&s"
+    },
+    {
+        "nombre": "Rolls de canela clásicos",
+        "ingredientes": "harina 0000, azúcar, manteca, leche, levadura, canela, huevo",
+        "pasos": [
+          "paso 1: Activar 10 g de levadura en 150 ml de leche tibia con 1 cucharada de azúcar.",
+          "paso 2: Mezclar 400 g de harina, 60 g de azúcar y 1 huevo.",
+          "paso 3: Agregar la levadura activada y amasar.",
+          "paso 4: Incorporar 50 g de manteca blanda y seguir amasando.",
+          "paso 5: Dejar levar 1 hora.",
+          "paso 6: Estirar la masa, untar con manteca y espolvorear azúcar y canela.",
+          "paso 7: Enrollar, cortar los rolls y dejar levar 30 minutos.",
+          "paso 8: Hornear a 180°C por 20-22 minutos."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://www.paulinacocina.net/wp-content/uploads/2023/04/3_20230410_094455_0002.jpg"
+    },
+    {
+        "nombre": "Pionono con dulce de leche",
+        "ingredientes": "huevos, azúcar, harina 0000, miel, esencia de vainilla, dulce de leche repostero",
+        "pasos": [
+          "paso 1: Batir 4 huevos con 120 g de azúcar durante 8 minutos hasta que tripliquen el volumen.",
+          "paso 2: Agregar 1 cucharadita de miel y 1 cucharadita de esencia de vainilla, mezclando suavemente.",
+          "paso 3: Incorporar 120 g de harina 0000 tamizada en dos partes, con movimientos envolventes.",
+          "paso 4: Extender la mezcla en una placa forrada con papel manteca.",
+          "paso 5: Hornear a 180°C por 8-10 minutos hasta que apenas tome color.",
+          "paso 6: Desmoldar caliente sobre un paño húmedo y retirar el papel.",
+          "paso 7: Untar con abundante dulce de leche repostero.",
+          "paso 8: Enrollar ajustando bien y dejar reposar 20 minutos antes de cortar."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.recetasderechupete.com/wp-content/uploads/2020/12/Piononos-rellenos-de-dulce-de-leche.jpg"
+     },
+    {
+        "nombre": "Chocolate Dubai",
+        "ingredientes": "chocolate semi amargo, chocolate con leche, crema de leche, manteca, pistachos, azúcar mascabo, cacao amargo, esencia de vainilla",
+        "pasos": [
+          "paso 1: Picar 150 g de chocolate semi amargo y 150 g de chocolate con leche.",
+          "paso 2: Calentar 200 ml de crema de leche sin que hierva.",
+          "paso 3: Volcar la crema caliente sobre los chocolates picados y mezclar hasta fundir.",
+          "paso 4: Agregar 20 g de manteca, 1 cucharada de azúcar mascabo y 1 cucharadita de esencia de vainilla.",
+          "paso 5: Mezclar hasta obtener una crema brillante y homogénea.",
+          "paso 6: Tostar 50 g de pistachos picados y agregarlos a la mezcla.",
+          "paso 7: Volcar en un molde rectangular forrado con papel film.",
+          "paso 8: Refrigerar 3 horas, cortar en cuadrados y espolvorear con cacao amargo antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://resizer.glanacion.com/resizer/v2/-7MUCSQNIZBD3TA43MY7DOA3N5U.jpg?auth=c98bc7b0f7cdc0b56dbee3457bf364a07cb7828b4c269c6592e9eb9b5e373616&width=420&height=280&quality=70&smart=true"
+    },
+    {
         "nombre": "Papas fritas",
         "ingredientes": ["papas", "aceite", "sal"],
         "pasos": [
@@ -1308,7 +1470,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/10/10/07/42/french-fries-2834916_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
     },
     {
         "nombre": "Empanadas de carne",
@@ -1322,7 +1484,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/empanadas-1239404_1280.jpg"
+        "imagen": "https://assets.unileversolutions.com/recipes-v2/237001.jpg"
     },
     {
         "nombre": "Pizza Margherita",
@@ -1336,7 +1498,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg"
+        "imagen": "https://www.clarin.com/img/2023/08/01/SL3EslnOA_1200x630__1.jpg"
     },
     {
         "nombre": "Nachos con queso",
@@ -1349,7 +1511,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/01/12/17/24/nachos-1971402_1280.jpg"
+        "imagen": "https://okdiario.com/img/2018/02/27/nachos-con-queso.jpg"
     },
     {
         "nombre": "Pan de ajo",
@@ -1363,7 +1525,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/garlic-bread-3007401_1280.jpg"
+        "imagen": "https://wp-cdn.typhur.com/wp-content/uploads/2025/02/air-fryer-garlic-bread.jpg"
     },
     {
         "nombre": "Queso Provolone al horno",
@@ -1376,7 +1538,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/provolone-1239405_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWEMWFvHGnlpVTZn1OlUrCILYfzxmmxreOKg&s"
     },
     {
         "nombre": "Tarta de jamón y queso",
@@ -1390,7 +1552,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/quiche-1239407_1280.jpg"
+        "imagen": "https://media.a24.com/p/2c4ff9aeba2e0d6c0fb5dfeed63c5020/adjuntos/296/imagenes/009/176/0009176840/1200x675/smart/imagepng.png"
     },
     {
         "nombre": "Milanesas de pollo",
@@ -1403,7 +1565,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/chicken-1239408_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0UhwNcU0Pc_aCZdyf1aDT_NVbVK36DakXxQ&s"
     },
     {
         "nombre": "Chorizo a la parrilla",
@@ -1416,7 +1578,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2014/11/28/16/10/sausage-547626_1280.jpg"
+        "imagen": "https://static.wixstatic.com/media/e83bde_763196fa2a2d45b0987b69fd3f96ae42~mv2.jpeg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/e83bde_763196fa2a2d45b0987b69fd3f96ae42~mv2.jpeg"
     },
     {
         "nombre": "Cazuela de mariscos",
@@ -1430,7 +1592,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/seafood-1239409_1280.jpg"
+        "imagen": "https://comedera.com/wp-content/uploads/sites/9/2023/09/Cazuela-de-mariscos-shutterstock_1836014740.jpg"
     },
     {
         "nombre": "Lasaña boloñesa",
@@ -1444,7 +1606,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/lasagna-1239410_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRjCnEj8ga3_zb4XhCuNyXm9oke8Q2ZDSGQA&s"
     },
     {
         "nombre": "Tacos mexicanos",
@@ -1457,7 +1619,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/02/15/12/12/taco-2068522_1280.jpg"
+        "imagen": "https://img.freepik.com/fotos-premium/tacos-comida-mexicana-cocina-picante-saborosa-tortilla-carne-res-pollo-barbacoa-guacamole-salsa-limon-cilan_955379-30868.jpg?semt=ais_hybrid&w=740&q=80"
     },
     {
         "nombre": "Ratatouille",
@@ -1471,7 +1633,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/ratatouille-1239411_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfKW29DUznfWNx-zc8bZmAKvYP6Y-1eo-Lzg&s"
     },
     {
         "nombre": "Sushi roll básico",
@@ -1485,7 +1647,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/sushi-1239412_1280.jpg"
+        "imagen": "https://cdn.shopify.com/s/files/1/1606/6475/collections/sushi-rolls-y-makis.jpeg?v=1481154047"
     },
     {
         "nombre": "Curry de vegetales",
@@ -1499,7 +1661,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/vegetable-curry-1239413_1280.jpg"
+        "imagen": "https://imag.bonviveur.com/curry-de-verduras-listo-para-degustar.jpg"
     },
     {
         "nombre": "Ramen japonés",
@@ -1513,7 +1675,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/ramen-1239414_1280.jpg"
+        "imagen": "https://www.lanacion.com.ar/resizer/v2/a-shoyu-ramen-in-gray-bowl-on-concrete-table-top-3CCBARMPDRFI5O6H5OPS3PP66E.jpg?auth=5f4d38a8750849d33b7c6e6cd4aec32bcd639658006140e82c66d27189a3ca47&width=420&height=280&quality=70&smart=true"
     },
     {
         "nombre": "Falafel",
@@ -1527,7 +1689,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/falafel-1239415_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0jh-jjHaTPoS83RB51YjjmlCA-VooTZpS9g&s"
     },
     {
         "nombre": "Bruschetta italiana",
@@ -1539,7 +1701,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/bruschetta-3007405_1280.jpg"
+        "imagen": "https://italianismo.com.br/wp-content/uploads/2019/06/Bruschetta.jpg"
     },
     {
         "nombre": "Focaccia italiana",
@@ -1554,7 +1716,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/06/28/17/14/focaccia-2451008_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpgNqs6HqYfuFdNoTWb6PgsAdZC-HilSfShg&s"
     },
     {
         "nombre": "Quiche de espinaca y queso",
@@ -1568,7 +1730,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/17/15/45/quiche-2159004_1280.jpg"
+        "imagen": "https://d36fw6y2wq3bat.cloudfront.net/recipes/quiche-de-espinacas-champinones-y-queso/900/quiche-de-espinacas-champinones-y-queso_version_1679025632.jpg"
     },
     {
         "nombre": "Risotto de champiñones",
@@ -1584,7 +1746,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/11/21/15/41/mushroom-risotto-1845303_1280.jpg"
+        "imagen": "https://gastronomia-italiana.es/wp-content/uploads/2022/03/receta.jpg"
     },
     {
         "nombre": "Tacos de pollo",
@@ -1597,7 +1759,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/10/25/12/28/taco-1769421_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUUcJIlBfiib4uzRKIyFs8EsHLIYsx1rBqIQ&s"
     },
     {
         "nombre": "Canelones de ricota y espinaca",
@@ -1611,7 +1773,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/14/02/47/cannelloni-2139451_1280.jpg"
+        "imagen": "https://i.ytimg.com/vi/IIun3wUUJNc/maxresdefault.jpg"
     },
     {
         "nombre": "Hamburguesas caseras",
@@ -1637,7 +1799,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/27/14/56/curry-2178538_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbJMfO3vUT4LOYvQ8OuInYcSuLnZABePEDbw&s"
     },
     {
         "nombre": "Frittata de verduras",
@@ -1651,7 +1813,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/05/07/08/56/frittata-2297494_1280.jpg"
+        "imagen": "https://resizer.glanacion.com/resizer/v2/esta-frittata-es-ideal-para-los-que-les-gustan-KJBWKV7CHJBV7DVAHPLIQGN6GE.jpg?auth=06e78cdd5091f83b244bf4daee559149e4fdf165eb78b0ce3e5fad24f609a85d&width=1280&height=854&quality=70&smart=true"
     },
     {
         "nombre": "Sopa de calabaza",
@@ -1665,7 +1827,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/02/01/18/23/pumpkin-soup-2030615_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9VIfEZzHhddApc8jdSu1dBpvaj_MRdGlVLA&s"
     },
     {
         "nombre": "Empanadas árabes",
@@ -1678,7 +1840,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2021/04/10/16/43/fatayer-6167147_1280.jpg"
+        "imagen": "https://img-global.cpcdn.com/recipes/9081486b0b6cc5ca/1200x630cq80/photo.jpg"
     },
     {
         "nombre": "Pizza de rúcula y jamón crudo",
@@ -1691,7 +1853,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/10/27/22/03/pizza-1779408_1280.jpg"
+        "imagen": "https://imag.bonviveur.com/vista-de-la-pizza-de-jamon-y-queso-recien-hecha.jpg"
     },
     {
         "nombre": "Ensalada de couscous",
@@ -1704,20 +1866,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/07/couscous-1238268_1280.jpg"
-    },
-    {
-        "nombre": "Tarta de jamón y queso",
-        "ingredientes": ["masa de tarta", "jamón", "queso", "huevo", "crema de leche"],
-        "pasos": [
-            "Paso 1: Colocá la masa en una tartera.",
-            "Paso 2: Rellená con capas de jamón y queso.",
-            "Paso 3: Batí 2 huevos con 200 ml de crema y volcá encima.",
-            "Paso 4: Horneá 30 minutos a 180°C hasta dorar."
-        ],
-        "categoria": "Salado",
-        "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/04/13/19/35/quiche-1328716_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8m5NCei9prF2RXoTdqxgHLDeQw6im_xzXrA&s"
     },
     {
         "nombre": "Paella de mariscos",
@@ -1731,7 +1880,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2015/03/26/09/54/paella-690041_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4viJYqX461RInPz53hW9gX4Yl-kD8jFcN3Q&s"
     },
     {
         "nombre": "Wraps de vegetales",
@@ -1744,7 +1893,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/09/09/09/31/wrap-2738909_1280.jpg"
+        "imagen": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/18c36c82-3546-4161-a623-df32d5b772ca/Derivates/0fdbd110-1b51-4b80-9b88-005c083404e3.jpg"
     },
     {
         "nombre": "Milanesas de berenjena",
@@ -1757,7 +1906,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2021/09/04/14/50/eggplant-6597812_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3hMhZZSNB-2YwwbSFZDOSsRQ9PNHj6tkGQA&s"
     },
     {
         "nombre": "Guiso de lentejas",
@@ -1771,7 +1920,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/14/03/44/stew-2139611_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwuA3_64QGMC8a7ArMLaBoLkjxJ7GpqanGhA&s"
     },
     {
         "nombre": "Croquetas de papa",
@@ -1784,7 +1933,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2015/10/06/10/57/potato-croquettes-974750_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Bde04CIeRsgG6EofiC266W71lcs9G3-i5A&s"
     },
     {
         "nombre": "Bastones de mozzarella",
@@ -1797,7 +1946,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2020/01/30/19/06/mozzarella-sticks-4807097_1280.jpg"
+        "imagen": "https://www.clarin.com/img/2020/07/21/EVsX1RphU_1200x630__1.jpg"
     },
     {
         "nombre": "Sándwich de atún",
@@ -1810,7 +1959,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/07/20/59/tuna-sandwich-2125072_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5ODfZiFCgde9B5Jv1niOM1XrhXAnSL0SqA&s"
     },
     {
         "nombre": "Arrollado de jamón y queso",
@@ -1823,7 +1972,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2020/06/23/13/28/snack-5333875_1280.jpg"
+        "imagen": "https://www.cocinadelirante.com/sites/default/files/images/2020/05/rollitos-de-jamon-rellenos-de-queso-con-pan-al-horno.jpg"
     },
     {
         "nombre": "Polenta con tuco",
@@ -1836,19 +1985,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/08/25/22/36/polenta-2680268_1280.jpg"
-    },
-    {
-        "nombre": "Arepas venezolanas",
-        "ingredientes": ["harina de maíz precocida", "agua", "sal", "queso", "manteca"],
-        "pasos": [
-            "Paso 1: Mezclá 2 tazas de harina con 2 tazas de agua y sal.",
-            "Paso 2: Formá discos y cociná en plancha hasta dorar.",
-            "Paso 3: Abrí por la mitad y rellená con queso y manteca."
-        ],
-        "categoria": "Salado",
-        "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2021/08/03/13/52/arepas-6520131_1280.jpg"
+        "imagen": "https://img-global.cpcdn.com/recipes/5b8e15452b81eb8d/400x400cq80/photo.jpg"
     },
     {
         "nombre": "Tortilla de espinaca",
@@ -1861,7 +1998,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2019/02/25/13/37/spinach-4019245_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MuXM9-i90dOCncENm2K_izpG_9pBs6bCXw&s"
     },
     {
         "nombre": "Chips de batata",
@@ -1873,19 +2010,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2018/02/05/13/05/sweet-potato-3133913_1280.jpg"
-    },
-    {
-        "nombre": "Falafel",
-        "ingredientes": ["garbanzos", "cebolla", "ajo", "perejil", "comino", "harina", "aceite"],
-        "pasos": [
-            "Paso 1: Procesá garbanzos remojados con ajo, cebolla, perejil y comino.",
-            "Paso 2: Formá bolitas y pasalas por un poco de harina.",
-            "Paso 3: Freí hasta dorar y serví con salsa de yogur."
-        ],
-        "categoria": "Salado",
-        "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2022/03/23/18/54/falafel-7088538_1280.jpg"
+        "imagen": "https://www.diet-health.info/images/recipes/1400/rezept-ee-suesskartoffelchips-roh-bei-maschinen.jpg"
     },
     {
         "nombre": "Tostadas con palta",
@@ -1897,7 +2022,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2018/05/14/21/23/avocado-toast-3408138_1280.jpg"
+        "imagen": "https://imag.bonviveur.com/tostada-de-aguacate.jpg"
     },
     {
         "nombre": "Sopa de tomate",
@@ -1910,7 +2035,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2015/12/09/16/07/tomato-soup-1081862_1280.jpg"
+        "imagen": "https://cdn0.uncomo.com/es/posts/3/0/9/como_hacer_sopa_de_tomate_casera_25903_orig.jpg"
     },
     {
         "nombre": "Tarta de calabaza",
@@ -1923,7 +2048,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2020/04/27/15/40/pumpkin-5100385_1280.jpg"
+        "imagen": "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2019/09/Pastel-o-tarta-de-calabaza-la-famosa-tarta-pumpkin-pie-americana.jpg"
     },
     {
         "nombre": "Pastel de carne clásico",
@@ -1932,12 +2057,12 @@
           "Paso 1: Hacer un puré con las papas.",
           "Paso 2: Saltear cebolla y morrón, agregar carne.",
           "Paso 3: Condimentar y cocinar 10 minutos.",
-          "Paso 4:Colocar la carne en fuente y cubrir con puré.",
+          "Paso 4: Colocar la carne en fuente y cubrir con puré.",
           "Paso 5: Hornear 20 minutos."
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1572441710534-a3c02e8a5bf4"
+        "imagen": "https://resizer.glanacion.com/resizer/v2/pan-de-SWQQ5FL5LFAHFL6NTD67IS5REA.png?auth=7fd4d5a59066e986bdb55e7578c7c723558eeb1403cf30228cf47172eedd39f6&width=1280&height=854&quality=70&smart=true"
     },
     {
         "nombre": "Tarta caprese",
@@ -1950,7 +2075,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1621996346565-afb8f7c4ca2f"
+        "imagen": "https://imagenes.montevideo.com.uy/imgnoticias/201705/_W880_H495/612071.jpg"
     },
     {
         "nombre": "Ñoquis de espinaca",
@@ -1963,7 +2088,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1654533412922-c665ab7d00bc"
+        "imagen": "https://alicante.com.ar/wp-content/uploads/2022/06/187_receta.jpg"
     },
     {
         "nombre": "Pollo al limón",
@@ -1987,7 +2112,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1542739154-84f0b8e4b9d6"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXleh8KvXQUiRWFkeq_oU-utS_jIucFyDlfg&s"
     },
     {
         "nombre": "Tostadas francesas saladas",
@@ -2000,7 +2125,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKKJHJVpaLlU9rfCi7RQGqwIBy-GL24CPPuA&s"
     },
     {
         "nombre": "Guiso criollo",
@@ -2013,7 +2138,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1630431342018-a23d2fa32721"
+        "imagen": "https://i.ytimg.com/vi/8AG8vFzdX5s/maxresdefault.jpg"
     },
     {
         "nombre": "Pechugas a la crema",
@@ -2025,7 +2150,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1603074436449-89bdd8ce8bbf"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWfGNOKoO80SSMH4Ma-H3O12D4MVZ59laJGQ&s"
     },
     {
         "nombre": "Revuelto gramajo",
@@ -2038,7 +2163,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1605479000331-b7b29ea494c9"
+        "imagen": "https://www.cucinare.tv/wp-content/uploads/2023/03/Gramajo-Cucco.jpg"
     },
     {
         "nombre": "Tallarines salteados con vegetales",
@@ -2050,7 +2175,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1581305273349-df6fda37a909"
+        "imagen": "https://content-cocina.lecturas.com/medio/2022/03/22/salteado-de-pollo-con-verduras-y-tallarines_9f35f4ac_1200x1200.jpg"
     },
     {
         "nombre": "Tacos de pescado",
@@ -2063,7 +2188,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1615873968403-89bbd9b9e7c8"
+        "imagen": "https://cdn7.kiwilimon.com/recetaimagen/1901/960x640/3628.jpg.jpg"
     },
     {
         "nombre": "Fideos salteados con vegetales",
@@ -2076,20 +2201,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1604908554029-19f8e80c1b43"
-    },
-    {
-        "nombre": "Tostadas francesas saladas",
-        "ingredientes": "pan, huevo, leche, sal, pimienta, queso rallado",
-        "pasos": [
-          "Paso 1: Mezclar huevo con leche, sal y pimienta.",
-          "Paso 2: Pasar el pan por la mezcla.",
-          "Paso 3: Cocinar en sartén con manteca.",
-          "Paso 4: Agregar queso rallado."
-        ],
-        "categoria": "Salado",
-        "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+        "imagen": "https://content-cocina.lecturas.com/medio/2022/03/22/salteado-de-pollo-con-verduras-y-tallarines_9f35f4ac_1200x1200.jpg"
     },
     {
         "nombre": "Sopa de zapallo",
@@ -2102,7 +2214,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1547592166-23ac45744acd"
+        "imagen": "https://assets.unileversolutions.com/recipes-v2/263406.jpg"
     },
     {
         "nombre": "Pan relleno con queso y panceta",
@@ -2115,7 +2227,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1528732263440-04d22d8dce06"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7a_LY-elAdJbm_vO5BkiPLd8zj3MCF-yCvA&s"
     },
     {
         "nombre": "Curry de garbanzos",
@@ -2128,7 +2240,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1604908812651-71c7038a7758"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfPJKWCg6RhJOwFzbtqLq3TEHulU6JTTe2OA&s"
     },
     {
         "nombre": "Tortilla de zucchini",
@@ -2141,7 +2253,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1627662167482-af2e03bdc176"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7JG67UUVY_A4O1htq3aHSrDIHQmDMlVUPQ&s"
     },
     {
         "nombre": "Ñoquis crocantes al horno",
@@ -2154,7 +2266,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1604382354936-07b63d853c5e"
+        "imagen": "https://lh5.googleusercontent.com/proxy/o--tbIW4ppCOCB1yLrYiPLkYWrUjf9rUyQ-bi2Rq9O9jUSECy1MYNk67ldPSN2YuxzY4xOCveEM9QD2g2S-Mgs9g20ISNooGQNx8Dt7v908UtU6q5Zy52u2AR3yS2_zo"
     },
     {
         "nombre": "Berenjenas gratinadas",
@@ -2167,7 +2279,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1604908176608-6f5466f95be6"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tH82yVYTH5EbFzlPjiShKYF1Bt70yFKDsw&s"
     },
     {
         "nombre": "Pollo a la mostaza",
@@ -2180,7 +2292,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1605478371267-62d249bb5cf5"
+        "imagen": "https://newmansown.com/wp-content/uploads/2022/03/honey-mustard-chicken.jpg"
     },
     {
         "nombre": "Wok de tofu y verduras",
@@ -2193,7 +2305,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1605478371267-62d249bb5cf5"
+        "imagen": "https://www.hola.com/horizon/landscape/9b257b9352c8-wok-tofu-age-t.jpg"
     },
     {
         "nombre": "Arepas rellenas",
@@ -2206,19 +2318,7 @@
         ],
         "categoria": "Salado",
         "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1621996346567-98e83ffe25ad"
-    },
-    {
-        "nombre": "Estofado de lentejas",
-        "ingredientes": "lentejas, cebolla, tomate, caldo, zanahoria, aceite",
-        "pasos": [
-          "Saltear cebolla y zanahoria.",
-          "Agregar lentejas y tomate.",
-          "Sumar caldo y cocinar 30 minutos."
-        ],
-        "categoria": "Salado",
-        "apto": "SinTACC",
-        "imagen": "https://images.unsplash.com/photo-1603126857599-df67d3b40127"
+        "imagen": "https://www.paulinacocina.net/wp-content/uploads/2022/05/arepas-venezolanas-receta.jpg"
     },
     {
         "nombre": "Panqueques salados de espinaca",
@@ -2231,7 +2331,7 @@
         ],
         "categoria": "Salado",
         "apto": "ConTACC",
-        "imagen": "https://images.unsplash.com/photo-1598514982929-bf93235e2939"
+        "imagen": "https://lasrecetasdemerxi.wordpress.com/wp-content/uploads/2013/07/screen-shot-2013-05-15-at-12-26-59-pm.png"
     },
     {
         "nombre": "Jugo de naranja",
