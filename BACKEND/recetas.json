@@ -979,6 +979,216 @@
         "imagen": "https://img-global.cpcdn.com/recipes/f61ddda6a783ad15/680x781f0.5_0.471113_1.0q80/galletas-de-frambuesa-y-chocolate-blanco-en-airfryer-foto-principal.jpg"
     },
     {
+        "nombre": "Torta de coco y dulce de leche",
+        "ingredientes": "harina 0000, azúcar, manteca, huevos, coco rallado, dulce de leche repostero, polvo para hornear",
+        "pasos": [
+          "Batir manteca con azúcar hasta cremar.",
+          "Agregar los huevos de a uno e integrar.",
+          "Sumar harina tamizada, polvo de hornear y coco rallado.",
+          "Volcar la mezcla en un molde enmantecado.",
+          "Hornear 40 minutos a 180°C.",
+          "Cubrir con dulce de leche una vez fría."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1551218808-94e220e084d2"
+    },
+    {
+        "nombre": "Budín marmolado",
+        "ingredientes": "harina 0000, azúcar, manteca, huevos, leche, cacao en polvo, esencia de vainilla, polvo para hornear",
+        "pasos": [
+          "Batir manteca con azúcar hasta obtener crema.",
+          "Agregar huevos, leche y esencia de vainilla.",
+          "Sumar harina y polvo para hornear.",
+          "Separar un tercio de la mezcla y añadir cacao.",
+          "Colocar capas alternadas en el molde.",
+          "Hornear 45 minutos a 180°C."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1602433973327-57f319c36c01"
+    },
+    {
+        "nombre": "Peras al vino",
+        "ingredientes": "peras, vino tinto, azúcar, canela, clavo de olor",
+        "pasos": [
+          "Pelar las peras dejando el cabito.",
+          "Cocinar en olla con vino, azúcar, canela y clavo.",
+          "Hervir 40 minutos hasta que se tiñan de rojo.",
+          "Reducir la salsa y servir con las peras."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1588195539599-1c76ac40f7b9"
+    },
+    {
+        "nombre": "Trenza dulce glaseada",
+        "ingredientes": "harina 0000, levadura, leche, azúcar, manteca, huevos, esencia de vainilla, azúcar impalpable",
+        "pasos": [
+          "Disolver la levadura en leche tibia.",
+          "Agregar azúcar, huevos, manteca y harina.",
+          "Amasar y leudar 1 hora.",
+          "Formar una trenza y dejar leudar 30 minutos.",
+          "Hornear 25 minutos a 180°C.",
+          "Glasear con azúcar impalpable y agua."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1543251320-587487814b6e"
+    },
+    {
+        "nombre": "Postre Oreo casero",
+        "ingredientes": "galletitas oreo, crema de leche, azúcar, queso crema, gelatina sin sabor",
+        "pasos": [
+          "Triturar galletitas y mezclar con manteca.",
+          "Formar la base en un molde.",
+          "Batir crema, queso crema y azúcar.",
+          "Agregar gelatina disuelta.",
+          "Volcar sobre la base y refrigerar 4 horas."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35"
+    },
+    {
+        "nombre": "Compota de durazno",
+        "ingredientes": "duraznos, azúcar, agua, limón",
+        "pasos": [
+          "Cortar duraznos pelados en cubos.",
+          "Cocinar con agua, azúcar y jugo de limón.",
+          "Hervir 20 minutos hasta ablandar.",
+          "Servir tibio o frío."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1590086782792-42dd2350140d"
+    },
+    {
+        "nombre": "Chocotorta frutal",
+        "ingredientes": "galletitas de chocolate, queso crema, dulce de leche, crema, frutillas",
+        "pasos": [
+          "Mezclar queso crema con dulce de leche.",
+          "Humedecer las galletitas en leche.",
+          "Intercalar capas de galletitas y crema.",
+          "Agregar frutillas fileteadas entre capas.",
+          "Refrigerar mínimo 4 horas."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1599785209707-28a1cfddc7cc"
+    },
+    {
+        "nombre": "Arroz con leche y limón",
+        "ingredientes": "arroz, leche, azúcar, cáscara de limón, canela",
+        "pasos": [
+          "Hervir arroz en leche con azúcar.",
+          "Agregar cáscara de limón y canela.",
+          "Cocinar lentamente hasta espesar.",
+          "Servir tibio o frío."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1606851091902-de90e6eaf7f0"
+    },
+    {
+        "nombre": "Tarta tatin de peras",
+        "ingredientes": "peras, masa hojaldrada, manteca, azúcar, esencia de vainilla",
+        "pasos": [
+          "Pelar y cortar 5 peras en mitades.",
+          "En una sartén apta para horno, derretir 80 g de manteca con 120 g de azúcar hasta formar un caramelo rubio.",
+          "Agregar las peras acomodándolas con la parte curva hacia abajo.",
+          "Cocinar 10 minutos a fuego bajo.",
+          "Cubrir con masa hojaldrada y meter los bordes hacia adentro.",
+          "Hornear a 190°C por 25 minutos.",
+          "Dar vuelta sobre una fuente y servir tibia."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1605478371267-62d249bb5cf5"
+    },
+    {
+        "nombre": "Cupcakes de coco y limón",
+        "ingredientes": "harina, huevo, azúcar, manteca, coco rallado, limón, polvo de hornear",
+        "pasos": [
+          "Batir 100 g de manteca con 120 g de azúcar.",
+          "Agregar 2 huevos y la ralladura de 1 limón.",
+          "Sumar 150 g de harina, 1 cda de polvo de hornear y 50 g de coco rallado.",
+          "Mezclar y distribuir en pirotines.",
+          "Hornear a 180°C por 18 minutos."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1509440159598-0287a064e9b0"
+    },
+    {
+        "nombre": "Budín de mango",
+        "ingredientes": "harina, mango, azúcar, huevos, manteca, esencia de vainilla, polvo de hornear",
+        "pasos": [
+          "Licuar 1 taza de pulpa de mango.",
+          "Batir 2 huevos con 120 g de azúcar.",
+          "Agregar 80 g de manteca derretida y la pulpa de mango.",
+          "Sumar 200 g de harina y 1 cda de polvo de hornear.",
+          "Colocar en molde y hornear a 175°C por 40 minutos."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1529070538774-1843cb3265df"
+    },
+     {
+        "nombre": "Torta húmeda de ciruelas",
+        "ingredientes": "harina, ciruelas, azúcar, manteca, huevos, esencia de vainilla, polvo de hornear",
+        "pasos": [
+          "Batir 100 g de manteca con 150 g de azúcar.",
+          "Agregar 2 huevos y esencia de vainilla.",
+          "Sumar 200 g de harina y 1 cda de polvo de hornear.",
+          "Agregar ciruelas picadas.",
+          "Hornear en molde a 180°C por 40 minutos."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1627308594146-22c4c85f7970"
+    },
+    {
+        "nombre": "Cookies de jengibre y miel",
+        "ingredientes": "harina, miel, manteca, azúcar, jengibre, huevo, canela",
+        "pasos": [
+          "Batir 80 g de manteca con 70 g de azúcar.",
+          "Agregar 1 huevo y 2 cdas de miel.",
+          "Sumar 200 g de harina, jengibre y canela.",
+          "Formar bolitas y hornear 12 minutos a 180°C."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1543332164-6e82f355bad2"
+    },
+    {
+        "nombre": "Crema pastelera de naranja",
+        "ingredientes": "leche, azúcar, yemas, maicena, naranja, manteca",
+        "pasos": [
+          "Mezclar 3 yemas con 80 g de azúcar.",
+          "Agregar 2 cdas de maicena.",
+          "Sumar 400 ml de leche y ralladura de naranja.",
+          "Cocinar a fuego medio hasta espesar.",
+          "Agregar 20 g de manteca al final."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb"
+    },
+    {
+        "nombre": "Merenguitos caseros",
+        "ingredientes": "claras de huevo, azúcar, esencia de vainilla",
+        "pasos": [
+          "Batir 2 claras a punto nieve.",
+          "Agregar 120 g de azúcar en forma de lluvia.",
+          "Batir hasta que esté firme.",
+          "Formar copitos y hornear a 100°C por 1 hora."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1626205237290-875d4c8ad107"
+    },
+    {
         "nombre": "Papas fritas",
         "ingredientes": ["papas", "aceite", "sal"],
         "pasos": [
@@ -1606,6 +1816,314 @@
         "categoria": "Salado",
         "apto": "ConTACC",
         "imagen": "https://cdn.pixabay.com/photo/2020/04/27/15/40/pumpkin-5100385_1280.jpg"
+    },
+    {
+        "nombre": "Pastel de carne clásico",
+        "ingredientes": "carne picada, cebolla, morrón, papa, manteca, leche, sal, pimienta",
+        "pasos": [
+          "Hacer un puré con las papas.",
+          "Saltear cebolla y morrón, agregar carne.",
+          "Condimentar y cocinar 10 minutos.",
+          "Colocar la carne en fuente y cubrir con puré.",
+          "Hornear 20 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1572441710534-a3c02e8a5bf4"
+    },
+    {
+        "nombre": "Tarta caprese",
+        "ingredientes": "masa de tarta, tomate, albahaca, mozzarella, aceite de oliva",
+        "pasos": [
+          "Colocar la masa en tartera.",
+          "Agregar tomate en rodajas y mozzarella.",
+          "Condimentar con aceite y albahaca.",
+          "Hornear 30 minutos a 180°C."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1621996346565-afb8f7c4ca2f"
+    },
+    {
+        "nombre": "Ñoquis de espinaca",
+        "ingredientes": "espinaca, harina, ricota, huevo, sal, nuez moscada",
+        "pasos": [
+          "Hervir espinaca y picarla.",
+          "Mezclar con ricota, harina, huevo y sal.",
+          "Formar tiras y cortar ñoquis.",
+          "Hervir hasta que floten."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1654533412922-c665ab7d00bc"
+    },
+    {
+        "nombre": "Pollo al limón",
+        "ingredientes": "pollo, limón, ajo, perejil, aceite, sal, pimienta",
+        "pasos": [
+          "Mezclar limón, ajo y perejil.",
+          "Marinar el pollo 1 hora.",
+          "Hornear 45 minutos a 200°C."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+    },
+    {
+        "nombre": "Papas rústicas especiadas",
+        "ingredientes": "papas, aceite, pimentón, ajo en polvo, orégano, sal",
+        "pasos": [
+          "Cortar papas en gajos.",
+          "Mezclar con especias y aceite.",
+          "Hornear 35 minutos a 200°C."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1542739154-84f0b8e4b9d6"
+    },
+    {
+        "nombre": "Tostadas francesas saladas",
+        "ingredientes": "pan, huevo, leche, sal, pimienta, queso rallado, jamón",
+        "pasos": [
+          "Batir huevo con leche, sal y pimienta.",
+          "Pasar el pan por la mezcla.",
+          "Dorar en sartén.",
+          "Agregar jamón y queso arriba."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c"
+    },
+    {
+        "nombre": "Guiso criollo",
+        "ingredientes": "carne, papa, cebolla, morrón, tomate, caldo, sal, pimienta",
+        "pasos": [
+          "Saltear cebolla y morrón.",
+          "Agregar carne y sellar.",
+          "Sumar papas y tomate.",
+          "Cubrir con caldo y cocinar 45 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1630431342018-a23d2fa32721"
+    },
+    {
+        "nombre": "Pechugas a la crema",
+        "ingredientes": "pollo, crema de leche, cebolla, sal, pimienta",
+        "pasos": [
+          "Sellar pechugas.",
+          "Agregar cebolla picada.",
+          "Sumar crema y cocinar 10 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1603074436449-89bdd8ce8bbf"
+    },
+    {
+        "nombre": "Revuelto gramajo",
+        "ingredientes": "papa, huevo, jamón, cebolla, aceite, sal",
+        "pasos": [
+          "Freír papas en tiritas.",
+          "Saltear cebolla y jamón.",
+          "Agregar papas y huevos batidos.",
+          "Cocinar hasta que cuaje."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1605479000331-b7b29ea494c9"
+    },
+    {
+        "nombre": "Tallarines salteados con vegetales",
+        "ingredientes": "fideos, zanahoria, cebolla, morrón, salsa de soja, aceite",
+        "pasos": [
+          "Hervir fideos.",
+          "Saltear vegetales.",
+          "Agregar fideos y salsa de soja."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1581305273349-df6fda37a909"
+    },
+    {
+        "nombre": "Tacos de pescado",
+        "ingredientes": "pescado blanco, tortillas, repollo, mayonesa, limón, cilantro, aceite",
+        "pasos": [
+          "Cocinar 300 g de pescado a la plancha.",
+          "Mezclar repollo picado con mayonesa y limón.",
+          "Armar las tortillas con pescado y repollo.",
+          "Terminar con cilantro picado."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1615873968403-89bbd9b9e7c8"
+    },
+    {
+        "nombre": "Fideos salteados con vegetales",
+        "ingredientes": "fideos, zanahoria, cebolla, morrón, salsa de soja, aceite",
+        "pasos": [
+          "Cocinar los fideos al dente.",
+          "Saltear vegetales en aceite.",
+          "Agregar salsa de soja.",
+          "Sumar los fideos y mezclar."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1604908554029-19f8e80c1b43"
+    },
+    {
+        "nombre": "Tostadas francesas saladas",
+        "ingredientes": "pan, huevo, leche, sal, pimienta, queso rallado",
+        "pasos": [
+          "Mezclar huevo con leche, sal y pimienta.",
+          "Pasar el pan por la mezcla.",
+          "Cocinar en sartén con manteca.",
+          "Agregar queso rallado."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+    },
+    {
+        "nombre": "Sopa de zapallo",
+        "ingredientes": "zapallo, cebolla, caldo, sal, crema, aceite",
+        "pasos": [
+          "Saltear cebolla.",
+          "Agregar zapallo y caldo.",
+          "Cocinar 20 minutos.",
+          "Licuar y agregar crema."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1547592166-23ac45744acd"
+    },
+    {
+        "nombre": "Pan relleno con queso y panceta",
+        "ingredientes": "pan, queso, panceta, manteca, ajo, perejil",
+        "pasos": [
+          "Cortar el pan en cuadrícula.",
+          "Mezclar manteca con ajo y perejil.",
+          "Rellenar el pan con queso y panceta.",
+          "Hornear 20 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1528732263440-04d22d8dce06"
+    },
+    {
+        "nombre": "Curry de garbanzos",
+        "ingredientes": "garbanzos, cebolla, tomate, curry, leche de coco, aceite",
+        "pasos": [
+          "Saltear cebolla con curry.",
+          "Agregar tomate y cocinar.",
+          "Sumar garbanzos y leche de coco.",
+          "Hervir 10 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1604908812651-71c7038a7758"
+    },
+    {
+        "nombre": "Tortilla de zucchini",
+        "ingredientes": "zucchini, huevo, cebolla, sal, aceite",
+        "pasos": [
+          "Rallar zucchini y escurrir.",
+          "Mezclar con huevo y cebolla.",
+          "Cocinar en sartén.",
+          "Dar vuelta y terminar la cocción."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1627662167482-af2e03bdc176"
+    },
+    {
+        "nombre": "Ñoquis crocantes al horno",
+        "ingredientes": "ñoquis, queso rallado, aceite, pimienta, sal",
+        "pasos": [
+          "Mezclar ñoquis cocidos con aceite.",
+          "Agregar queso rallado.",
+          "Hornear 15 minutos a 200°C.",
+          "Servir crocantes."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1604382354936-07b63d853c5e"
+    },
+    {
+        "nombre": "Berenjenas gratinadas",
+        "ingredientes": "berenjenas, queso, salsa de tomate, aceite, sal",
+        "pasos": [
+          "Cortar berenjenas en rodajas.",
+          "Cocinar a la plancha.",
+          "Cubrir con salsa y queso.",
+          "Gratinar en horno fuerte."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1604908176608-6f5466f95be6"
+    },
+    {
+        "nombre": "Pollo a la mostaza",
+        "ingredientes": "pollo, mostaza, crema, sal, pimienta, aceite",
+        "pasos": [
+          "Dorar el pollo.",
+          "Agregar crema y mostaza.",
+          "Cocinar 15 minutos.",
+          "Servir con arroz o papas."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1605478371267-62d249bb5cf5"
+    },
+    {
+        "nombre": "Wok de tofu y verduras",
+        "ingredientes": "tofu, zanahoria, brócoli, salsa de soja, aceite, jengibre",
+        "pasos": [
+          "Saltear tofu en cubos.",
+          "Agregar verduras y jengibre.",
+          "Sumar salsa de soja.",
+          "Cocinar 5 minutos más."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1605478371267-62d249bb5cf5"
+    },
+    {
+        "nombre": "Arepas rellenas",
+        "ingredientes": "harina de maíz, queso, palta, sal, agua",
+        "pasos": [
+          "Mezclar harina de maíz con agua.",
+          "Formar discos.",
+          "Cocinar en sartén.",
+          "Rellenar con queso y palta."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1621996346567-98e83ffe25ad"
+    },
+    {
+        "nombre": "Estofado de lentejas",
+        "ingredientes": "lentejas, cebolla, tomate, caldo, zanahoria, aceite",
+        "pasos": [
+          "Saltear cebolla y zanahoria.",
+          "Agregar lentejas y tomate.",
+          "Sumar caldo y cocinar 30 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1603126857599-df67d3b40127"
+    },
+    {
+        "nombre": "Panqueques salados de espinaca",
+        "ingredientes": "harina, leche, espinaca, huevo, sal",
+        "pasos": [
+          "Licuar espinaca con leche y huevo.",
+          "Agregar harina y sal.",
+          "Cocinar en sartén.",
+          "Servir con queso o pollo."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1598514982929-bf93235e2939"
     },
     {
         "nombre": "Jugo de naranja",
