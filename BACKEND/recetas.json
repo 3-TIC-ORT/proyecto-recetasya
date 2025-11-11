@@ -2334,6 +2334,438 @@
         "imagen": "https://lasrecetasdemerxi.wordpress.com/wp-content/uploads/2013/07/screen-shot-2013-05-15-at-12-26-59-pm.png"
     },
     {
+        "nombre": "Sopa cremosa de arvejas",
+        "ingredientes": "arvejas, cebolla, zanahoria, crema, caldo de verduras, aceite de oliva, sal, pimienta",
+        "pasos": [
+          "paso 1: Saltear cebolla y zanahoria picadas en aceite de oliva durante 5 minutos.",
+          "paso 2: Agregar 2 tazas de arvejas y cubrir con caldo de verduras.",
+          "paso 3: Cocinar 20 minutos a fuego medio.",
+          "paso 4: Procesar la mezcla hasta lograr una crema.",
+          "paso 5: Agregar 100 ml de crema y ajustar sal y pimienta.",
+          "paso 6: Cocinar 5 minutos más y servir caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://www.circuitogastronomico.com/wp-content/uploads/2021/04/sopa-crema-arvejas.jpg"
+    },
+    {
+        "nombre": "Ensalada de papa y mayonesa ligera",
+        "ingredientes": "papa, mayonesa, perejil, cebolla de verdeo, sal, pimienta",
+        "pasos": [
+          "paso 1: Hervir las papas en cubos hasta que estén tiernas.",
+          "paso 2: Mezclar con mayonesa, verdeo y perejil picado.",
+          "paso 3: Agregar sal y pimienta a gusto.",
+          "paso 4: Refrigerar antes de servir."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg7vpqcM2wT_PMV2Plo6yk-Mc05OMvhwC7Jw&s"
+    },
+    {
+        "nombre": "Stir fry de carne con brócoli",
+        "ingredientes": "carne, brócoli, cebolla, ajo, salsa de soja, aceite, pimienta",
+        "pasos": [
+          "paso 1: Cortar la carne en tiras finas y saltear en aceite.",
+          "paso 2: Agregar ajo y cebolla picados.",
+          "paso 3: Sumar brócoli en trozos y cocinar 5 minutos.",
+          "paso 4: Añadir salsa de soja y pimienta.",
+          "paso 5: Cocinar 3 minutos más."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://www.recetasnestlecam.com/sites/default/files/srh_recipes/9ecd390d639f183317b16368da327c2c.jpg"
+    },
+    {
+        "nombre": "Sándwich de bondiola braseada",
+        "ingredientes": "bondiola de cerdo, pan casero, cebolla morada, pepinillos, mayonesa, mostaza, sal, pimienta",
+        "pasos": [
+          "paso 1: Cocinar 1 kg de bondiola al horno tapada a 160°C por 3 horas con sal y pimienta.",
+          "paso 2: Desmenuzar la carne y mezclar con su jugo.",
+          "paso 3: Tostar el pan y untar mayonesa y mostaza.",
+          "paso 4: Agregar bondiola, pepinillos y cebolla morada en rodajas finas.",
+          "paso 5: Cerrar y servir caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://i.ytimg.com/vi/MeRegBfDzZg/maxresdefault.jpg"
+    },
+    {
+        "nombre": "Tarta de cebolla caramelizada y queso azul",
+        "ingredientes": "masa de tarta, cebolla, azúcar, manteca, queso azul, crema, huevos, sal, pimienta",
+        "pasos": [
+          "paso 1: Saltear 3 cebollas en manteca hasta dorar.",
+          "paso 2: Agregar 1 cucharada de azúcar y caramelizar 10 minutos.",
+          "paso 3: Mezclar con 150 g de queso azul, 100 ml de crema y 2 huevos.",
+          "paso 4: Volcar sobre la masa en un molde.",
+          "paso 5: Hornear a 190°C por 35 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST22CoSsmDxY7-V5dx1tiNkx7nEbPzKSVyIg&s"
+    },
+    {
+     "nombre": "Ensalada mediterránea con pasta corta",
+        "ingredientes": "pasta corta, tomate cherry, aceitunas negras, queso feta, pepino, aceite de oliva, limón, orégano",
+        "pasos": [
+          "paso 1: Hervir 250 g de pasta hasta punto justo.",
+          "paso 2: Cortar tomate cherry, pepino y aceitunas.",
+          "paso 3: Mezclar todo con queso feta en cubos.",
+          "paso 4: Aliñar con aceite de oliva, limón y orégano.",
+          "paso 5: Servir fresca."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://d36fw6y2wq3bat.cloudfront.net/recipes/ensalada-mediterranea-de-pasta-y-pepino/600/ensalada-mediterranea-de-pasta-y-pepino_version_1652871358.jpg"
+    },
+    {
+        "nombre": "Milanesa napolitana especial",
+        "ingredientes": "carne, pan rallado, huevo, jamón, queso mozzarella, salsa de tomate, orégano, sal",
+        "pasos": [
+          "paso 1: Pasar la carne por huevo y pan rallado.",
+          "paso 2: Freír en aceite caliente hasta dorar.",
+          "paso 3: Cubrir con salsa de tomate, jamón y mozzarella.",
+          "paso 4: Llevar al horno hasta gratinar.",
+          "paso 5: Servir con orégano."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cuk-it.com/wp-content/uploads/2022/09/milanesa-napo-stories-5.webp"
+    },
+    {
+        "nombre": "Pan de campo relleno",
+        "ingredientes": "pan de campo, queso mozzarella, jamón cocido, cebolla, oliva",
+        "pasos": [
+          "paso 1: Cortar la tapa del pan.",
+          "paso 2: Rellenar con jamón, queso y cebolla salteada.",
+          "paso 3: Hornear envuelto en papel aluminio 20 minutos.",
+          "paso 4: Servir tibio."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-gYERWjK8vXrjR8-ztu8CwFVFW6nuGXG-kQ&s"
+    },
+    {
+        "nombre": "Pescado blanco a la manteca negra",
+        "ingredientes": "filet de pescado blanco, manteca, limón, alcaparras, sal, pimienta",
+        "pasos": [
+          "paso 1: Cocinar el pescado en sartén con poco aceite.",
+          "paso 2: Derretir manteca hasta que tome color marrón.",
+          "paso 3: Agregar limón y alcaparras.",
+          "paso 4: Verter la manteca sobre el pescado y servir."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://farm4.staticflickr.com/3808/13507180654_8f2f125768_z.jpg"
+    },
+    {
+        "nombre": "Hamburguesa criolla",
+        "ingredientes": "carne picada, cebolla, huevo, pan rallado, queso, tomate, lechuga, pan de hamburguesa",
+        "pasos": [
+          "paso 1: Mezclar carne con cebolla y huevo.",
+          "paso 2: Formar hamburguesas y cocinar.",
+          "paso 3: Armar con queso, tomate y lechuga.",
+          "paso 4: Servir con salsas a gusto."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtAoD3HfZguxmJ7dPxFhQIZrHrjpGgg9DCeA&s"
+    },
+    {
+        "nombre": "Ravioles de ricota con salsa de tomate fresco",
+        "ingredientes": "ravioles de ricota, tomate, ajo, albahaca, aceite de oliva, sal, pimienta",
+        "pasos": [
+          "paso 1: Hervir los ravioles.",
+          "paso 2: Saltear ajo y tomate picado.",
+          "paso 3: Agregar albahaca fresca.",
+          "paso 4: Mezclar con los ravioles y servir."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd68v7TYWQiDpshNtYb_G_4EO1Pa72M6yv-A&s"
+    },
+    {
+        "nombre": "Langostinos al ajillo",
+        "ingredientes": "langostinos, ajo, perejil, aceite de oliva, limón, sal",
+        "pasos": [
+          "paso 1: Dorar ajo en aceite.",
+          "paso 2: Agregar langostinos y saltear 3 minutos.",
+          "paso 3: Agregar limón y perejil.",
+          "paso 4: Servir caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://www.paulinacocina.net/wp-content/uploads/2022/06/receta-de-langostinos-al-ajillo.jpg"
+    },
+    {
+        "nombre": "Fainá crocante",
+        "ingredientes": "harina de garbanzos, agua, aceite, sal, pimienta",
+        "pasos": [
+          "paso 1: Mezclar harina de garbanzos con agua y sal.",
+          "paso 2: Reposar 20 minutos.",
+          "paso 3: Volcar en bandeja aceitada.",
+          "paso 4: Hornear fuerte hasta dorar."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://i.blogs.es/173ddf/farinata1/450_1000.jpg"
+    },
+    {
+        "nombre": "Sándwich cubano",
+        "ingredientes": "pan, cerdo desmenuzado, jamón, queso suizo, pepinillos, mostaza",
+        "pasos": [
+          "paso 1: Untar el pan con mostaza.",
+          "paso 2: Agregar cerdo, jamón, queso y pepinillos.",
+          "paso 3: Prensar y tostar hasta que derrita."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://media.elgourmet.com/recetas/cover_pv5iam8f1g_iStock-473336754.jpg"
+    },
+    {
+        "nombre": "Rolls de berenjena con ricota",
+        "ingredientes": "berenjena, ricota, nueces, ajo, aceite, sal",
+        "pasos": [
+       "paso 1: Cortar berenjenas en láminas y grillarlas.",
+          "paso 2: Mezclar ricota, nueces y ajo.",
+          "paso 3: Rellenar y enrollar.",
+          "paso 4: Hornear 10 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjG650d_B6wd1_GxJIEU2fjf761s0WBQbItw&s"
+    },
+    {
+        "nombre": "Sopa fría de pepino",
+        "ingredientes": "pepino, yogur, ajo, aceite de oliva, eneldo, sal",
+        "pasos": [
+          "paso 1: Pelar y cortar pepinos.",
+          "paso 2: Licuar con yogur, ajo y sal.",
+          "paso 3: Agregar eneldo.",
+          "paso 4: Servir bien fría."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf24a8MA3-qfsDewgeGC5e_BaLaFXox_DIlg&s"
+    },
+    {
+        "nombre": "Papines andinos al romero",
+        "ingredientes": "papines, romero, aceite de oliva, sal, pimienta",
+        "pasos": [
+          "paso 1: Lavar los papines.",
+          "paso 2: Mezclar con aceite y romero.",
+          "paso 3: Hornear 40 minutos.",
+          "paso 4: Servir dorados."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://media.lmneuquen.com/p/60c5b8e2dbe9fbcd2f3372cb58bc4f25/adjuntos/195/imagenes/007/043/0007043263/papines-romero.jpg"
+    },
+    {
+        "nombre": "Ceviche peruano clásico",
+        "ingredientes": "pescado blanco, limón, cebolla morada, cilantro, sal, ají",
+        "pasos": [
+          "paso 1: Cortar el pescado en cubos.",
+          "paso 2: Agregar jugo de limón y sal.",
+          "paso 3: Sumar cebolla morada y ají.",
+          "paso 4: Terminar con cilantro."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://images.squarespace-cdn.com/content/60ff20587f00f42b9b296006/1628891133684-JPYMVU5FWNY5P7P87EYU/ceviche+peruano.JPG?format=1500w&content-type=image%2Fjpeg"
+    },
+    {
+        "nombre": "Bastones de polenta fritos",
+        "ingredientes": "polenta, agua, queso rallado, sal, aceite",
+        "pasos": [
+          "paso 1: Cocinar polenta con agua y sal.",
+          "paso 2: Mezclar queso rallado.",
+          "paso 3: Enfriar en una fuente.",
+          "paso 4: Cortar bastones y freír."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJ_xOfqjJ-_IBjA40tC5YQ2bB5gKOrFwtBQ&s"
+    },
+    {
+        "nombre": "Tortilla española fina",
+        "ingredientes": "papa, huevo, cebolla, aceite, sal",
+        "pasos": [
+          "paso 1: Cortar papa muy fina.",
+          "paso 2: Freír con cebolla.",
+          "paso 3: Mezclar con huevo.",
+          "paso 4: Cocinar de ambos lados."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ-32fx1zuXSG77uhifFPyUtIJT6pe-Ef5Og&s"
+    },
+    {
+        "nombre": "Pan pita casero",
+        "ingredientes": "harina, levadura, agua, sal, aceite",
+        "pasos": [
+          "paso 1: Formar una masa suave.",
+          "paso 2: Leudar 1 hora.",
+          "paso 3: Cocinar discos en sartén muy caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6pnE_4keb1CI4fwBg_CQt94bVQKtmTrc2g&s"
+    },
+    {
+        "nombre": "Papas bravas",
+        "ingredientes": "papa, aceite, pimentón, tomate, ajo, sal",
+        "pasos": [
+          "paso 1: Cortar papas en cubos y freír.",
+          "paso 2: Preparar salsa con tomate, ajo y pimentón.",
+          "paso 3: Servir las papas con la salsa encima."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUkiYP3nUm21n3t6GRFwCAe8AJSBrP0sY7g&s"
+    },
+    {
+        "nombre": "Sándwich vietnamita Banh Mi",
+        "ingredientes": "baguette, cerdo, zanahoria, pepino, cilantro, mayonesa",
+        "pasos": [
+          "paso 1: Rellenar el pan con cerdo cocido.",
+          "paso 2: Agregar verduras encurtidas.",
+          "paso 3: Terminar con cilantro y mayonesa."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cocinista.b-cdn.net/download/bancorecursos/recetas/receta-banh-mi-vietnamita.jpg"
+    },
+    {
+        "nombre": "Empanadas de choclo y queso",
+        "ingredientes": "masa de empanadas, choclo, queso mozzarella, cebolla, sal",
+        "pasos": [
+          "paso 1: Saltear cebolla y choclo.",
+          "paso 2: Mezclar con queso.",
+          "paso 3: Rellenar y cerrar.",
+          "paso 4: Hornear 20 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaBldYEXJNdOFx5efycPZkRrMZQCET67r52g&s"
+    },
+    {
+        "nombre": "Sándwich de pollo al pesto",
+        "ingredientes": "pan, pollo, pesto, tomate, queso",
+        "pasos": [
+          "paso 1: Mezclar pollo con pesto.",
+          "paso 2: Armar el sándwich.",
+          "paso 3: Tostar hasta fundir el queso."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://mojo.generalmills.com/api/public/content/weEW9pFB2EW0zBGpf40eqA_gmi_hi_res_jpeg.jpeg?v=85cb81af&t=16e3ce250f244648bef28c5949fb99ff"
+    },
+    {
+        "nombre": "Wrap mediterráneo",
+        "ingredientes": "tortilla de trigo, hummus, pepino, tomate, aceitunas negras, lechuga, aceite de oliva",
+        "pasos": [
+          "paso 1: Untar hummus sobre la tortilla.",
+          "paso 2: Agregar pepino, tomate y aceitunas en tiras.",
+          "paso 3: Sumar lechuga picada.",
+          "paso 4: Rociar aceite de oliva.",
+          "paso 5: Enrollar firme y cortar al medio."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://www.petitchef.es/imgupl/recipe/wrap-mediterraneo-relleno-de-hummus-rucula-pimientos-y-queso-feta--lg-468451p749996.webp"
+    },
+    {
+        "nombre": "Omelette de champiñones y queso",
+        "ingredientes": "huevo, champiñones, manteca, queso mozzarella, sal, pimienta",
+        "pasos": [
+          "paso 1: Saltear champiñones en manteca hasta dorar.",
+          "paso 2: Batir 3 huevos con sal y pimienta.",
+          "paso 3: Volcar los huevos en la sartén.",
+          "paso 4: Agregar mozzarella y los champiñones.",
+          "paso 5: Doblar y cocinar 2 minutos más."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtp8rJYALU7U_mMtBLDYp-64FwwohklB0mdg&s"
+    },
+    {
+        "nombre": "Panini de jamón crudo y rúcula",
+        "ingredientes": "pan ciabatta, jamón crudo, rúcula, tomate, queso mozzarella, aceite de oliva",
+        "pasos": [
+          "paso 1: Cortar el pan ciabatta al medio.",
+          "paso 2: Agregar mozzarella en fetas y calentar hasta que funda.",
+          "paso 3: Incorporar jamón crudo, tomate en rodajas y rúcula.",
+          "paso 4: Rociar aceite de oliva.",
+          "paso 5: Prensar el panini y tostar 3 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://static.wixstatic.com/media/0a455c_21f1cae67be54ad89ed3bbf15a875aa9~mv2.jpg/v1/fill/w_679,h_381,al_c,q_80,enc_avif,quality_auto/0a455c_21f1cae67be54ad89ed3bbf15a875aa9~mv2.jpg"
+    },
+    {
+        "nombre": "Coliflor asada con especias",
+        "ingredientes": "coliflor, aceite de oliva, pimentón dulce, cúrcuma, sal, pimienta",
+        "pasos": [
+          "paso 1: Separar la coliflor en arbolitos.",
+          "paso 2: Mezclar con aceite, pimentón, cúrcuma, sal y pimienta.",
+          "paso 3: Hornear a 200°C durante 25 minutos.",
+          "paso 4: Mezclar a mitad de cocción para dorar parejo.",
+          "paso 5: Servir caliente como acompañamiento."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4CgrD2GDCooUZqytFWH89fU0Ht9vkNyduuw&s"
+    },
+    {
+        "nombre": "Milanesas de soja caseras",
+        "ingredientes": "harina de soja, pan rallado, huevo, ajo, perejil, sal, pimienta, caldo de verduras",
+        "pasos": [
+            "paso 1: Mezclar 1 taza de harina de soja con sal y pimienta en un bowl.",
+            "paso 2: Agregar de a poco 1/2 taza de caldo de verduras caliente mientras mezclás hasta formar una masa firme.",
+            "paso 3: Amasar 5 minutos y dejar reposar 10 minutos.",
+            "paso 4: Estirar la masa con palo de amasar y cortar milanesas redondas o alargadas.",
+            "paso 5: Pasar cada milanesa por huevo batido con ajo y perejil.",
+            "paso 6: Rebozar con pan rallado presionando bien para que se adhiera.",
+            "paso 7: Freír en aceite caliente hasta dorar o cocinar al horno 20 minutos a 200°C, dándolas vuelta a la mitad."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://congeladosartico.com/wb23/wp-content/uploads/2024/07/milanesa-de-soja-congelados-artico.jpg"
+    },
+    {
+        "nombre": "Carré de cerdo con puré de manzana",
+        "ingredientes": "carre de cerdo, manzana verde, manteca, azúcar, limón, sal, pimienta, aceite, caldo",
+        "pasos": [
+            "paso 1: Condimentar el carré de cerdo con sal y pimienta por todos lados.",
+            "paso 2: Sellarlo en una sartén con un chorrito de aceite hasta que esté bien dorado.",
+            "paso 3: Transferir el carré a una fuente, agregar 1/2 taza de caldo y cocinar al horno a 180°C durante 50 minutos.",
+            "paso 4: Pelar 3 manzanas verdes, cortar en cubos y rociar con jugo de limón.",
+            "paso 5: Colocar las manzanas en una olla con 1 cucharada de manteca y 1 cucharada de azúcar.",
+            "paso 6: Cocinar a fuego bajo hasta que se ablanden completamente.",
+            "paso 7: Pis ar hasta obtener un puré liso (si hace falta, agregar un chorrito de agua o más manteca).",
+            "paso 8: Retirar el carré del horno, dejar reposar 10 minutos y cortarlo en rodajas.",
+            "paso 9: Servir acompañado con el puré de manzana caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://img-global.cpcdn.com/recipes/2fbb21883f694cd9/680x781cq80/el-autentico-carre-de-cerdo-con-pure-de-manzanas-con-salsa-agridulce-foto-principal.jpg"
+    },
+    {
+        "nombre": "Tostado de jamón y queso",
+        "ingredientes": "pan de molde sin tacc, jamón cocido sin tacc, queso en fetas sin tacc, manteca",
+        "pasos": [
+            "paso 1: Untar ligeramente con manteca dos rebanadas de pan de molde sin TACC.",
+            "paso 2: Colocar entre las rebanadas 2 fetas de jamón cocido sin TACC y 2 fetas de queso apto.",
+            "paso 3: Calentar una sartén o tostadora y colocar el tostado con la parte untada hacia afuera.",
+            "paso 4: Cocinar a fuego medio hasta que el pan esté dorado y el queso comience a fundirse.",
+            "paso 5: Dar vuelta y repetir del otro lado hasta lograr un dorado parejo.",
+            "paso 6: Servir caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "SinTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1YIgBqTXqpeQT56HAJCZb2tfSXizj8nqDA&s"
+    },
+    {
         "nombre": "Jugo de naranja",
         "ingredientes": ["naranjas"],
         "pasos": [
