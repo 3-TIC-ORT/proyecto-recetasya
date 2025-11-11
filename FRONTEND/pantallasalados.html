@@ -22,7 +22,9 @@
 
     
     <div class="texto"><h2 class="titulo">RECETAS SALADAS</h2></div>
-    
+    <br>
+
+    <input type="text" id="buscador" placeholder="Buscar receta por nombre...">
     <main>
         <div class="recetas" id="recetas"> 
         </div>
@@ -85,6 +87,7 @@
                     <option value="jamon crudo">Jamón crudo</option>
                     <option value="jengibre">Jengibre</option>
                     <option value="laminas de lasana">Láminas de lasaña</option>
+                    <option value="leche">Leche</option>
                     <option value="leche de coco">Leche de coco</option>
                     <option value="lechuga">Lechuga</option>
                     <option value="lentejas">Lentejas</option>
@@ -145,13 +148,17 @@
                 </select>
 
 
-                <label for="filtroapto">Apto:</label>
+                <label for="filtroapto">Restricciones:</label>
                 <select id="filtroapto">
                     <option value="">Cualquiera</option> 
                     <option value="SinTACC">Sin TACC</option>
                     <option value="ConTACC">Con TACC</option>
                 </select>
             </section>
+            <button id="recetario">
+                    <img class="libro" src="IMAGENES FRONT/recetario.png" alt="Imagen recetario">
+                    <h5 class="mr">IR A MI RECETARIO</h5>
+            </button>
         </div>
 </main>
 

@@ -1,39 +1,6 @@
 
 connect2Server();
 
-window.onload = () => {
-  };
-  
-  function mostrarRecetas(data) {
-    console.log("Datos recibidos del backend:", data);
-  
-    if (data && data.success && Array.isArray(data.data)) {
-      const recetas = data;
-  
-      container.innerHTML = "";
-  
-      recetas.forEach((receta) => {
-        const recetaDiv = document.createElement("div");
-        recetaDiv.classList.add("tarjeta");
-  
-        recetaDiv.innerHTML = `
-          <h3>${receta.nombre}</h3>
-          <h4>Categoría: ${receta.categoria}</h4>
-          <p><strong>Ingredientes:</strong> ${receta.ingredientes.join(", ")}</p>
-          <p><strong>Pasos:</strong> ${receta.pasos.join(", ")}</p>
-          <p><strong>Porciones:</strong> ${receta.porciones}</p>
-          <p><strong>Dificultad:</strong> ${receta.dificultad}</p>
-        `;
-  
-        container.appendChild(recetaDiv);
-      });
-    } else {
-      alert("No se encontraron recetas saladas.");
-    }
-  }
-
-
-
 let comidas = [];
 
 getEvent("recetasdulces", data => {
@@ -58,6 +25,9 @@ function mostrarComidas(lista) {
           
           <div class="tarr"> 
             <h3>${receta.nombre}</h3>
+            <img src="IMAGENES FRONT/botonfavoritos.png" 
+            id="favoritos"
+            class="estrella">
           </div>
           <div class="tabj"> 
             <p>${receta.ingredientes || ''}</p>
@@ -81,16 +51,21 @@ function mostrarComidas(lista) {
 
 const filtroingredientes = document.getElementById('filtroingredientes');
 const filtroapto = document.getElementById('filtroapto');
+const buscador = document.getElementById('buscador');
 
 // ==== EVENTOS DE LOS FILTROS ====
 filtroingredientes.addEventListener('change', aplicarFiltros);
 filtroapto.addEventListener('change', aplicarFiltros);
+buscador.addEventListener('input', aplicarFiltros);
+
 
 // ==== FUNCION DE FILTRADO CORREGIDA ====
 // ==== FUNCION DE FILTRADO CORREGIDA para ingredientes (asumiendo ARRAY) ====
 function aplicarFiltros() {
     const ingredienteSeleccionado = filtroingredientes.value.toLowerCase();
     const aptoSeleccionado = filtroapto.value.toLowerCase(); 
+    const textoBusqueda = buscador.value.toLowerCase();
+
 
     const comidasFiltradas = comidas.filter(receta => {
         
@@ -108,8 +83,11 @@ function aplicarFiltros() {
         const coincideApto =
             aptoSeleccionado === '' || 
             (receta.apto && receta.apto.toLowerCase() === aptoSeleccionado);
+
+        const coincideNombre =
+            textoBusqueda === '' || receta.nombre.toLowerCase().includes(textoBusqueda);
         
-        return coincideIngredientes && coincideApto;
+        return coincideIngredientes && coincideApto && coincideNombre;
     });
 
     mostrarComidas(comidasFiltradas);
@@ -117,6 +95,10 @@ function aplicarFiltros() {
 
 
 let home = document.getElementById("home");
+let recetario = document.getElementById("recetario");
+const imagenestrella = document.getElementById("favoritos");
+let esfavorita = false;
+
 
 function cambiardulces(){
     window.location.href = "pdulces.html";
@@ -126,4 +108,23 @@ function cambiardulces2(){
     window.location.href = "RecipEat.html";
 }
 
+function mrecetas(){
+    window.location.href = "pmisrecetas.html"
+}
+
+
+function cambiarimagen(){
+    if (esfavorita){
+        imagenestrella.src = "IMAGENES FRONT/botonfavoritos.png";
+        esfavorita = false
+    }
+    else{
+        imagenestrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+        esfavorita = true
+    }
+}
+
+addEventListener("click", cambiarimagen);
+
 home.addEventListener("click", cambiardulces2);
+recetario.addEventListener("click", mrecetas);

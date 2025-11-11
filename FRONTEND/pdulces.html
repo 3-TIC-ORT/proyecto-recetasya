@@ -22,14 +22,19 @@
     
     <div class="texto"><h2 class="titulo">RECETAS DULCES</h2></div>
     
+    <br>
+    <input type="text" id="buscador" placeholder="Buscar receta por nombre...">
+
     <main>
         <div class="recetas" id="recetas"> 
+            
         </div>
 
-            <div class="filtros">
+        <div class="filtros">
             <div class="title">
                 <img class="lineas" src="IMAGENES FRONT/filter.png" alt="logo filtros">
                 <h2 class="fl">Filtros</h2>
+                
             </div>
 
             <section class="filtrado">
@@ -109,13 +114,17 @@
                 </select>
 
 
-                <label for="filtroapto">Apto:</label>
+                <label for="filtroapto">Restricciones:</label>
                 <select id="filtroapto">
                     <option value="">Cualquiera</option> 
-                    <option value="SinTACC">Sin TACC</option>
+                    <option value="SinTACC">Sin TACC </option>
                     <option value="ConTACC">Con TACC</option>
                 </select>
             </section>
+            <button id="recetario">
+                    <img class="libro" src="IMAGENES FRONT/recetario.png" alt="Imagen recetario">
+                    <h5 class="mr">IR A MI RECETARIO</h5>
+            </button>
         </div>
         
     </main>

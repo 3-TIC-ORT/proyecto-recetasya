@@ -1662,9 +1662,9 @@
         "nombre": "Agua mineral",
         "ingredientes": ["agua mineral"],
         "pasos": [
-            "Paso 1: Serví 250 ml de agua mineral en un vaso.",
-            "Paso 2: Añadí hielo o rodajas de limón opcional.",
-            "Paso 3: Serví fría."
+            "Paso 1: Agarra un vaso de vidrio de tu preferencia.",
+            "Paso 2: Servi agua de la canilla o preferentemente mineral.",
+            "Paso 3: Disfrutar despues tanto esfuerzo con amigos y familia."
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
