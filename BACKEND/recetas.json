@@ -1189,6 +1189,114 @@
         "imagen": "https://cassiscafe.com/cdn/shop/files/merengues.webp?v=1713113612"
     },
     {
+        "nombre": "Dulce de batata casero",
+        "ingredients": "batatas, azúcar, limón, gelatina sin sabor",
+        "pasos": [
+          "Paso 1: Hervir 1 kg de batatas peladas hasta que estén tiernas.",
+          "Paso 2: Hacer un puré y mezclar con 400 g de azúcar.",
+          "Paso 3: Agregar jugo de 1 limón.",
+          "Paso 4: Cocinar 20 minutos a fuego bajo.",
+          "Paso 5: Incorporar gelatina hidratada y moldear.",
+          "Paso 6: Refrigerar 4 horas."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1590086782792-42dd2350140d"
+    },
+    {
+        "nombre": "Mousse de dulce de leche",
+        "ingredients": "dulce de leche, crema de leche, gelatina sin sabor",
+        "pasos": [
+          "Paso 1: Batir 300 g de dulce de leche con 200 ml de crema.",
+          "Paso 2: Hidratar gelatina y agregarla tibia a la mezcla.",
+          "Paso 3: Refrigerar 2 horas antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1630343557821-f1c985ca5d5a"
+    },
+    {
+        "nombre": "Peras caramelizadas",
+        "ingredients": "peras, azúcar, manteca, canela, limón",
+        "pasos": [
+          "Paso 1: Pelar peras y cortar en mitades.",
+          "Paso 2: Fundir manteca y azúcar hasta formar caramelo.",
+          "Paso 3: Agregar peras, limón y canela.",
+          "Paso 4: Cocinar 15 minutos a fuego bajo."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c"
+    },
+    {
+        "nombre": "Bizcochuelo aireado",
+        "ingredients": "huevos, azúcar, harina, esencia de vainilla",
+        "pasos": [
+          "Paso 1: Batir 4 huevos con 140 g de azúcar por 10 minutos.",
+          "Paso 2: Agregar esencia de vainilla.",
+          "Paso 3: Incorporar 150 g de harina tamizada.",
+          "Paso 4: Hornear 35 minutos a 180°C."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1599785209798-9a9ebbb314a5"
+    },
+    {
+        "nombre": "Pudding de pan dulce",
+        "ingredients": "pan dulce, leche, huevos, azúcar, esencia de vainilla",
+        "pasos": [
+          "Paso 1: Cortar pan dulce en cubos.",
+          "Paso 2: Mezclar 500 ml de leche con 3 huevos y 100 g de azúcar.",
+          "Paso 3: Agregar esencia de vainilla.",
+          "Paso 4: Mezclar con el pan dulce.",
+          "Paso 5: Hornear 40 minutos a baño maría."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1481391319762-47cc64823732"
+    },
+    {
+        "nombre": "Manzanas asadas con miel",
+        "ingredients": "manzanas, miel, canela, manteca",
+        "pasos": [
+          "Paso 1: Cortar manzanas al medio.",
+          "Paso 2: Rellenar con miel y canela.",
+          "Paso 3: Agregar un cubito de manteca.",
+          "Paso 4: Hornear 30 minutos a 180°C."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1606813907291-6d1c44cc979f"
+    },
+    {
+        "nombre": "Pastel vasco clásico",
+        "ingredients": "harina, manteca, azúcar, huevos, crema pastelera",
+        "pasos": [
+          "Paso 1: Mezclar 200 g de harina con 120 g de manteca y 100 g de azúcar.",
+          "Paso 2: Agregar 2 huevos y formar una masa.",
+          "Paso 3: Forrar un molde con la mitad de la masa.",
+          "Paso 4: Rellenar con crema pastelera.",
+          "Paso 5: Cubrir con la masa restante.",
+          "Paso 6: Hornear 35 minutos a 180°C."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://images.unsplash.com/photo-1627662167482-af2e03bdc176"
+    },
+    {
+        "nombre": "Crema inglesa",
+        "ingredients": "leche, yemas, azúcar, esencia de vainilla",
+        "pasos": [
+          "Paso 1: Calentar 400 ml de leche con esencia de vainilla.",
+          "Paso 2: Batir 4 yemas con 80 g de azúcar.",
+          "Paso 3: Agregar la leche caliente en hilo.",
+          "Paso 4: Cocinar a fuego bajo hasta espesar."
+        ],
+        "categoria": "Dulce",
+        "apto": "SinTACC",
+        "imagen": "https://images.unsplash.com/photo-1630343557821-f1c985ca5d5a"
+    },
+    {
         "nombre": "Papas fritas",
         "ingredientes": ["papas", "aceite", "sal"],
         "pasos": [
