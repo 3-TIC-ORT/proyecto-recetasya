@@ -1,6 +1,7 @@
 connect2Server();
 
 let comidas = [];
+alert("bebidassssss")
 
 getEvent("recetasbebidas", data => {
     console.log('Comidas cargadas desde JSON:', data);
