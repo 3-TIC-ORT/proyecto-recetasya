@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bebidas</title>
-    <link rel="stylesheet" href="pbebidas.css">
+    <title>RecipEat</title>
+    <link rel="stylesheet" href="pdulces.css">
 </head>
 <body>
     <button id="home">
@@ -21,39 +21,105 @@
 
     
     <div class="texto"><h2 class="titulo">BEBIDAS</h2></div>
+    
+    <br>
+    <input type="text" id="buscador" placeholder="Buscar receta por nombre...">
 
     <main>
         <div class="recetas" id="recetas"> 
+            
+        </div>
+
+        <div class="filtros">
+            <div class="title">
+                <img class="lineas" src="IMAGENES FRONT/filter.png" alt="logo filtros">
+                <h2 class="fl">Filtros</h2>
+                
+            </div>
+
+            <section class="filtrado">
+                <label for="filtroingredientes">Ingredientes</label>
+                <select id="filtroingredientes">
+                    <option value="">Todas</option>
+                    <option value="agua">Agua</option>
+                    <option value="agua caliente">Agua caliente</option>
+                    <option value="agua de coco">Agua de coco</option>
+                    <option value="agua mineral">Agua mineral</option>
+                    <option value="arándanos">Arándanos</option>
+                    <option value="avena">Avena</option>
+                    <option value="azúcar">Azúcar</option>
+                    <option value="banana">Banana</option>
+                    <option value="bombilla">Bombilla</option>
+                    <option value="cacao en polvo">Cacao en polvo</option>
+                    <option value="café">Café</option>
+                    <option value="café instantáneo">Café instantáneo</option>
+                    <option value="canela">Canela</option>
+                    <option value="cardamomo">Cardamomo</option>
+                    <option value="cerveza">Cerveza</option>
+                    <option value="chocolate negro">Chocolate negro</option>
+                    <option value="clavo">Clavo</option>
+                    <option value="crema">Crema</option>
+                    <option value="crema batida">Crema batida</option>
+                    <option value="duraznos">Duraznos</option>
+                    <option value="espinaca">Espinaca</option>
+                    <option value="flores de hibisco">Flores de hibisco</option>
+                    <option value="flores de jazmín">Flores de jazmín</option>
+                    <option value="flores de manzanilla">Flores de manzanilla</option>
+                    <option value="frambuesas">Frambuesas</option>
+                    <option value="frutillas">Frutillas</option>
+                    <option value="gaseosa cola">Gaseosa cola</option>
+                    <option value="helado de chocolate">Helado de chocolate</option>
+                    <option value="hielo">Hielo</option>
+                    <option value="jengibre">Jengibre</option>
+                    <option value="kiwi">Kiwi</option>
+                    <option value="leche">Leche</option>
+                    <option value="leche de coco">Leche de coco</option>
+                    <option value="limón">Limón</option>
+                    <option value="mantequilla de maní">Mantequilla de maní</option>
+                    <option value="manzana">Manzana</option>
+                    <option value="manzanas">Manzanas</option>
+                    <option value="mango">Mango</option>
+                    <option value="maracuyá">Maracuyá</option>
+                    <option value="mate">Mate</option>
+                    <option value="menta">Menta</option>
+                    <option value="miel">Miel</option>
+                    <option value="moras">Moras</option>
+                    <option value="naranja">Naranja</option>
+                    <option value="naranjas">Naranjas</option>
+                    <option value="papaya">Papaya</option>
+                    <option value="pepino">Pepino</option>
+                    <option value="pera">Pera</option>
+                    <option value="piña">Piña</option>
+                    <option value="plátano">Plátano</option>
+                    <option value="sandía">Sandía</option>
+                    <option value="té negro">Té negro</option>
+                    <option value="té verde">Té verde</option>
+                    <option value="vino tinto">Vino tinto</option>
+                    <option value="yerba mate">Yerba mate</option>
+                    <option value="yogur natural">Yogur natural</option>
+                    <option value="zanahoria">Zanahoria</option>
+                </select>
+
+
+                <label for="filtroapto">Restricciones:</label>
+                <select id="filtroapto">
+                    <option value="">Cualquiera</option> 
+                    <option value="SinTACC">Sin TACC </option>
+                    <option value="ConTACC">Con TACC</option>
+                </select>
+            </section>
+            <button id="recetario">
+                    <img class="libro" src="IMAGENES FRONT/recetario.png" alt="Imagen recetario">
+                    <h5 class="mr">IR A MI RECETARIO</h5>
+            </button>
         </div>
         
     </main>
     
-    <div class="populares">
-        <div class="popu1"></div>
-        <div class="popu2"></div>
-        <div class="popu3"></div>
-    </div>
+    </main>
     
-    
-    <div class="lista1">
-        <div class="r2">
-            <div class="img2">
-                <h2 class="imr">Imagen de la receta</h2>
-            </div>
-            <div class="texto2">
-                <div class="textoarriba">
-                    <h2 class="nr">Nombre de la receta</h2>
-                    <img src="IMAGENES FRONT/botonfavoritos.png" 
-                    alt="Marcar como favorito"
-                    id="favoritos"
-                    class="estrella">
-                </div>
-                <div class="textoabajo">
-                    <h2 class="infor">Informacion de la receta</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="pbebidas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
+    <script src="pdulces.js"></script>
 </body>
 </html>
