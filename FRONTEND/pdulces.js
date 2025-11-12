@@ -30,7 +30,7 @@ function mostrarComidas(lista) {
             class="estrella">
           </div>
           <div class="tabj"> 
-            <p>${receta.ingredientes || ''}</p>
+            <p>- Ingredientes: ${receta.ingredientes || ''}</p>
             <h4>- ${receta.categoria}</h4>
             <h4>- ${receta.apto}</h4>
           </div>

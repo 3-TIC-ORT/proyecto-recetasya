@@ -211,21 +211,16 @@ header{
 #menudesplegable {
     position: fixed;
     top: 0;
-    right: 0; /* Lo mantiene anclado a la derecha */
-    width: 250px; /* Ancho deseado del menú */
+    right: 0;
+    width: 250px;
     height: 100vh;
     background-color: whitesmoke;
     color: white;
-    padding-top: 60px; /* Espacio para el contenido */
-    /* OCULTAR: Lo mueve 100% de su propio ancho hacia la derecha */
+    padding-top: 60px;
     transform: translateX(100%);
-    /* O puedes usar: right: -250px; (si el ancho es 250px) */
-
-    transition: transform 0.4s ease-in-out; /* Transición para el deslizamiento */
-    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    transition: transform 0.4s ease-in-out;
+    z-index: 1000;
 }
-
-/* Clase para MOSTRAR el menú */
 #menudesplegable.open {
     transform: translateX(0); 
 }
