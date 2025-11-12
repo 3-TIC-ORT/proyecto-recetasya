@@ -208,12 +208,18 @@ body{
     gap: .5rem;
 }
 
-.tarr{
+.tarr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 0.5rem;
     height: 3rem;
     width: 30rem;
     background-color: whitesmoke;
     border: .2rem solid black;
-}
+    box-sizing: border-box;
+  }
+  
 
 .tabj{
     height: 10rem;
@@ -253,6 +259,7 @@ h3{
     width: 2rem;
     cursor: pointer;
     margin-right: 1rem;
+    position: absolute;
 }
 
 .filtros{

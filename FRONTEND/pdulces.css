@@ -209,10 +209,15 @@ body{
 }
 
 .tarr{
-    height: 3rem;
-    width: 30rem;
-    background-color: whitesmoke;
-    border: .2rem solid black;
+    display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 1rem; 
+  background-color: whitesmoke;
+  border: 0.2rem solid black;
+  height: 3rem;
+  width: 30rem;
+  box-sizing: border-box;
 }
 
 .tabj{
@@ -248,11 +253,10 @@ h3{
     font-size: 1.3rem;
 }
 
-#favoritos{
-    height: 2rem;
-    width: 2rem;
+.estrella{
+    width: 2.5rem;
+    height: 2.5rem;
     cursor: pointer;
-    margin-right: 1rem;
 }
 
 .filtros{

@@ -86,8 +86,7 @@ function aplicarFiltros() {
 
 let home = document.getElementById("home");
 let recetario = document.getElementById("recetario");
-const imagenestrella = document.getElementById("favoritos");
-let esfavorita = false;
+
 
 
 function cambiardulces(){
@@ -103,18 +102,28 @@ function mrecetas(){
 }
 
 
-function cambiarimagen(){
-    if (esfavorita){
-        imagenestrella.src = "IMAGENES FRONT/botonfavoritos.png";
-        esfavorita = false
-    }
-    else{
-        imagenestrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-        esfavorita = true
-    }
-}
+
 
 addEventListener("click", cambiarimagen);
 
 home.addEventListener("click", cambiardulces2);
 recetario.addEventListener("click", mrecetas);
+
+
+const estrellas = document.querySelectorAll('.estrella');
+
+estrellas.forEach(est => {
+  
+  est.addEventListener('click', () => {
+    
+    if (est.dataset.fav === '1') {
+      est.src = "IMAGENES FRONT/botonfavoritos.png";
+      est.dataset.fav = '0';
+    } else {
+      est.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+      est.dataset.fav = '1';
+    }
+  });
+});
+
+
