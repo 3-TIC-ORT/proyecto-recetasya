@@ -26,7 +26,7 @@ function mostrarComidas(lista) {
           <div class="tarr"> 
             <h3>${receta.nombre}</h3>
             <img src="IMAGENES FRONT/botonfavoritos.png" 
-            id="favoritos"
+            data-fav="0"
             class="estrella">
           </div>
           <div class="tabj"> 
@@ -42,6 +42,7 @@ function mostrarComidas(lista) {
     </div>
     `;
   });
+  adjuntarEventosEstrella();
 }
 
 
@@ -104,26 +105,35 @@ function mrecetas(){
 
 
 
-addEventListener("click", cambiarimagen);
+
 
 home.addEventListener("click", cambiardulces2);
 recetario.addEventListener("click", mrecetas);
 
 
-const estrellas = document.querySelectorAll('.estrella');
 
-estrellas.forEach(est => {
+
+function adjuntarEventosEstrella() {
   
-  est.addEventListener('click', () => {
-    
-    if (est.dataset.fav === '1') {
-      est.src = "IMAGENES FRONT/botonfavoritos.png";
-      est.dataset.fav = '0';
-    } else {
-      est.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-      est.dataset.fav = '1';
-    }
+  const estrellas = document.querySelectorAll('.estrella'); 
+
+  
+  estrellas.forEach(estrellaIndividual => {
+      estrellaIndividual.addEventListener('click', function() {
+          
+          
+          
+          if (this.dataset.fav === '1') {
+              
+              this.src = "IMAGENES FRONT/botonfavoritos.png";
+              this.dataset.fav = '0'; 
+          } else {
+              
+              this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+              this.dataset.fav = '1'; 
+          }
+      });
   });
-});
+}
 
 
