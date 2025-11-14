@@ -116,6 +116,7 @@ body{
     height: 11.5rem;
     width: 68rem;
     background-image: url("IMAGENES FRONT/Botonsalados.png");
+    cursor: pointer;
 }
 
 #boton1:hover{
@@ -131,6 +132,7 @@ body{
     height: 11.5rem;
     width: 68rem;
     background-image: url("IMAGENES FRONT/dulces.png");
+    cursor: pointer;
 }
 
 #bdulces:hover{
@@ -153,6 +155,7 @@ body{
     height: 11.5rem;
     width: 68rem;
     background-image: url("IMAGENES FRONT/Botón\ Bebidas.png");
+    cursor: pointer;
 }
 
 #bbebidas:hover{
@@ -206,6 +209,7 @@ header{
     height: 2rem;
     width: 3rem;
     margin-left: 75rem;
+    cursor: pointer;
 }
 
 #menudesplegable {
