@@ -126,7 +126,7 @@ function favoritos() {
       
       postEvent('Favoritos', {
         usuario, 
-        nombre, 
+        receta: nombre, 
         favToggle: estrellaIndividual.dataset.fav
       }, (res) => {
         if (res && res.success) {

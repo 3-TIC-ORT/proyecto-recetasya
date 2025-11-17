@@ -20,7 +20,7 @@ export const loginEvent = (data) => {
     }
   
     if (Encontrado === true) {
-      return { success: true, msg: "Inicio de sesión exitoso", data: usuario = usuarios[userIndex] };
+      return { success: true, msg: "Inicio de sesión exitoso", data: usuarios[userIndex]};
     } 
     else  if (Encontrado === false) {
       return { success: false, msg: "Usuario o contraseña incorrectos" };
