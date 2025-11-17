@@ -2885,7 +2885,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/07/16/10/43/oranges-2501186_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
     },
     {
         "nombre": "Licuado de banana",
@@ -2898,7 +2898,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/smoothie-2158815_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJ2XDVN1N_6KGyFNZxqf3yJ6g0WDPPKjCVQ&s"
     },
     {
         "nombre": "Café con leche",
@@ -2911,7 +2911,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/11/09/21/41/coffee-2934842_1280.jpg"
+        "imagen": "https://cdn3.myrealfood.app/s3-myrealfood/recipes/z0QYJQkdZvVIYRHdFtcD/main_0_1685896060274.jpg"
     },
     {
         "nombre": "Mate tradicional",
@@ -2924,7 +2924,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/01/16/19/14/mate-1983570_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuf2d7s7gzGjK9eSxDA41fom7bcBLGsy-arw&s"
     },
     {
         "nombre": "Agua mineral",
@@ -2936,7 +2936,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/water-1239400_1280.jpg"
+        "imagen": "https://img.freepik.com/vector-gratis/vaso-agua-aislado_1368-2666.jpg?semt=ais_hybrid&w=740&q=80"
     },
     {
         "nombre": "Té verde",
@@ -2949,7 +2949,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/tea-3007399_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3nkcxhd8gnSaB_pnQbH_Z5Hupb3sP1wxtjA&s"
     },
     {
         "nombre": "Cerveza artesanal",
@@ -2961,7 +2961,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2015/11/19/20/08/beer-1052401_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyVmUZBk2SvWZuzqgyC1mVt6oMSR1M2G2OpQ&s"
     },
     {
         "nombre": "Vino tinto",
@@ -2973,7 +2973,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/wine-1239402_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXEGfI7KnvsAmGGFUGleWTAJTP3IdcYLzSAw&s"
     },
     {
         "nombre": "Gaseosa cola",
@@ -2984,7 +2984,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/coke-1239403_1280.jpg"
+        "imagen": "https://media.istockphoto.com/id/530428650/es/foto/cola-vaso-con-cubos-de-hielo.jpg?s=612x612&w=0&k=20&c=Muea5QG7XWj3OyEnZli6Qh0lxnvgvOo_J9sOCfqV19k="
     },
     {
         "nombre": "Batido de chocolate",
@@ -2996,7 +2996,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chocolate-milkshake-2158816_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cYeNm4m9-wQdHYlYabTGahlokX75Sl6ZUg&s"
     },
     {
         "nombre": "Limonada casera",
@@ -3008,7 +3008,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/lemonade-2158817_1280.jpg"
+        "imagen": "https://cdn0.uncomo.com/es/posts/7/6/6/como_hacer_limonada_7667_600.jpg"
     },
     {
         "nombre": "Smoothie de frutilla",
@@ -3020,7 +3020,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/strawberry-smoothie-2158818_1280.jpg"
+        "imagen": "https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/strawberry-smoothie.jpg"
     },
     {
         "nombre": "Chocolate caliente",
@@ -3033,7 +3033,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/hot-chocolate-2158819_1280.jpg"
+        "imagen": "https://www.cocinadelirante.com/sites/default/files/images/2024/11/prepara-chocolate-caliente-con-bombones-y-alivia-la-tos.jpg"
     },
     {
         "nombre": "Té chai",
@@ -3046,7 +3046,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chai-tea-2158820_1280.jpg"
+        "imagen": "https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/vanilla-chai-latte.jpg"
     },
     {
         "nombre": "Smoothie tropical",
@@ -3058,19 +3058,19 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/tropical-smoothie-2158821_1280.jpg"
+        "imagen": "https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/056d2839c6829352aa2f7eff43543453.jpg"
     },
     {
-        "nombre": "Licuado de avena y banana",
-        "ingredientes": ["avena", "banana", "leche", "miel"],
+        "nombre": "Licuado de avena y manzana",
+        "ingredientes": ["avena", "manzana", "leche", "miel"],
         "pasos": [
-            "Paso 1: Colocá 40 g de avena, 1 banana madura y 200 ml de leche en la licuadora.",
+            "Paso 1: Colocá 40 g de avena, 1 manzana madura y 200 ml de leche en la licuadora.",
             "Paso 2: Licuá hasta obtener mezcla homogénea.",
             "Paso 3: Endulzá con miel al gusto y serví frío."
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/oat-banana-smoothie-2158822_1280.jpg"
+        "imagen": "https://cdn0.recetasgratis.net/es/posts/3/3/0/licuado_de_manzana_y_avena_con_agua_78033_orig.jpg"
     },
     {
         "nombre": "Agua de pepino y menta",
@@ -3082,7 +3082,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/cucumber-water-2158823_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_siXDQjDwY_QZLpiTpGfNa4xdzsYhyqU0Xg&s"
     },
     {
         "nombre": "Smoothie de mango y frutilla",
@@ -3094,7 +3094,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/mango-strawberry-smoothie-2158824_1280.jpg"
+        "imagen": "https://cheforopeza.com.mx/wp-content/uploads/2019/03/smoothie-mango-y-fresa-sitio.jpg"
     },
     {
         "nombre": "Limonada con jengibre",
