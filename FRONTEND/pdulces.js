@@ -42,7 +42,7 @@ function mostrarComidas(lista) {
     </div>
     `;
   });
-  adjuntarEventosEstrella();
+  favoritos();
 }
 
 
@@ -113,7 +113,7 @@ recetario.addEventListener("click", mrecetas);
 
 
 
-function adjuntarEventosEstrella() {
+function favoritos() {
   
   const estrellas = document.querySelectorAll('.estrella'); 
 
