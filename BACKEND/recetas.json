@@ -1459,6 +1459,37 @@
         "imagen": "https://resizer.glanacion.com/resizer/v2/-7MUCSQNIZBD3TA43MY7DOA3N5U.jpg?auth=c98bc7b0f7cdc0b56dbee3457bf364a07cb7828b4c269c6592e9eb9b5e373616&width=420&height=280&quality=70&smart=true"
     },
     {
+        "nombre": "Chocotorta",
+        "ingredientes": "Galletitas de chocolate, dulce de leche, queso crema, leche o café",
+        "pasos": [
+          "paso 1: Mezclar el queso crema con el dulce de leche hasta lograr una crema homogénea.",
+          "paso 2: Mojar las galletitas en leche o café rápidamente.",
+          "paso 3: Formar una capa de galletitas en una fuente.",
+          "paso 4: Cubrir con una capa de la mezcla de crema y dulce de leche.",
+          "paso 5: Repetir capas hasta terminar los ingredientes.",
+          "paso 6: Llevar a la heladera por al menos 3 horas antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Chocotorta_casera.jpg"
+    },
+    {
+        "nombre": "Pionono de Oreo",
+        "ingredientes": "Pionono dulce, galletitas Oreo, dulce de leche, crema de leche o queso crema",
+        "pasos": [
+          "paso 1: Mezclar crema de leche batida o queso crema con dulce de leche hasta formar una crema espesa.",
+          "paso 2: Triturar galletitas Oreo hasta obtener trozos pequeños.",
+          "paso 3: Desenrollar el pionono y untarlo con la mezcla de dulce de leche y crema.",
+          "paso 4: Espolvorear las Oreo trituradas sobre toda la superficie.",
+          "paso 5: Enrollar nuevamente el pionono con cuidado.",
+          "paso 6: Cubrir por fuera con más crema y decorar con Oreos enteras o trituradas.",
+          "paso 7: Llevar a la heladera por al menos 1 hora antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Oreo_dessert_roll.jpg"
+    },
+    {
         "nombre": "Papas fritas",
         "ingredientes": ["papas", "aceite", "sal"],
         "pasos": [
@@ -2418,7 +2449,7 @@
         "imagen": "https://d36fw6y2wq3bat.cloudfront.net/recipes/ensalada-mediterranea-de-pasta-y-pepino/600/ensalada-mediterranea-de-pasta-y-pepino_version_1652871358.jpg"
     },
     {
-        "nombre": "Milanesa napolitana especial",
+        "nombre": "Milanesa napolitana",
         "ingredientes": "carne, pan rallado, huevo, jamón, queso mozzarella, salsa de tomate, orégano, sal",
         "pasos": [
           "paso 1: Pasar la carne por huevo y pan rallado.",
@@ -2799,6 +2830,50 @@
         "categoria": "Salado",
         "apto": "ConTACC",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAkrnN_YeN8TiYCRhpl-8mruiSurPQdEvxg&s"
+    },
+    {
+        "nombre": "Choripán",
+        "ingredientes": "Chorizo, pan francés, chimichurri o salsa criolla",
+        "pasos": [
+          "paso 1: Cocinar los chorizos a la parrilla o a la plancha hasta que queden bien dorados.",
+          "paso 2: Abrir el pan francés por la mitad sin separarlo del todo.",
+          "paso 3: Colocar el chorizo dentro del pan.",
+          "paso 4: Agregar chimichurri o salsa criolla al gusto.",
+          "paso 5: Servir caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chorip%C3%A1n_con_chimichurri.jpg"
+    },
+    {
+        "nombre": "Papas a la crema",
+        "ingredientes": "Papas, crema de leche, queso rallado, manteca, sal, pimienta, nuez moscada",
+        "pasos": [
+          "paso 1: Pelar las papas y cortarlas en rodajas finas.",
+          "paso 2: Enmantecar una fuente para horno.",
+          "paso 3: Acomodar capas de papas en la fuente, salpimentando cada capa.",
+          "paso 4: Mezclar la crema con nuez moscada y verter sobre las papas.",
+          "paso 5: Cubrir con queso rallado.",
+          "paso 6: Hornear a fuego medio durante 40 a 50 minutos hasta que las papas estén tiernas y gratinadas."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/30/Gratin_dauphinois_2016.jpg"
+    },
+    {
+        "nombre": "Cappelletinis de carne",
+        "ingredientes": "Cappelletinis de carne, crema de leche o salsa mixta, queso rallado, manteca, sal, pimienta",
+        "pasos": [
+          "paso 1: Hervir una olla grande con agua y sal.",
+          "paso 2: Agregar los cappelletinis de carne y cocinarlos según indicación del paquete, entre 6 y 10 minutos.",
+          "paso 3: En una sartén, derretir un poco de manteca y agregar crema de leche o salsa mixta.",
+          "paso 4: Condimentar la salsa con sal y pimienta a gusto.",
+          "paso 5: Escurrir los cappelletinis y mezclarlos con la salsa caliente.",
+          "paso 6: Servir y espolvorear queso rallado por encima."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Meat_cappelletti_with_cream.jpg"
     },
     {
         "nombre": "Jugo de naranja",
