@@ -2,7 +2,7 @@ connect2Server();
 
 let comidas = [];
 
-getEvent("recetasdulces", data => {
+getEvent("mostrarRecetasDestacadas", data => {
     console.log('Comidas cargadas desde JSON:', data);
     comidas = data.data;
     mostrarComidas(comidas);

@@ -22,29 +22,41 @@
 
     
     <div class="texto"><h2 class="titulo">RECETAS DESTACADAS</h2></div>
-    <div class="populares">
-        <div class="popu1"></div>
-        <div class="popu2"></div>
-        <div class="popu3"></div>
-    </div>
-    
-    
-    <div class="lista1">
-        <div class="r2">
-            <div class="img2">
-                <h2 class="imr">Imagen de la receta</h2>
-            </div>
-            <div class="texto2">
-                <div class="textoarriba">
-                    <h2 class="nr">Nombre de la receta</h2>
-                </div>
-                <div class="textoabajo">
-                    <h2 class="infor">Informacion de la receta</h2>
-                </div>
-            </div>
+    <br>
+
+    <input type="text" id="buscador" placeholder="Buscar receta por nombre...">
+    <main>
+        <div class="recetas" id="recetas"> 
         </div>
-    </div>
+        
+        <div class="filtros">
+            <div class="title">
+                <img class="lineas" src="IMAGENES FRONT/filter.png" alt="logo filtros">
+                <h2 class="fl">Filtros</h2>
+            </div>
+            <section class="filtrado">
+                <label for="filtroingredientes">Ingredientes</label>
+                <select id="filtroingredientes"  >
+                    <option value="">Todas</option>
+                </select>
+
+
+                <label for="filtroapto">Restricciones:</label>
+                <select id="filtroapto">
+                    <option value="">Cualquiera</option> 
+                    <option value="SinTACC">Sin TACC</option>
+                    <option value="ConTACC">Con TACC</option>
+                </select>
+            </section>
+            <button id="recetario">
+                    <img class="libro" src="IMAGENES FRONT/recetario.png" alt="Imagen recetario">
+                    <h5 class="mr">IR A MI RECETARIO</h5>
+            </button>
+        </div>
+</main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
     <script src="precetasdestacadas.js"></script>
-    
 </body>
 </html>
