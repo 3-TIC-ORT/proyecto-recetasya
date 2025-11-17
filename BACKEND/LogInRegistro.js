@@ -12,12 +12,15 @@ export const loginEvent = (data) => {
       let u = usuarios[i];
       if (u.Nombre_de_la_Cuenta === data.nombre && u.Contraseña === data.contraseña) {
         Encontrado = true;
-        break;
+        if (Encontrado == true) { 
+          var userIndex = i;
+          break;
+        }
       }
     }
   
     if (Encontrado === true) {
-      return { success: true, msg: "Inicio de sesión exitoso" };
+      return { success: true, msg: "Inicio de sesión exitoso", usuario: usuarios[userIndex] };
     } 
     else  if (Encontrado === false) {
       return { success: false, msg: "Usuario o contraseña incorrectos" };
