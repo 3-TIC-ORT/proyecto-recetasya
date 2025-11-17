@@ -33,7 +33,7 @@ function Logearse() {
 function login(data) {
   if (data.success) {
     alert("Login Exitoso. Bienvenido a RecepEat!!");
-    localStorage.setItem("sesion", )
+    localStorage.setItem("sesion", JSON.stringify(data.usuario));
     window.location.href = "RecipEat.html";
 
   } else {
