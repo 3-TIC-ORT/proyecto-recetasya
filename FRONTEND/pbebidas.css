@@ -1,3 +1,9 @@
+.estrella{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
 .lista1{
     background-color: wheat;
     height: 50rem;

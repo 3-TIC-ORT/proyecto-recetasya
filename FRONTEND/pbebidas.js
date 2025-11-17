@@ -26,7 +26,7 @@ function mostrarComidas(lista) {
           <div class="tarr"> 
             <h3>${receta.nombre}</h3>
             <img src="IMAGENES FRONT/botonfavoritos.png" 
-            id="favoritos"
+            data-fav="0"
             class="estrella">
           </div>
           <div class="tabj"> 
@@ -42,6 +42,7 @@ function mostrarComidas(lista) {
     </div>
     `;
   });
+  favoritos();
 }
 
 
@@ -87,8 +88,7 @@ function aplicarFiltros() {
 
 let home = document.getElementById("home");
 let recetario = document.getElementById("recetario");
-const imagenestrella = document.getElementById("favoritos");
-let esfavorita = false;
+
 
 
 function cambiarbebidas(){
@@ -109,19 +109,25 @@ recetario.addEventListener("click", mrecetas);
 
 
 
-function cambiarimagen(){
-    if (esfavorita){
-        imagenestrella.src = "IMAGENES FRONT/botonfavoritos.png";
-        esfavorita = false
-    }
-    else{
-        imagenestrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-        esfavorita = true
-    }
-}
+function favoritos() {
+  
+  const estrellas = document.querySelectorAll('.estrella'); 
 
-if (imagenestrella){
-    imagenestrella.addEventListener("click", cambiarimagen);
+  
+  estrellas.forEach(estrellaIndividual => {
+      estrellaIndividual.addEventListener('click', function() {
+          
+          
+          
+          if (this.dataset.fav === '1') {
+              
+              this.src = "IMAGENES FRONT/botonfavoritos.png";
+              this.dataset.fav = '0'; 
+          } else {
+              
+              this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+              this.dataset.fav = '1'; 
+          }
+      });
+  });
 }
-
-imagenestrella.addEventListener("click", cambiarimagen)
