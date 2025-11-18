@@ -6,7 +6,6 @@ connect2Server();
 
 
 
-
 let comidas = [];
 const container = document.getElementById('recetas'); 
 getEvent("recetasbebidas", data => {
