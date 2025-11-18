@@ -1459,6 +1459,37 @@
         "imagen": "https://resizer.glanacion.com/resizer/v2/-7MUCSQNIZBD3TA43MY7DOA3N5U.jpg?auth=c98bc7b0f7cdc0b56dbee3457bf364a07cb7828b4c269c6592e9eb9b5e373616&width=420&height=280&quality=70&smart=true"
     },
     {
+        "nombre": "Chocotorta",
+        "ingredientes": "Galletitas de chocolate, dulce de leche, queso crema, leche o café",
+        "pasos": [
+          "paso 1: Mezclar el queso crema con el dulce de leche hasta lograr una crema homogénea.",
+          "paso 2: Mojar las galletitas en leche o café rápidamente.",
+          "paso 3: Formar una capa de galletitas en una fuente.",
+          "paso 4: Cubrir con una capa de la mezcla de crema y dulce de leche.",
+          "paso 5: Repetir capas hasta terminar los ingredientes.",
+          "paso 6: Llevar a la heladera por al menos 3 horas antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://perobienargentino.com/cdn/shop/articles/tarta_960x.jpg?v=1606978660"
+    },
+    {
+        "nombre": "Pionono de Oreo",
+        "ingredientes": "Pionono dulce, galletitas Oreo, dulce de leche, crema de leche o queso crema",
+        "pasos": [
+          "paso 1: Mezclar crema de leche batida o queso crema con dulce de leche hasta formar una crema espesa.",
+          "paso 2: Triturar galletitas Oreo hasta obtener trozos pequeños.",
+          "paso 3: Desenrollar el pionono y untarlo con la mezcla de dulce de leche y crema.",
+          "paso 4: Espolvorear las Oreo trituradas sobre toda la superficie.",
+          "paso 5: Enrollar nuevamente el pionono con cuidado.",
+          "paso 6: Cubrir por fuera con más crema y decorar con Oreos enteras o trituradas.",
+          "paso 7: Llevar a la heladera por al menos 1 hora antes de servir."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://www.petitchef.es/imgupl/recipe/brazo-de-gitano-de-oreo--458303p716056.webp"
+    },
+    {
         "nombre": "Papas fritas",
         "ingredientes": ["papas", "aceite", "sal"],
         "pasos": [
@@ -2418,7 +2449,7 @@
         "imagen": "https://d36fw6y2wq3bat.cloudfront.net/recipes/ensalada-mediterranea-de-pasta-y-pepino/600/ensalada-mediterranea-de-pasta-y-pepino_version_1652871358.jpg"
     },
     {
-        "nombre": "Milanesa napolitana especial",
+        "nombre": "Milanesa napolitana",
         "ingredientes": "carne, pan rallado, huevo, jamón, queso mozzarella, salsa de tomate, orégano, sal",
         "pasos": [
           "paso 1: Pasar la carne por huevo y pan rallado.",
@@ -2801,6 +2832,50 @@
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAkrnN_YeN8TiYCRhpl-8mruiSurPQdEvxg&s"
     },
     {
+        "nombre": "Choripán",
+        "ingredientes": "Chorizo, pan francés, chimichurri o salsa criolla",
+        "pasos": [
+          "paso 1: Cocinar los chorizos a la parrilla o a la plancha hasta que queden bien dorados.",
+          "paso 2: Abrir el pan francés por la mitad sin separarlo del todo.",
+          "paso 3: Colocar el chorizo dentro del pan.",
+          "paso 4: Agregar chimichurri o salsa criolla al gusto.",
+          "paso 5: Servir caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://www.laylita.com/recetas/wp-content/uploads/Receta-del-choripan.jpg"
+    },
+    {
+        "nombre": "Papas a la crema",
+        "ingredientes": "Papas, crema de leche, queso rallado, manteca, sal, pimienta, nuez moscada",
+        "pasos": [
+          "paso 1: Pelar las papas y cortarlas en rodajas finas.",
+          "paso 2: Enmantecar una fuente para horno.",
+          "paso 3: Acomodar capas de papas en la fuente, salpimentando cada capa.",
+          "paso 4: Mezclar la crema con nuez moscada y verter sobre las papas.",
+          "paso 5: Cubrir con queso rallado.",
+          "paso 6: Hornear a fuego medio durante 40 a 50 minutos hasta que las papas estén tiernas y gratinadas."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://cuk-it.com/wp-content/uploads/2020/09/papas-a-la-crema-stories03b.webp"
+    },
+    {
+        "nombre": "Cappelletinis de carne",
+        "ingredientes": "Cappelletinis de carne, crema de leche o salsa mixta, queso rallado, manteca, sal, pimienta",
+        "pasos": [
+          "paso 1: Hervir una olla grande con agua y sal.",
+          "paso 2: Agregar los cappelletinis de carne y cocinarlos según indicación del paquete, entre 6 y 10 minutos.",
+          "paso 3: En una sartén, derretir un poco de manteca y agregar crema de leche o salsa mixta.",
+          "paso 4: Condimentar la salsa con sal y pimienta a gusto.",
+          "paso 5: Escurrir los cappelletinis y mezclarlos con la salsa caliente.",
+          "paso 6: Servir y espolvorear queso rallado por encima."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://i.ytimg.com/vi/ejy72KP_46Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD5qV6cfP1mcu6dDu1lhuXk_GOG_Q"
+    },
+    {
         "nombre": "Jugo de naranja",
         "ingredientes": ["naranjas"],
         "pasos": [
@@ -2810,7 +2885,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/07/16/10/43/oranges-2501186_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
     },
     {
         "nombre": "Licuado de banana",
@@ -2823,7 +2898,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/smoothie-2158815_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJ2XDVN1N_6KGyFNZxqf3yJ6g0WDPPKjCVQ&s"
     },
     {
         "nombre": "Café con leche",
@@ -2836,7 +2911,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/11/09/21/41/coffee-2934842_1280.jpg"
+        "imagen": "https://cdn3.myrealfood.app/s3-myrealfood/recipes/z0QYJQkdZvVIYRHdFtcD/main_0_1685896060274.jpg"
     },
     {
         "nombre": "Mate tradicional",
@@ -2849,7 +2924,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/01/16/19/14/mate-1983570_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuf2d7s7gzGjK9eSxDA41fom7bcBLGsy-arw&s"
     },
     {
         "nombre": "Agua mineral",
@@ -2861,7 +2936,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/water-1239400_1280.jpg"
+        "imagen": "https://img.freepik.com/vector-gratis/vaso-agua-aislado_1368-2666.jpg?semt=ais_hybrid&w=740&q=80"
     },
     {
         "nombre": "Té verde",
@@ -2874,7 +2949,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/tea-3007399_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3nkcxhd8gnSaB_pnQbH_Z5Hupb3sP1wxtjA&s"
     },
     {
         "nombre": "Cerveza artesanal",
@@ -2886,7 +2961,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2015/11/19/20/08/beer-1052401_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyVmUZBk2SvWZuzqgyC1mVt6oMSR1M2G2OpQ&s"
     },
     {
         "nombre": "Vino tinto",
@@ -2898,7 +2973,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/wine-1239402_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXEGfI7KnvsAmGGFUGleWTAJTP3IdcYLzSAw&s"
     },
     {
         "nombre": "Gaseosa cola",
@@ -2909,7 +2984,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2016/03/05/19/02/coke-1239403_1280.jpg"
+        "imagen": "https://media.istockphoto.com/id/530428650/es/foto/cola-vaso-con-cubos-de-hielo.jpg?s=612x612&w=0&k=20&c=Muea5QG7XWj3OyEnZli6Qh0lxnvgvOo_J9sOCfqV19k="
     },
     {
         "nombre": "Batido de chocolate",
@@ -2921,7 +2996,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chocolate-milkshake-2158816_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cYeNm4m9-wQdHYlYabTGahlokX75Sl6ZUg&s"
     },
     {
         "nombre": "Limonada casera",
@@ -2933,7 +3008,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/lemonade-2158817_1280.jpg"
+        "imagen": "https://cdn0.uncomo.com/es/posts/7/6/6/como_hacer_limonada_7667_600.jpg"
     },
     {
         "nombre": "Smoothie de frutilla",
@@ -2945,7 +3020,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/strawberry-smoothie-2158818_1280.jpg"
+        "imagen": "https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/strawberry-smoothie.jpg"
     },
     {
         "nombre": "Chocolate caliente",
@@ -2958,7 +3033,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/hot-chocolate-2158819_1280.jpg"
+        "imagen": "https://www.cocinadelirante.com/sites/default/files/images/2024/11/prepara-chocolate-caliente-con-bombones-y-alivia-la-tos.jpg"
     },
     {
         "nombre": "Té chai",
@@ -2971,7 +3046,7 @@
         ],
         "categoria": "Bebida",
         "apto": "ConTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/chai-tea-2158820_1280.jpg"
+        "imagen": "https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/vanilla-chai-latte.jpg"
     },
     {
         "nombre": "Smoothie tropical",
@@ -2983,19 +3058,19 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/tropical-smoothie-2158821_1280.jpg"
+        "imagen": "https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/056d2839c6829352aa2f7eff43543453.jpg"
     },
     {
-        "nombre": "Licuado de avena y banana",
-        "ingredientes": ["avena", "banana", "leche", "miel"],
+        "nombre": "Licuado de avena y manzana",
+        "ingredientes": ["avena", "manzana", "leche", "miel"],
         "pasos": [
-            "Paso 1: Colocá 40 g de avena, 1 banana madura y 200 ml de leche en la licuadora.",
+            "Paso 1: Colocá 40 g de avena, 1 manzana madura y 200 ml de leche en la licuadora.",
             "Paso 2: Licuá hasta obtener mezcla homogénea.",
             "Paso 3: Endulzá con miel al gusto y serví frío."
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/oat-banana-smoothie-2158822_1280.jpg"
+        "imagen": "https://cdn0.recetasgratis.net/es/posts/3/3/0/licuado_de_manzana_y_avena_con_agua_78033_orig.jpg"
     },
     {
         "nombre": "Agua de pepino y menta",
@@ -3007,7 +3082,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/cucumber-water-2158823_1280.jpg"
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_siXDQjDwY_QZLpiTpGfNa4xdzsYhyqU0Xg&s"
     },
     {
         "nombre": "Smoothie de mango y frutilla",
@@ -3019,7 +3094,7 @@
         ],
         "categoria": "Bebida",
         "apto": "SinTACC",
-        "imagen": "https://cdn.pixabay.com/photo/2017/03/20/15/29/mango-strawberry-smoothie-2158824_1280.jpg"
+        "imagen": "https://cheforopeza.com.mx/wp-content/uploads/2019/03/smoothie-mango-y-fresa-sitio.jpg"
     },
     {
         "nombre": "Limonada con jengibre",

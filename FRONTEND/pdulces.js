@@ -1,13 +1,11 @@
-let home = document.getElementById("home");
-let recetario = document.getElementById("recetario");
-
 
 connect2Server();
 
-
-
-
 let comidas = [];
+const usuario = localStorage.getItem('sesion');
+
+
+
 const container = document.getElementById('recetas'); 
 getEvent("recetasdulces", data => {
     console.log('Comidas cargadas desde JSON:', data);
@@ -63,9 +61,9 @@ filtroapto.addEventListener('change', aplicarFiltros);
 buscador.addEventListener('input', aplicarFiltros);
 
 function aplicarFiltros() {
-    const ingredienteSeleccionado = filtroingredientes.value.toLowerCase();
-    const aptoSeleccionado = filtroapto.value.toLowerCase(); 
-    const textoBusqueda = buscador.value.toLowerCase();
+  const ingredienteSeleccionado = filtroingredientes.value.toLowerCase();
+  const aptoSeleccionado = filtroapto.value.toLowerCase();
+  const textoBusqueda = buscador.value.toLowerCase();
 
 
     const comidasFiltradas = comidas.filter(receta => {
@@ -88,8 +86,12 @@ function aplicarFiltros() {
         return coincideIngredientes && coincideApto && coincideNombre;
     });
 
-    mostrarComidas(comidasFiltradas);
-}
+    return coincideIngredientes && coincideApto && coincideNombre;
+
+  mostrarComidas(comidasFiltradas);
+};
+
+
 
 function obtenerIngredientesSeleccionados() {
   // 1. Obtener el elemento select
@@ -129,11 +131,24 @@ function cambiarpantalla(){
 }
 
 function cambiarpantalla1(){
-    window.location.href = "RecipEat.html";
+  window.location.href = "RecipEat.html";
 }
 
-function mrecetas(){
-    window.location.href = "pmisrecetas.html"
+let home = document.getElementById("home");
+let recetario = document.getElementById("recetario");
+
+
+
+function cambiardulces() {
+  window.location.href = "pdulces.html";
+}
+
+function cambiardulces2() {
+  window.location.href = "RecipEat.html";
+}
+
+function mrecetas() {
+  window.location.href = "pmisrecetas.html"
 }
 
 
@@ -144,27 +159,37 @@ recetario.addEventListener("click", mrecetas);
 
 
 
-function adjuntarEventosEstrella() {
-  
-  const estrellas = document.querySelectorAll('.estrella'); 
+function favoritos() {
 
-  
+  const estrellas = document.querySelectorAll('.estrella');
+
   estrellas.forEach(estrellaIndividual => {
-      estrellaIndividual.addEventListener('click', function() {
-          
-          
-          
-          if (this.dataset.fav === '1') {
-              
-              this.src = "IMAGENES FRONT/botonfavoritos.png";
-              this.dataset.fav = '0'; 
+    estrellaIndividual.addEventListener('click', () => {
+      const parent = estrellaIndividual.parentNode;
+      const h3 = parent.querySelector('h3');
+      const nombre = h3 ? h3.textContent : '';
+      
+      postEvent('Favoritos', {
+        usuario, 
+        receta: nombre, 
+        favToggle: estrellaIndividual.dataset.fav
+      }, (res) => {
+        if (res && res.success) {
+          if (res.favToggle == '1') {
+            estrellaIndividual.src = "IMAGENES FRONT/botonfavoritos.png";
+            estrellaIndividual.dataset.fav = '0';
           } else {
-              
-              this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-              this.dataset.fav = '1'; 
+            estrellaIndividual.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+            estrellaIndividual.dataset.fav = '1';
           }
+        } else {
+          alert("Error al agregar a favoritos");
+        }
       });
+
+    });
   });
 }
+
 
 

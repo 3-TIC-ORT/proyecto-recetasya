@@ -32,6 +32,9 @@ function mostrarComidas(lista) {
                 <div class="texto3"> 
                     <div class="tarr"> 
                         <h3>${receta.nombre}</h3>
+                        <img src="IMAGENES FRONT/botonfavoritos.png" 
+                        data-fav="0"
+                        class="estrella">
                     </div>
                     <div class="tabj"> 
                         <p> -Ingredientes: ${receta.ingredientes || ''}</p>
@@ -50,6 +53,7 @@ function mostrarComidas(lista) {
 
         container.appendChild(card);
     });
+    favoritos();
 }
 
 
@@ -139,3 +143,26 @@ function mrecetas(){
 
 home.addEventListener("click", cambiarpantalla1);
 recetario.addEventListener("click", mrecetas);
+
+function favoritos() {
+  
+    const estrellas = document.querySelectorAll('.estrella'); 
+  
+    
+    estrellas.forEach(estrellaIndividual => {
+        estrellaIndividual.addEventListener('click', function() {
+            
+            
+            
+            if (this.dataset.fav === '1') {
+                
+                this.src = "IMAGENES FRONT/botonfavoritos.png";
+                this.dataset.fav = '0'; 
+            } else {
+                
+                this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+                this.dataset.fav = '1'; 
+            }
+        });
+    });
+  }

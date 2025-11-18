@@ -1,5 +1,3 @@
-let home = document.getElementById("home");
-let recetario = document.getElementById("recetario");
 
 
 connect2Server();
@@ -16,7 +14,7 @@ getEvent("recetasbebidas", data => {
     aplicarFiltros(); 
 });
 
-function mostrarComidas(lista) {
+function mostrarComidas(lista){
     container.innerHTML = "";
 
     lista.forEach(receta => {
@@ -51,6 +49,7 @@ function mostrarComidas(lista) {
     });
     adjuntarEventosEstrella();
 }
+ 
 
 
 const filtroingredientes = document.getElementById('filtroingredientes');
@@ -117,6 +116,15 @@ function obtenerIngredientesSeleccionados() {
   // 6. Si no se seleccionó nada (o solo "Todas"), devolvemos un array vacío,
   //    lo que indicaría mostrar todos los resultados.
   return ingredientesSeleccionados;
+
+}
+let home = document.getElementById("home");
+let recetario = document.getElementById("recetario");
+
+
+
+function cambiarbebidas(){
+    window.location.href = "pbebidas.html";
 }
 
 // Ejemplo de uso:
@@ -167,3 +175,25 @@ function adjuntarEventosEstrella() {
 }
 
 
+function favoritos() {
+  
+  const estrellas = document.querySelectorAll('.estrella'); 
+
+  
+  estrellas.forEach(estrellaIndividual => {
+      estrellaIndividual.addEventListener('click', function() {
+          
+          
+          
+          if (this.dataset.fav === '1') {
+              
+              this.src = "IMAGENES FRONT/botonfavoritos.png";
+              this.dataset.fav = '0'; 
+          } else {
+              
+              this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+              this.dataset.fav = '1'; 
+          }
+      });
+  });
+}
