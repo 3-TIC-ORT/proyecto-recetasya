@@ -122,8 +122,18 @@
     ]
   },
   {
-    "Nombre_de_la_Cuenta": "duquelindo",
-    "Contraseña": "1234567",
+    "Nombre_de_la_Cuenta": "Manolo",
+    "Contraseña": "Manolos",
+    "Favoritos": [
+      ""
+    ],
+    "Creadas": [
+      ""
+    ]
+  },
+  {
+    "Nombre_de_la_Cuenta": "Manolo1",
+    "Contraseña": "Manolos",
     "Favoritos": [
       ""
     ],
