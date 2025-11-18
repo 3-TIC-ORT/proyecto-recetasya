@@ -1,47 +1,56 @@
+let home = document.getElementById("home");
+let recetario = document.getElementById("recetario");
+
+
 connect2Server();
 
-let comidas = [];
-alert("bebidassssss")
 
+
+
+let comidas = [];
+const container = document.getElementById('recetas'); 
 getEvent("recetasbebidas", data => {
     console.log('Comidas cargadas desde JSON:', data);
     comidas = data.data;
-    mostrarComidas(comidas);
-  });
-
-const container = document.getElementById('recetas');
+    localStorage.setItem("comidas", JSON.stringify(comidas));
+    const comidaStorage = localStorage.getItem("comidas");
+    aplicarFiltros(); 
+});
 
 function mostrarComidas(lista) {
-  container.innerHTML = ""; 
+    container.innerHTML = "";
 
-  lista.forEach(receta => {
-    container.innerHTML += `
-    <div class="lista5"> 
-      <div class="r5"> 
-        <div class= "img3"> 
-          <img class="imgrecetas" src="${receta.imagen}">
-        </div>
-        <div class="texto3"> 
-          
-          <div class="tarr"> 
-            <h3>${receta.nombre}</h3>
-            <img src="IMAGENES FRONT/botonfavoritos.png" 
-            id="favoritos"
-            class="estrella">
-          </div>
-          <div class="tabj"> 
-            <p>- Ingredientes: ${receta.ingredientes || ''}</p>
-            <h4>- ${receta.categoria}</h4>
-            <h4>- ${receta.apto}</h4>
-          </div>
-        </div>
+    lista.forEach(receta => {
+        const card = document.createElement("div");
+        card.classList.add("lista5");
 
+        card.innerHTML = `
+            <div class="r5" id="${receta.nombre}">
+                <div class="img3"> 
+                    <img class="imgrecetas" src="${receta.imagen}">
+                </div>
+                <div class="texto3"> 
+                    <div class="tarr"> 
+                        <h3>${receta.nombre}</h3>
+                    </div>
+                    <div class="tabj"> 
+                        <p> -Ingredientes: ${receta.ingredientes || ''}</p>
+                        <h4>- ${receta.categoria}</h4>
+                        <h4>- ${receta.apto}</h4>
+                    </div>
+                </div>
+            </div>
+        `;
 
-        </div>
-    
-    </div>
-    `;
-  });
+        // 👉 HACER CLICKEABLE LA TARJETA
+        card.addEventListener("click", () => {
+            localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
+            window.location.href = "recetaext.html"; // página donde mostrarás la receta
+        });
+
+        container.appendChild(card);
+    });
+    adjuntarEventosEstrella();
 }
 
 
@@ -53,7 +62,6 @@ filtroingredientes.addEventListener('change', aplicarFiltros);
 filtroapto.addEventListener('change', aplicarFiltros);
 buscador.addEventListener('input', aplicarFiltros);
 
-
 function aplicarFiltros() {
     const ingredienteSeleccionado = filtroingredientes.value.toLowerCase();
     const aptoSeleccionado = filtroapto.value.toLowerCase(); 
@@ -64,18 +72,18 @@ function aplicarFiltros() {
         
         const coincideIngredientes =
             ingredienteSeleccionado === '' || 
-            (Array.isArray(receta.ingredientes) && 
+            (Array.isArray(receta.ingredientes) &&
              receta.ingredientes.some(ingredienteReceta => 
                  ingredienteReceta.toLowerCase().includes(ingredienteSeleccionado)
              ));
 
-
         const coincideApto =
             aptoSeleccionado === '' || 
             (receta.apto && receta.apto.toLowerCase() === aptoSeleccionado);
-
+        
         const coincideNombre =
             textoBusqueda === '' || receta.nombre.toLowerCase().includes(textoBusqueda);
+
         
         return coincideIngredientes && coincideApto && coincideNombre;
     });
@@ -83,19 +91,44 @@ function aplicarFiltros() {
     mostrarComidas(comidasFiltradas);
 }
 
-
-
-let home = document.getElementById("home");
-let recetario = document.getElementById("recetario");
-const imagenestrella = document.getElementById("favoritos");
-let esfavorita = false;
-
-
-function cambiarbebidas(){
-    window.location.href = "pbebidas.html";
+function obtenerIngredientesSeleccionados() {
+  // 1. Obtener el elemento select
+  const selectElement = document.getElementById('filtroingredientes');
+  
+  // 2. Crear un array para almacenar los valores seleccionados
+  const ingredientesSeleccionados = [];
+  
+  // 3. Iterar sobre todas las opciones del menú
+  for (let i = 0; i < selectElement.options.length; i++) {
+    const option = selectElement.options[i];
+    
+    // 4. Verificar si la opción está seleccionada
+    if (option.selected) {
+      const valor = option.value;
+      
+      // 5. Omitir la opción "Todas" si tiene valor vacío, 
+      //    o simplemente agregarlo si deseas que un filtro 'Todas' se pueda pasar
+      //    pero es mejor no incluirlo en el array de filtros
+      if (valor !== "") { 
+        ingredientesSeleccionados.push(valor);
+      }
+    }
+  }
+  
+  // 6. Si no se seleccionó nada (o solo "Todas"), devolvemos un array vacío,
+  //    lo que indicaría mostrar todos los resultados.
+  return ingredientesSeleccionados;
 }
 
-function cambiarbebidas2(){
+// Ejemplo de uso:
+const filtrosActivos = obtenerIngredientesSeleccionados();
+console.log(filtrosActivos); 
+// Ejemplo de salida: ["agua", "azúcar", "limón"]
+function cambiarpantalla(){
+    window.location.href = "pantallasalados.html";
+}
+
+function cambiarpantalla1(){
     window.location.href = "RecipEat.html";
 }
 
@@ -104,24 +137,34 @@ function mrecetas(){
 }
 
 
-home.addEventListener("click", cambiarbebidas2);
+
+home.addEventListener("click", cambiarpantalla1);
 recetario.addEventListener("click", mrecetas);
 
 
 
-function cambiarimagen(){
-    if (esfavorita){
-        imagenestrella.src = "IMAGENES FRONT/botonfavoritos.png";
-        esfavorita = false
-    }
-    else{
-        imagenestrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-        esfavorita = true
-    }
+
+function adjuntarEventosEstrella() {
+  
+  const estrellas = document.querySelectorAll('.estrella'); 
+
+  
+  estrellas.forEach(estrellaIndividual => {
+      estrellaIndividual.addEventListener('click', function() {
+          
+          
+          
+          if (this.dataset.fav === '1') {
+              
+              this.src = "IMAGENES FRONT/botonfavoritos.png";
+              this.dataset.fav = '0'; 
+          } else {
+              
+              this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+              this.dataset.fav = '1'; 
+          }
+      });
+  });
 }
 
-if (imagenestrella){
-    imagenestrella.addEventListener("click", cambiarimagen);
-}
 
-imagenestrella.addEventListener("click", cambiarimagen)

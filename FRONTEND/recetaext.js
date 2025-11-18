@@ -10,8 +10,13 @@ if (receta) {
         "Categoría: " + receta.categoria;
     document.getElementById("apto").textContent =
         "Apto: " + receta.apto;
-    document.getElementById("pasos").textContent =
-        "Pasos: " + receta.pasos;
+        
+        receta.pasos.forEach(paso => {
+        const li = document.createElement("li");
+        li.textContent = paso;
+        document.getElementById("pasos").appendChild(li);
+    });
+    
 }
 
 let botonVolver = document.getElementById("boton-volver");
