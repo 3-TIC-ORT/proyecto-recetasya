@@ -199,6 +199,7 @@ body{
     margin-left: 1rem;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    cursor: pointer;
 
 }
 
@@ -405,5 +406,9 @@ main{
 
 .mr{
     font-size: 1rem;
+}
+
+#recetario{
+    cursor: pointer;
 }
 

@@ -419,3 +419,10 @@ main{
     font-size: 1rem;
 }
 
+.mr{
+    font-size: 1rem;
+}
+
+#recetario{
+    cursor: pointer;
+}
