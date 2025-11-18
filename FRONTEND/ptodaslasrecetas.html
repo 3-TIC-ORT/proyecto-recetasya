@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recetas</title>
-    <link rel="stylesheet" href="ptodaslasrecetas.css">
+    <title>RecipEat</title>
+    <link rel="stylesheet" href="precetasdestacadas.css">
 </head>
 <body>
-    
     <button id="home">
         <img class="casita" src="IMAGENES FRONT/home.png" alt="Imagen Volver al inicio">
         <h5 class="vi">Volver al inicio</h5>    
@@ -21,29 +21,60 @@
     </div>
 
     
-    <div class="texto"><h2 class="titulo">Todas las Recetas</h2></div>
-    <div class="populares">
-        <div class="popu1"></div>
-        <div class="popu2"></div>
-        <div class="popu3"></div>
-    </div>
-    
-    
-    <div class="lista1">
-        <div class="r2">
-            <div class="img2">
-                <h2 class="imr">Imagen de la receta</h2>
-            </div>
-            <div class="texto2">
-                <div class="textoarriba">
-                    <h2 class="nr">Nombre de la receta</h2>
-                </div>
-                <div class="textoabajo">
-                    <h2 class="infor">Informacion de la receta</h2>
-                </div>
-            </div>
+    <div class="texto"><h2 class="titulo">TODAS LAS RECETAS</h2></div>
+    <br>
+
+    <input type="text" id="buscador" placeholder="Buscar receta por nombre...">
+    <main>
+        <div class="recetas" id="recetas"> 
         </div>
-    </div>
-    <script src="ptodaslasrecetas.js"></script>
+        
+        <div class="filtros">
+            <div class="title">
+                <img class="lineas" src="IMAGENES FRONT/filter.png" alt="logo filtros">
+                <h2 class="fl">Filtros</h2>
+            </div>
+            <section class="filtrado">
+                <label for="filtroingredientes">Ingredientes</label>
+                <select id="filtroingredientes"  >
+                    <option value="">Todas</option>
+                    <option value="">Harina</option>
+                    <option value="">Manteca</option>
+                    <option value="">Azúcar</option>
+                    <option value="">Limón</option>
+                    <option value="">Huevo</option>
+                    <option value="">Crema de leche</option>
+                    <option value="">Chocolate semi amargo</option>
+                    <option value="">Harina 0000</option>
+                    <option value="">Esencia de vainilla</option>
+                    <option value="">Galletitas</option>
+                    <option value="">Dulce de leche</option>
+                    <option value="">Queso crema</option>
+                    <option value="">Leche</option>
+                    <option value="">Café</option>
+                    <option value="">Pionono dulce</option>
+                    <option value="">Agua</option>
+                    <option value="">Naranja</option>
+
+                </select>
+
+
+                <label for="filtroapto">Restricciones:</label>
+                <select id="filtroapto">
+                    <option value="">Cualquiera</option> 
+                    <option value="SinTACC">Sin TACC</option>
+                    <option value="ConTACC">Con TACC</option>
+                </select>
+            </section>
+            <button id="recetario">
+                    <img class="libro" src="IMAGENES FRONT/recetario.png" alt="Imagen recetario">
+                    <h5 class="mr">IR A MI RECETARIO</h5>
+            </button>
+        </div>
+</main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
+    <script src="precetasdestacadas.js"></script>
 </body>
 </html>
