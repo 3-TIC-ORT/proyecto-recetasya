@@ -27,6 +27,38 @@
     <div class="recetas-container" id="recetasContainer">
         <!-- Las recetas se cargarán aquí dinámicamente -->
     </div>
+
+    <div class="crear-receta-seccion">
+    <h2>➕ Crear Nueva Receta</h2>
+    <form id="formulario-receta">
+        
+        <label for="nombre">Nombre de la Receta:</label>
+        <input type="text" id="nombre" required>
+        
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" required>
+            <option value="salado">Salada</option>
+            <option value="dulce">Dulce</option>
+        </select>
+
+        <label for="apto">Apto para Celíacos:</label>
+        <select id="apto" required>
+            <option value="ConTACC">Con TACC</option>
+            <option value="SinTACC">Sin TACC</option>
+        </select>
+        
+        <label for="ingredientes">Ingredientes (separados por coma, ej: papa, huevo, sal):</label>
+        <textarea id="ingredientes" rows="3" required></textarea>
+
+        <label for="pasos">Pasos (cada paso separado por punto y coma, ej: Calentar horno; Mezclar ingredientes; Hornear):</label>
+        <textarea id="pasos" rows="5" required></textarea>
+
+        <label for="imagen">URL de la Imagen (opcional):</label>
+        <input type="text" id="imagen">
+
+        <button type="submit" id="guardar-receta">Guardar Receta</button>
+    </form>
+</div>
     
     <script src="pmisrecetas.js"></script>
     
