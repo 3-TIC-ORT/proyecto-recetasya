@@ -10,11 +10,12 @@ import {
 
 subscribePOSTEvent("login", loginEvent);
 subscribePOSTEvent("registro", registroEvent);
-subscribePOSTEvent("recetas", MostrarRecetas);
+subscribePOSTEvent("Favoritos", GuardarRecetasFavoritos);
+subscribeGETEvent("recetas", MostrarRecetas);
 subscribeGETEvent("recetasdulces", MostrarRecetasDulces);
 subscribeGETEvent("recetassalados", MostrarRecetasSalados);
 subscribeGETEvent("recetasbebidas", MostrarRecetasBebidas);
 subscribeGETEvent("mostrarRecetasDestacadas", RecetasDestacadas);
-subscribePOSTEvent("Favoritos", GuardarRecetasFavoritos)
+
 
 startServer();
