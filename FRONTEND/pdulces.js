@@ -85,10 +85,9 @@ function aplicarFiltros() {
         
         return coincideIngredientes && coincideApto && coincideNombre;
     });
+    mostrarComidas(comidasFiltradas);
+  return coincideIngredientes && coincideApto && coincideNombre;
 
-    return coincideIngredientes && coincideApto && coincideNombre;
-
-  mostrarComidas(comidasFiltradas);
 };
 
 

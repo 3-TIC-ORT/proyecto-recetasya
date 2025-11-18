@@ -1,6 +1,9 @@
+let home = document.getElementById("home");
+let recetario = document.getElementById("recetario");
 
 
 connect2Server();
+
 
 
 
@@ -14,7 +17,7 @@ getEvent("recetasbebidas", data => {
     aplicarFiltros(); 
 });
 
-function mostrarComidas(lista){
+function mostrarComidas(lista) {
     container.innerHTML = "";
 
     lista.forEach(receta => {
@@ -29,6 +32,9 @@ function mostrarComidas(lista){
                 <div class="texto3"> 
                     <div class="tarr"> 
                         <h3>${receta.nombre}</h3>
+                        <img src="IMAGENES FRONT/botonfavoritos.png" 
+                        data-fav="0"
+                        class="estrella">
                     </div>
                     <div class="tabj"> 
                         <p> -Ingredientes: ${receta.ingredientes || ''}</p>
@@ -47,9 +53,8 @@ function mostrarComidas(lista){
 
         container.appendChild(card);
     });
-    adjuntarEventosEstrella();
+    favoritos();
 }
- 
 
 
 const filtroingredientes = document.getElementById('filtroingredientes');
@@ -116,15 +121,6 @@ function obtenerIngredientesSeleccionados() {
   // 6. Si no se seleccionó nada (o solo "Todas"), devolvemos un array vacío,
   //    lo que indicaría mostrar todos los resultados.
   return ingredientesSeleccionados;
-
-}
-let home = document.getElementById("home");
-let recetario = document.getElementById("recetario");
-
-
-
-function cambiarbebidas(){
-    window.location.href = "pbebidas.html";
 }
 
 // Ejemplo de uso:
@@ -148,52 +144,25 @@ function mrecetas(){
 home.addEventListener("click", cambiarpantalla1);
 recetario.addEventListener("click", mrecetas);
 
-
-
-
-function adjuntarEventosEstrella() {
-  
-  const estrellas = document.querySelectorAll('.estrella'); 
-
-  
-  estrellas.forEach(estrellaIndividual => {
-      estrellaIndividual.addEventListener('click', function() {
-          
-          
-          
-          if (this.dataset.fav === '1') {
-              
-              this.src = "IMAGENES FRONT/botonfavoritos.png";
-              this.dataset.fav = '0'; 
-          } else {
-              
-              this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-              this.dataset.fav = '1'; 
-          }
-      });
-  });
-}
-
-
 function favoritos() {
   
-  const estrellas = document.querySelectorAll('.estrella'); 
-
+    const estrellas = document.querySelectorAll('.estrella'); 
   
-  estrellas.forEach(estrellaIndividual => {
-      estrellaIndividual.addEventListener('click', function() {
-          
-          
-          
-          if (this.dataset.fav === '1') {
-              
-              this.src = "IMAGENES FRONT/botonfavoritos.png";
-              this.dataset.fav = '0'; 
-          } else {
-              
-              this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-              this.dataset.fav = '1'; 
-          }
-      });
-  });
-}
+    
+    estrellas.forEach(estrellaIndividual => {
+        estrellaIndividual.addEventListener('click', function() {
+            
+            
+            
+            if (this.dataset.fav === '1') {
+                
+                this.src = "IMAGENES FRONT/botonfavoritos.png";
+                this.dataset.fav = '0'; 
+            } else {
+                
+                this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+                this.dataset.fav = '1'; 
+            }
+        });
+    });
+  }

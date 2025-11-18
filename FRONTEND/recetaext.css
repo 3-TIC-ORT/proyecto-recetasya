@@ -166,3 +166,9 @@ body {
     margin: 8px auto 0; /* Centra la línea debajo del título */
     border-radius: 2px;
 }
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
