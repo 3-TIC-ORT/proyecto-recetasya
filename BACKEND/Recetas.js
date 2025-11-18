@@ -79,32 +79,48 @@ export const GuardarRecetasFavoritos = (data) => {
             return { success: false, message: "Receta no encontrada" };
         }
 
-        const yaExiste = Usuarios[usuarioIndex].Favoritos.some(
-            (r) => r.nombre === receta
-        );
+        let favs = Usuarios[usuarioIndex].Favoritos;
 
+        // VERIFICAR SI YA ESTÁ EN FAVORITOS
+        const yaExiste = favs.some((r) => r.nombre === receta);
+
+        // ------------------------------------------------------------------
+        // SI YA EXISTE => ELIMINAR
+        // ------------------------------------------------------------------
         if (yaExiste) {
-            return { success: false, message: "La receta ya está en favoritos" };
+            const idx = favs.findIndex((r) => r.nombre === receta);
+            favs.splice(idx, 1);
+
+            fs.writeFileSync("Usuarios.json", JSON.stringify(Usuarios, null, 2));
+
+            return {
+                success: true,
+                message: "Receta eliminada de favoritos",
+                estadoFavorito: false   // ahora NO está en favoritos
+            };
         }
 
-        Usuarios[usuarioIndex].Favoritos.push(Recetas[recetaIndex]);
+        // ------------------------------------------------------------------
+        // SI NO EXISTE => AGREGAR
+        // ------------------------------------------------------------------
+        favs.push(Recetas[recetaIndex]);
 
-        fs.writeFileSync(
-            "Usuarios.json",
-            JSON.stringify(Usuarios, null, 2),
-            "utf-8"
-        );
+        fs.writeFileSync("Usuarios.json", JSON.stringify(Usuarios, null, 2));
 
-        return { success: true, message: "Receta agregada a favoritos" };
-    }
-    catch (error) {
+        return {
+            success: true,
+            message: "Receta agregada a favoritos",
+            estadoFavorito: true      // ahora SÍ está en favoritos
+        };
+
+    } catch (error) {
         console.error("Error en GuardarRecetasFavoritos:", error);
-        return { success: false, message: "Error interno al agregar favorito" };
+        return { success: false, message: "Error interno" };
     }
 };
 
 export const RecetasDestacadas = (data) => {
-let recetas = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let recetas = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
     let recetasDestacadas = []
     for (let i = 0; i < recetas.length; i++) {
         if (recetas[i].nombre === "Chocotorta") {
