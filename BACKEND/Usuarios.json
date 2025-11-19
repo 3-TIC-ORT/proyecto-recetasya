@@ -2,8 +2,30 @@
   {
     "Nombre_de_la_Cuenta": "Alejo",
     "Contraseña": "123456",
-    "Favoritos": [],
-    "Creadas": []
+    "Favoritos": [
+      "",
+      {
+        "nombre": "Papas fritas",
+        "ingredientes": [
+          "papas",
+          "aceite",
+          "sal"
+        ],
+        "pasos": [
+          "Paso 1: Pelá y cortá 500 g de papas en bastones.",
+          "Paso 2: Calentá aceite en sartén o freidora a 180°C.",
+          "Paso 3: Freí las papas en tandas hasta dorar, unos 5-7 minutos por tanda.",
+          "Paso 4: Escurrilas sobre papel absorbente y salá al gusto.",
+          "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
+      }
+    ],
+    "Creadas": [
+      ""
+    ]
   },
   {
     "Nombre_de_la_Cuenta": "luciac",

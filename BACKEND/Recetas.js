@@ -42,9 +42,17 @@ export const MostrarRecetasBebidas = (data) => {
 export const GuardarRecetas = (data) => {
     let Usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
 
+    console.log("entro acá")
+
     for (let i = 0; i < Usuarios.length; i++) {
-        if (Usuarios[i].Nombre_de_la_Cuenta === data.Nombre) {
-            if (data.Tipo === "Creadas") {
+
+        console.log(Usuarios[i].Nombre_de_la_Cuenta);
+
+        if (Usuarios[i].Nombre_de_la_Cuenta === data.nombre) {
+
+            console.log("entro al if del nombre")
+
+            if (data.creada === true) {
                 Usuarios[i].Creadas.push(data.receta);
             }
             if (data.Tipo === "Favoritos") {
@@ -92,13 +100,11 @@ export const GuardarRecetasFavoritos = (data) => {
             return {
                 success: true,
                 message: "Receta eliminada de favoritos",
-                estadoFavorito: false   // ahora NO está en favoritos
+                estadoFavorito: false
             };
         }
 
-        // ------------------------------------------------------------------
-        // SI NO EXISTE => AGREGAR
-        // ------------------------------------------------------------------
+
         favs.push(Recetas[recetaIndex]);
 
         fs.writeFileSync("Usuarios.json", JSON.stringify(Usuarios, null, 2));
@@ -106,7 +112,7 @@ export const GuardarRecetasFavoritos = (data) => {
         return {
             success: true,
             message: "Receta agregada a favoritos",
-            estadoFavorito: true      // ahora SÍ está en favoritos
+            estadoFavorito: true 
         };
 
     } catch (error) {

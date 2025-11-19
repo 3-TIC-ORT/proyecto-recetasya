@@ -16,6 +16,8 @@ subscribeGETEvent("recetasdulces", MostrarRecetasDulces);
 subscribeGETEvent("recetassalados", MostrarRecetasSalados);
 subscribeGETEvent("recetasbebidas", MostrarRecetasBebidas);
 subscribeGETEvent("mostrarRecetasDestacadas", RecetasDestacadas);
+subscribePOSTEvent("GuardarRecetas", GuardarRecetas);
+
 
 
 startServer();

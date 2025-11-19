@@ -2,6 +2,8 @@ let home = document.getElementById("home");
 let favoritos = document.getElementById("Fav");
 let creadas = document.getElementById("Creadas");
 
+connect2Server();
+
 function AgregarReceta(){
     postEvent ("agregarRecetas", {
         Nombre: localStorage.getItem("Nombre_de_la_Cuenta"),
@@ -90,6 +92,8 @@ function cargarRecetas() {
     const tituloContador = document.getElementById('tituloContador');
 
     container.innerHTML = ''; 
+
+    // AGREGAR LLAMADO AL BACK PARA QUE DEVUELVA RECETAS CREADAS
 
     const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
     const todasLasRecetas = [...recetasGuardadas, ...recetasBase];
@@ -191,9 +195,8 @@ function guardarRecetaFinal(urlImagen) {
     recetasGuardadas.unshift(nuevaReceta);
     localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
 
-    if (typeof postEvent !== 'undefined') {
-        postEvent("GuardarNuevaRecetaGlobal", nuevaReceta);
-    }
+    postEvent("GuardarRecetas", nuevaReceta);
+    
 
     cerrarModal();
     cargarRecetas(); 
