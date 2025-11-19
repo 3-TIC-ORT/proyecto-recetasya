@@ -43,15 +43,46 @@ function mostrarComidas(lista) {
             </div>
         `;
 
-        // 👉 HACER CLICKEABLE LA TARJETA
-        card.addEventListener("click", () => {
-            localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
-            window.location.href = "recetaext.html"; // página donde mostrarás la receta
+        
+        container.appendChild(card);
+
+        
+        const estrella = card.querySelector('.estrella');
+        
+        
+        estrella.addEventListener('click', (e) => {
+            e.stopPropagation(); 
+            
+            const parent = estrella.parentNode;
+            const h3 = parent.querySelector('h3');
+            const nombre = h3 ? h3.textContent : '';
+            
+            postEvent('Favoritos', {
+                usuario, 
+                receta: nombre, 
+                favToggle: estrella.dataset.fav
+            }, (res) => {
+                if (res && res.success) {
+                    if (res.favToggle == '1') {
+                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
+                        estrella.dataset.fav = '0';
+                    } else {
+                        estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+                        estrella.dataset.fav = '1';
+                    }
+                } else {
+                    alert("Error al agregar a favoritos");
+                }
+            });
         });
 
-        container.appendChild(card);
+        
+        const tarjeta = card.querySelector('.r5');
+        tarjeta.addEventListener("click", () => {
+            localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
+            window.location.href = "recetaext.html";
+        });
     });
-    favoritos();
 }
 
 
@@ -89,45 +120,40 @@ function aplicarFiltros() {
         return coincideIngredientes && coincideApto && coincideNombre;
     });
     mostrarComidas(comidasFiltradas);
-  return coincideIngredientes && coincideApto && coincideNombre;
-
-};
+}
 
 
 
 function obtenerIngredientesSeleccionados() {
-  // 1. Obtener el elemento select
+  
   const selectElement = document.getElementById('filtroingredientes');
   
-  // 2. Crear un array para almacenar los valores seleccionados
+  
   const ingredientesSeleccionados = [];
   
-  // 3. Iterar sobre todas las opciones del menú
+  
   for (let i = 0; i < selectElement.options.length; i++) {
     const option = selectElement.options[i];
     
-    // 4. Verificar si la opción está seleccionada
+    
     if (option.selected) {
       const valor = option.value;
       
-      // 5. Omitir la opción "Todas" si tiene valor vacío, 
-      //    o simplemente agregarlo si deseas que un filtro 'Todas' se pueda pasar
-      //    pero es mejor no incluirlo en el array de filtros
+      
       if (valor !== "") { 
         ingredientesSeleccionados.push(valor);
       }
     }
   }
   
-  // 6. Si no se seleccionó nada (o solo "Todas"), devolvemos un array vacío,
-  //    lo que indicaría mostrar todos los resultados.
+  
   return ingredientesSeleccionados;
 }
 
-// Ejemplo de uso:
+
 const filtrosActivos = obtenerIngredientesSeleccionados();
 console.log(filtrosActivos); 
-// Ejemplo de salida: ["agua", "azúcar", "limón"]
+
 function cambiarpantalla(){
     window.location.href = "pantallasalados.html";
 }
@@ -157,41 +183,3 @@ function mrecetas() {
 
 home.addEventListener("click", cambiarpantalla1);
 recetario.addEventListener("click", mrecetas);
-
-
-
-
-function favoritos() {
-
-  const estrellas = document.querySelectorAll('.estrella');
-
-  estrellas.forEach(estrellaIndividual => {
-    estrellaIndividual.addEventListener('click', () => {
-      const parent = estrellaIndividual.parentNode;
-      const h3 = parent.querySelector('h3');
-      const nombre = h3 ? h3.textContent : '';
-      
-      postEvent('Favoritos', {
-        usuario, 
-        receta: nombre, 
-        favToggle: estrellaIndividual.dataset.fav
-      }, (res) => {
-        if (res && res.success) {
-          if (res.favToggle == '1') {
-            estrellaIndividual.src = "IMAGENES FRONT/botonfavoritos.png";
-            estrellaIndividual.dataset.fav = '0';
-          } else {
-            estrellaIndividual.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-            estrellaIndividual.dataset.fav = '1';
-          }
-        } else {
-          alert("Error al agregar a favoritos");
-        }
-      });
-
-    });
-  });
-}
-
-
-
