@@ -30,6 +30,9 @@ function mostrarComidas(lista) {
                 <div class="texto3"> 
                     <div class="tarr"> 
                         <h3>${receta.nombre}</h3>
+                        <img src="IMAGENES FRONT/botonfavoritos.png" 
+                        data-fav="0"
+                        class="estrella">
                     </div>
                     <div class="tabj"> 
                         <p> -Ingredientes: ${receta.ingredientes || ''}</p>
@@ -48,7 +51,7 @@ function mostrarComidas(lista) {
 
         container.appendChild(card);
     });
-    adjuntarEventosEstrella();
+    favoritos();
 }
 
 

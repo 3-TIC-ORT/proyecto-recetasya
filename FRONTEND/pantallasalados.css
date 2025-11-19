@@ -2,6 +2,18 @@
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#favoritos{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    position: absolute;
 }
 
 .lista1{
@@ -216,10 +228,16 @@ body{
 }
 
 .tarr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 0.5rem;
     height: 3rem;
     width: 30rem;
     background-color: whitesmoke;
     border: .2rem solid black;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .tabj{
@@ -253,6 +271,8 @@ h4{
 h3{
     margin-left: 1rem;
     font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
 }
 
 .filtros{
@@ -411,4 +431,3 @@ main{
 #recetario{
     cursor: pointer;
 }
-
