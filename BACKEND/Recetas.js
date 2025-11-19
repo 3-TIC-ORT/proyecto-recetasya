@@ -81,12 +81,8 @@ export const GuardarRecetasFavoritos = (data) => {
 
         let favs = Usuarios[usuarioIndex].Favoritos;
 
-        // VERIFICAR SI YA ESTÁ EN FAVORITOS
         const yaExiste = favs.some((r) => r.nombre === receta);
 
-        // ------------------------------------------------------------------
-        // SI YA EXISTE => ELIMINAR
-        // ------------------------------------------------------------------
         if (yaExiste) {
             const idx = favs.findIndex((r) => r.nombre === receta);
             favs.splice(idx, 1);
