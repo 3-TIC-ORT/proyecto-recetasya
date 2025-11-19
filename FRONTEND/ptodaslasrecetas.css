@@ -7,6 +7,14 @@
     flex-direction: column;
 }
 
+#favoritos{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    position: absolute;
+}
+
 .r2{
     height: 15rem;
     width: 50rem;

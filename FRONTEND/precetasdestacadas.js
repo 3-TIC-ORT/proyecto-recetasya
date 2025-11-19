@@ -98,3 +98,37 @@ function destacar2(){
 
 home.addEventListener("click", destacar2);
 
+function favoritos() {
+
+  const estrellas = document.querySelectorAll('.estrella');
+
+  estrellas.forEach(estrellaIndividual => {
+    estrellaIndividual.addEventListener('click', () => {
+      const parent = estrellaIndividual.parentNode;
+      const h3 = parent.querySelector('h3');
+      const nombre = h3 ? h3.textContent : '';
+      
+      postEvent('Favoritos', {
+        usuario, 
+        receta: nombre, 
+        favToggle: estrellaIndividual.dataset.fav
+      }, (res) => {
+        if (res && res.success) {
+          if (res.favToggle == '1') {
+            estrellaIndividual.src = "IMAGENES FRONT/botonfavoritos.png";
+            estrellaIndividual.dataset.fav = '0';
+          } else {
+            estrellaIndividual.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+            estrellaIndividual.dataset.fav = '1';
+          }
+        } else {
+          alert("Error al agregar a favoritos");
+        }
+      });
+
+    });
+  });
+}
+
+
+

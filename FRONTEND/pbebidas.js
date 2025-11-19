@@ -45,15 +45,32 @@ function mostrarComidas(lista) {
             </div>
         `;
 
-        // 👉 HACER CLICKEABLE LA TARJETA
-        card.addEventListener("click", () => {
-            localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
-            window.location.href = "recetaext.html"; // página donde mostrarás la receta
+        
+        container.appendChild(card);
+
+        
+        const estrella = card.querySelector('.estrella');
+        
+        
+        estrella.addEventListener('click', (e) => {
+            e.stopPropagation(); 
+            
+            if (estrella.dataset.fav === '1') {
+                estrella.src = "IMAGENES FRONT/botonfavoritos.png";
+                estrella.dataset.fav = '0'; 
+            } else {
+                estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+                estrella.dataset.fav = '1'; 
+            }
         });
 
-        container.appendChild(card);
+        
+        const tarjeta = card.querySelector('.r5');
+        tarjeta.addEventListener("click", () => {
+            localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
+            window.location.href = "recetaext.html";
+        });
     });
-    favoritos();
 }
 
 
@@ -95,38 +112,35 @@ function aplicarFiltros() {
 }
 
 function obtenerIngredientesSeleccionados() {
-  // 1. Obtener el elemento select
+  
   const selectElement = document.getElementById('filtroingredientes');
   
-  // 2. Crear un array para almacenar los valores seleccionados
+ 
   const ingredientesSeleccionados = [];
   
-  // 3. Iterar sobre todas las opciones del menú
+  
   for (let i = 0; i < selectElement.options.length; i++) {
     const option = selectElement.options[i];
     
-    // 4. Verificar si la opción está seleccionada
+    
     if (option.selected) {
       const valor = option.value;
       
-      // 5. Omitir la opción "Todas" si tiene valor vacío, 
-      //    o simplemente agregarlo si deseas que un filtro 'Todas' se pueda pasar
-      //    pero es mejor no incluirlo en el array de filtros
+      
       if (valor !== "") { 
         ingredientesSeleccionados.push(valor);
       }
     }
   }
   
-  // 6. Si no se seleccionó nada (o solo "Todas"), devolvemos un array vacío,
-  //    lo que indicaría mostrar todos los resultados.
+  
   return ingredientesSeleccionados;
 }
 
-// Ejemplo de uso:
+
 const filtrosActivos = obtenerIngredientesSeleccionados();
 console.log(filtrosActivos); 
-// Ejemplo de salida: ["agua", "azúcar", "limón"]
+
 function cambiarpantalla(){
     window.location.href = "pantallasalados.html";
 }
@@ -143,26 +157,3 @@ function mrecetas(){
 
 home.addEventListener("click", cambiarpantalla1);
 recetario.addEventListener("click", mrecetas);
-
-function favoritos() {
-  
-    const estrellas = document.querySelectorAll('.estrella'); 
-  
-    
-    estrellas.forEach(estrellaIndividual => {
-        estrellaIndividual.addEventListener('click', function() {
-            
-            
-            
-            if (this.dataset.fav === '1') {
-                
-                this.src = "IMAGENES FRONT/botonfavoritos.png";
-                this.dataset.fav = '0'; 
-            } else {
-                
-                this.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-                this.dataset.fav = '1'; 
-            }
-        });
-    });
-  }
