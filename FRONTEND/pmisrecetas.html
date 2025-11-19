@@ -131,7 +131,7 @@
 
         /* --- BOTONES Y FORMULARIO --- */
 
-        /* Botón Eliminar (ROJO PEQUEÑO en Tarjeta) */
+        /* Botón Eliminar */
         .btn-eliminar-card {
             background-color: #ff4d4d;
             color: white;
@@ -149,7 +149,7 @@
             background-color: #cc0000;
         }
 
-        /* Botones Generales de Acción (Para los Modales) */
+        /* Botones Generales de Acción */
         .btn-accion-container {
             display: flex;
             gap: 1rem;
@@ -190,7 +190,6 @@
         }
         .btn-confirmar-rojo:hover { background-color: #b71c1c; }
 
-
         /* Botón Flotante Agregar (+) */
         .btn-agregar {
             position: fixed;
@@ -216,7 +215,7 @@
             background-color: #8da36b;
         }
 
-        /* Modal Overlay Común */
+        /* Modales */
         .modal-overlay {
             display: none;
             position: fixed;
@@ -230,7 +229,6 @@
             align-items: center;
         }
 
-        /* Contenido Modal Formulario */
         .modal-content {
             background-color: whitesmoke;
             border: 3px solid black;
@@ -243,7 +241,6 @@
             overflow-y: auto;
         }
 
-        /* Contenido Modales Pequeños (Alertas) */
         .modal-alert-content {
             background-color: whitesmoke;
             border: 3px solid #556b2f;
@@ -299,7 +296,6 @@
         }
         .btn-submit:hover { background-color: #8da36b; }
 
-        /* Popup Éxito */
         .success-popup {
             display: none;
             position: fixed;
@@ -340,7 +336,6 @@
         <!-- Aquí se inyectan las recetas con JS -->
     </div>
 
-    <!-- Botón Flotante para Agregar -->
     <button class="btn-agregar" onclick="abrirModal()">+</button>
 
     <!-- 1. MODAL FORMULARIO -->
@@ -354,18 +349,14 @@
                     <label for="nombre">Nombre de la receta:</label>
                     <input type="text" id="nombre" placeholder="Ej: Tarta de Manzana" required>
                 </div>
-
-                <!-- SECCIÓN DE SUBIDA DE IMAGEN (OPCIONAL) -->
                 <div class="form-group">
                     <label for="imagenInput">Subir Foto del Plato (Opcional):</label>
                     <input type="file" id="imagenInput" accept="image/*">
-                    
                     <div class="preview-container">
                         <span id="previewText">Vista previa de la imagen</span>
                         <img id="imagenPreview" src="" alt="Vista previa">
                     </div>
                 </div>
-
                 <div class="form-group">
                     <label for="categoria">Categoría:</label>
                     <select id="categoria">
@@ -374,7 +365,6 @@
                         <option value="Bebida">Bebida</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="apto">Apto para:</label>
                     <select id="apto">
@@ -382,17 +372,14 @@
                         <option value="SinTACC">Sin TACC</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="ingredientes">Ingredientes (separados por coma o enter):</label>
                     <textarea id="ingredientes" placeholder="Ej: Harina, Huevos, Leche..." required></textarea>
                 </div>
-
                 <div class="form-group">
                     <label for="pasos">Pasos (separados por coma o enter):</label>
                     <textarea id="pasos" placeholder="Ej: Paso 1: Batir huevos. Paso 2: Mezclar harina..." required></textarea>
                 </div>
-
                 <button type="submit" class="btn-submit">Publicar Receta</button>
             </form>
         </div>
@@ -426,12 +413,22 @@
     <div class="success-popup" id="popupExito">
         <span class="checkmark">✔</span>
         <h3>¡Receta Guardada!</h3>
-        <p>Tu receta se ha publicado en tus recetas.</p>
+        <p>Tu receta se ha enviado al backend.</p>
         <button onclick="cerrarPopup()" class="btn-submit" style="width: auto; margin-top: 1rem;">Aceptar</button>
     </div>
 
     <script>
+        // --- DEFINICIÓN DUMMY DE postEvent (SOLO PARA EVITAR ERRORES EN NAVEGADOR) ---
+        if (typeof postEvent === 'undefined') {
+            window.postEvent = function(eventName, data) {
+                console.log(`[SIMULACIÓN] Enviando evento al backend: ${eventName}`, data);
+                // En un entorno real, aquí no hacemos nada visual, el backend responde.
+            };
+        }
+
         // 1. DATOS INICIALES
+        // IMPORTANTE: En un sistema real con backend, estas recetas deberían llegar via evento también.
+        // Aquí las mantenemos fijas por ahora para que tengas algo que ver.
         const recetasBase = [
             {
                 "nombre": "Chocolate con leche",
@@ -448,29 +445,18 @@
                 "categoria": "Salado",
                 "apto": "ConTACC",
                 "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
-            },
-            {
-                "nombre": "Jugo de naranja",
-                "ingredientes": ["naranjas"],
-                "pasos": ["Exprimir naranjas", "Servir frío"],
-                "categoria": "Bebida",
-                "apto": "SinTACC",
-                "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
             }
         ];
 
         let imagenActualBase64 = null;
         const IMAGEN_POR_DEFECTO = "https://placehold.co/600x400?text=RecipEat&font=roboto";
-
-        // Variable para saber qué receta borrar cuando se confirme
         let indexParaBorrar = null;
 
-        // 2. CARGA INICIAL
         document.addEventListener('DOMContentLoaded', () => {
             cargarRecetas();
         });
 
-        // 3. MANEJO INPUT DE IMAGEN
+        // --- MANEJO DE IMAGEN ---
         const imagenInput = document.getElementById('imagenInput');
         const imagenPreview = document.getElementById('imagenPreview');
         const previewText = document.getElementById('previewText');
@@ -493,10 +479,8 @@
             }
         });
 
-        // 4. FUNCIONES DE GESTIÓN (Eliminar y Mostrar)
-        
+        // --- FUNCIONES DE ELIMINACIÓN ---
         window.eliminarReceta = function(index) {
-            // Guardamos el índice y abrimos el modal personalizado
             indexParaBorrar = index;
             document.getElementById('modalConfirmacionBorrar').style.display = 'flex';
         };
@@ -508,19 +492,28 @@
 
         window.confirmarEliminacion = function() {
             if (indexParaBorrar !== null) {
+                // Eliminamos del localStorage local (vista optimista)
                 let recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
+                
+                // Si tuviéramos un ID único sería mejor enviar ese ID al backend.
+                // Por ahora, solo actualizamos la vista local.
                 recetasGuardadas.splice(indexParaBorrar, 1);
                 localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
                 
                 cargarRecetas();
                 cerrarConfirmacionBorrar();
+                
+                // Opcional: Enviar evento de borrado al backend si fuera necesario
+                // postEvent("EliminarRecetaGlobal", { index: indexParaBorrar });
             }
         }
 
+        // --- MOSTRAR RECETAS ---
         function cargarRecetas() {
             const container = document.getElementById('recetasContainer');
             container.innerHTML = ''; 
 
+            // Seguimos usando localStorage para la visualización inmediata (Optimistic UI)
             const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
             const todasLasRecetas = [...recetasGuardadas, ...recetasBase];
 
@@ -533,7 +526,6 @@
 
                 let botonEliminarHTML = '';
                 if (index < recetasGuardadas.length) {
-                    // Botón rojo pequeño en la tarjeta
                     botonEliminarHTML = `<button class="btn-eliminar-card" onclick="eliminarReceta(${index})">Eliminar</button>`;
                 }
 
@@ -556,34 +548,24 @@
             });
         }
 
-        // 5. GESTIÓN DE MODALES
+        // --- GESTIÓN MODALES ---
         const modal = document.getElementById('modalForm');
         const modalAdvertencia = document.getElementById('modalAdvertenciaImagen');
         const popup = document.getElementById('popupExito');
 
-        window.abrirModal = function() {
-            modal.style.display = 'flex';
-        }
-
+        window.abrirModal = function() { modal.style.display = 'flex'; }
         window.cerrarModal = function() {
             modal.style.display = 'none';
             document.getElementById('formReceta').reset();
             imagenPreview.src = "";
             imagenPreview.style.display = 'none';
             previewText.style.display = 'block';
-            imagenActualBase64 = null; 
+            imagenActualBase64 = null;
             imagenInput.value = "";
         }
+        window.cerrarAdvertenciaImagen = function() { modalAdvertencia.style.display = 'none'; }
+        window.cerrarPopup = function() { popup.style.display = 'none'; }
 
-        window.cerrarAdvertenciaImagen = function() {
-            modalAdvertencia.style.display = 'none';
-        }
-
-        window.cerrarPopup = function() {
-            popup.style.display = 'none';
-        }
-
-        // Clic fuera cierra los modales
         window.onclick = function(event) {
             if (event.target == modal) cerrarModal();
             if (event.target == modalAdvertencia) cerrarAdvertenciaImagen();
@@ -591,10 +573,9 @@
             if (event.target == document.getElementById('modalConfirmacionBorrar')) cerrarConfirmacionBorrar();
         }
 
-        // 6. GUARDADO DE RECETA
+        // --- GUARDADO FINAL ---
         const form = document.getElementById('formReceta');
 
-        // Función auxiliar para procesar y guardar los datos finales
         function guardarRecetaFinal(urlImagen) {
             const nombre = document.getElementById('nombre').value;
             const categoria = document.getElementById('categoria').value;
@@ -615,16 +596,24 @@
                 creada: true
             };
 
+            // 1. Guardado Local (para que el usuario lo vea ya mismo)
             const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
             recetasGuardadas.unshift(nuevaReceta);
             localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
+
+            // 2. Guardado en Backend (LO IMPORTANTE)
+            // Enviamos el evento 'GuardarNuevaRecetaGlobal' con el objeto receta
+            if (typeof postEvent !== 'undefined') {
+                postEvent("GuardarNuevaRecetaGlobal", nuevaReceta);
+            } else {
+                console.warn("postEvent no está definido. Probablemente estás fuera del entorno del juego.");
+            }
 
             cerrarModal();
             cargarRecetas(); 
             popup.style.display = 'block';
         }
 
-        // Disparador cuando el usuario acepta "Publicar sin foto" en el modal
         window.confirmarGuardarSinImagen = function() {
             cerrarAdvertenciaImagen();
             guardarRecetaFinal(IMAGEN_POR_DEFECTO);
@@ -632,12 +621,9 @@
 
         form.addEventListener('submit', function(e) {
             e.preventDefault(); 
-
             if (!imagenActualBase64) {
-                // Si no hay imagen, mostramos el modal de advertencia
                 modalAdvertencia.style.display = 'flex';
             } else {
-                // Si hay imagen, guardamos directamente
                 guardarRecetaFinal(imagenActualBase64);
             }
         });
