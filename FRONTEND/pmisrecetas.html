@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Recetas - RecipEat</title>
     <style>
-        /* --- TU CSS ORIGINAL (CON AJUSTES PARA RESPONSIVIDAD) --- */
+        /* --- ESTILOS GENERALES --- */
         body {
             background-color: #c8d9ab;
             margin: 0;
@@ -30,17 +30,9 @@
             background-color: rgba(255,255,255,0.3);
         }
 
-        .casita {
-            height: 2rem;
-            width: 2rem;
-        }
+        .vi { font-size: 1rem; margin: 0; }
 
-        .vi {
-            font-size: 1rem;
-            margin: 0;
-        }
-
-        /* Cabecera y Logo */
+        /* Cabecera */
         .cabeza {
             border-radius: 1rem;
             height: auto;
@@ -51,12 +43,7 @@
             margin-bottom: 1rem;
         }
 
-        .logodef {
-            max-width: 200px;
-            height: auto;
-        }
-
-        /* Titulo Container */
+        /* Titulo */
         .texto {
             width: 90%;
             max-width: 800px;
@@ -71,10 +58,7 @@
             border-width: .5rem;
         }
 
-        .titulo {
-            font-size: 2rem;
-            margin: 0;
-        }
+        .titulo { font-size: 2rem; margin: 0; }
 
         /* Contenedor de Recetas */
         .recetas-container {
@@ -86,7 +70,7 @@
             width: 100%;
         }
 
-        /* Carta de Receta (Estilo basado en tu .r2) */
+        /* Tarjeta de Receta */
         .r2 {
             height: auto;
             min-height: 12rem;
@@ -101,10 +85,11 @@
             box-sizing: border-box;
             border-radius: 8px;
             box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+            position: relative;
         }
 
         .img2 {
-            flex: 0 0 150px; /* Ancho fijo para imagen */
+            flex: 0 0 150px;
             height: 150px;
             background-color: #ddd;
             border: .1rem solid black;
@@ -144,9 +129,68 @@
             font-size: 0.9rem;
         }
 
-        /* --- NUEVOS ESTILOS PARA EL FORMULARIO Y EL POPUP --- */
+        /* --- BOTONES Y FORMULARIO --- */
 
-        /* Botón flotante para agregar */
+        /* Botón Eliminar */
+        .btn-eliminar-card {
+            background-color: #ff4d4d;
+            color: white;
+            border: 1px solid darkred;
+            border-radius: 5px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: bold;
+            align-self: flex-end;
+            margin-top: 5px;
+            transition: background 0.3s;
+        }
+        .btn-eliminar-card:hover {
+            background-color: #cc0000;
+        }
+
+        /* Botones Generales de Acción */
+        .btn-accion-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+        
+        .btn-cancelar {
+            background-color: #888;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-cancelar:hover { background-color: #666; }
+
+        .btn-confirmar-verde {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-confirmar-verde:hover { background-color: #45a049; }
+
+        .btn-confirmar-rojo {
+            background-color: #d32f2f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-confirmar-rojo:hover { background-color: #b71c1c; }
+
+        /* Botón Flotante Agregar (+) */
         .btn-agregar {
             position: fixed;
             bottom: 2rem;
@@ -171,7 +215,7 @@
             background-color: #8da36b;
         }
 
-        /* Modal (Fondo oscuro) */
+        /* Modales */
         .modal-overlay {
             display: none;
             position: fixed;
@@ -185,7 +229,6 @@
             align-items: center;
         }
 
-        /* Contenido del Modal */
         .modal-content {
             background-color: whitesmoke;
             border: 3px solid black;
@@ -198,6 +241,17 @@
             overflow-y: auto;
         }
 
+        .modal-alert-content {
+            background-color: whitesmoke;
+            border: 3px solid #556b2f;
+            padding: 2rem;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+        }
+
         .close-btn {
             position: absolute;
             top: 10px;
@@ -207,27 +261,27 @@
             font-weight: bold;
         }
 
-        /* Estilos del Formulario */
-        .form-group {
-            margin-bottom: 1rem;
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%; padding: 0.5rem; border: 2px solid #a3b87f; border-radius: 5px; box-sizing: border-box;
         }
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: bold;
+        .form-group textarea { resize: vertical; height: 80px; }
+        
+        input[type="file"] { background-color: white; padding: 0.5rem; }
+
+        .preview-container {
+            margin-top: 10px;
+            text-align: center;
+            background-color: #e0e0e0;
+            border: 1px dashed #a3b87f;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        .form-group input, 
-        .form-group select, 
-        .form-group textarea {
-            width: 100%;
-            padding: 0.5rem;
-            border: 2px solid #a3b87f;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        .form-group textarea {
-            resize: vertical;
-            height: 80px;
+        .preview-container img {
+            max-width: 100%; max-height: 200px; display: none;
         }
 
         .btn-submit {
@@ -240,11 +294,8 @@
             width: 100%;
             border-radius: 5px;
         }
-        .btn-submit:hover {
-            background-color: #8da36b;
-        }
+        .btn-submit:hover { background-color: #8da36b; }
 
-        /* Popup de Éxito */
         .success-popup {
             display: none;
             position: fixed;
@@ -259,41 +310,23 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0,0,0,0.2);
         }
-        .success-popup h3 {
-            color: #4CAF50;
-            margin-top: 0;
-        }
-        .checkmark {
-            font-size: 3rem;
-            color: #4CAF50;
-            display: block;
-            margin-bottom: 1rem;
-        }
+        .checkmark { font-size: 3rem; color: #4CAF50; display: block; margin-bottom: 1rem; }
+        .success-popup h3 { color: #4CAF50; margin-top: 0; }
 
-        /* Responsividad básica para movil */
         @media (max-width: 600px) {
-            .r2 {
-                flex-direction: column;
-                height: auto;
-            }
-            .img2 {
-                width: 100%;
-                height: 200px;
-            }
+            .r2 { flex-direction: column; height: auto; }
+            .img2 { width: 100%; height: 200px; }
         }
-
     </style>
 </head>
 <body>
 
     <button id="home">
-        <!-- Placeholder imagen casita si no carga -->
         <span style="font-size: 1.5rem;">🏠</span>
         <h5 class="vi">Volver al inicio</h5>    
     </button>
     
     <div class="cabeza">
-        <!-- Placeholder logo si no carga -->
         <h1 style="font-family: cursive; color: #556b2f;">RecipEat</h1>
     </div>
 
@@ -303,10 +336,9 @@
         <!-- Aquí se inyectan las recetas con JS -->
     </div>
 
-    <!-- Botón Flotante para Agregar -->
     <button class="btn-agregar" onclick="abrirModal()">+</button>
 
-    <!-- MODAL FORMULARIO -->
+    <!-- 1. MODAL FORMULARIO -->
     <div class="modal-overlay" id="modalForm">
         <div class="modal-content">
             <span class="close-btn" onclick="cerrarModal()">&times;</span>
@@ -317,12 +349,14 @@
                     <label for="nombre">Nombre de la receta:</label>
                     <input type="text" id="nombre" placeholder="Ej: Tarta de Manzana" required>
                 </div>
-
                 <div class="form-group">
-                    <label for="imagen">URL de la Imagen:</label>
-                    <input type="url" id="imagen" placeholder="https://ejemplo.com/foto.jpg" required>
+                    <label for="imagenInput">Subir Foto del Plato (Opcional):</label>
+                    <input type="file" id="imagenInput" accept="image/*">
+                    <div class="preview-container">
+                        <span id="previewText">Vista previa de la imagen</span>
+                        <img id="imagenPreview" src="" alt="Vista previa">
+                    </div>
                 </div>
-
                 <div class="form-group">
                     <label for="categoria">Categoría:</label>
                     <select id="categoria">
@@ -331,7 +365,6 @@
                         <option value="Bebida">Bebida</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="apto">Apto para:</label>
                     <select id="apto">
@@ -339,33 +372,63 @@
                         <option value="SinTACC">Sin TACC</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="ingredientes">Ingredientes (separados por coma o enter):</label>
                     <textarea id="ingredientes" placeholder="Ej: Harina, Huevos, Leche..." required></textarea>
                 </div>
-
                 <div class="form-group">
                     <label for="pasos">Pasos (separados por coma o enter):</label>
                     <textarea id="pasos" placeholder="Ej: Paso 1: Batir huevos. Paso 2: Mezclar harina..." required></textarea>
                 </div>
-
                 <button type="submit" class="btn-submit">Publicar Receta</button>
             </form>
         </div>
     </div>
 
-    <!-- POPUP DE ÉXITO -->
+    <!-- 2. MODAL ADVERTENCIA IMAGEN -->
+    <div class="modal-overlay" id="modalAdvertenciaImagen">
+        <div class="modal-alert-content">
+            <h3>¿Publicar sin foto?</h3>
+            <p>Te recomendamos agregar una imagen para que tu receta se vea mejor y atraiga más miradas.</p>
+            <div class="btn-accion-container">
+                <button class="btn-cancelar" onclick="cerrarAdvertenciaImagen()">Volver y subir foto</button>
+                <button class="btn-confirmar-verde" onclick="confirmarGuardarSinImagen()">Publicar sin foto</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. MODAL CONFIRMACIÓN BORRAR -->
+    <div class="modal-overlay" id="modalConfirmacionBorrar">
+        <div class="modal-alert-content">
+            <h3 style="color: #d32f2f;">¿Eliminar Receta?</h3>
+            <p>¿Estás seguro de que deseas eliminar esta receta? Esta acción no se puede deshacer.</p>
+            <div class="btn-accion-container">
+                <button class="btn-cancelar" onclick="cerrarConfirmacionBorrar()">Cancelar</button>
+                <button class="btn-confirmar-rojo" onclick="confirmarEliminacion()">Sí, Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. POPUP DE ÉXITO -->
     <div class="success-popup" id="popupExito">
         <span class="checkmark">✔</span>
         <h3>¡Receta Guardada!</h3>
-        <p>Tu receta se ha publicado en tus recetas.</p>
+        <p>Tu receta se ha enviado al backend.</p>
         <button onclick="cerrarPopup()" class="btn-submit" style="width: auto; margin-top: 1rem;">Aceptar</button>
     </div>
 
     <script>
-        // 1. DATOS INICIALES (Minimizado del JSON original para el ejemplo)
-        // En una app real, esto vendría de fetch('recetas.json')
+        // --- DEFINICIÓN DUMMY DE postEvent (SOLO PARA EVITAR ERRORES EN NAVEGADOR) ---
+        if (typeof postEvent === 'undefined') {
+            window.postEvent = function(eventName, data) {
+                console.log(`[SIMULACIÓN] Enviando evento al backend: ${eventName}`, data);
+                // En un entorno real, aquí no hacemos nada visual, el backend responde.
+            };
+        }
+
+        // 1. DATOS INICIALES
+        // IMPORTANTE: En un sistema real con backend, estas recetas deberían llegar via evento también.
+        // Aquí las mantenemos fijas por ahora para que tengas algo que ver.
         const recetasBase = [
             {
                 "nombre": "Chocolate con leche",
@@ -382,126 +445,191 @@
                 "categoria": "Salado",
                 "apto": "ConTACC",
                 "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
-            },
-            {
-                "nombre": "Jugo de naranja",
-                "ingredientes": ["naranjas"],
-                "pasos": ["Exprimir naranjas", "Servir frío"],
-                "categoria": "Bebida",
-                "apto": "SinTACC",
-                "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
             }
-            // ... Se cargarían el resto de tus recetas aquí ...
         ];
 
-        // 2. LÓGICA DE CARGA
+        let imagenActualBase64 = null;
+        const IMAGEN_POR_DEFECTO = "https://placehold.co/600x400?text=RecipEat&font=roboto";
+        let indexParaBorrar = null;
+
         document.addEventListener('DOMContentLoaded', () => {
             cargarRecetas();
         });
 
+        // --- MANEJO DE IMAGEN ---
+        const imagenInput = document.getElementById('imagenInput');
+        const imagenPreview = document.getElementById('imagenPreview');
+        const previewText = document.getElementById('previewText');
+
+        imagenInput.addEventListener('change', function(event) {
+            const archivo = event.target.files[0];
+            if (archivo) {
+                const lector = new FileReader();
+                lector.onload = function(e) {
+                    imagenActualBase64 = e.target.result;
+                    imagenPreview.src = imagenActualBase64;
+                    imagenPreview.style.display = 'block';
+                    previewText.style.display = 'none';
+                };
+                lector.readAsDataURL(archivo);
+            } else {
+                imagenActualBase64 = null;
+                imagenPreview.style.display = 'none';
+                previewText.style.display = 'block';
+            }
+        });
+
+        // --- FUNCIONES DE ELIMINACIÓN ---
+        window.eliminarReceta = function(index) {
+            indexParaBorrar = index;
+            document.getElementById('modalConfirmacionBorrar').style.display = 'flex';
+        };
+
+        window.cerrarConfirmacionBorrar = function() {
+            indexParaBorrar = null;
+            document.getElementById('modalConfirmacionBorrar').style.display = 'none';
+        }
+
+        window.confirmarEliminacion = function() {
+            if (indexParaBorrar !== null) {
+                // Eliminamos del localStorage local (vista optimista)
+                let recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
+                
+                // Si tuviéramos un ID único sería mejor enviar ese ID al backend.
+                // Por ahora, solo actualizamos la vista local.
+                recetasGuardadas.splice(indexParaBorrar, 1);
+                localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
+                
+                cargarRecetas();
+                cerrarConfirmacionBorrar();
+                
+                // Opcional: Enviar evento de borrado al backend si fuera necesario
+                // postEvent("EliminarRecetaGlobal", { index: indexParaBorrar });
+            }
+        }
+
+        // --- MOSTRAR RECETAS ---
         function cargarRecetas() {
             const container = document.getElementById('recetasContainer');
-            container.innerHTML = ''; // Limpiar
+            container.innerHTML = ''; 
 
-            // Obtener recetas guardadas en LocalStorage (Nuevas)
+            // Seguimos usando localStorage para la visualización inmediata (Optimistic UI)
             const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
-            
-            // Combinar base + nuevas
-            // Nota: Ponemos las nuevas primero para que se vean arriba
             const todasLasRecetas = [...recetasGuardadas, ...recetasBase];
 
-            todasLasRecetas.forEach(receta => {
+            todasLasRecetas.forEach((receta, index) => {
                 const card = document.createElement('div');
                 card.className = 'r2';
 
-                // Generar lista HTML de ingredientes (primeros 3 para preview)
                 let ingPreview = receta.ingredientes.slice(0, 3).join(', ');
                 if(receta.ingredientes.length > 3) ingPreview += '...';
 
+                let botonEliminarHTML = '';
+                if (index < recetasGuardadas.length) {
+                    botonEliminarHTML = `<button class="btn-eliminar-card" onclick="eliminarReceta(${index})">Eliminar</button>`;
+                }
+
                 card.innerHTML = `
                     <div class="img2">
-                        <img src="${receta.imagen}" alt="${receta.nombre}" onerror="this.src='https://via.placeholder.com/150?text=Sin+Imagen'">
+                        <img src="${receta.imagen}" alt="${receta.nombre}" onerror="this.src='${IMAGEN_POR_DEFECTO}'">
                     </div>
                     <div class="texto2">
-                        <div class="textoarriba">${receta.nombre}</div>
+                        <div class="textoarriba">
+                            <span>${receta.nombre}</span>
+                        </div>
                         <div class="textoabajo">
                             <strong>Categoría:</strong> ${receta.categoria} | <strong>Apto:</strong> ${receta.apto}<br>
                             <strong>Ingredientes:</strong> ${ingPreview}
                         </div>
+                        ${botonEliminarHTML}
                     </div>
                 `;
                 container.appendChild(card);
             });
         }
 
-        // 3. LÓGICA DEL MODAL (ABRIR/CERRAR)
+        // --- GESTIÓN MODALES ---
         const modal = document.getElementById('modalForm');
+        const modalAdvertencia = document.getElementById('modalAdvertenciaImagen');
         const popup = document.getElementById('popupExito');
 
-        function abrirModal() {
-            modal.style.display = 'flex';
-        }
-
-        function cerrarModal() {
+        window.abrirModal = function() { modal.style.display = 'flex'; }
+        window.cerrarModal = function() {
             modal.style.display = 'none';
-            document.getElementById('formReceta').reset(); // Limpiar form
+            document.getElementById('formReceta').reset();
+            imagenPreview.src = "";
+            imagenPreview.style.display = 'none';
+            previewText.style.display = 'block';
+            imagenActualBase64 = null;
+            imagenInput.value = "";
         }
+        window.cerrarAdvertenciaImagen = function() { modalAdvertencia.style.display = 'none'; }
+        window.cerrarPopup = function() { popup.style.display = 'none'; }
 
-        function cerrarPopup() {
-            popup.style.display = 'none';
-        }
-
-        // Cerrar si clickean afuera
         window.onclick = function(event) {
             if (event.target == modal) cerrarModal();
+            if (event.target == modalAdvertencia) cerrarAdvertenciaImagen();
             if (event.target == popup) cerrarPopup();
+            if (event.target == document.getElementById('modalConfirmacionBorrar')) cerrarConfirmacionBorrar();
         }
 
-        // 4. LÓGICA DE GUARDADO (SUBMIT)
+        // --- GUARDADO FINAL ---
         const form = document.getElementById('formReceta');
 
-        form.addEventListener('submit', function(e) {
-            e.preventDefault(); // Evitar que recargue la página
-
-            // Capturar valores
+        function guardarRecetaFinal(urlImagen) {
             const nombre = document.getElementById('nombre').value;
-            const imagen = document.getElementById('imagen').value;
             const categoria = document.getElementById('categoria').value;
             const apto = document.getElementById('apto').value;
             const ingText = document.getElementById('ingredientes').value;
             const pasosText = document.getElementById('pasos').value;
 
-            // Convertir texto a Arrays (separando por enter o comas)
             const ingredientes = ingText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
             const pasos = pasosText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
 
-            // Crear objeto receta
             const nuevaReceta = {
                 nombre,
-                imagen,
+                imagen: urlImagen, 
                 categoria,
                 apto,
                 ingredientes,
-                pasos
+                pasos,
+                creada: true
             };
 
-            // Guardar en LocalStorage
+            // 1. Guardado Local (para que el usuario lo vea ya mismo)
             const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
-            recetasGuardadas.unshift(nuevaReceta); // Agregar al principio
+            recetasGuardadas.unshift(nuevaReceta);
             localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
 
-            // Acciones finales
+            // 2. Guardado en Backend (LO IMPORTANTE)
+            // Enviamos el evento 'GuardarNuevaRecetaGlobal' con el objeto receta
+            if (typeof postEvent !== 'undefined') {
+                postEvent("GuardarNuevaRecetaGlobal", nuevaReceta);
+            } else {
+                console.warn("postEvent no está definido. Probablemente estás fuera del entorno del juego.");
+            }
+
             cerrarModal();
-            cargarRecetas(); // Recargar la lista para ver la nueva
-            
-            // Mostrar Popup de éxito
+            cargarRecetas(); 
             popup.style.display = 'block';
+        }
+
+        window.confirmarGuardarSinImagen = function() {
+            cerrarAdvertenciaImagen();
+            guardarRecetaFinal(IMAGEN_POR_DEFECTO);
+        }
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            if (!imagenActualBase64) {
+                modalAdvertencia.style.display = 'flex';
+            } else {
+                guardarRecetaFinal(imagenActualBase64);
+            }
         });
 
-        // Botón Volver al Inicio (Redirección simulada)
         document.getElementById("home").addEventListener("click", function() {
-            alert("Volviendo al inicio... (Aquí iría el link a RecipEat.html)");
-            // window.location.href = "RecipEat.html"; 
+            alert("Volviendo al inicio...");
         });
 
     </script>
