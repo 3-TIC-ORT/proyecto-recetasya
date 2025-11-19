@@ -42,6 +42,7 @@ function mostrarComidas(lista) {
         const card = document.createElement("div");
         card.classList.add("lista5");
 
+        // NOTA: Asumimos que la estrella inicialmente tiene 'data-fav="0"' y src de no favorito
         card.innerHTML = `
             <div class="r5" id="${receta.nombre}">
                 <div class="img3">
@@ -72,25 +73,28 @@ function mostrarComidas(lista) {
         estrella.addEventListener('click', (e) => {
             e.stopPropagation(); 
             
-            const parent = estrella.parentNode;
-            const h3 = parent.querySelector('h3');
+            // Usamos .closest() para obtener el elemento contenedor de la receta
+            const h3 = estrella.closest('.tarr')?.querySelector('h3');
             const nombre = h3 ? h3.textContent : '';
+
             
+            
+            // Enviamos la solicitud de toggle al backend.
             postEvent('Favoritos', {
                 usuario, 
                 receta: nombre, 
-                favToggle: estrella.dataset.fav
             }, (res) => {
                 if (res && res.success) {
-                    if (res.favToggle == '1') {
-                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
-                        estrella.dataset.fav = '0';
-                    } else {
+                    // Usamos el estado devuelto por el backend (res.estadoFavorito)
+                    if (res.estadoFavorito === true) { // Fue agregado
                         estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
                         estrella.dataset.fav = '1';
+                    } else { // Fue eliminado
+                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
+                        estrella.dataset.fav = '0';
                     }
                 } else {
-                    alert("Error al agregar a favoritos");
+                    alert("Error al guardar a favoritos: ");
                 }
             });
         });
@@ -146,4 +150,6 @@ function mrecetas() {
 
 if (home) home.addEventListener("click", cambiarpantalla1);
 if (recetario) recetario.addEventListener("click", mrecetas);
+
+// ⚠️ Se elimina el corchete de cierre extra que estaba aquí antes.
 
