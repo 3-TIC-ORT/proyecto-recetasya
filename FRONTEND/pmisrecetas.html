@@ -1,66 +1,509 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Recetas</title>
-    <link rel="stylesheet" href="pmisrecetas.css">
+    <title>Mis Recetas - RecipEat</title>
+    <style>
+        /* --- TU CSS ORIGINAL (CON AJUSTES PARA RESPONSIVIDAD) --- */
+        body {
+            background-color: #c8d9ab;
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Botón Home */
+        #home {
+            height: 2.5rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: .5rem;
+            border-radius: 30px;
+            margin-left: 1rem;
+            background-color: transparent;
+            margin-top: 1rem;
+            border: none;
+            cursor: pointer;
+        }
+        #home:hover {
+            background-color: rgba(255,255,255,0.3);
+        }
+
+        .casita {
+            height: 2rem;
+            width: 2rem;
+        }
+
+        .vi {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        /* Cabecera y Logo */
+        .cabeza {
+            border-radius: 1rem;
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .logodef {
+            max-width: 200px;
+            height: auto;
+        }
+
+        /* Titulo Container */
+        .texto {
+            width: 90%;
+            max-width: 800px;
+            height: 4rem;
+            border: solid #a3b87f;
+            background-color: #c8d9ab;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem auto;
+            border-radius: 1rem;
+            border-width: .5rem;
+        }
+
+        .titulo {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        /* Contenedor de Recetas */
+        .recetas-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            padding-bottom: 3rem;
+            width: 100%;
+        }
+
+        /* Carta de Receta (Estilo basado en tu .r2) */
+        .r2 {
+            height: auto;
+            min-height: 12rem;
+            width: 90%;
+            max-width: 800px;
+            background-color: whitesmoke;
+            border: .2rem solid black;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            padding: 1rem;
+            box-sizing: border-box;
+            border-radius: 8px;
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+        }
+
+        .img2 {
+            flex: 0 0 150px; /* Ancho fijo para imagen */
+            height: 150px;
+            background-color: #ddd;
+            border: .1rem solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .img2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .texto2 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .textoarriba {
+            background-color: #e0e0e0;
+            border: .1rem solid black;
+            padding: 0.5rem;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .textoabajo {
+            background-color: whitesmoke;
+            border: .1rem solid black;
+            padding: 0.5rem;
+            flex-grow: 1;
+            overflow-y: auto;
+            font-size: 0.9rem;
+        }
+
+        /* --- NUEVOS ESTILOS PARA EL FORMULARIO Y EL POPUP --- */
+
+        /* Botón flotante para agregar */
+        .btn-agregar {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: #a3b87f;
+            border: 3px solid black;
+            border-radius: 50%;
+            width: 4rem;
+            height: 4rem;
+            font-size: 2.5rem;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            z-index: 100;
+            transition: transform 0.2s;
+        }
+        .btn-agregar:hover {
+            transform: scale(1.1);
+            background-color: #8da36b;
+        }
+
+        /* Modal (Fondo oscuro) */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Contenido del Modal */
+        .modal-content {
+            background-color: whitesmoke;
+            border: 3px solid black;
+            padding: 2rem;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 10px;
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Estilos del Formulario */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 2px solid #a3b87f;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            resize: vertical;
+            height: 80px;
+        }
+
+        .btn-submit {
+            background-color: #a3b87f;
+            color: white;
+            border: 2px solid black;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+        .btn-submit:hover {
+            background-color: #8da36b;
+        }
+
+        /* Popup de Éxito */
+        .success-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            border: 3px solid #4CAF50;
+            padding: 2rem;
+            text-align: center;
+            z-index: 2000;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        .success-popup h3 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+        .checkmark {
+            font-size: 3rem;
+            color: #4CAF50;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        /* Responsividad básica para movil */
+        @media (max-width: 600px) {
+            .r2 {
+                flex-direction: column;
+                height: auto;
+            }
+            .img2 {
+                width: 100%;
+                height: 200px;
+            }
+        }
+
+    </style>
 </head>
 <body>
+
     <button id="home">
-        <img class="casita" src="IMAGENES FRONT/home.png" alt="Imagen Volver al inicio">
+        <!-- Placeholder imagen casita si no carga -->
+        <span style="font-size: 1.5rem;">🏠</span>
         <h5 class="vi">Volver al inicio</h5>    
     </button>
     
-    
-    
     <div class="cabeza">
-        <img class="logodef" src="IMAGENES FRONT/Logodef.png" alt="Logo RecipEat">
-        
+        <!-- Placeholder logo si no carga -->
+        <h1 style="font-family: cursive; color: #556b2f;">RecipEat</h1>
     </div>
 
-    
     <div class="texto"><h2 class="titulo">Mis recetas</h2></div>
     
-    
-    
     <div class="recetas-container" id="recetasContainer">
-        
+        <!-- Aquí se inyectan las recetas con JS -->
     </div>
 
-    <div class="crear-receta-seccion">
-    <h2>➕ Crear Nueva Receta</h2>
-    <form id="formulario-receta">
-        
-        <label for="nombre">Nombre de la Receta:</label>
-        <input type="text" id="nombre" required>
-        
-        <label for="categoria">Categoría:</label>
-        <select id="categoria" required>
-            <option value="salado">Salada</option>
-            <option value="dulce">Dulce</option>
-        </select>
+    <!-- Botón Flotante para Agregar -->
+    <button class="btn-agregar" onclick="abrirModal()">+</button>
 
-        <label for="apto">Apto para Celíacos:</label>
-        <select id="apto" required>
-            <option value="ConTACC">Con TACC</option>
-            <option value="SinTACC">Sin TACC</option>
-        </select>
-        
-        <label for="ingredientes">Ingredientes (separados por coma, ej: papa, huevo, sal):</label>
-        <textarea id="ingredientes" rows="3" required></textarea>
+    <!-- MODAL FORMULARIO -->
+    <div class="modal-overlay" id="modalForm">
+        <div class="modal-content">
+            <span class="close-btn" onclick="cerrarModal()">&times;</span>
+            <h2 style="text-align: center; margin-top:0;">Nueva Receta</h2>
+            
+            <form id="formReceta">
+                <div class="form-group">
+                    <label for="nombre">Nombre de la receta:</label>
+                    <input type="text" id="nombre" placeholder="Ej: Tarta de Manzana" required>
+                </div>
 
-        <label for="pasos">Pasos (cada paso separado por punto y coma, ej: Calentar horno; Mezclar ingredientes; Hornear):</label>
-        <textarea id="pasos" rows="5" required></textarea>
+                <div class="form-group">
+                    <label for="imagen">URL de la Imagen:</label>
+                    <input type="url" id="imagen" placeholder="https://ejemplo.com/foto.jpg" required>
+                </div>
 
-        <label for="imagen">URL de la Imagen (opcional):</label>
-        <input type="text" id="imagen">
+                <div class="form-group">
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria">
+                        <option value="Dulce">Dulce</option>
+                        <option value="Salado">Salado</option>
+                        <option value="Bebida">Bebida</option>
+                    </select>
+                </div>
 
-        <button type="submit" id="guardar-receta">Guardar Receta</button>
-    </form>
-</div>
-    
-    <script src="pmisrecetas.js"></script>
-    
+                <div class="form-group">
+                    <label for="apto">Apto para:</label>
+                    <select id="apto">
+                        <option value="ConTACC">Con TACC</option>
+                        <option value="SinTACC">Sin TACC</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ingredientes">Ingredientes (separados por coma o enter):</label>
+                    <textarea id="ingredientes" placeholder="Ej: Harina, Huevos, Leche..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="pasos">Pasos (separados por coma o enter):</label>
+                    <textarea id="pasos" placeholder="Ej: Paso 1: Batir huevos. Paso 2: Mezclar harina..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Publicar Receta</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- POPUP DE ÉXITO -->
+    <div class="success-popup" id="popupExito">
+        <span class="checkmark">✔</span>
+        <h3>¡Receta Guardada!</h3>
+        <p>Tu receta se ha publicado en tus recetas.</p>
+        <button onclick="cerrarPopup()" class="btn-submit" style="width: auto; margin-top: 1rem;">Aceptar</button>
+    </div>
+
+    <script>
+        // 1. DATOS INICIALES (Minimizado del JSON original para el ejemplo)
+        // En una app real, esto vendría de fetch('recetas.json')
+        const recetasBase = [
+            {
+                "nombre": "Chocolate con leche",
+                "ingredientes": ["leche", "cacao", "azúcar", "manteca"],
+                "pasos": ["Derretir manteca", "Mezclar cacao y azúcar", "Incorporar leche", "Enfriar"],
+                "categoria": "Dulce",
+                "apto": "ConTACC",
+                "imagen": "https://cdn.pixabay.com/photo/2014/04/20/17/39/chocolate-328531_1280.jpg"
+            },
+            {
+                "nombre": "Papas fritas",
+                "ingredientes": ["papas", "aceite", "sal"],
+                "pasos": ["Cortar papas", "Freír", "Salar"],
+                "categoria": "Salado",
+                "apto": "ConTACC",
+                "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
+            },
+            {
+                "nombre": "Jugo de naranja",
+                "ingredientes": ["naranjas"],
+                "pasos": ["Exprimir naranjas", "Servir frío"],
+                "categoria": "Bebida",
+                "apto": "SinTACC",
+                "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
+            }
+            // ... Se cargarían el resto de tus recetas aquí ...
+        ];
+
+        // 2. LÓGICA DE CARGA
+        document.addEventListener('DOMContentLoaded', () => {
+            cargarRecetas();
+        });
+
+        function cargarRecetas() {
+            const container = document.getElementById('recetasContainer');
+            container.innerHTML = ''; // Limpiar
+
+            // Obtener recetas guardadas en LocalStorage (Nuevas)
+            const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
+            
+            // Combinar base + nuevas
+            // Nota: Ponemos las nuevas primero para que se vean arriba
+            const todasLasRecetas = [...recetasGuardadas, ...recetasBase];
+
+            todasLasRecetas.forEach(receta => {
+                const card = document.createElement('div');
+                card.className = 'r2';
+
+                // Generar lista HTML de ingredientes (primeros 3 para preview)
+                let ingPreview = receta.ingredientes.slice(0, 3).join(', ');
+                if(receta.ingredientes.length > 3) ingPreview += '...';
+
+                card.innerHTML = `
+                    <div class="img2">
+                        <img src="${receta.imagen}" alt="${receta.nombre}" onerror="this.src='https://via.placeholder.com/150?text=Sin+Imagen'">
+                    </div>
+                    <div class="texto2">
+                        <div class="textoarriba">${receta.nombre}</div>
+                        <div class="textoabajo">
+                            <strong>Categoría:</strong> ${receta.categoria} | <strong>Apto:</strong> ${receta.apto}<br>
+                            <strong>Ingredientes:</strong> ${ingPreview}
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // 3. LÓGICA DEL MODAL (ABRIR/CERRAR)
+        const modal = document.getElementById('modalForm');
+        const popup = document.getElementById('popupExito');
+
+        function abrirModal() {
+            modal.style.display = 'flex';
+        }
+
+        function cerrarModal() {
+            modal.style.display = 'none';
+            document.getElementById('formReceta').reset(); // Limpiar form
+        }
+
+        function cerrarPopup() {
+            popup.style.display = 'none';
+        }
+
+        // Cerrar si clickean afuera
+        window.onclick = function(event) {
+            if (event.target == modal) cerrarModal();
+            if (event.target == popup) cerrarPopup();
+        }
+
+        // 4. LÓGICA DE GUARDADO (SUBMIT)
+        const form = document.getElementById('formReceta');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); // Evitar que recargue la página
+
+            // Capturar valores
+            const nombre = document.getElementById('nombre').value;
+            const imagen = document.getElementById('imagen').value;
+            const categoria = document.getElementById('categoria').value;
+            const apto = document.getElementById('apto').value;
+            const ingText = document.getElementById('ingredientes').value;
+            const pasosText = document.getElementById('pasos').value;
+
+            // Convertir texto a Arrays (separando por enter o comas)
+            const ingredientes = ingText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
+            const pasos = pasosText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
+
+            // Crear objeto receta
+            const nuevaReceta = {
+                nombre,
+                imagen,
+                categoria,
+                apto,
+                ingredientes,
+                pasos
+            };
+
+            // Guardar en LocalStorage
+            const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
+            recetasGuardadas.unshift(nuevaReceta); // Agregar al principio
+            localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
+
+            // Acciones finales
+            cerrarModal();
+            cargarRecetas(); // Recargar la lista para ver la nueva
+            
+            // Mostrar Popup de éxito
+            popup.style.display = 'block';
+        });
+
+        // Botón Volver al Inicio (Redirección simulada)
+        document.getElementById("home").addEventListener("click", function() {
+            alert("Volviendo al inicio... (Aquí iría el link a RecipEat.html)");
+            // window.location.href = "RecipEat.html"; 
+        });
+
+    </script>
 </body>
 </html>
