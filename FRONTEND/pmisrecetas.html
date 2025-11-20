@@ -4,9 +4,289 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Recetas - RecipEat</title>
-    <link rel="stylesheet" href="pmisrecetas.css">
     <style>
+        /* --- ESTILOS GENERALES --- */
+        body {
+            background-color: #c8d9ab;
+            margin: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #3d4a28; /* Un verde oscuro para el texto */
+        }
+
+        /* Botón Home */
         
+        #home{
+            height: 2.5rem;
+            width: 11rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: .5rem;
+            border-radius: 30px;
+            margin-left: .5rem;
+            background-color: transparent;
+            margin-top: 1rem;
+            
+        }
+        .casita{
+            height: 2rem;
+            width: 2rem;
+            left: 0;
+        }
+
+        .vi{
+            font-size: 1rem;
+        }
+
+
+        /* Cabecera */
+        .cabeza {
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        /* Título "Mis recetas" (Barra superior estilo imagen) */
+        
+        .texto{
+            width: 190vh;
+            height: 6rem;
+            border: solid #a3b87f;
+            background-color: #c8d9ab;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 1rem;
+            border-radius: 1rem;
+            border-width: .5rem;
+            
+
+
+        }
+
+
+        .titulo{
+            font-size: 2.5rem;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+
+        /* SUBTÍTULO CON CONTADOR */
+        .contador-container {
+            text-align: center;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+        .titulo-contador {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #3d4a28;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        /* --- ESTADO VACÍO (Empty State) --- */
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 2rem;
+            color: #3d4a28;
+            display: none; /* Oculto por defecto */
+        }
+
+        /* Icono SVG Lupa */
+        .empty-icon svg {
+            width: 150px;
+            height: 150px;
+            fill: none;
+            stroke: #3d4a28;
+            stroke-width: 5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            opacity: 0.8;
+        }
+
+        .empty-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        .empty-subtitle {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        /* --- LISTA DE RECETAS --- */
+        .recetas-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            padding-bottom: 8rem; /* Espacio extra para el botón flotante */
+            width: 100%;
+        }
+
+        /* Tarjeta de Receta */
+        .r2 {
+            height: auto;
+            min-height: 12rem;
+            width: 90%;
+            max-width: 800px;
+            background-color: whitesmoke;
+            border: 2px solid #3d4a28;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            padding: 1rem;
+            box-sizing: border-box;
+            border-radius: 15px;
+            box-shadow: 4px 4px 0px rgba(61, 74, 40, 0.3);
+            position: relative;
+            cursor: pointer; /* Indica que es clickeable */
+            transition: transform 0.2s;
+        }
+        /* El hover ahora aplica la animación de clickeable */
+        .r2:hover {
+            transform: translateY(-4px) scale(1.005);
+            box-shadow: 6px 6px 12px rgba(61, 74, 40, 0.4);
+        }
+
+        .img2 {
+            flex: 0 0 150px;
+            height: 150px;
+            background-color: #ddd;
+            border: 2px solid #3d4a28;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .img2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .texto2 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            /* Necesario para que el botón de eliminar no sea clickeable por el card clickeable */
+            pointer-events: none; 
+        }
+
+        /* Permite que el botón de eliminar, que está dentro de .texto2, sea clickeable */
+        .btn-eliminar-card {
+            pointer-events: auto; 
+        }
+
+        .textoarriba {
+            background-color: #e0e0e0;
+            border: 1px solid #3d4a28;
+            border-radius: 5px;
+            padding: 0.5rem;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #3d4a28;
+        }
+
+        .textoabajo {
+            background-color: whitesmoke;
+            border: 1px solid #3d4a28;
+            border-radius: 5px;
+            padding: 0.5rem;
+            flex-grow: 1;
+            overflow-y: auto;
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        /* --- BOTONES Y MODALES --- */
+        .btn-eliminar-card {
+            background-color: #ff4d4d;
+            color: white;
+            border: 2px solid #b71c1c;
+            border-radius: 5px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: bold;
+            align-self: flex-end;
+            margin-top: 5px;
+        }
+        .btn-eliminar-card:hover { background-color: #cc0000; }
+
+        /* Botones de Acción Modal */
+        .btn-accion-container { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; }
+        .btn-cancelar { background-color: #888; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        .btn-confirmar-verde { background-color: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        .btn-confirmar-rojo { background-color: #d32f2f; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+
+        /* Botón Flotante Agregar (+) */
+        .btn-agregar {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: #556b2f;
+            border: 3px solid #1a2e05;
+            border-radius: 50%;
+            width: 4.5rem;
+            height: 4.5rem;
+            font-size: 3rem;
+            color: #e8f5e9;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+            z-index: 100;
+            transition: transform 0.2s, background-color 0.2s;
+            padding-bottom: 8px; /* Ajuste visual para centrar el + */
+        }
+        .btn-agregar:hover {
+            transform: scale(1.1);
+            background-color: #465925;
+        }
+
+        /* Modales */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 1000; justify-content: center; align-items: center;  }
+        .modal-content { background-color: #f1f8e9; border: 3px solid #3d4a28; padding: 2rem; width: 90%; max-width: 500px; border-radius: 15px; position: relative; max-height: 90vh; overflow-y: auto; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+        .modal-alert-content { background-color: #f1f8e9; border: 3px solid #556b2f; padding: 2rem; width: 80%; max-width: 400px; border-radius: 15px; text-align: center; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+        
+        .close-btn { position: absolute; top: 10px; right: 15px; font-size: 2rem; cursor: pointer; font-weight: bold; color: #3d4a28; }
+
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: bold; color: #3d4a28; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 0.8rem; border: 2px solid #a3b87f; border-radius: 8px; box-sizing: border-box; background-color: white; font-size: 1rem; }
+        .form-group textarea { resize: vertical; height: 80px; }
+        
+        .preview-container { margin-top: 10px; text-align: center; background-color: #e0e0e0; border: 2px dashed #a3b87f; border-radius: 8px; min-height: 100px; display: flex; align-items: center; justify-content: center; }
+        .preview-container img { max-width: 100%; max-height: 200px; display: none; border-radius: 4px; }
+
+        .btn-submit { background-color: #556b2f; color: white; border: 2px solid #1a2e05; padding: 12px 20px; font-size: 1.2rem; font-weight: bold; cursor: pointer; width: 100%; border-radius: 8px; margin-top: 1rem; }
+        .btn-submit:hover { background-color: #465925; }
+
+        /* Popup Exito */
+        .success-popup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; border: 3px solid #4CAF50; padding: 2rem; text-align: center; z-index: 2000; border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.2); }
+        .checkmark { font-size: 3rem; color: #4CAF50; display: block; margin-bottom: 1rem; }
+
+        @media (max-width: 600px) {
+            .r2 { flex-direction: column; height: auto; }
+            .img2 { width: 100%; height: 200px; }
+            .titulo-contador { font-size: 2rem; }
+        }
     </style>
 </head>
 <body>
@@ -15,15 +295,14 @@
         <img class="casita" src="IMAGENES FRONT/home.png" alt="Imagen Volver al inicio">
         <h5 class="vi">Volver al inicio</h5>    
     </button>
-
+    
     <div class="cabeza">
-        <img src="IMAGENES FRONT/Logodef.png" alt="Logo RecipEat">
+        <h1 style="font-family: cursive; color: #556b2f; font-size: 3rem; margin: 0.5rem;">RecipEat</h1>
     </div>
 
     <!-- Barra superior estilo imagen -->
-    <div class="texto">
-        <h2 class="titulo">Mis recetas</h2>
-    </div>
+    <div class="texto"><h2 class="titulo">RECETAS DULCES</h2></div>
+    
 
     <!-- Título Contador -->
     <div class="contador-container">
@@ -132,11 +411,237 @@
         <button onclick="cerrarPopup()" class="btn-submit" style="width: auto; margin-top: 1rem;">Aceptar</button>
     </div>
 
-    <div id="lista-creadas"></div>
-    <div id="lista-favoritos"></div>
+    <script>
+        // --- DEFINICIÓN DUMMY DE postEvent ---
+        if (typeof postEvent === 'undefined') {
+            window.postEvent = function(eventName, data) {
+                console.log(`[SIMULACIÓN] Evento: ${eventName}`, data);
+            };
+        }
+        
+        // 1. DATOS INICIALES Y CONSTANTES
+        const IMAGEN_POR_DEFECTO = "https://placehold.co/600x400?text=RecipEat&font=roboto";
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
-    <script src="pmisrecetas.js"></script>
+        // Datos de prueba para que siempre haya algo clickeable
+        const recetasBase = [
+            
+        ]; 
+
+        let imagenActualBase64 = null;
+        let indexParaBorrar = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            cargarRecetas();
+        });
+
+        // --- FUNCIÓN DE NAVEGACIÓN (USANDO window.location.href) ---
+        window.navegarAReceta = function(receta) {
+            console.log("Navegando a receta:", receta.nombre);
+            // 1. Guardamos la receta en localStorage para que la siguiente página pueda cargarla
+            localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
+            
+            // 2. Navegación directa a la página de detalle
+            window.location.href = "recetaext.html";
+        };
+
+        // --- MANEJO DE IMAGEN ---
+        const imagenInput = document.getElementById('imagenInput');
+        const imagenPreview = document.getElementById('imagenPreview');
+        const previewText = document.getElementById('previewText');
+
+        imagenInput.addEventListener('change', function(event) {
+            const archivo = event.target.files[0];
+            if (archivo) {
+                const lector = new FileReader();
+                lector.onload = function(e) {
+                    imagenActualBase64 = e.target.result;
+                    imagenPreview.src = imagenActualBase64;
+                    imagenPreview.style.display = 'block';
+                    previewText.style.display = 'none';
+                };
+                lector.readAsDataURL(archivo);
+            } else {
+                imagenActualBase64 = null;
+                imagenPreview.style.display = 'none';
+                previewText.style.display = 'block';
+            }
+        });
+
+        // --- FUNCIONES DE ELIMINACIÓN ---
+        window.eliminarReceta = function(index) {
+            // CRUCIAL: Detiene el evento de click de la tarjeta para que no navegue
+            event.stopPropagation(); 
+            indexParaBorrar = index;
+            document.getElementById('modalConfirmacionBorrar').style.display = 'flex';
+        };
+
+        window.cerrarConfirmacionBorrar = function() {
+            indexParaBorrar = null;
+            document.getElementById('modalConfirmacionBorrar').style.display = 'none';
+        }
+
+        window.confirmarEliminacion = function() {
+            if (indexParaBorrar !== null) {
+                let recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
+                
+                // indexParaBorrar es el índice DENTRO de recetasGuardadas, ya que solo permite eliminar las primeras N recetas
+                recetasGuardadas.splice(indexParaBorrar, 1);
+                localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
+                
+                cargarRecetas();
+                cerrarConfirmacionBorrar();
+            }
+        }
+
+        // --- MOSTRAR RECETAS Y GESTIONAR ESTADO VACÍO ---
+        function cargarRecetas() {
+            const container = document.getElementById('recetasContainer');
+            const emptyState = document.getElementById('emptyState');
+            const tituloContador = document.getElementById('tituloContador');
+
+            container.innerHTML = ''; 
+
+            const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
+            // Las recetas guardadas por el usuario van primero, para que el índice de eliminación sea correcto
+            const todasLasRecetas = [...recetasGuardadas, ...recetasBase]; 
+            
+            // ACTUALIZAR CONTADOR
+            const cantidad = todasLasRecetas.length;
+            tituloContador.textContent = `Recetas (${cantidad})`;
+
+            // LÓGICA DE ESTADO VACÍO
+            if (cantidad === 0) {
+                container.style.display = 'none';
+                emptyState.style.display = 'flex';
+            } else {
+                container.style.display = 'flex';
+                emptyState.style.display = 'none';
+
+                todasLasRecetas.forEach((receta, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'r2'; // La clase correcta de la tarjeta
+
+                    let ingPreview = receta.ingredientes.slice(0, 3).join(', ');
+                    if(receta.ingredientes.length > 3) ingPreview += '...';
+
+                    let botonEliminarHTML = '';
+                    // Permitimos eliminar solo las recetas que están en la parte 'guardada' del array combinado
+                    if (index < recetasGuardadas.length) {
+                        // El botón de eliminar llama a eliminarReceta y usa event.stopPropagation() dentro para no navegar
+                        botonEliminarHTML = `<button class="btn-eliminar-card" onclick="eliminarReceta(${index})">Eliminar</button>`;
+                    }
+
+                    card.innerHTML = `
+                        <div class="img2">
+                            <img src="${receta.imagen}" alt="${receta.nombre}" onerror="this.src='${IMAGEN_POR_DEFECTO}'">
+                        </div>
+                        <div class="texto2">
+                            <div class="textoarriba">
+                                <span>${receta.nombre}</span>
+                            </div>
+                            <div class="textoabajo">
+                                <strong>Categoría:</strong> ${receta.categoria} | <strong>Apto:</strong> ${receta.apto}<br>
+                                <strong>Ingredientes:</strong> ${ingPreview}
+                            </div>
+                            ${botonEliminarHTML}
+                        </div>
+                    `;
+                    
+                    // --- AÑADIMOS EL EVENTO CLICK A TODA LA TARJETA ---
+                    card.addEventListener("click", () => {
+                        // Aquí pasamos el objeto receta para que la función de navegación sepa qué guardar
+                        navegarAReceta(receta);
+                    });
+                    
+                    container.appendChild(card);
+                });
+            }
+        }
+
+        // --- GESTIÓN MODALES ---
+        const modal = document.getElementById('modalForm');
+        const modalAdvertencia = document.getElementById('modalAdvertenciaImagen');
+        const popup = document.getElementById('popupExito');
+
+        window.abrirModal = function() { modal.style.display = 'flex'; }
+        window.cerrarModal = function() {
+            modal.style.display = 'none';
+            document.getElementById('formReceta').reset();
+            imagenPreview.src = "";
+            imagenPreview.style.display = 'none';
+            previewText.style.display = 'block';
+            imagenActualBase64 = null;
+            imagenInput.value = "";
+        }
+        window.cerrarAdvertenciaImagen = function() { modalAdvertencia.style.display = 'none'; }
+        window.cerrarPopup = function() { popup.style.display = 'none'; }
+
+        window.onclick = function(event) {
+            if (event.target == modal) cerrarModal();
+            if (event.target == modalAdvertencia) cerrarAdvertenciaImagen();
+            if (event.target == popup) cerrarPopup();
+            if (event.target == document.getElementById('modalConfirmacionBorrar')) cerrarConfirmacionBorrar();
+        }
+
+        // --- GUARDADO FINAL ---
+        const form = document.getElementById('formReceta');
+
+        function guardarRecetaFinal(urlImagen) {
+            const nombre = document.getElementById('nombre').value;
+            const categoria = document.getElementById('categoria').value;
+            const apto = document.getElementById('apto').value;
+            const ingText = document.getElementById('ingredientes').value;
+            const pasosText = document.getElementById('pasos').value;
+
+            const ingredientes = ingText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
+            const pasos = pasosText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
+
+            const nuevaReceta = {
+                nombre,
+                imagen: urlImagen, 
+                categoria,
+                apto,
+                ingredientes,
+                pasos,
+                creada: true
+            };
+
+            const recetasGuardadas = JSON.parse(localStorage.getItem('misRecetasNuevas')) || [];
+            recetasGuardadas.unshift(nuevaReceta);
+            localStorage.setItem('misRecetasNuevas', JSON.stringify(recetasGuardadas));
+
+            if (typeof postEvent !== 'undefined') {
+                postEvent("GuardarNuevaRecetaGlobal", nuevaReceta);
+            }
+
+            cerrarModal();
+            cargarRecetas(); 
+            document.getElementById('mensajeExitoTitulo').textContent = "¡Receta Guardada!";
+            document.getElementById('popupExito').querySelector('p').textContent = "Tu receta se ha creado correctamente.";
+            popup.style.display = 'block';
+        }
+
+        window.confirmarGuardarSinImagen = function() {
+            cerrarAdvertenciaImagen();
+            guardarRecetaFinal(IMAGEN_POR_DEFECTO);
+        }
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            if (!imagenActualBase64) {
+                modalAdvertencia.style.display = 'flex';
+            } else {
+                guardarRecetaFinal(imagenActualBase64);
+            }
+        });
+
+        document.getElementById("home").addEventListener("click", function() {
+            // Reemplazado alert() para seguir las normas:
+            document.getElementById('mensajeExitoTitulo').textContent = "Volviendo al inicio";
+            document.getElementById('popupExito').querySelector('p').textContent = "Has simulado volver a la pantalla principal.";
+            document.getElementById('popupExito').style.display = 'block';
+        });
+
+    </script>
 </body>
 </html>
