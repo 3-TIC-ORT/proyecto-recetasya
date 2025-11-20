@@ -2,22 +2,7 @@
   {
     "Nombre_de_la_Cuenta": "Alejo",
     "Contraseña": "123456",
-    "Favoritos": [
-      {
-        "nombre": "Jugo de naranja",
-        "ingredientes": [
-          "naranjas"
-        ],
-        "pasos": [
-          "Paso 1: Exprimí 4 naranjas grandes para obtener aproximadamente 250 ml de jugo.",
-          "Paso 2: Colá el jugo para eliminar semillas y pulpa gruesa.",
-          "Paso 3: Serví frío con hielo opcional."
-        ],
-        "categoria": "Bebida",
-        "apto": "SinTACC",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
-      }
-    ],
+    "Favoritos": [],
     "Creadas": [
       ""
     ]
