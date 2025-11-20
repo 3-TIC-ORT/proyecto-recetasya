@@ -8,7 +8,6 @@ body {
 
 /* Botón Home */
 
-
 #home{
     height: 2.5rem;
     width: 11rem;
@@ -19,6 +18,7 @@ body {
     border-radius: 30px;
     margin-left: .5rem;
     background-color: transparent;
+    margin-top: 1rem;
     
 }
 .casita{
@@ -31,11 +31,6 @@ body {
     font-size: 1rem;
 }
 
-#home:hover {
-    background-color: rgba(255,255,255,0.3);
-}
-
-.vi { font-size: 1rem; margin: 0; font-weight: bold; }
 
 /* Cabecera */
 .cabeza {
@@ -49,13 +44,27 @@ body {
 
 /* Título "Mis recetas" (Barra superior estilo imagen) */
 
-.titulo-barra {
-    font-size: 1.5rem;
-    margin: 0;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #1a2e05;
+.texto{
+    width: 190vh;
+    height: 6rem;
+    border: solid #a3b87f;
+    background-color: #c8d9ab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    border-width: .5rem;
+    
+
+
+}
+
+
+.titulo{
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 /* SUBTÍTULO CON CONTADOR */
@@ -135,10 +144,13 @@ body {
     border-radius: 15px;
     box-shadow: 4px 4px 0px rgba(61, 74, 40, 0.3);
     position: relative;
+    cursor: pointer; /* Indica que es clickeable */
     transition: transform 0.2s;
 }
+/* El hover ahora aplica la animación de clickeable */
 .r2:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px) scale(1.005);
+    box-shadow: 6px 6px 12px rgba(61, 74, 40, 0.4);
 }
 
 .img2 {
@@ -164,6 +176,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    /* Necesario para que el botón de eliminar no sea clickeable por el card clickeable */
+    pointer-events: none; 
+}
+
+/* Permite que el botón de eliminar, que está dentro de .texto2, sea clickeable */
+.btn-eliminar-card {
+    pointer-events: auto; 
 }
 
 .textoarriba {
@@ -199,7 +218,6 @@ body {
     font-weight: bold;
     align-self: flex-end;
     margin-top: 5px;
-    transition: background-color 0.2s, transform 0.2s;
 }
 .btn-eliminar-card:hover { background-color: #cc0000; }
 
@@ -236,7 +254,7 @@ body {
 }
 
 /* Modales */
-.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 1000; justify-content: center; align-items: center; }
+.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 1000; justify-content: center; align-items: center;  }
 .modal-content { background-color: #f1f8e9; border: 3px solid #3d4a28; padding: 2rem; width: 90%; max-width: 500px; border-radius: 15px; position: relative; max-height: 90vh; overflow-y: auto; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
 .modal-alert-content { background-color: #f1f8e9; border: 3px solid #556b2f; padding: 2rem; width: 80%; max-width: 400px; border-radius: 15px; text-align: center; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
 
@@ -250,7 +268,7 @@ body {
 .preview-container { margin-top: 10px; text-align: center; background-color: #e0e0e0; border: 2px dashed #a3b87f; border-radius: 8px; min-height: 100px; display: flex; align-items: center; justify-content: center; }
 .preview-container img { max-width: 100%; max-height: 200px; display: none; border-radius: 4px; }
 
-.btn-submit { background-color: #556b2f; color: white; border: 2px solid #1a2e05; padding: 12px 20px; font-size: 1.2rem; font-weight: bold; cursor: pointer; width: 100%; border-radius: 8px; margin-top: 1rem; transition: background-color 0.2s, transform 0.2s; }
+.btn-submit { background-color: #556b2f; color: white; border: 2px solid #1a2e05; padding: 12px 20px; font-size: 1.2rem; font-weight: bold; cursor: pointer; width: 100%; border-radius: 8px; margin-top: 1rem; }
 .btn-submit:hover { background-color: #465925; }
 
 /* Popup Exito */
@@ -261,30 +279,4 @@ body {
     .r2 { flex-direction: column; height: auto; }
     .img2 { width: 100%; height: 200px; }
     .titulo-contador { font-size: 2rem; }
-}
-
-
-
-.texto{
-    width: 190vh;
-    height: 6rem;
-    border: solid #a3b87f;
-    background-color: #c8d9ab;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1rem;
-    border-radius: 1rem;
-    border-width: .5rem;
-    
-
-
-}
-
-
-.titulo{
-    font-size: 2.5rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-    
 }

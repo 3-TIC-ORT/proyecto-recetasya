@@ -150,6 +150,8 @@ function mrecetas(){
 }
 
 
+
+
 home.addEventListener("click", mrecetas);
 
 favoritos.addEventListener("click", AgregarReceta);
