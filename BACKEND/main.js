@@ -18,7 +18,7 @@ subscribeGETEvent("recetasbebidas", MostrarRecetasBebidas);
 subscribeGETEvent("mostrarRecetasDestacadas", RecetasDestacadas);
 subscribeGETEvent("obtenerFavoritos", ObtenerFavoritos);
 subscribePOSTEvent("guardarRecetaCreada", GuardarRecetaCreada);
-subscribeGETEvent("obtenerRecetarioPersonal", ObtenerRecetarioPersonal);
+subscribeGETEvent("misRecetas", ObtenerRecetarioPersonal);
 
 
 
