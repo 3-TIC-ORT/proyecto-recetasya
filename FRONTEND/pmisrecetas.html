@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
-    <script src="pmisrecetas.js"></script>
     <title>Mis Recetas - RecipEat</title>
     <link rel="stylesheet" href="pmisrecetas.css">
 </head>
@@ -357,12 +354,10 @@
 
         document.getElementById("home").addEventListener("click", function() {
             // Reemplazado alert() para seguir las normas:
-            document.getElementById('mensajeExitoTitulo').textContent = "Volviendo al inicio";
-            document.getElementById('popupExito').querySelector('p').textContent = "Has simulado volver a la pantalla principal.";
+            document.getElementById('mensajeExitoTitulo').textContent = "Volviendo al inicio"; window.location.href = "RecipEat.html";
             document.getElementById('popupExito').style.display = 'block';
         });
-    
+
     </script>
-    
 </body>
 </html>
