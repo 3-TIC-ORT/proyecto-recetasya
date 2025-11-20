@@ -1,6 +1,6 @@
 import fs from "fs";
 import { loginEvent, registroEvent } from "./LogInRegistro.js";
-import { GuardarRecetas, MostrarRecetas, MostrarRecetasDulces, MostrarRecetasSalados, MostrarRecetasBebidas, RecetasDestacadas, GuardarRecetasFavoritos  } from "./Recetas.js";
+import { GuardarRecetas, MostrarRecetas, MostrarRecetasDulces, MostrarRecetasSalados, MostrarRecetasBebidas, RecetasDestacadas, GuardarRecetasFavoritos,  } from "./Recetas.js";
 import {
     subscribeGETEvent,
     subscribePOSTEvent,

@@ -38,6 +38,49 @@ export const MostrarRecetasBebidas = (data) => {
     return { succes: true, data: recetasBebidas };
 }
 
+export const RecetasDestacadas = (data) => {
+    let recetas = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
+    let recetasDestacadas = []
+    for (let i = 0; i < recetas.length; i++) {
+        if (recetas[i].nombre === "Chocotorta") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Milanesa napolitana") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Choripán") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Lemon pie") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Papas a la crema") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Agua mineral") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Cappelletinis de carne") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Pionono de Oreo") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Ravioles de ricota con salsa de tomate fresco") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Empanadas de carne") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Volcán de Chocolate") {
+            recetasDestacadas.push(recetas[i]);
+        }
+        if (recetas[i].nombre === "Jugo de naranja") {
+            recetasDestacadas.push(recetas[i]);
+        }
+    }
+    return { succes: true, data: recetasDestacadas };
+}
 
 export const GuardarRecetas = (data) => {
     let Usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
@@ -121,46 +164,4 @@ export const GuardarRecetasFavoritos = (data) => {
     }
 };
 
-export const RecetasDestacadas = (data) => {
-    let recetas = JSON.parse(fs.readFileSync("recetas.json", "utf-8"));
-    let recetasDestacadas = []
-    for (let i = 0; i < recetas.length; i++) {
-        if (recetas[i].nombre === "Chocotorta") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Milanesa napolitana") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Choripán") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Lemon pie") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Papas a la crema") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Agua mineral") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Cappelletinis de carne") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Pionono de Oreo") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Ravioles de ricota con salsa de tomate fresco") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Empanadas de carne") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Volcán de Chocolate") {
-            recetasDestacadas.push(recetas[i]);
-        }
-        if (recetas[i].nombre === "Jugo de naranja") {
-            recetasDestacadas.push(recetas[i]);
-        }
-    }
-    return { succes: true, data: recetasDestacadas };
-}
+
