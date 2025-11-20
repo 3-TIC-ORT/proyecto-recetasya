@@ -82,30 +82,18 @@ export const RecetasDestacadas = (data) => {
     return { succes: true, data: recetasDestacadas };
 }
 
-export const GuardarRecetas = (data) => {
+export const ObtenerFavoritos = (data) => {
+    const { usuario } = data;  
     let Usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
 
-    console.log("entro acá")
-
-    for (let i = 0; i < Usuarios.length; i++) {
-
-        console.log(Usuarios[i].Nombre_de_la_Cuenta);
-
-        if (Usuarios[i].Nombre_de_la_Cuenta === data.nombre) {
-
-            console.log("entro al if del nombre")
-
-            if (data.creada === true) {
-                Usuarios[i].Creadas.push(data.receta);
-            }
-            if (data.Tipo === "Favoritos") {
-                Usuarios[i].Favoritos.push(data.receta);
-            }
-        }
+    const usuarioEncontrado = Usuarios.find(
+        (u => u.Nombre_de_la_Cuenta === usuario));
+    if (usuarioEncontrado) {
+        return { success: true, data: usuarioEncontrado.Favoritos };
+    } else {
+        return { success: false, data: [] };
     }
-    fs.writeFileSync("Usuarios.json", JSON.stringify(Usuarios, null, 2), "utf-8");
-    return { success: true, message: "Receta guardada correctamente" };
-};
+}
 
 export const GuardarRecetasFavoritos = (data) => {
     const { usuario, receta } = data;
