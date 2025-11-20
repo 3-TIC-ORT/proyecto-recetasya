@@ -1,3 +1,6 @@
+let home = document.getElementById("home");
+let recetario = document.getElementById("recetario");
+
 connect2Server();
 
 let comidas = [];
@@ -23,7 +26,6 @@ function esperarSocket() {
 
 esperarSocket();
 
-
 function mostrarComidas(lista) {
   if (!container) return;
   container.innerHTML = ""; 
@@ -37,14 +39,12 @@ function mostrarComidas(lista) {
     const card = document.createElement("div");
     card.classList.add("lista5");
 
-    // NOTA: Asumimos que la estrella inicialmente tiene 'data-fav="0"' y src de no favorito
     card.innerHTML = `
       <div class="r5" id="${receta.nombre}"> 
         <div class= "img3"> 
           <img class="imgrecetas" src="${receta.imagen}">
         </div>
         <div class="texto3"> 
-          
           <div class="tarr"> 
             <h3>${receta.nombre}</h3>
             <img 
@@ -63,7 +63,6 @@ function mostrarComidas(lista) {
 
     container.appendChild(card);
 
-    // Configurar listeners después de que el elemento se ha añadido al DOM
     const tarjeta = card.querySelector(".r5");
     tarjeta.addEventListener("click", () => {
         localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
@@ -78,18 +77,15 @@ function mostrarComidas(lista) {
             const h3 = estrella.closest('.tarr')?.querySelector('h3');
             const nombre = h3 ? h3.textContent : '';
 
-            
-            // Enviamos la solicitud de toggle al backend.
             postEvent('Favoritos', {
                 usuario, 
                 receta: nombre, 
             }, (res) => {
                 if (res && res.success) {
-                    // Usamos el estado devuelto por el backend (res.estadoFavorito)
-                    if (res.estadoFavorito === true) { // Fue agregado
+                    if (res.estadoFavorito === true) {
                         estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
                         estrella.dataset.fav = '1';
-                    } else { // Fue eliminado
+                    } else {
                         estrella.src = "IMAGENES FRONT/botonfavoritos.png";
                         estrella.dataset.fav = '0';
                     }
@@ -102,7 +98,6 @@ function mostrarComidas(lista) {
   });
 }
 
-
 const filtroingredientes = document.getElementById('filtroingredientes');
 const filtroapto = document.getElementById('filtroapto');
 const buscador = document.getElementById('buscador');
@@ -111,14 +106,12 @@ if (filtroingredientes) filtroingredientes.addEventListener("change", aplicarFil
 if (filtroapto) filtroapto.addEventListener("change", aplicarFiltros);
 if (buscador) buscador.addEventListener("input", aplicarFiltros);
 
-
 function aplicarFiltros() {
     const ingredienteSeleccionado = filtroingredientes?.value.toLowerCase() || '';
     const aptoSeleccionado = filtroapto?.value.toLowerCase() || '';
     const textoBusqueda = buscador?.value.toLowerCase() || '';
 
     const comidasFiltradas = comidas.filter(receta => {
-        // Verificar ingredientes (si la receta.ingredientes es un array)
         const coincideIngredientes =
             ingredienteSeleccionado === '' ||
             (Array.isArray(receta.ingredientes) && 
@@ -137,11 +130,7 @@ function aplicarFiltros() {
     mostrarComidas(comidasFiltradas);
 }
 
-// Lógica de Navegación
-let home = document.getElementById("home");
-let recetario = document.getElementById("recetario");
-
-
+// Navegación
 function cambiarpantalla1() {
     window.location.href = "RecipEat.html";
 }

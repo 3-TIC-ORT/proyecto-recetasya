@@ -63,7 +63,7 @@ function mostrarComidas(lista) {
                 favToggle: estrella.dataset.fav
             }, (res) => {
                 if (res && res.success) {
-                    if (res.favToggle == '1') {
+                    if (res.estadoFavorito === true) {
                         estrella.src = "IMAGENES FRONT/botonfavoritos.png";
                         estrella.dataset.fav = '0';
                     } else {

@@ -1,11 +1,7 @@
 let home = document.getElementById("home");
 let recetario = document.getElementById("recetario");
 
-
 connect2Server();
-
-
-
 
 let comidas = [];
 const usuario = localStorage.getItem('sesion');
@@ -66,7 +62,7 @@ function mostrarComidas(lista) {
                 favToggle: estrella.dataset.fav
             }, (res) => {
                 if (res && res.success) {
-                    if (res.favToggle == '1') {
+                    if (res.estadoFavorito === true) {
                         estrella.src = "IMAGENES FRONT/botonfavoritos.png";
                         estrella.dataset.fav = '0';
                     } else {
@@ -172,3 +168,8 @@ function mrecetas(){
 
 home.addEventListener("click", cambiarpantalla1);
 recetario.addEventListener("click", mrecetas);
+
+
+
+
+

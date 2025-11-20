@@ -167,5 +167,178 @@
     "Creadas": [
       ""
     ]
+  },
+  {
+    "Nombre_de_la_Cuenta": "vubfij",
+    "Contraseña": "123456",
+    "Favoritos": [
+      "",
+      {
+        "nombre": "Chocolate con leche",
+        "ingredientes": [
+          "leche",
+          "cacao en polvo",
+          "azúcar",
+          "manteca",
+          "vainilla"
+        ],
+        "pasos": [
+          "Paso 1: Derretí 100 g de manteca en baño maría.",
+          "Paso 2: Mezclá 50 g de cacao en polvo con 100 g de azúcar y 200 ml de leche.",
+          "Paso 3: Incorporá la manteca derretida y 1 cucharadita de esencia de vainilla.",
+          "Paso 4: Verté la mezcla en moldes y dejá enfriar 2 horas en heladera.",
+          "Paso 5: Desmoldá y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2014/04/20/17/39/chocolate-328531_1280.jpg"
+      },
+      {
+        "nombre": "Alfajores de maicena",
+        "ingredientes": [
+          "harina de maicena",
+          "harina común",
+          "manteca",
+          "azúcar",
+          "yemas de huevo",
+          "dulce de leche",
+          "coco rallado"
+        ],
+        "pasos": [
+          "Paso 1: Batí 200 g de manteca con 150 g de azúcar hasta que esté cremosa.",
+          "Paso 2: Incorporá 2 yemas y 150 g de harina común más 200 g de harina de maicena hasta formar una masa suave.",
+          "Paso 3: Estirá la masa y cortá círculos de 5 cm.",
+          "Paso 4: Horneá a 180°C por 10-12 minutos hasta que estén ligeramente dorados.",
+          "Paso 5: Rellená con dulce de leche y pasá los bordes por coco rallado."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl6gXT7vlJuvHIQ_ufXXQq5KIAdfwEsW2uig&s"
+      },
+      {
+        "nombre": "Caramelos de fruta",
+        "ingredientes": [
+          "azúcar",
+          "agua",
+          "jugos de fruta",
+          "gelatina sin sabor"
+        ],
+        "pasos": [
+          "Paso 1: Mezclá 200 g de azúcar con 100 ml de agua en cacerola y llevá a hervor hasta punto de caramelo ligero.",
+          "Paso 2: Incorporá 100 ml de jugo de fruta y 10 g de gelatina hidratada.",
+          "Paso 3: Mezclá bien y verté en moldes de silicona.",
+          "Paso 4: Dejá enfriar 1 hora y desmoldá."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2019/03/30/06/53/candy-4090697_1280.jpg"
+      },
+      {
+        "nombre": "Jugo de naranja",
+        "ingredientes": [
+          "naranjas"
+        ],
+        "pasos": [
+          "Paso 1: Exprimí 4 naranjas grandes para obtener aproximadamente 250 ml de jugo.",
+          "Paso 2: Colá el jugo para eliminar semillas y pulpa gruesa.",
+          "Paso 3: Serví frío con hielo opcional."
+        ],
+        "categoria": "Bebida",
+        "apto": "SinTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
+      },
+      {
+        "nombre": "Licuado de banana",
+        "ingredientes": [
+          "banana",
+          "leche",
+          "miel"
+        ],
+        "pasos": [
+          "Paso 1: Pelá 2 bananas maduras y colocalas en la licuadora.",
+          "Paso 2: Agregá 250 ml de leche y 1 cucharadita de miel.",
+          "Paso 3: Licuá hasta obtener mezcla homogénea.",
+          "Paso 4: Serví frío."
+        ],
+        "categoria": "Bebida",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJ2XDVN1N_6KGyFNZxqf3yJ6g0WDPPKjCVQ&s"
+      },
+      {
+        "nombre": "Papas fritas",
+        "ingredientes": [
+          "papas",
+          "aceite",
+          "sal"
+        ],
+        "pasos": [
+          "Paso 1: Pelá y cortá 500 g de papas en bastones.",
+          "Paso 2: Calentá aceite en sartén o freidora a 180°C.",
+          "Paso 3: Freí las papas en tandas hasta dorar, unos 5-7 minutos por tanda.",
+          "Paso 4: Escurrilas sobre papel absorbente y salá al gusto.",
+          "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
+      },
+      {
+        "nombre": "Empanadas de carne",
+        "ingredientes": [
+          "masa para empanadas",
+          "carne picada",
+          "cebolla",
+          "pimiento",
+          "aceite",
+          "huevo",
+          "sal",
+          "pimienta"
+        ],
+        "pasos": [
+          "Paso 1: Sofrí 1 cebolla y 1 pimiento picados en 2 cucharadas de aceite hasta transparentar.",
+          "Paso 2: Agregá 500 g de carne picada, sal, pimienta y cociná hasta dorar.",
+          "Paso 3: Retirá del fuego y dejá enfriar.",
+          "Paso 4: Rellená discos de masa para empanadas con 2 cucharadas de la mezcla y cerrá formando media luna.",
+          "Paso 5: Pintá con huevo batido y horneá a 180°C por 20-25 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://assets.unileversolutions.com/recipes-v2/237001.jpg"
+      },
+      {
+        "nombre": "Pizza Margherita",
+        "ingredientes": [
+          "masa para pizza",
+          "tomate",
+          "mozzarella",
+          "albahaca",
+          "aceite de oliva",
+          "sal"
+        ],
+        "pasos": [
+          "Paso 1: Estirá 250 g de masa para pizza sobre placa enmantecada.",
+          "Paso 2: Cubrí con 150 g de puré de tomate, sal y un chorrito de aceite de oliva.",
+          "Paso 3: Agregá 150 g de mozzarella en trozos y hojas de albahaca.",
+          "Paso 4: Horneá a 220°C por 12-15 minutos hasta dorar el queso.",
+          "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://www.clarin.com/img/2023/08/01/SL3EslnOA_1200x630__1.jpg"
+      }
+    ],
+    "Creadas": [
+      ""
+    ]
+  },
+  {
+    "Nombre_de_la_Cuenta": "brother",
+    "Contraseña": "22222222",
+    "Favoritos": [
+      ""
+    ],
+    "Creadas": [
+      ""
+    ]
   }
 ]
