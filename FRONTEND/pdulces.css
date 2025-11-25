@@ -108,6 +108,13 @@ body{
     letter-spacing: .5rem;
 }
 
+.logodef{
+    height: 4rem;
+    width: 6rem;
+    margin-top: -3rem;
+    margin-left: 70rem;
+}
+
 .cabeza{
     border-radius: 1rem;
     height: 5rem;

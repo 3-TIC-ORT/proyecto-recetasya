@@ -60,19 +60,18 @@
 
 
 .texto{
-    width: 150vh;
-    height: 6rem;
-    border: solid #a3b87f;
-    background-color: #c8d9ab;
+    width: 100%;
+    max-width: 80rem;
+    height: 3rem;
+    border: solid #457136;
+    background-color: #b1ca88;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
+    margin-right: 1rem;
     border-radius: 1rem;
-    border-width: .5rem;
-    
-
-
+    border-width: .3rem;
 }
 
 #favoritos{
@@ -84,30 +83,39 @@
 }
 
 body{
-    background-color: #c8d9ab;
-    width: 100vh;
+    background-color: #838f6a;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 
 }
 
 .titulo{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    color: #475136;
+    letter-spacing: .5rem;
 }
 
 .cabeza{
     border-radius: 1rem;
     height: 5rem;
-    width: 190vh;
-    margin-top: 0rem;
-    margin-left: 1rem;
+    width: 100%;
+    max-width: 80rem;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .logodef{
-    object-position: center;
+    height: 4rem;
+    width: 6rem;
+    margin-top: -2.1rem;
+    margin-left: 70rem;
 }
 
 
@@ -118,11 +126,10 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: .5rem;
+    gap:    .5rem;
     border-radius: 30px;
     margin-left: .5rem;
-    background-color: transparent;
-    
+    background-color: transparent;    
 }
 .casita{
     height: 2rem;
@@ -270,13 +277,13 @@ h3{
 .filtros{
     height: 30rem;
     width: 25rem;
-    background-color: #a3b87f;
+    background-color: #838f6a;
     margin-top: 1rem;
     border-radius: 1rem;
     margin-left: 1rem;
     position: absolute;
     object-position: right;
-    right: 10vh;
+    right: 2rem;
 
 }
 
@@ -358,14 +365,14 @@ main{
     outline: none;
     border-color: #a3b87f;
     box-shadow: 0 0 5px rgba(255, 123, 0, 0.4);
-  }
+}
   
   
 
 #buscador {
     margin-left: 1rem;
     width: 100%;
-    width: 47.6rem;
+    max-width: 77.5rem;
     padding: 12px 20px;
     font-size: 1rem;
     font-family: Arial, sans-serif; 
@@ -373,7 +380,8 @@ main{
     border: 2px solid #333; 
     border-radius: 8px; 
     outline: none; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+    border-radius: .3rem;  
 }
 
 #buscador:hover {
@@ -400,7 +408,7 @@ main{
     border-radius: 5px;
     margin-left: .5rem;
     margin-top: 1rem;
-    background-color: #a3b87f;
+    background-color: #838f6a;
     border: none;
     border: 3px solid #c8d9ab;
     margin-top: 2rem;

@@ -1,6 +1,6 @@
 /* --- ESTILOS GENERALES --- */
 body {
-    background-color: #c8d9ab;
+    background-color: #838f6a;
     margin: 0;
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: #3d4a28; /* Un verde oscuro para el texto */
@@ -34,37 +34,49 @@ body {
 
 /* Cabecera */
 .cabeza {
-    height: auto;
+    border-radius: 1rem;
+    height: 5rem;
     width: 100%;
+    max-width: 80rem;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
+}
+
+.logodef{
+    height: 4rem;
+    width: 6rem;
+    margin-top: -3rem;
+    position: center;
 }
 
 /* Título "Mis recetas" (Barra superior estilo imagen) */
 
 .texto{
-    width: 190vh;
-    height: 6rem;
-    border: solid #a3b87f;
-    background-color: #c8d9ab;
+    width: 100%;
+    max-width: 80rem;
+    height: 3rem;
+    border: solid #457136;
+    background-color: #b1ca88;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
+    margin-right: 1rem;
     border-radius: 1rem;
-    border-width: .5rem;
-    
-
-
+    border-width: .3rem;
 }
 
 
 .titulo{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    color: #475136;
+    letter-spacing: .5rem;
 }
 
 /* SUBTÍTULO CON CONTADOR */

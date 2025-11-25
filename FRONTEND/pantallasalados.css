@@ -446,3 +446,10 @@ main{
 #recetario{
     cursor: pointer;
 }
+
+.logodef{
+    height: 4rem;
+    width: 6rem;
+    margin-top: -3rem;
+    margin-left: 70rem;
+}
