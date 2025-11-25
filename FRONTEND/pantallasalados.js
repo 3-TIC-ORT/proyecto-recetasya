@@ -62,12 +62,15 @@ function mostrarComidas(lista) {
                 favToggle: estrella.dataset.fav
             }, (res) => {
                 if (res && res.success) {
+                    // CORRECCIÓN: invertir la lógica
                     if (res.estadoFavorito === true) {
-                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
-                        estrella.dataset.fav = '0';
-                    } else {
+                        // Se agregó a favoritos -> mostrar estrella LLENA
                         estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
                         estrella.dataset.fav = '1';
+                    } else {
+                        // Se quitó de favoritos -> mostrar estrella VACÍA
+                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
+                        estrella.dataset.fav = '0';
                     }
                 } else {
                     alert("Error al agregar a favoritos");
@@ -168,8 +171,3 @@ function mrecetas(){
 
 home.addEventListener("click", cambiarpantalla1);
 recetario.addEventListener("click", mrecetas);
-
-
-
-
-

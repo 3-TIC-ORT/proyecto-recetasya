@@ -12,7 +12,7 @@
     align-items: center;
     width: 100%;
     height: 3rem;
-    background-color: #a3b87f;
+    background-color: #CDDDB3;
     border-color: black;
     border-width: .1rem;
     border-style: solid;
@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color: #c8d9ab;
+    background-color: #838F6A;
     margin: 0;
     padding: 0;
 }

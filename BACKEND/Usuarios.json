@@ -16,6 +16,44 @@
         "categoria": "Bebida",
         "apto": "SinTACC",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b2vMNTh3WtOMO6OM5VM1PLnxK7lXzziKjQ&s"
+      },
+      {
+        "nombre": "Papas fritas",
+        "ingredientes": [
+          "papas",
+          "aceite",
+          "sal"
+        ],
+        "pasos": [
+          "Paso 1: Pelá y cortá 500 g de papas en bastones.",
+          "Paso 2: Calentá aceite en sartén o freidora a 180°C.",
+          "Paso 3: Freí las papas en tandas hasta dorar, unos 5-7 minutos por tanda.",
+          "Paso 4: Escurrilas sobre papel absorbente y salá al gusto.",
+          "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
+      },
+      {
+        "nombre": "Chocolate con leche",
+        "ingredientes": [
+          "leche",
+          "cacao en polvo",
+          "azúcar",
+          "manteca",
+          "vainilla"
+        ],
+        "pasos": [
+          "Paso 1: Derretí 100 g de manteca en baño maría.",
+          "Paso 2: Mezclá 50 g de cacao en polvo con 100 g de azúcar y 200 ml de leche.",
+          "Paso 3: Incorporá la manteca derretida y 1 cucharadita de esencia de vainilla.",
+          "Paso 4: Verté la mezcla en moldes y dejá enfriar 2 horas en heladera.",
+          "Paso 5: Desmoldá y serví."
+        ],
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "imagen": "https://cdn.pixabay.com/photo/2014/04/20/17/39/chocolate-328531_1280.jpg"
       }
     ],
     "Creadas": [
@@ -345,25 +383,7 @@
     "Nombre_de_la_Cuenta": "duquelindo",
     "Contraseña": "1234567",
     "Favoritos": [
-      "",
-      {
-        "nombre": "Papas fritas",
-        "ingredientes": [
-          "papas",
-          "aceite",
-          "sal"
-        ],
-        "pasos": [
-          "Paso 1: Pelá y cortá 500 g de papas en bastones.",
-          "Paso 2: Calentá aceite en sartén o freidora a 180°C.",
-          "Paso 3: Freí las papas en tandas hasta dorar, unos 5-7 minutos por tanda.",
-          "Paso 4: Escurrilas sobre papel absorbente y salá al gusto.",
-          "Paso 5: Serví caliente."
-        ],
-        "categoria": "Salado",
-        "apto": "ConTACC",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
-      }
+      ""
     ],
     "Creadas": [
       ""

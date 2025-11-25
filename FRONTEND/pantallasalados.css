@@ -19,10 +19,12 @@
 .lista1{
     background-color: wheat;
     height: 50rem;
-    width: 126vh;
+    width: 100%;
+    max-width: 80rem;
     gap: 2rem;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .r2{
@@ -78,39 +80,43 @@
 
 
 .texto{
-    width: 150vh;
-    height: 6rem;
-    border: solid #a3b87f;
-    background-color: #c8d9ab;
+    width: 100%;
+    max-width: 80rem;
+    height: 3rem;
+    border: solid #457136;
+    background-color: #b1ca88;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
+    margin-right: 1rem;
     border-radius: 1rem;
-    border-width: .5rem;
-    
-
-
+    border-width: .3rem;
 }
 
 body{
-    background-color: #c8d9ab;
-    width: 100vh;
-
+    background-color: #838f6a;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .titulo{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    color: #475136;
+    letter-spacing: .5rem;
 }
 
 .cabeza{
     border-radius: 1rem;
     height: 5rem;
-    width: 190vh;
-    margin-top: 0rem;
-    margin-left: 1rem;
+    width: 100%;
+    max-width: 80rem;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +124,11 @@ body{
 
 .logodef{
     object-position: center;
+    height: 4rem;
+    width: 6rem;
+    margin-top: -2.5rem;
 }
+
 
 
 
@@ -132,12 +142,15 @@ body{
     border-radius: 30px;
     margin-left: .5rem;
     background-color: transparent;
+    margin-top: 1rem;
+    cursor: pointer;
     
 }
 .casita{
     height: 2rem;
     width: 2rem;
     left: 0;
+    
 }
 
 .vi{
@@ -146,12 +159,14 @@ body{
 
 .populares{
     height: 12rem;
-    width: 126vh;
+    width: 100%;
+    max-width: 80rem;
     background-color: #c8d9ab;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
+    margin: 0 auto;
 }
 
 .popu1{
@@ -284,7 +299,7 @@ h3{
     margin-left: 1rem;
     position: absolute;
     object-position: right;
-    right: 10vh
+    right: 2rem;
 
 }
 

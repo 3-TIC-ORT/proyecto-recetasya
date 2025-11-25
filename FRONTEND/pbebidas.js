@@ -67,11 +67,11 @@ function mostrarComidas(lista) {
             }, (res) => {
                 if (res && res.success) {
                     if (res.estadoFavorito === true) {
-                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
-                        estrella.dataset.fav = '0';
-                    } else {
                         estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
                         estrella.dataset.fav = '1';
+                    } else {
+                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
+                        estrella.dataset.fav = '0';
                     }
                 } else {
                     alert("Error al agregar a favoritos");
