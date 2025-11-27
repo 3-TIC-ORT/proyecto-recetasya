@@ -397,18 +397,6 @@
         ]
       },
       {
-        "nombre": "justiyo",
-        "imagen": "https://placehold.co/600x400?text=RecipEat&font=roboto",
-        "categoria": "Dulce",
-        "apto": "ConTACC",
-        "ingredientes": [
-          "fsfd;gssedfsdf"
-        ],
-        "pasos": [
-          "efsdfsdcf"
-        ]
-      },
-      {
         "nombre": "Bara",
         "imagen": "https://placehold.co/600x400?text=RecipEat&font=roboto",
         "categoria": "Dulce",
@@ -443,6 +431,16 @@
   {
     "Nombre_de_la_Cuenta": "Carlos",
     "Contraseña": "123123",
+    "Favoritos": [
+      ""
+    ],
+    "Creadas": [
+      ""
+    ]
+  },
+  {
+    "Nombre_de_la_Cuenta": "german",
+    "Contraseña": "garmendia",
     "Favoritos": [
       ""
     ],

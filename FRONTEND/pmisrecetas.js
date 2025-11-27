@@ -2,6 +2,7 @@ const IMAGEN_POR_DEFECTO = "https://placehold.co/600x400?text=RecipEat&font=robo
 
 let imagenActualBase64 = null;
 let indexParaBorrar = null;
+let nombreRecetaParaBorrar = null; // ← NUEVO: guardar el nombre de la receta
 let tabActual = "favoritos";
 let recetasFavoritos = [];
 let recetasCreadas = [];
@@ -128,10 +129,9 @@ function crearTarjetaReceta(receta, index) {
             <div class="tabj">
                 <p><strong>Ingredientes:</strong> ${ingPreview}</p>
                 <h4><strong>Categoría:</strong> ${receta.categoria}</h4>
-                <h4 class="final"><strong>Apto:</strong> ${receta.apto}  
-                 ${botonEliminar} </h4> 
-
+                <h4><strong>Apto:</strong> ${receta.apto}</h4>
             </div>
+            ${botonEliminar}
         </div>
     `;
 
@@ -145,7 +145,8 @@ function crearTarjetaReceta(receta, index) {
     if (btnEliminar) {
         btnEliminar.addEventListener('click', (e) => {
             e.stopPropagation();
-            eliminarReceta(index);
+            // Usar directamente el nombre de la receta del closure
+            eliminarReceta(index, receta.nombre);
         });
     }
 
@@ -176,115 +177,167 @@ function cerrarModal() {
     document.getElementById('formReceta').reset();
     document.getElementById('imagenPreview').style.display = 'none';
     document.getElementById('previewText').style.display = 'block';
-imagenActualBase64 = null;
-}
-function cerrarAdvertenciaImagen() {
-document.getElementById('modalAdvertenciaImagen').style.display = 'none';
-}
-function cerrarConfirmacionBorrar() {
-document.getElementById('modalConfirmacionBorrar').style.display = 'none';
-indexParaBorrar = null;
-}
-function cerrarPopup() {
-document.getElementById('popupExito').style.display = 'none';
-}
-function manejarClickFueraModal(event) {
-const modales = ['modalForm', 'modalAdvertenciaImagen', 'modalConfirmacionBorrar', 'popupExito'];
-modales.forEach(modalId => {
-const modal = document.getElementById(modalId);
-if (event.target === modal) {
-modal.style.display = 'none';
-}
-});
-}
-function manejarCambioImagen(event) {
-const archivo = event.target.files[0];
-const imagenPreview = document.getElementById('imagenPreview');
-const previewText = document.getElementById('previewText');
-if (archivo) {
-    const lector = new FileReader();
-    lector.onload = function(e) {
-        imagenActualBase64 = e.target.result;
-        imagenPreview.src = imagenActualBase64;
-        imagenPreview.style.display = 'block';
-        previewText.style.display = 'none';
-    };
-    lector.readAsDataURL(archivo);
-} else {
     imagenActualBase64 = null;
-    imagenPreview.style.display = 'none';
-    previewText.style.display = 'block';
-}
-}
-function manejarSubmitFormulario(e) {
-e.preventDefault();
-if (!imagenActualBase64) {
-    document.getElementById('modalAdvertenciaImagen').style.display = 'flex';
-} else {
-    guardarRecetaFinal(imagenActualBase64);
-}
-}
-function confirmarGuardarSinImagen() {
-cerrarAdvertenciaImagen();
-guardarRecetaFinal(IMAGEN_POR_DEFECTO);
-}
-function guardarRecetaFinal(urlImagen) {
-const nombre = document.getElementById('nombre').value;
-const categoria = document.getElementById('categoria').value;
-const apto = document.getElementById('apto').value;
-const ingText = document.getElementById('ingredientes').value;
-const pasosText = document.getElementById('pasos').value;
-const ingredientes = ingText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
-const pasos = pasosText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
-
-const nuevaReceta = {
-    nombre,
-    imagen: urlImagen,
-    categoria,
-    apto,
-    ingredientes,
-    pasos
-};
-
-const usuario = localStorage.getItem('sesion');
-
-if (!usuario) {
-    alert('Debes iniciar sesión para crear recetas');
-    window.location.href = 'pantallalog-in.html';
-    return;
 }
 
-postEvent("guardarRecetaCreada", 
-    { usuario: usuario, receta: nuevaReceta }, 
-    (response) => {
-        if (response.success) {
-            cerrarModal();
-            cargarRecetasDelBackend();
-            
-            document.getElementById('mensajeExitoTitulo').textContent = "¡Receta Guardada!";
-            document.getElementById('mensajeExitoTexto').textContent = response.message;
-            document.getElementById('popupExito').style.display = 'block';
-        } else {
-            alert('Error al guardar la receta: ' + response.message);
+function cerrarAdvertenciaImagen() {
+    document.getElementById('modalAdvertenciaImagen').style.display = 'none';
+}
+
+function cerrarConfirmacionBorrar() {
+    document.getElementById('modalConfirmacionBorrar').style.display = 'none';
+    indexParaBorrar = null;
+    nombreRecetaParaBorrar = null; // ← NUEVO: limpiar el nombre
+}
+
+function cerrarPopup() {
+    document.getElementById('popupExito').style.display = 'none';
+}
+
+function manejarClickFueraModal(event) {
+    const modales = ['modalForm', 'modalAdvertenciaImagen', 'modalConfirmacionBorrar', 'popupExito'];
+    modales.forEach(modalId => {
+        const modal = document.getElementById(modalId);
+        if (event.target === modal) {
+            modal.style.display = 'none';
         }
+    });
+}
+
+function manejarCambioImagen(event) {
+    const archivo = event.target.files[0];
+    const imagenPreview = document.getElementById('imagenPreview');
+    const previewText = document.getElementById('previewText');
+    
+    if (archivo) {
+        const lector = new FileReader();
+        lector.onload = function(e) {
+            imagenActualBase64 = e.target.result;
+            imagenPreview.src = imagenActualBase64;
+            imagenPreview.style.display = 'block';
+            previewText.style.display = 'none';
+        };
+        lector.readAsDataURL(archivo);
+    } else {
+        imagenActualBase64 = null;
+        imagenPreview.style.display = 'none';
+        previewText.style.display = 'block';
     }
-);
 }
-function eliminarReceta(index) {
-indexParaBorrar = index;
-document.getElementById('modalConfirmacionBorrar').style.display = 'flex';
+
+function manejarSubmitFormulario(e) {
+    e.preventDefault();
+    
+    if (!imagenActualBase64) {
+        document.getElementById('modalAdvertenciaImagen').style.display = 'flex';
+    } else {
+        guardarRecetaFinal(imagenActualBase64);
+    }
 }
+
+function confirmarGuardarSinImagen() {
+    cerrarAdvertenciaImagen();
+    guardarRecetaFinal(IMAGEN_POR_DEFECTO);
+}
+
+function guardarRecetaFinal(urlImagen) {
+    const nombre = document.getElementById('nombre').value;
+    const categoria = document.getElementById('categoria').value;
+    const apto = document.getElementById('apto').value;
+    const ingText = document.getElementById('ingredientes').value;
+    const pasosText = document.getElementById('pasos').value;
+    
+    const ingredientes = ingText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
+    const pasos = pasosText.split(/\n|,/).map(item => item.trim()).filter(item => item !== "");
+
+    const nuevaReceta = {
+        nombre,
+        imagen: urlImagen,
+        categoria,
+        apto,
+        ingredientes,
+        pasos
+    };
+
+    const usuario = localStorage.getItem('sesion');
+
+    if (!usuario) {
+        alert('Debes iniciar sesión para crear recetas');
+        window.location.href = 'pantallalog-in.html';
+        return;
+    }
+
+    postEvent("guardarRecetaCreada", 
+        { usuario: usuario, receta: nuevaReceta }, 
+        (response) => {
+            if (response.success) {
+                cerrarModal();
+                cargarRecetasDelBackend();
+                
+                document.getElementById('mensajeExitoTitulo').textContent = "¡Receta Guardada!";
+                document.getElementById('mensajeExitoTexto').textContent = response.message;
+                document.getElementById('popupExito').style.display = 'block';
+            } else {
+                alert('Error al guardar la receta: ' + response.message);
+            }
+        }
+    );
+}
+
+// ← MODIFICADA: ahora recibe el nombre de la receta
+function eliminarReceta(index, nombreReceta) {
+    console.log('Eliminando receta:', nombreReceta, 'index:', index);
+    indexParaBorrar = index;
+    nombreRecetaParaBorrar = nombreReceta;
+    document.getElementById('modalConfirmacionBorrar').style.display = 'flex';
+}
+
+// ← MODIFICADA: ahora envía la solicitud al backend
 function confirmarEliminacion() {
-if (indexParaBorrar !== null && tabActual === "creadas") {
-const receta = recetasCreadas[indexParaBorrar];
-const usuario = localStorage.getItem('sesion');
-    recetasCreadas.splice(indexParaBorrar, 1);
+    console.log('Confirmar eliminación - Index:', indexParaBorrar, 'Nombre:', nombreRecetaParaBorrar, 'Tab:', tabActual);
     
-    cerrarConfirmacionBorrar();
-    mostrarRecetasSegunTab();
-    
-    document.getElementById('mensajeExitoTitulo').textContent = "Receta Eliminada";
-    document.getElementById('mensajeExitoTexto').textContent = "La receta se eliminó correctamente";
-    document.getElementById('popupExito').style.display = 'block';
-}
+    if (indexParaBorrar !== null && nombreRecetaParaBorrar && tabActual === "creadas") {
+        const usuario = localStorage.getItem('sesion');
+        
+        console.log('Usuario:', usuario);
+        
+        if (!usuario) {
+            alert('Debes iniciar sesión');
+            window.location.href = 'pantallalog-in.html';
+            return;
+        }
+
+        console.log('Enviando postEvent eliminarRecetaCreada...');
+        
+        // ← NUEVO: enviar solicitud al backend
+        postEvent("eliminarRecetaCreada", 
+            { 
+                usuario: usuario, 
+                nombreReceta: nombreRecetaParaBorrar 
+            }, 
+            (response) => {
+                console.log('Respuesta del backend:', response);
+                
+                if (response.success) {
+                    cerrarConfirmacionBorrar();
+                    
+                    // Recargar las recetas desde el backend
+                    cargarRecetasDelBackend();
+                    
+                    document.getElementById('mensajeExitoTitulo').textContent = "Receta Eliminada";
+                    document.getElementById('mensajeExitoTexto').textContent = response.message;
+                    document.getElementById('popupExito').style.display = 'block';
+                } else {
+                    console.error('Error al eliminar:', response.message);
+                    alert('Error al eliminar la receta: ' + response.message);
+                    cerrarConfirmacionBorrar();
+                }
+            }
+        );
+    } else {
+        console.error('Condiciones no cumplidas para eliminar');
+        console.log('indexParaBorrar:', indexParaBorrar);
+        console.log('nombreRecetaParaBorrar:', nombreRecetaParaBorrar);
+        console.log('tabActual:', tabActual);
+    }
 }
