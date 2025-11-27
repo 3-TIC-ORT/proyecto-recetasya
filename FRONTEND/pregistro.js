@@ -27,7 +27,7 @@ function Registrarse() {
 function Registro(data) {
   if (data.success === true) {
     alert("Se ha guardado el usuario con exito.");
-    window.location.href = "RecipEat.html"
+    window.location.href = "pantallalog-in.html"
 
   } else if (data.success === false) {
     alert("No se ha podido guardar el usuario correctamente." + data.message);

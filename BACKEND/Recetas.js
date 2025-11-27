@@ -82,19 +82,6 @@ export const RecetasDestacadas = (data) => {
     return { succes: true, data: recetasDestacadas };
 }
 
-export const ObtenerFavoritos = (data) => {
-    const { usuario } = data;  
-    let Usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
-
-    const usuarioEncontrado = Usuarios.find(
-        (u => u.Nombre_de_la_Cuenta === usuario));
-    if (usuarioEncontrado) {
-        return { success: true, data: usuarioEncontrado.Favoritos };
-    } else {
-        return { success: false, data: [] };
-    }
-}
-
 export const GuardarRecetasFavoritos = (data) => {
     const { usuario, receta } = data;
 
@@ -152,51 +139,6 @@ export const GuardarRecetasFavoritos = (data) => {
     }
 };
 
-export const GuardarRecetaCreada = (data) => {
-  const { usuario, receta } = data;
-
-  // Leer todos los usuarios
-  const usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
-
-  // Buscar al usuario por Nombre_de_la_Cuenta
-  const userIndex = usuarios.findIndex(
-    (u) => u.Nombre_de_la_Cuenta === usuario
-  );
-
-  if (userIndex === -1) {
-    return { success: false, message: "Usuario no encontrado" };
-  }
-
-  const user = usuarios[userIndex];
-
-  // Aseguramos que Creadas sea un array “limpio”
-  if (!Array.isArray(user.Creadas)) {
-    user.Creadas = [];
-  } else {
-    // Filtramos los "" que tenés en el JSON original
-    user.Creadas = user.Creadas.filter((r) => r && r.nombre);
-  }
-
-  // Evitar recetas duplicadas por nombre
-  const yaExiste = user.Creadas.some((r) => r.nombre === receta.nombre);
-  if (yaExiste) {
-    return {
-      success: false,
-      message: "Ya tenés una receta creada con ese nombre",
-    };
-  }
-
-  // Agregamos la receta al array Creadas
-  user.Creadas.push(receta);
-  usuarios[userIndex] = user;
-
-  // Guardamos de vuelta el archivo
-  fs.writeFileSync("Usuarios.json", JSON.stringify(usuarios, null, 2), "utf-8");
-
-  return { success: true, message: "Receta creada y guardada con éxito" };
-};
-
-// Devuelve el recetario personal del usuario (Creadas + Favoritos)
 export const ObtenerRecetarioPersonal = (data) => {
   const { usuario } = data;
 
@@ -220,4 +162,41 @@ export const ObtenerRecetarioPersonal = (data) => {
     creadas,
     favoritos,
   };
+};
+
+export const GuardarRecetaCreada = (data) => {
+  const { usuario, receta } = data;
+
+  const usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
+
+  const userIndex = usuarios.findIndex(
+    (u) => u.Nombre_de_la_Cuenta === usuario
+  );
+
+  if (userIndex === -1) {
+    return { success: false, message: "Usuario no encontrado" };
+  }
+
+  const user = usuarios[userIndex];
+
+  if (!Array.isArray(user.Creadas)) {
+    user.Creadas = [];
+  } else {
+    user.Creadas = user.Creadas.filter((r) => r && r.nombre);
+  }
+
+  const yaExiste = user.Creadas.some((r) => r.nombre === receta.nombre);
+  if (yaExiste) {
+    return {
+      success: false,
+      message: "Ya tenés una receta creada con ese nombre",
+    };
+  }
+
+  user.Creadas.push(receta);
+  usuarios[userIndex] = user;
+
+  fs.writeFileSync("Usuarios.json", JSON.stringify(usuarios, null, 2), "utf-8");
+
+  return { success: true, message: "Receta creada y guardada con éxito" };
 };
