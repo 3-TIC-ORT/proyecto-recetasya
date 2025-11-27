@@ -1,6 +1,6 @@
 import fs from "fs";
 import { loginEvent, registroEvent } from "./LogInRegistro.js";
-import { MostrarRecetas, MostrarRecetasDulces, MostrarRecetasSalados, MostrarRecetasBebidas, RecetasDestacadas, GuardarRecetasFavoritos, GuardarRecetaCreada, ObtenerRecetarioPersonal } from "./Recetas.js";
+import { MostrarRecetas, MostrarRecetasDulces, MostrarRecetasSalados, MostrarRecetasBebidas, RecetasDestacadas, GuardarRecetasFavoritos, GuardarRecetaCreada, ObtenerRecetarioPersonal, EliminarRecetaCreada } from "./Recetas.js";
 import {
     subscribeGETEvent,
     subscribePOSTEvent,
@@ -18,6 +18,7 @@ subscribeGETEvent("recetasbebidas", MostrarRecetasBebidas);
 subscribeGETEvent("mostrarRecetasDestacadas", RecetasDestacadas);
 subscribePOSTEvent("guardarRecetaCreada", GuardarRecetaCreada);
 subscribePOSTEvent("misRecetas", ObtenerRecetarioPersonal);
+subscribePOSTEvent("eliminarRecetaCreada", EliminarRecetaCreada);
 
 
 

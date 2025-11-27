@@ -200,3 +200,51 @@ export const GuardarRecetaCreada = (data) => {
 
   return { success: true, message: "Receta creada y guardada con éxito" };
 };
+
+export const EliminarRecetaCreada = (data) => {
+  const { usuario, nombreReceta } = data;
+
+  try {
+    const usuarios = JSON.parse(fs.readFileSync("Usuarios.json", "utf-8"));
+
+    const userIndex = usuarios.findIndex(
+      (u) => u.Nombre_de_la_Cuenta === usuario
+    );
+
+    if (userIndex === -1) {
+      return { success: false, message: "Usuario no encontrado" };
+    }
+
+    const user = usuarios[userIndex];
+
+    if (!Array.isArray(user.Creadas) || user.Creadas.length === 0) {
+      return { success: false, message: "No tienes recetas creadas" };
+    }
+
+    user.Creadas = user.Creadas.filter((r) => r && r.nombre);
+
+    const recetaIndex = user.Creadas.findIndex(
+      (r) => r.nombre === nombreReceta
+    );
+
+    if (recetaIndex === -1) {
+      return { success: false, message: "Receta no encontrada" };
+    }
+
+    user.Creadas.splice(recetaIndex, 1);
+
+    usuarios[userIndex] = user;
+
+    fs.writeFileSync("Usuarios.json", JSON.stringify(usuarios, null, 2), "utf-8");
+
+    return { 
+      success: true, 
+      message: "Receta eliminada correctamente",
+      recetasRestantes: user.Creadas.length
+    };
+
+  } catch (error) {
+    console.error("Error en EliminarRecetaCreada:", error);
+    return { success: false, message: "Error al eliminar la receta" };
+  }
+};

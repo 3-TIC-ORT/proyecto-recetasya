@@ -2,10 +2,8 @@
   {
     "Nombre_de_la_Cuenta": "Alejo",
     "Contraseña": "123456",
-    "Favoritos": [
-    ],
-    "Creadas": [
-    ]
+    "Favoritos": [],
+    "Creadas": []
   },
   {
     "Nombre_de_la_Cuenta": "luciac",
@@ -330,10 +328,98 @@
     "Nombre_de_la_Cuenta": "duquelindo",
     "Contraseña": "1234567",
     "Favoritos": [
-      ""
+      "",
+      {
+        "nombre": "Papas fritas",
+        "ingredientes": [
+          "papas",
+          "aceite",
+          "sal"
+        ],
+        "pasos": [
+          "Paso 1: Pelá y cortá 500 g de papas en bastones.",
+          "Paso 2: Calentá aceite en sartén o freidora a 180°C.",
+          "Paso 3: Freí las papas en tandas hasta dorar, unos 5-7 minutos por tanda.",
+          "Paso 4: Escurrilas sobre papel absorbente y salá al gusto.",
+          "Paso 5: Serví caliente."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprKoqyoxNcntQpFeC9Lu1ve5UxUe0Pe6PHg&s"
+      },
+      {
+        "nombre": "Empanadas de carne",
+        "ingredientes": [
+          "masa para empanadas",
+          "carne picada",
+          "cebolla",
+          "pimiento",
+          "aceite",
+          "huevo",
+          "sal",
+          "pimienta"
+        ],
+        "pasos": [
+          "Paso 1: Sofrí 1 cebolla y 1 pimiento picados en 2 cucharadas de aceite hasta transparentar.",
+          "Paso 2: Agregá 500 g de carne picada, sal, pimienta y cociná hasta dorar.",
+          "Paso 3: Retirá del fuego y dejá enfriar.",
+          "Paso 4: Rellená discos de masa para empanadas con 2 cucharadas de la mezcla y cerrá formando media luna.",
+          "Paso 5: Pintá con huevo batido y horneá a 180°C por 20-25 minutos."
+        ],
+        "categoria": "Salado",
+        "apto": "ConTACC",
+        "imagen": "https://assets.unileversolutions.com/recipes-v2/237001.jpg"
+      }
     ],
     "Creadas": [
-      ""
+      {
+        "nombre": "Alejo a la plancha",
+        "imagen": "https://placehold.co/600x400?text=RecipEat&font=roboto",
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "ingredientes": [
+          "lkjipjk"
+        ],
+        "pasos": [
+          "jpipijjpijop"
+        ]
+      },
+      {
+        "nombre": "m;fdoafkofwrokewfr",
+        "imagen": "https://placehold.co/600x400?text=RecipEat&font=roboto",
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "ingredientes": [
+          "fawewefofkowef"
+        ],
+        "pasos": [
+          "fokfwe[kefkp[ef"
+        ]
+      },
+      {
+        "nombre": "justiyo",
+        "imagen": "https://placehold.co/600x400?text=RecipEat&font=roboto",
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "ingredientes": [
+          "fsfd;gssedfsdf"
+        ],
+        "pasos": [
+          "efsdfsdcf"
+        ]
+      },
+      {
+        "nombre": "Bara",
+        "imagen": "https://placehold.co/600x400?text=RecipEat&font=roboto",
+        "categoria": "Dulce",
+        "apto": "ConTACC",
+        "ingredientes": [
+          "dfpijefaipfepioefpjode"
+        ],
+        "pasos": [
+          "efpfapjoqefkf"
+        ]
+      }
     ]
   },
   {
