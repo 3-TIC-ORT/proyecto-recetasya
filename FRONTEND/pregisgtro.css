@@ -49,3 +49,29 @@ h1{
     height: 2.5rem;
     width: 18rem;
 }
+
+
+#log{
+    height: 3.5rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 30px;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.iusuario{
+    height: 3rem;
+    width: 3rem;
+    left: 0;
+}
+
+.IS{
+    font-size: 1rem;
+}

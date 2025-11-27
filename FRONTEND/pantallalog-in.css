@@ -73,3 +73,106 @@ p{
     color: darkgreen;
     font-size: 1rem;
 }
+
+/* ---------------------------------- */
+/* CSS ÚNICAMENTE PARA EL POP-UP (MODAL) */
+/* ---------------------------------- */
+
+/* Contenedor principal del modal (pantalla completa) */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Posicionamiento fijo para cubrir la pantalla */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Habilitar scroll si es necesario */
+    background-color: rgba(0,0,0,0.4); /* Fondo semi-transparente oscuro */
+}
+
+/* Contenido del modal (la caja del mensaje) */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% arriba y centrado horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del contenido */
+    max-width: 400px; /* Ancho máximo para mejor visualización en escritorio */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Estilo para el botón de cerrar (x) */
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px; /* Ajuste vertical */
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo para el mensaje dentro del modal */
+#modal-message {
+    font-size: 1.1em;
+    margin: 15px 0 25px 0;
+    color: #333;
+}
+
+/* Estilo para el botón Aceptar */
+#modal-ok-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#modal-ok-button:hover {
+    background-color: #45a049;
+}
+
+
+
+#home{
+    height: 2.5rem;
+    width: 11rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 30px;
+    margin-left: .5rem;
+    background-color: transparent;
+    margin-top: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    
+}
+.casita{
+    height: 2rem;
+    width: 2rem;
+    left: 0;
+    
+}
+
+.vi{
+    font-size: 1rem;
+}
+
+
+/* Si tienes otros estilos en pantallalog-in.css, déjalos intactos. */

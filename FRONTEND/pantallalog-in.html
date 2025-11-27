@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="pantallalog-in.css">
 </head>
 <body>
-    <div class="cabeza">
-        <h1>Registrarse en</h1>
-        <img class="logo" src="IMAGENES FRONT/Logo.png" alt="Logo RecipEat">
-    </div>
+
+        <button id="home">
+            <img class="casita" src="IMAGENES FRONT/home.png" alt="Imagen Volver al inicio">
+            <h5 class="vi">Volver al inicio</h5>    
+        </button>
+        
+        <div class="cabeza">
+            <h1>Iniciar Sesion en</h1>
+            <img class="logo" src="IMAGENES FRONT/Logo.png" alt="Logo RecipEat">
+        </div>
+        
     
     <input type="text" placeholder="Ingrese usuario" id="Nombre"  class="usuario">
     <br><br>
@@ -21,6 +28,14 @@
     <br><br>
     <h2>¿No tienes cuenta?</h2>    
     <button id="r1">CREA UNA</button>
+
+    <div id="custom-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p id="modal-message"></p>
+            <button id="modal-ok-button">Aceptar</button>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>

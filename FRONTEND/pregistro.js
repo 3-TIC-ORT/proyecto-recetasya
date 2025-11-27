@@ -1,4 +1,6 @@
 let cuenta = document.getElementById("cuenta");
+let log = document.getElementById("log")
+
 
 connect2Server();
 
@@ -35,4 +37,9 @@ function Registro(data) {
 }
 
 
+function login1(){
+    window.location.href = "pantallalog-in.html"
+}
+
+log.addEventListener("click", login1);
 cuenta.addEventListener("click", Registro);

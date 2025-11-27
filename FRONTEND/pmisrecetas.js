@@ -129,9 +129,10 @@ function crearTarjetaReceta(receta, index) {
             <div class="tabj">
                 <p><strong>Ingredientes:</strong> ${ingPreview}</p>
                 <h4><strong>Categoría:</strong> ${receta.categoria}</h4>
-                <h4><strong>Apto:</strong> ${receta.apto}</h4>
+                <h4><strong>Apto:</strong> ${receta.apto}
+                    ${botonEliminar}
+                </h4>
             </div>
-            ${botonEliminar}
         </div>
     `;
 
