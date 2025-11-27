@@ -1,17 +1,11 @@
-// ========================================
-// VARIABLES GLOBALES Y CONSTANTES
-// ========================================
 const IMAGEN_POR_DEFECTO = "https://placehold.co/600x400?text=RecipEat&font=roboto";
 
 let imagenActualBase64 = null;
 let indexParaBorrar = null;
-let tabActual = "favoritos"; // "favoritos" o "creadas"
+let tabActual = "favoritos";
 let recetasFavoritos = [];
 let recetasCreadas = [];
 
-// ========================================
-// INICIALIZACIÓN
-// ========================================
 connect2Server();
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -19,60 +13,44 @@ document.addEventListener('DOMContentLoaded', () => {
     cargarRecetasDelBackend();
 });
 
-// ========================================
-// GESTIÓN DE TABS (PESTAÑAS)
-// ========================================
 function inicializarEventos() {
-    // Tabs
     document.querySelectorAll('.tab-button').forEach(button => {
         button.addEventListener('click', cambiarTab);
     });
 
-    // Home
     document.getElementById('home').addEventListener('click', () => {
         window.location.href = "RecipEat.html";
     });
 
-    // Botón agregar receta
     document.getElementById('btnAgregar').addEventListener('click', abrirModal);
 
-    // Cerrar modales
     document.getElementById('closeModal').addEventListener('click', cerrarModal);
     document.getElementById('btnVolverSubir').addEventListener('click', cerrarAdvertenciaImagen);
     document.getElementById('btnCancelarBorrar').addEventListener('click', cerrarConfirmacionBorrar);
     document.getElementById('btnCerrarPopup').addEventListener('click', cerrarPopup);
 
-    // Confirmar acciones
     document.getElementById('btnPublicarSinFoto').addEventListener('click', confirmarGuardarSinImagen);
     document.getElementById('btnConfirmarBorrar').addEventListener('click', confirmarEliminacion);
 
-    // Formulario
     document.getElementById('formReceta').addEventListener('submit', manejarSubmitFormulario);
 
-    // Preview de imagen
     document.getElementById('imagenInput').addEventListener('change', manejarCambioImagen);
 
-    // Cerrar modales al hacer click fuera
     window.addEventListener('click', manejarClickFueraModal);
 }
 
 function cambiarTab(event) {
     const tabSeleccionada = event.target.dataset.tab;
     
-    // Actualizar botones activos
     document.querySelectorAll('.tab-button').forEach(btn => {
         btn.classList.remove('active');
     });
     event.target.classList.add('active');
     
-    // Actualizar tab actual y mostrar recetas
     tabActual = tabSeleccionada;
     mostrarRecetasSegunTab();
 }
 
-// ========================================
-// CARGA DE RECETAS DESDE BACKEND
-// ========================================
 function cargarRecetasDelBackend() {
     const usuario = localStorage.getItem('sesion');
     
@@ -95,9 +73,6 @@ function cargarRecetasDelBackend() {
     });
 }
 
-// ========================================
-// MOSTRAR RECETAS
-// ========================================
 function mostrarRecetasSegunTab() {
     const recetas = tabActual === "favoritos" ? recetasFavoritos : recetasCreadas;
     
@@ -132,7 +107,6 @@ function crearTarjetaReceta(receta, index) {
     const ingPreview = receta.ingredientes.slice(0, 3).join(', ') + 
                        (receta.ingredientes.length > 3 ? '...' : '');
 
-    // Solo mostrar botón eliminar en recetas creadas
     const botonEliminar = tabActual === "creadas" 
         ? `<button class="btn-eliminar-card" data-index="${index}">Eliminar</button>`
         : '';
@@ -160,14 +134,12 @@ function crearTarjetaReceta(receta, index) {
         </div>
     `;
 
-    // Click en la tarjeta para ver detalle
     card.addEventListener('click', (e) => {
         if (!e.target.classList.contains('btn-eliminar-card')) {
             navegarAReceta(receta);
         }
     });
 
-    // Click en botón eliminar
     const btnEliminar = card.querySelector('.btn-eliminar-card');
     if (btnEliminar) {
         btnEliminar.addEventListener('click', (e) => {
@@ -189,17 +161,11 @@ function mostrarEstadoVacio(mensaje) {
     emptySubtitle.textContent = mensaje;
 }
 
-// ========================================
-// NAVEGACIÓN A DETALLE DE RECETA
-// ========================================
 function navegarAReceta(receta) {
     localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
     window.location.href = "recetaext.html";
 }
 
-// ========================================
-// GESTIÓN DE MODALES
-// ========================================
 function abrirModal() {
     document.getElementById('modalForm').style.display = 'flex';
 }
@@ -230,9 +196,6 @@ modal.style.display = 'none';
 }
 });
 }
-// ========================================
-// MANEJO DE IMAGEN
-// ========================================
 function manejarCambioImagen(event) {
 const archivo = event.target.files[0];
 const imagenPreview = document.getElementById('imagenPreview');
@@ -252,9 +215,6 @@ if (archivo) {
     previewText.style.display = 'block';
 }
 }
-// ========================================
-// CREAR NUEVA RECETA
-// ========================================
 function manejarSubmitFormulario(e) {
 e.preventDefault();
 if (!imagenActualBase64) {
@@ -298,7 +258,7 @@ postEvent("guardarRecetaCreada",
     (response) => {
         if (response.success) {
             cerrarModal();
-            cargarRecetasDelBackend(); // Recargar desde backend
+            cargarRecetasDelBackend();
             
             document.getElementById('mensajeExitoTitulo').textContent = "¡Receta Guardada!";
             document.getElementById('mensajeExitoTexto').textContent = response.message;
@@ -309,9 +269,6 @@ postEvent("guardarRecetaCreada",
     }
 );
 }
-// ========================================
-// ELIMINAR RECETA
-// ========================================
 function eliminarReceta(index) {
 indexParaBorrar = index;
 document.getElementById('modalConfirmacionBorrar').style.display = 'flex';
@@ -320,8 +277,6 @@ function confirmarEliminacion() {
 if (indexParaBorrar !== null && tabActual === "creadas") {
 const receta = recetasCreadas[indexParaBorrar];
 const usuario = localStorage.getItem('sesion');
-    // Aquí podrías agregar un evento al backend para eliminar
-    // Por ahora, eliminamos localmente y recargamos
     recetasCreadas.splice(indexParaBorrar, 1);
     
     cerrarConfirmacionBorrar();

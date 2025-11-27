@@ -1,4 +1,3 @@
-/* --- ESTILOS GENERALES --- */
 body {
     background-color: #838f6a;
     margin: 0;
@@ -6,7 +5,6 @@ body {
     color: #3d4a28;
 }
 
-/* --- HEADER --- */
 #home {
     height: 2.5rem;
     width: 11rem;
@@ -31,7 +29,6 @@ body {
     font-size: 1rem;
 }
 
-/* --- CABECERA Y LOGO --- */
 .cabeza {
     border-radius: 1rem;
     height: 5rem;
@@ -53,7 +50,6 @@ body {
     position: center;
 }
 
-/* --- TÍTULO PRINCIPAL --- */
 .texto {
     width: 100%;
     max-width: 80rem;
@@ -76,7 +72,6 @@ body {
     letter-spacing: .5rem;
 }
 
-/* --- PESTAÑAS (TABS) --- */
 .tabs-container {
     display: flex;
     justify-content: center;
@@ -108,7 +103,6 @@ body {
     border-color: #1a2e05;
 }
 
-/* --- CONTENEDOR DE RECETAS (estilo igual a otras pantallas) --- */
 .recetas-container {
     display: flex;
     flex-direction: column;
@@ -118,7 +112,6 @@ body {
     width: 100%;
 }
 
-/* --- TARJETAS DE RECETAS (estilo igual a otras pantallas) --- */
 .r5 {
     height: 15rem;
     width: 50rem;
@@ -206,7 +199,6 @@ h4 {
     margin-left: 1rem;
 }
 
-/* --- ESTRELLA FAVORITOS --- */
 .estrella {
     width: 2.5rem;
     height: 2.5rem;
@@ -217,7 +209,6 @@ h4 {
     transform: translateY(-50%);
 }
 
-/* --- BOTÓN ELIMINAR EN TARJETA --- */
 .btn-eliminar-card {
     background-color: #ff4d4d;
     color: white;
@@ -236,7 +227,6 @@ h4 {
     background-color: #cc0000;
 }
 
-/* --- ESTADO VACÍO --- */
 .empty-state {
     display: flex;
     flex-direction: column;
@@ -271,7 +261,6 @@ h4 {
     opacity: 0.8;
 }
 
-/* --- BOTÓN FLOTANTE AGREGAR --- */
 .btn-agregar {
     position: fixed;
     bottom: 2rem;
@@ -298,7 +287,6 @@ h4 {
     background-color: #465925;
 }
 
-/* --- MODALES --- */
 .modal-overlay {
     display: none;
     position: fixed;
@@ -347,7 +335,6 @@ h4 {
     color: #3d4a28;
 }
 
-/* --- FORMULARIO --- */
 .form-group {
     margin-bottom: 1rem;
 }
@@ -412,7 +399,6 @@ h4 {
     background-color: #465925;
 }
 
-/* --- BOTONES DE ACCIÓN MODAL --- */
 .btn-accion-container {
     display: flex;
     gap: 1rem;
@@ -450,7 +436,6 @@ h4 {
     font-weight: bold;
 }
 
-/* --- POPUP ÉXITO --- */
 .success-popup {
     display: none;
     position: fixed;
@@ -473,7 +458,6 @@ h4 {
     margin-bottom: 1rem;
 }
 
-/* --- RESPONSIVE --- */
 @media (max-width: 600px) {
     .r5 {
         flex-direction: column;

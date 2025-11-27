@@ -8,23 +8,19 @@
 </head>
 <body>
 
-    <!-- BOTÓN HOME -->
     <button id="home">
         <img class="casita" src="IMAGENES FRONT/home.png" alt="Imagen Volver al inicio">
         <h5 class="vi">Volver al inicio</h5>    
     </button>
     
-    <!-- CABECERA CON LOGO -->
     <div class="cabeza">
         <img class="logodef" src="IMAGENES FRONT/Logodef.png" alt="Logo RecipEat">
     </div>
 
-    <!-- TÍTULO PRINCIPAL -->
     <div class="texto">
         <h2 class="titulo">MI RECETARIO</h2>
     </div>
 
-    <!-- PESTAÑAS PARA CAMBIAR ENTRE FAVORITOS Y CREADAS -->
     <div class="tabs-container">
         <button class="tab-button active" data-tab="favoritos">
             ⭐ Mis Favoritos
@@ -34,7 +30,6 @@
         </button>
     </div>
     
-    <!-- ESTADO VACÍO (se muestra cuando no hay recetas) -->
     <div class="empty-state" id="emptyState" style="display: none;">
         <div class="empty-icon">
             <svg viewBox="0 0 100 100">
@@ -47,15 +42,10 @@
         <div class="empty-subtitle" id="emptySubtitle">Agrega recetas a favoritos o crea las tuyas propias</div>
     </div>
     
-    <!-- CONTENEDOR DE RECETAS -->
-    <div class="recetas-container" id="recetasContainer">
-        <!-- Las recetas se inyectan aquí dinámicamente -->
-    </div>
+    <div class="recetas-container" id="recetasContainer"></div>
 
-    <!-- BOTÓN FLOTANTE PARA AGREGAR NUEVA RECETA -->
     <button class="btn-agregar" id="btnAgregar">+</button>
 
-    <!-- MODAL: FORMULARIO NUEVA RECETA -->
     <div class="modal-overlay" id="modalForm">
         <div class="modal-content">
             <span class="close-btn" id="closeModal">&times;</span>
@@ -108,7 +98,6 @@
         </div>
     </div>
 
-    <!-- MODAL: ADVERTENCIA SIN IMAGEN -->
     <div class="modal-overlay" id="modalAdvertenciaImagen">
         <div class="modal-alert-content">
             <h3 style="color: #3d4a28;">¿Publicar sin foto?</h3>
@@ -120,7 +109,6 @@
         </div>
     </div>
 
-    <!-- MODAL: CONFIRMACIÓN BORRAR -->
     <div class="modal-overlay" id="modalConfirmacionBorrar">
         <div class="modal-alert-content">
             <h3 style="color: #d32f2f;">¿Eliminar Receta?</h3>
@@ -132,7 +120,6 @@
         </div>
     </div>
 
-    <!-- POPUP DE ÉXITO -->
     <div class="success-popup" id="popupExito">
         <span class="checkmark">✔</span>
         <h3 id="mensajeExitoTitulo">¡Receta Guardada!</h3>
@@ -140,7 +127,6 @@
         <button id="btnCerrarPopup" class="btn-submit" style="width: auto; margin-top: 1rem;">Aceptar</button>
     </div>
 
-    <!-- SCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
     <script src="pmisrecetas.js"></script>
