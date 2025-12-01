@@ -4,8 +4,23 @@ let recetario = document.getElementById("recetario");
 connect2Server();
 
 let comidas = [];
+let favoritosUsuario = []; // Array para guardar los favoritos del usuario
 const usuario = localStorage.getItem("sesion");
 const container = document.getElementById('recetas');
+
+// Cargar favoritos en paralelo (sin bloquear)
+postEvent("misRecetas", { usuario: usuario }, (response) => {
+    console.log('Respuesta completa de misRecetas:', response);
+    if (response && response.success && response.favoritos) {
+        // Extraer solo los nombres de las recetas favoritas
+        favoritosUsuario = response.favoritos.map(receta => receta.nombre);
+        console.log('Favoritos del usuario procesados:', favoritosUsuario);
+        // Re-renderizar si ya se cargaron las comidas
+        if (comidas.length > 0) {
+            aplicarFiltros();
+        }
+    }
+});
 
 // Esperar a que SoqueTIC cargue completamente
 function esperarSocket() {
@@ -27,75 +42,92 @@ function esperarSocket() {
 esperarSocket();
 
 function mostrarComidas(lista) {
-  if (!container) return;
-  container.innerHTML = ""; 
+    if (!container) return;
+    container.innerHTML = ""; 
 
-  if (lista.length === 0) {
-      container.innerHTML = "<p style='margin-left: 1rem;'>No se encontraron recetas destacadas</p>";
-      return;
-  }
-    
-  lista.forEach(receta => {
-    const card = document.createElement("div");
-    card.classList.add("lista5");
-
-    card.innerHTML = `
-      <div class="r5" id="${receta.nombre}"> 
-        <div class= "img3"> 
-          <img class="imgrecetas" src="${receta.imagen}">
-        </div>
-        <div class="texto3"> 
-          <div class="tarr"> 
-            <h3>${receta.nombre}</h3>
-            <img 
-              src="IMAGENES FRONT/botonfavoritos.png" 
-              data-fav="0"
-              class="estrella">
-          </div>
-          <div class="tabj"> 
-            <p>- Ingredientes: ${receta.ingredientes || ''}</p>
-            <h4>- ${receta.categoria}</h4>
-            <h4>- ${receta.apto}</h4>
-          </div>
-        </div>
-      </div>
-    `;
-
-    container.appendChild(card);
-
-    const tarjeta = card.querySelector(".r5");
-    tarjeta.addEventListener("click", () => {
-        localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
-        window.location.href = "recetaext.html";
-    });
-
-    const estrella = card.querySelector('.estrella');
-    if (estrella) {
-        estrella.addEventListener('click', (e) => {
-            e.stopPropagation(); 
-            
-            const h3 = estrella.closest('.tarr')?.querySelector('h3');
-            const nombre = h3 ? h3.textContent : '';
-
-            postEvent('Favoritos', {
-                usuario, 
-                receta: nombre, 
-            }, (res) => {
-                if (res && res.success) {
-                    if (res.estadoFavorito === true) {
-                        estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
-                        estrella.dataset.fav = '1';
-                    } else {
-                        estrella.src = "IMAGENES FRONT/botonfavoritos.png";
-                        estrella.dataset.fav = '0';
-                    }
-                } else {
-                    alert("Error al guardar a favoritos");
-                }
-            });
-        });
+    if (lista.length === 0) {
+        container.innerHTML = "<p style='margin-left: 1rem;'>No se encontraron recetas destacadas</p>";
+        return;
     }
-  });
+    
+    lista.forEach(receta => {
+        const card = document.createElement("div");
+        card.classList.add("lista5");
+
+        // Verificar si esta receta está en favoritos
+        const esFavorito = favoritosUsuario.includes(receta.nombre);
+        const imagenEstrella = esFavorito 
+            ? "IMAGENES FRONT/botonfavoritoslleno.png" 
+            : "IMAGENES FRONT/botonfavoritos.png";
+        const dataFav = esFavorito ? '1' : '0';
+
+        card.innerHTML = `
+            <div class="r5" id="${receta.nombre}"> 
+                <div class= "img3"> 
+                    <img class="imgrecetas" src="${receta.imagen}">
+                </div>
+                <div class="texto3"> 
+                    <div class="tarr"> 
+                        <h3>${receta.nombre}</h3>
+                        <img 
+                            src="${imagenEstrella}" 
+                            data-fav="${dataFav}"
+                            class="estrella">
+                    </div>
+                    <div class="tabj"> 
+                        <p>- Ingredientes: ${receta.ingredientes || ''}</p>
+                        <h4>- ${receta.categoria}</h4>
+                        <h4>- ${receta.apto}</h4>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        container.appendChild(card);
+
+        const tarjeta = card.querySelector(".r5");
+        tarjeta.addEventListener("click", () => {
+            localStorage.setItem("recetaSeleccionada", JSON.stringify(receta));
+            window.location.href = "recetaext.html";
+        });
+
+        const estrella = card.querySelector('.estrella');
+        if (estrella) {
+            estrella.addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                
+                const parent = estrella.parentNode;
+                const h3 = parent.querySelector('h3');
+                const nombre = h3 ? h3.textContent : '';
+
+                postEvent('Favoritos', {
+                    usuario, 
+                    receta: nombre, 
+                    favToggle: estrella.dataset.fav
+                }, (res) => {
+                    if (res && res.success) {
+                        if (res.estadoFavorito === true) {
+                            // Se agregó a favoritos
+                            estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
+                            estrella.dataset.fav = '1';
+                            // Actualizar array local
+                            if (!favoritosUsuario.includes(nombre)) {
+                                favoritosUsuario.push(nombre);
+                            }
+                        } else {
+                            // Se quitó de favoritos
+                            estrella.src = "IMAGENES FRONT/botonfavoritos.png";
+                            estrella.dataset.fav = '0';
+                            // Actualizar array local
+                            favoritosUsuario = favoritosUsuario.filter(fav => fav !== nombre);
+                        }
+                    } else {
+                        alert("Error al guardar a favoritos");
+                    }
+                });
+            });
+        }
+    });
 }
 
 const filtroingredientes = document.getElementById('filtroingredientes');

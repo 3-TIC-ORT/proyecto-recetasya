@@ -1,15 +1,28 @@
 let home = document.getElementById("home");
 let recetario = document.getElementById("recetario");
 
-
 connect2Server();
 
-
-
-
 let comidas = [];
+let favoritosUsuario = []; // Array para guardar los favoritos del usuario
 const usuario = localStorage.getItem('sesion');
 const container = document.getElementById('recetas'); 
+
+// Cargar favoritos en paralelo (sin bloquear)
+postEvent("misRecetas", { usuario: usuario }, (response) => {
+    console.log('Respuesta completa de misRecetas:', response);
+    if (response && response.success && response.favoritos) {
+        // Extraer solo los nombres de las recetas favoritas
+        favoritosUsuario = response.favoritos.map(receta => receta.nombre);
+        console.log('Favoritos del usuario procesados:', favoritosUsuario);
+        // Re-renderizar si ya se cargaron las comidas
+        if (comidas.length > 0) {
+            aplicarFiltros();
+        }
+    }
+});
+
+// Cargar recetas inmediatamente
 getEvent("recetasbebidas", data => {
     console.log('Comidas cargadas desde JSON:', data);
     comidas = data.data;
@@ -25,6 +38,13 @@ function mostrarComidas(lista) {
         const card = document.createElement("div");
         card.classList.add("lista5");
 
+        // Verificar si esta receta está en favoritos
+        const esFavorito = favoritosUsuario.includes(receta.nombre);
+        const imagenEstrella = esFavorito 
+            ? "IMAGENES FRONT/botonfavoritoslleno.png" 
+            : "IMAGENES FRONT/botonfavoritos.png";
+        const dataFav = esFavorito ? '1' : '0';
+
         card.innerHTML = `
             <div class="r5" id="${receta.nombre}">
                 <div class="img3"> 
@@ -33,8 +53,8 @@ function mostrarComidas(lista) {
                 <div class="texto3"> 
                     <div class="tarr"> 
                         <h3>${receta.nombre}</h3>
-                        <img src="IMAGENES FRONT/botonfavoritos.png" 
-                        data-fav="0"
+                        <img src="${imagenEstrella}" 
+                        data-fav="${dataFav}"
                         class="estrella">
                     </div>
                     <div class="tabj"> 
@@ -67,11 +87,19 @@ function mostrarComidas(lista) {
             }, (res) => {
                 if (res && res.success) {
                     if (res.estadoFavorito === true) {
+                        // Se agregó a favoritos
                         estrella.src = "IMAGENES FRONT/botonfavoritoslleno.png";
                         estrella.dataset.fav = '1';
+                        // Actualizar array local
+                        if (!favoritosUsuario.includes(nombre)) {
+                            favoritosUsuario.push(nombre);
+                        }
                     } else {
+                        // Se quitó de favoritos
                         estrella.src = "IMAGENES FRONT/botonfavoritos.png";
                         estrella.dataset.fav = '0';
+                        // Actualizar array local
+                        favoritosUsuario = favoritosUsuario.filter(fav => fav !== nombre);
                     }
                 } else {
                     alert("Error al agregar a favoritos");
